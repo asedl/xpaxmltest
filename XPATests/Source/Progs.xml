@@ -5,15 +5,21 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="2"/>
-    <LastIsnFolder val="0"/>
-    <Folders/>
+    <LastIsn val="4"/>
+    <LastIsnFolder val="1"/>
+    <Folders>
+      <Folder id="1">
+        <Name val="Export XML"/>
+      </Folder>
+    </Folders>
   </Header>
 
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
-      <Program id="2"/>
+      <Program id="3"/>
+      <Program FolderIsn="1" id="4"/>
+      <Program FolderIsn="1" id="2"/>
     </Programs>
   </ProgramsRepositoryOutLine>
 

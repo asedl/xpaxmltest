@@ -4,19 +4,37 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="1"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
 
   <ModelsRepository>
     <Models>
-      <Object id="1" name="StringModel">
+      <Object id="3" name="Element/Node Name">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="255"/>
           <Size id="174" val="510"/>
           <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="Element/Node Vector">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel comp="-1" id="287" obj="3"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="Element/Node List">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <Size id="174" val="4000"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
     </Models>
