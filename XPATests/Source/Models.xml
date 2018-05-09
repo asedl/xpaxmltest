@@ -4,13 +4,27 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="5"/>
+    <LastIsn val="12"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
 
   <ModelsRepository>
     <Models>
+      <Object id="12" name="Filename (Path)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="510"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="11">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
       <Object id="3" name="Element/Node Name">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
@@ -23,8 +37,9 @@
       <Object id="4" name="Element/Node Vector">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
           <_FieldStyle id="276" val="4"/>
-          <CellModel comp="-1" id="287" obj="3"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="3"/>
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
@@ -34,6 +49,34 @@
           <Picture id="157" valUnicode="2000"/>
           <Size id="174" val="4000"/>
           <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="7">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="=== Workaround with MAXL=25">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Element/Node Name (maxl=25)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="25"/>
+          <Size id="174" val="50"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="Element/Node Vector (cells 25)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="6"/>
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>

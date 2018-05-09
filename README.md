@@ -1,2 +1,2 @@
 # xpaxmltest
-Sample project "XML Tests" Magic XPA SingleUser 3.2
+Sample test project "XML Tests" Magic XPA SingleUser 3.2

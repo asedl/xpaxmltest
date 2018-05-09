@@ -326,11 +326,11 @@
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Name val="ExportCustomers"/>
-              <Description_U val="ExportCustomers"/>
+              <Description_U val="ExportCustomers (final)"/>
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
-              <Program ObjIsn="2" comp="-1" obj="2"/>
+              <Program ObjIsn="9" comp="-1" obj="9"/>
               <SourceContext val="67"/>
               <AccessKeyID val="266"/>
             </MenuEntry>
