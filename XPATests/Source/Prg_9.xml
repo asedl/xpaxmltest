@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736823" _time="14496" date="09/05/2018" time="04:01:36"/>
+          <LastModified _date="736823" _time="16404" date="09/05/2018" time="04:33:24"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -308,6 +308,12 @@
                 </Update>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="78">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="31">
                   <Type val="2"/>
                   <Text val="XSL Resultfile (will be created)"/>
@@ -330,10 +336,16 @@
                   <WithValue val="6"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
+                  <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="80">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
               </LogicLine>
               <LogicLine>
                 <Remark FlowIsn="32">
@@ -342,15 +354,10 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Update FlowIsn="26">
-                  <FieldID val="8"/>
-                  <WithValue val="5"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
+                <Remark FlowIsn="81">
+                  <Type val="2"/>
+                  <Text val="Currently disabled. Does not work -.-"/>
+                </Remark>
               </LogicLine>
               <LogicLine>
                 <Update FlowIsn="39">
@@ -358,18 +365,7 @@
                   <WithValue val="6"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="50">
-                  <FieldID val="8"/>
-                  <WithValue val="7"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
+                  <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
@@ -391,7 +387,7 @@
                   <WithValue val="11"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
+                  <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
@@ -405,7 +401,7 @@
               <LogicLine>
                 <Remark FlowIsn="8">
                   <Type val="2"/>
-                  <Text val="Browse and export customers ...."/>
+                  <Text val="Browse customers ...."/>
                 </Remark>
               </LogicLine>
               <LogicLine>
