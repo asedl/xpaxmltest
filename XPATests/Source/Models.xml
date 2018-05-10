@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="12"/>
+    <LastIsn val="17"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -20,9 +20,19 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
+      <Object id="17" name="CommandLine">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2048"/>
+          <Size id="174" val="4096"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
       <Object id="11">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="3" name="Element/Node Name">
@@ -52,14 +62,52 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
+      <Object id="13">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="ParameterString">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="1024"/>
+          <Size id="174" val="2048"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="ParameterString(Java)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="6"/>
+          <PartOfDataview id="449"/>
+          <ObjectType id="478" val="java.lang.String"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="ParameterArray">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="4"/>
+          <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="15"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
       <Object id="7">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="8" name="=== Workaround with MAXL=25">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="6" name="Element/Node Name (maxl=25)">

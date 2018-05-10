@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="1"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -23,6 +23,18 @@
         <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
       </Component>
     </Components>
+    <Aliases LastIsnAliases="4">
+      <Alias id="3">
+        <name val="Saxon"/>
+        <DotNetType val="net.sf.saxon"/>
+      </Alias>
+    </Aliases>
+    <JavaAliases LastIsnAliases="4">
+      <Alias id="4">
+        <name val="XMLProcessor"/>
+        <JavaType val="com.magic.examples.xml.XMLProcessor"/>
+      </Alias>
+    </JavaAliases>
   </ComponentsRepository>
 
 </Application>

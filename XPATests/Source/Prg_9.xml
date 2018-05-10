@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736823" _time="16404" date="09/05/2018" time="04:33:24"/>
+          <LastModified _date="736824" _time="72956" date="10/05/2018" time="20:15:56"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -331,17 +331,6 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <Update FlowIsn="43">
-                  <FieldID val="7"/>
-                  <WithValue val="6"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
                 <Remark FlowIsn="80">
                   <Type val="2"/>
                   <Text val=" "/>
@@ -354,40 +343,12 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="81">
-                  <Type val="2"/>
-                  <Text val="Currently disabled. Does not work -.-"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="39">
-                  <FieldID val="8"/>
-                  <WithValue val="6"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="54">
-                  <FieldID val="8"/>
-                  <WithValue val="8"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
                 <Update FlowIsn="74">
                   <FieldID val="8"/>
                   <WithValue val="11"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition val="N"/>
+                  <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
@@ -437,24 +398,8 @@
             <ExpSyntax val="Trim(Translate('%WorkingDir%Export\CustomersList.xsl'))"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="5">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\Matcher_01.xslt'))"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="7">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\CompanyToHtml.xsl'))"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="8">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\convert.xsl'))"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="11">
-            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\RemoveNamespaces.xsl'))"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="6">
-            <ExpSyntax val="''"/>
+            <ExpSyntax val="Trim(Translate('%WorkingDir%Templates\Customerlist.xsl'))"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
@@ -472,7 +417,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736823" _time="12658" date="09/05/2018" time="03:30:58"/>
+            <LastModified _date="736824" _time="71101" date="10/05/2018" time="19:45:01"/>
           </Header>
           <ItemIsn val="19"/>
           <Resource>
@@ -910,24 +855,45 @@
                   </Update>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="214">
+                  <Remark FlowIsn="216">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="25" FlowIsn="215" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                    <AppendToErrorLog val="N"/>
-                    <Condition Exp="26"/>
+                  <CallTask FlowIsn="217">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="11"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Parent val="2"/>
+                        <Variable val="6"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Parent val="2"/>
+                        <Variable val="8"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="28"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
-                  </STP>
+                  </CallTask>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="25" _last_test_id="25" id="1">
+            <FormEntry _last_isn="31" _last_test_id="31" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="1570"/>
                 <Height id="24" val="317"/>
@@ -940,7 +906,7 @@
                   <X id="21" val="8"/>
                   <Y id="22" val="8"/>
                   <Width id="23" val="1548"/>
-                  <Height id="24" val="278"/>
+                  <Height id="24" val="282"/>
                   <TitleHeight id="79" val="11"/>
                   <RowHeight id="80" val="12"/>
                   <Elements id="81" val="11"/>
@@ -1256,7 +1222,7 @@
           </TaskForms>
           <Expressions>
             <Expression id="24">
-              <ExpSyntax val="DataViewToXML(0, {2,3}, '', {2,6}, {2,7}, {2,8}, 2)"/>
+              <ExpSyntax val="DataViewToXML(0, {2,3}, '', {2,6}, {2,7}, '', 2)"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="2">
@@ -1295,13 +1261,9 @@
               <ExpSyntax val="Trim({2,8}) &amp; ' does not exist and will not be used to transform XML output'"/>
               <ExpAttribute val="A"/>
             </Expression>
-            <Expression id="25">
-              <ExpSyntax val="'Success: You should have the customerlist in following file now: ' &amp; Trim({2,6})"/>
+            <Expression id="28">
+              <ExpSyntax val="Trim({2,6}) &amp; '.out.xml'"/>
               <ExpAttribute val="A"/>
-            </Expression>
-            <Expression id="26">
-              <ExpSyntax val="{2,10}"/>
-              <ExpAttribute val="B"/>
             </Expression>
           </Expressions>
           <EVNT DESC="BtnExport" FORCE_EXIT="N" id="1">
