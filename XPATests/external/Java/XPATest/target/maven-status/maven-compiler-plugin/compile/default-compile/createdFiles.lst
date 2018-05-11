@@ -1,2 +1,4 @@
-com\magic\examples\XPATest.class
+com\magic\examples\office\excel\ToCSV$ExcelFilenameFilter.class
 com\magic\examples\xml\XMLProcessor.class
+com\magic\examples\office\excel\ToCSV.class
+com\magic\examples\XPATest.class
