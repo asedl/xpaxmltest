@@ -13,7 +13,7 @@
         <MenuType val="4"/>
         <ToolNumber val="1"/>
         <Name val="Default Pulldown menu"/>
-        <LastIsn val="6"/>
+        <LastIsn val="7"/>
         <MenuEntry id="1">
           <MenuType val="1"/>
           <Description_U val="&amp;File"/>
@@ -23,22 +23,6 @@
           <Menu>
             <MenuType val="1"/>
             <LastIsn val="7"/>
-            <MenuEntry id="1">
-              <MenuType val="3"/>
-              <Flags val="1088"/>
-              <Description_U val="&amp;Open Application"/>
-              <Right comp="-1"/>
-              <Help comp="-1"/>
-              <Prompt comp="-1"/>
-              <Event>
-                <EventType val="I"/>
-                <InternalEventID val="23"/>
-                <PublicObject comp="-1"/>
-              </Event>
-              <Tool>
-                <ToolNumber val="1"/>
-              </Tool>
-            </MenuEntry>
             <MenuEntry id="2">
               <MenuType val="3"/>
               <Flags val="1088"/>
@@ -333,6 +317,26 @@
               <Program ObjIsn="9" comp="-1" obj="9"/>
               <SourceContext val="67"/>
               <AccessKeyID val="266"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="7">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Http"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="HttpGet"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="17" comp="-1" obj="17"/>
+              <SourceContext val="67"/>
             </MenuEntry>
           </Menu>
         </MenuEntry>

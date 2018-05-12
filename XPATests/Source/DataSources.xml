@@ -8,11 +8,14 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="13"/>
+  <LastIsn val="14"/>
 
-  <LastIsnFolder val="1"/>
+  <LastIsnFolder val="2"/>
 
   <Folders>
+    <Folder id="2">
+      <Name val="XPATest (Database)"/>
+    </Folder>
     <Folder id="1">
       <Name val="RIADemo (database)"/>
     </Folder>
@@ -21,6 +24,107 @@
 </Header>
  <DataSourceRepository>
   <DataObjects>
+ 
+<DataObject FolderIsn="2" PhysicalName="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="14" name="xpatest_uris">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <IndexesLastIsn val="2"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="oid">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="9"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="oid"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="9"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="oid" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="uri">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="11"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="4096"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="uri"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="uri" PIC_U="2048" Size="4096" allowed_null="N" attribute="U" context_cookies="Y" database_definition="1" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="PK_xpatest_uris">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="PK_xpatest_uris"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="2" name="AK_xpatest_uris_01">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="AK_xpatest_uris_01"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4096"/>
+          <Column val="2"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
  
 <DataObject FolderIsn="1" PhysicalName="Categories" Resident="N" UniqueISNConvState="12" data_source="RIADemo" id="1" name="Categories">
 

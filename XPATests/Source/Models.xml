@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="17"/>
+    <LastIsn val="23"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -28,11 +28,54 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="11">
+      <Object id="18">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
-          <Size id="174"/>
-          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="=== Http functionality">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="Uri">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2048"/>
+          <Size id="174" val="4096"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="ResponseBody(Binary)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="ResponseBody(Unicode)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="ResponseBody(Ansi)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="29"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="3"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
         </PropertyList>
       </Object>
       <Object id="3" name="Element/Node Name">
