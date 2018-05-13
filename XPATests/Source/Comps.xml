@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="5"/>
+    <LastIsn val="6"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -21,6 +21,13 @@
         <CompId val="738976342-28670-18720-BFE77D42E"/>
         <MciFile val="C:\magic\Magic XPA 3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
         <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+      </Component>
+      <Component id="6" name="System.Windows.Forms">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="N"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
       </Component>
     </Components>
     <Aliases LastIsnAliases="4">

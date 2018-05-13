@@ -1,0 +1,5 @@
+Http Request
+Request (URI): https://www.magicsoftware.com
+Response (Body): C:\magic\projects\xpaxmltest\XPATests\temp\TemplateRequest_1_Response
+The request was aborted: Could not create SSL/TLS secure channel.
+SecureChannelFailure

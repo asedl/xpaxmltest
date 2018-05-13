@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="23"/>
+    <LastIsn val="27"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -31,11 +31,15 @@
       <Object id="18">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="19" name="=== Http functionality">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="11" name="Uri">
@@ -50,6 +54,7 @@
       <Object id="21" name="ResponseBody(Binary)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
           <_FieldStyle id="276" val="1"/>
           <PartOfDataview id="449"/>
         </PropertyList>
@@ -58,6 +63,7 @@
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
           <_FieldStyle id="276" val="1"/>
           <Content id="434" val="2"/>
           <PartOfDataview id="449"/>
@@ -76,6 +82,8 @@
       <Object id="22">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="3" name="Element/Node Name">
@@ -168,6 +176,35 @@
           <Size id="174" val="28"/>
           <_FieldStyle id="276" val="4"/>
           <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="6"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="24">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="===">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="script_id">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="script_source">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <Size id="174" val="4000"/>
+          <_FieldStyle id="276" val="1"/>
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>

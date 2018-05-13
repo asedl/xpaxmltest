@@ -5,9 +5,12 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="20"/>
-    <LastIsnFolder val="5"/>
+    <LastIsn val="26"/>
+    <LastIsnFolder val="6"/>
     <Folders>
+      <Folder id="6">
+        <Name val="Scripts"/>
+      </Folder>
       <Folder id="5">
         <Name val="Http"/>
       </Folder>
@@ -30,6 +33,12 @@
     <Programs>
       <Program id="1"/>
       <Program id="3"/>
+      <Program FolderIsn="6" id="21"/>
+      <Program FolderIsn="6" id="23"/>
+      <Program FolderIsn="6" id="22"/>
+      <Program FolderIsn="6" id="26"/>
+      <Program FolderIsn="6" id="24"/>
+      <Program FolderIsn="6" id="25"/>
       <Program FolderIsn="5" id="17"/>
       <Program FolderIsn="5" id="20"/>
       <Program FolderIsn="5" id="19"/>

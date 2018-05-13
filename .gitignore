@@ -22,4 +22,5 @@ mgerror.log
 ### Visual Studio Code ###
 .vscode/*
 
-
+### Node modules ####
+node_modules/
