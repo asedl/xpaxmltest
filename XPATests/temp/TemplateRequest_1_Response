@@ -218,7 +218,7 @@
 
     <div class="row">
                 <section class="span3 product first quoteBox press">
-            <div class="view view-reviews view-id-reviews view-display-id-block article view-dom-id-695ad5fbc6b1868d3d8d808af5b0be47">
+            <div class="view view-reviews view-id-reviews view-display-id-block article view-dom-id-4d73cb9785af66b4597e48c3006e354c">
 
 
 
@@ -245,7 +245,7 @@
 
     </div>        </section>
         <section class="span3 product quoteBox review">
-            <div class="view view-reviews view-id-reviews view-display-id-block_1 article view-dom-id-14876065acdd223c40396fea924fb505">
+            <div class="view view-reviews view-id-reviews view-display-id-block_1 article view-dom-id-647adff13e433d6fb930b8c9335902d5">
 
 
 
@@ -277,7 +277,7 @@
 
       
   <div class="content">
-    <div class="view view-featured-press-release view-id-featured_press_release view-display-id-block news view-dom-id-ecc94572fff4740984ac0ccf12394834">
+    <div class="view view-featured-press-release view-id-featured_press_release view-display-id-block news view-dom-id-8412ccaf6ab16fcf75dfce4ae3a6d506">
         
   
   
@@ -308,7 +308,7 @@
 
       
   <div class="content">
-    <div class="view view-learn-more view-id-learn_more view-display-id-block view-dom-id-d5dfe920394514b657bcff7d36bdc0f4">
+    <div class="view view-learn-more view-id-learn_more view-display-id-block view-dom-id-dc1e079f196786a3b95620e1e11125cf">
         
   
   
@@ -336,7 +336,7 @@
 
       
   <div class="content">
-    <div class="view view-learn-more view-id-learn_more view-display-id-block_1 view-dom-id-e764b575f768d6604e62d70bea01d6aa">
+    <div class="view view-learn-more view-id-learn_more view-display-id-block_1 view-dom-id-d95250b129970d0181e619217e6fd5c2">
         
   
   
@@ -364,7 +364,7 @@
 
       
   <div class="content">
-    <div class="view view-learn-more view-id-learn_more view-display-id-block_2 view-dom-id-d1ba78e1d12a08458b47c22063f0b8de">
+    <div class="view view-learn-more view-id-learn_more view-display-id-block_2 view-dom-id-d647ecd3c61982e6e1038d82c2af274c">
         
   
   
@@ -526,10 +526,10 @@
 <script src="https://www.magicsoftware.com/sites/all/themes/magic/js/libs/prettyPhoto/js/jquery.prettyPhoto.js?p8ejic"></script>
 <script src="https://www.magicsoftware.com/sites/all/themes/magic/js/script.js?p8ejic"></script>
 <script src="https://www.magicsoftware.com/sites/all/themes/magic/js/inner.js?p8ejic"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"magic","theme_token":"3LxaMDiLYDKI0JRnrbKO8DKEoFDk9wh5390fZTfCJCc","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/transition.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/collapse.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/tab.js":1,"sites\/all\/themes\/magic\/js\/libs\/jquery.ba-bbq.min.js":1,"sites\/all\/themes\/magic\/js\/libs\/anythingSlider\/js\/jquery.anythingslider.js":1,"sites\/all\/themes\/magic\/js\/libs\/prettyPhoto\/js\/jquery.prettyPhoto.js":1,"sites\/all\/themes\/magic\/js\/script.js":1,"sites\/all\/themes\/magic\/js\/inner.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/find_content\/find_content.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/magic\/css\/system.menus.css":1,"sites\/all\/themes\/magic\/js\/libs\/anythingSlider\/css\/anythingslider.css":1,"sites\/all\/themes\/magic\/js\/libs\/prettyPhoto\/css\/prettyPhoto.css":1,"sites\/all\/themes\/magic\/js\/libs\/tipso\/tipso.css":1,"sites\/all\/themes\/magic\/css\/font-awesome.min.css":1,"sites\/all\/themes\/magic\/css\/style.css":1}},"smart_ip":{"location":{"country_code":"","country":"","region":"","region_code":"","city":"","zip":"","latitude":null,"longitude":null,"time_zone":"","ip_address":"46.189.28.50","timestamp":1526218510}},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/":true}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"magic","theme_token":"PIgbRTP3vXk4G_dc-qBwHEd9VdrIADuUYLxQY_VuL90","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/transition.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/collapse.js":1,"sites\/all\/themes\/magic\/js\/libs\/bootstrap\/tab.js":1,"sites\/all\/themes\/magic\/js\/libs\/jquery.ba-bbq.min.js":1,"sites\/all\/themes\/magic\/js\/libs\/anythingSlider\/js\/jquery.anythingslider.js":1,"sites\/all\/themes\/magic\/js\/libs\/prettyPhoto\/js\/jquery.prettyPhoto.js":1,"sites\/all\/themes\/magic\/js\/script.js":1,"sites\/all\/themes\/magic\/js\/inner.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/find_content\/find_content.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/magic\/css\/system.menus.css":1,"sites\/all\/themes\/magic\/js\/libs\/anythingSlider\/css\/anythingslider.css":1,"sites\/all\/themes\/magic\/js\/libs\/prettyPhoto\/css\/prettyPhoto.css":1,"sites\/all\/themes\/magic\/js\/libs\/tipso\/tipso.css":1,"sites\/all\/themes\/magic\/css\/font-awesome.min.css":1,"sites\/all\/themes\/magic\/css\/style.css":1}},"smart_ip":{"location":{"country_code":"","country":"","region":"","region_code":"","city":"","zip":"","latitude":null,"longitude":null,"time_zone":"","ip_address":"46.189.28.50","timestamp":1526231673}},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/":true}});</script>
         <!--[if lt IE 9]>
     <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
     <![endif]-->
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"505b95c79f","applicationID":"78128286","transactionName":"YFRSZ0cDXEIFABcPXVkecVBBC11fSw0MAldoQVFUUD1WVAICFgpG","queueTime":0,"applicationTime":486,"atts":"TBNREQ8ZT0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"505b95c79f","applicationID":"78128286","transactionName":"YFRSZ0cDXEIFABcPXVkecVBBC11fSw0MAldoQVFUUD1WVAICFgpG","queueTime":0,"applicationTime":444,"atts":"TBNREQ8ZT0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
