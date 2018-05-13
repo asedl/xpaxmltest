@@ -30,9 +30,9 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736827" _time="54456" date="13/05/2018" time="15:07:36"/>
+          <LastModified _date="736827" _time="56181" date="13/05/2018" time="15:36:21"/>
         </Header>
-        <ItemIsn val="10"/>
+        <ItemIsn val="13"/>
         <Resource>
           <Columns>
             <Column id="4" name="pi.Uri">
@@ -44,6 +44,22 @@
               </PropertyList>
             </Column>
             <Column id="10" name="pi.ResponseFile">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="3"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="12" name="Filename_ResponseHeaders">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="3"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="13" name="Filename_ResponseCurlprot">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="3"/>
                 <DbColumnName id="178"/>
@@ -83,7 +99,7 @@
               </PropertyList>
             </Column>
           </Columns>
-          <ColumnsLastIsn val="10"/>
+          <ColumnsLastIsn val="13"/>
         </Resource>
         <Information>
           <Key>
@@ -152,8 +168,8 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="5"/>
-            <_TotalVirtuals val="5"/>
+            <_TotalVariabls val="7"/>
+            <_TotalVirtuals val="7"/>
             <PRM_LEN val="2"/>
             <Event>
               <EventType val="S"/>
@@ -202,6 +218,46 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="107">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="12" FlowIsn="108" id="12">
+                  <Column val="3"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="13" FlowIsn="109" id="13">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="12">
                   <Type val="0"/>
                   <Text val=" "/>
@@ -209,7 +265,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="7" FlowIsn="35" id="7">
-                  <Column val="3"/>
+                  <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
@@ -226,7 +282,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="9" FlowIsn="75" id="9">
-                  <Column val="4"/>
+                  <Column val="6"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
@@ -243,7 +299,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="7" id="3">
-                  <Column val="5"/>
+                  <Column val="7"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
@@ -283,6 +339,45 @@
               <LogicLine>
                 <Update FlowIsn="77">
                   <FieldID val="9"/>
+                  <WithValue val="10"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="110">
+                  <FieldID val="12"/>
+                  <WithValue val="1"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="111">
+                  <FieldID val="13"/>
+                  <WithValue val="2"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="113">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="114">
+                  <FieldID val="7"/>
                   <WithValue val="4"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
@@ -292,9 +387,42 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <Update FlowIsn="36">
+                <Update FlowIsn="125">
                   <FieldID val="7"/>
-                  <WithValue val="2"/>
+                  <WithValue val="5"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="115">
+                  <FieldID val="7"/>
+                  <WithValue val="6"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="116">
+                  <FieldID val="7"/>
+                  <WithValue val="7"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="117">
+                  <FieldID val="7"/>
+                  <WithValue val="8"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -305,7 +433,7 @@
               <LogicLine>
                 <Invoke FlowIsn="5">
                   <OperationType val="O"/>
-                  <Command val="3"/>
+                  <Command val="9"/>
                   <Wait val="Y"/>
                   <Show val="2"/>
                   <FieldID val="3"/>
@@ -315,7 +443,7 @@
                 </Invoke>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="1" FlowIsn="8" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="3" FlowIsn="8" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="N"/>
                   <Modifier val="B"/>
@@ -335,12 +463,36 @@
           </FormEntry>
         </TaskForms>
         <Expressions>
+          <Expression id="12">
+            <ExpSyntax val="Trim({0,10}) &amp; '.headers.out'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="Trim({0,10}) &amp; '.curl.out'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
           <Expression id="2">
             <ExpSyntax val="Trim(Str({0,3},''))"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="8">
-            <ExpSyntax val="'curl ' &amp; Trim({0,9}) &amp; ' ' &amp;  Trim({0,4}) &amp; ' -o &quot;' &amp; Trim({0,10}) &amp;'&quot;'"/>
+          <Expression id="14">
+            <ExpSyntax val="'curl ' &amp; Trim({0,9})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="18">
+            <ExpSyntax val="Trim({0,7}) &amp; ' --trace-ascii &quot;' &amp; Trim({0,13}) &amp; '&quot;'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="15">
+            <ExpSyntax val="Trim({0,7}) &amp; ' -D &quot;' &amp; Trim({0,12}) &amp;'&quot;'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="Trim({0,7}) &amp; ' -o &quot;' &amp; Trim({0,10}) &amp;'&quot;'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="Trim({0,7}) &amp; ' &quot;' &amp; Trim({0,4}) &amp; '&quot;'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="9">

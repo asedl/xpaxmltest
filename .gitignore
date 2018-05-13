@@ -24,3 +24,6 @@ mgerror.log
 
 ### Node modules ####
 node_modules/
+
+### Application temp
+temp/
