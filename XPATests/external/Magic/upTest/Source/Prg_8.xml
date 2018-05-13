@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ExecuteScript_scriptcs" ISN_2="1" LastIsn="1" id="6">
+        <Header Description="ExecuteScript_curl" ISN_2="1" LastIsn="1" id="8">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -22,7 +22,7 @@
             <ParametersCount val="2"/>
             <ParametersAttributes>
               <Attr MgAttr="U"/>
-              <Attr MgAttr="O"/>
+              <Attr MgAttr="U"/>
             </ParametersAttributes>
           </ReturnValue>
           <SqlWhereExist val="N"/>
@@ -30,31 +30,12 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736827" _time="52818" date="13/05/2018" time="14:40:18"/>
+          <LastModified _date="736827" _time="54456" date="13/05/2018" time="15:07:36"/>
         </Header>
-        <ItemIsn val="8"/>
+        <ItemIsn val="10"/>
         <Resource>
           <Columns>
-            <Column id="1" name="pi.ScriptLocation">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="3"/>
-                <DbColumnName id="178"/>
-                <Type id="179"/>
-                <UserType id="180"/>
-              </PropertyList>
-            </Column>
-            <Column id="4" name="pi.ScriptParameters">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="6"/>
-                <StoredAs id="173" val="29"/>
-                <Size id="174" val="28"/>
-                <Definition id="175" val="1"/>
-                <DbColumnName id="178"/>
-                <Type id="179"/>
-                <UserType id="180"/>
-              </PropertyList>
-            </Column>
-            <Column id="6" name="ParameterString">
+            <Column id="4" name="pi.Uri">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="7"/>
                 <DbColumnName id="178"/>
@@ -62,12 +43,12 @@
                 <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="8" name="Parameters(Concatenation)">
+            <Column id="10" name="pi.ResponseFile">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" id="1"/>
-                <Picture id="157" valUnicode="2000"/>
-                <Size id="174" val="4000"/>
-                <_FieldStyle id="276" val="1"/>
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="3"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
             <Column id="7" name="CommandLine">
@@ -83,6 +64,14 @@
                 <PartOfDataview id="449"/>
               </PropertyList>
             </Column>
+            <Column id="9" name="CurlOptions">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="7"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
             <Column id="3" name="HINSTANCE">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
@@ -94,7 +83,7 @@
               </PropertyList>
             </Column>
           </Columns>
-          <ColumnsLastIsn val="8"/>
+          <ColumnsLastIsn val="10"/>
         </Resource>
         <Information>
           <Key>
@@ -163,8 +152,8 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="6"/>
-            <_TotalVirtuals val="6"/>
+            <_TotalVariabls val="5"/>
+            <_TotalVirtuals val="5"/>
             <PRM_LEN val="2"/>
             <Event>
               <EventType val="S"/>
@@ -179,25 +168,8 @@
                 </DATAVIEW_SRC>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="1" FlowIsn="3" id="1">
-                  <Column val="1"/>
-                  <Type val="V"/>
-                  <IsParameter val="Y"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
-                  <DIFF_UPDATE val="T"/>
-                  <PartOfDataview val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
                 <Select FieldID="4" FlowIsn="11" id="4">
-                  <Column val="2"/>
+                  <Column val="1"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeIndex val="1"/>
@@ -213,13 +185,30 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="10" FlowIsn="97" id="10">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="12">
                   <Type val="0"/>
                   <Text val=" "/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="6" FlowIsn="13" id="6">
+                <Select FieldID="7" FlowIsn="35" id="7">
                   <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
@@ -236,24 +225,8 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="8" FlowIsn="54" id="8">
+                <Select FieldID="9" FlowIsn="75" id="9">
                   <Column val="4"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="7" FlowIsn="35" id="7">
-                  <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
@@ -269,14 +242,8 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="6">
-                  <Type val="0"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
                 <Select FieldID="3" FlowIsn="7" id="3">
-                  <Column val="6"/>
+                  <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
@@ -314,66 +281,8 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="22">
-                  <Type val="2"/>
-                  <Text val="Script parameters we get in a vector from where we read them &quot;as is&quot;"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="23">
-                  <Type val="2"/>
-                  <Text val="and concatenate them to a single string prefixed with &quot; --&quot; which is what"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="24">
-                  <Type val="2"/>
-                  <Text val="scriptcs expects for parameters which go to the script (and not to scriptcs itself)"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="18">
-                  <FieldID val="6"/>
-                  <WithValue val="1"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="55">
-                  <FieldID val="8"/>
-                  <WithValue val="1"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <BLOCK EndBlock="19" EndBlockSegment="19" FlowIsn="15" Type="L">
-                  <Condition Exp="3"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="53">
-                  <FieldID val="6"/>
-                  <WithValue val="9"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="17">
-                  <FieldID val="8"/>
+                <Update FlowIsn="77">
+                  <FieldID val="9"/>
                   <WithValue val="4"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
@@ -383,39 +292,9 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <END_BLK FlowIsn="16"/>
-              </LogicLine>
-              <LogicLine>
-                <BLOCK EndBlock="22" EndBlockSegment="22" FlowIsn="19" Type="I">
-                  <Condition Exp="5"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="21">
-                  <FieldID val="8"/>
-                  <WithValue val="6"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <END_BLK FlowIsn="20"/>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="4">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
                 <Update FlowIsn="36">
                   <FieldID val="7"/>
-                  <WithValue val="7"/>
+                  <WithValue val="2"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
@@ -426,7 +305,7 @@
               <LogicLine>
                 <Invoke FlowIsn="5">
                   <OperationType val="O"/>
-                  <Command val="8"/>
+                  <Command val="3"/>
                   <Wait val="Y"/>
                   <Show val="2"/>
                   <FieldID val="3"/>
@@ -436,7 +315,7 @@
                 </Invoke>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="2" FlowIsn="8" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="1" FlowIsn="8" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="N"/>
                   <Modifier val="B"/>
@@ -450,47 +329,27 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="ExecuteScript_scriptcs"/>
+              <FormName id="311" valUnicode="ExecuteScript_curl"/>
               <UserStateIdentifier id="437"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
         <Expressions>
-          <Expression id="5">
-            <ExpSyntax val="''"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="2">
             <ExpSyntax val="Trim(Str({0,3},''))"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="3">
-            <ExpSyntax val="LoopCounter()&lt;=VecSize({0,4})"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="4">
-            <ExpSyntax val="Trim({0,8}) &amp; IF (LoopCounter()>1, ' ', '') &amp; Trim({0,6})"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="6">
-            <ExpSyntax val="Len(Trim({0,8}))>0"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="7">
-            <ExpSyntax val="' -- ' &amp; Trim({0,8})"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="8">
-            <ExpSyntax val="'scriptcs &quot;' &amp; Trim({0,1}) &amp; '&quot; ' &amp; Trim({0,8})"/>
+            <ExpSyntax val="'curl ' &amp; Trim({0,9}) &amp; ' ' &amp;  Trim({0,4}) &amp; ' -o &quot;' &amp; Trim({0,10}) &amp;'&quot;'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="9">
             <ExpSyntax val="Trim({0,7})"/>
             <ExpAttribute val="A"/>
           </Expression>
-          <Expression id="10">
-            <ExpSyntax val="VecGet({0,4}, LoopCounter())"/>
-            <ExpAttribute val="*"/>
+          <Expression id="11">
+            <ExpSyntax val="INIGet('[CURL]Options')"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
       </Task>
