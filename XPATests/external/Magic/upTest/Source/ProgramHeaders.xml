@@ -58,9 +58,9 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="72488" date="13/05/2018" time="20:08:08"/>
+        <LastModified _date="736829" _time="344" date="15/05/2018" time="00:05:44"/>
       </Header>
-      <SourceFileTimeStamp _date="736827" _time="65288" date="13/05/2018" time="18:08:08"/>
+      <SourceFileTimeStamp _date="736828" _time="79544" date="14/05/2018" time="22:05:44"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="2">
@@ -172,6 +172,30 @@
         <LastModified _date="736827" _time="72398" date="13/05/2018" time="20:06:38"/>
       </Header>
       <SourceFileTimeStamp _date="736827" _time="65198" date="13/05/2018" time="18:06:38"/>
+    </Program>
+    <Program>
+      <Header Description="HttpGet(Magic)" ISN_2="1" LastIsn="2" id="20">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="3"/>
+          <ParametersCount val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736829" _time="835" date="15/05/2018" time="00:13:55"/>
+      </Header>
+      <SourceFileTimeStamp _date="736828" _time="80035" date="14/05/2018" time="22:13:55"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="9">
