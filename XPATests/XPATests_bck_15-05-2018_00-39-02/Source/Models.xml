@@ -212,7 +212,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="28" name="TemplateId">
+      <Object ToBeMigratedFrom1x="Y" id="28" name="TemplateId">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="9"/>
@@ -222,7 +222,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="29" name="TemplateSource">
+      <Object ToBeMigratedFrom1x="Y" id="29" name="TemplateSource">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="34"/>
@@ -232,7 +232,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="30" name="Filename">
+      <Object ToBeMigratedFrom1x="Y" id="30" name="Filename">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -240,7 +240,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="31" name="Parameter(Blob)">
+      <Object ToBeMigratedFrom1x="Y" id="31" name="Parameter(Blob)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -248,7 +248,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="32" name="Parameter(Unicode1000)">
+      <Object ToBeMigratedFrom1x="Y" id="32" name="Parameter(Unicode1000)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="1000"/>
@@ -257,7 +257,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="33" name="Parameters(Vector)">
+      <Object ToBeMigratedFrom1x="Y" id="33" name="Parameters(Vector)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>

@@ -7,6 +7,29 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="xpatest_uris.Browse - xpatest_uris"/>
+      <HandlerId Val="6"/>
+      <OperationId Val="40"/>
+      <LineIndex Val="40"/>
+      <HandlerDesc Val="Event:BtnGet(Magic)"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="1174848307"/>
+      <Component2 Val="6262"/>
+      <Component3 Val="17266"/>
+      <Component4 Val="734862252"/>
+      <Component5 Val="339920171"/>
+      <Prog Val="28"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="40"/>
+    </Breakpoint>
+  </Breakpoints>
+
   <WatchListItems>
     <RestData/>
   </WatchListItems>

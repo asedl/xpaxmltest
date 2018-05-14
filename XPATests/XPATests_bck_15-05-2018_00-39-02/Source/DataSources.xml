@@ -25,7 +25,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris">
+<DataObject PhysicalName="xpatest_uris" Resident="N" ToBeMigratedFrom1x="Y" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris">
 
   <Encrypt val="N"/>
 
@@ -137,7 +137,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="xpatest_templates" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="17" name="xpatest_templates">
+<DataObject PhysicalName="xpatest_templates" Resident="N" ToBeMigratedFrom1x="Y" UniqueISNConvState="12" data_source="XPATest" id="17" name="xpatest_templates">
 
   <Encrypt val="N"/>
 
