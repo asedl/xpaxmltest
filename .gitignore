@@ -18,6 +18,8 @@ Desktop.ini
 ### Magic stuff ###
 mglock.dat
 mgerror.log
+*.XRF
+exports/
 
 ### Visual Studio Code ###
 .vscode/*
