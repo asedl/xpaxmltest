@@ -32,12 +32,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736827" _time="41253" date="13/05/2018" time="11:27:33"/>
+          <LastModified _date="736829" _time="4775" date="15/05/2018" time="01:19:35"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="17"/>
+            <DataObject comp="-1" obj="14"/>
             <Access val="R"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -161,9 +161,6 @@
                   <Column val="1"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
-                  <INT_RCMP_INFO>
-                    <v>8</v>
-                  </INT_RCMP_INFO>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
@@ -208,8 +205,8 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FieldID="6" FlowIsn="8" Key="1" Mode="R" SortType="11" VIEW="4" VIEWS="2">
-                  <DB comp="-1" obj="17"/>
+                <LNK Direction="A" EVL_CND="R" FieldID="6" FlowIsn="8" Mode="R" SortType="11" VIEW="4" VIEWS="2">
+                  <DB comp="-1" obj="14"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
                 </LNK>
@@ -219,7 +216,6 @@
                   <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
-                  <Locate MAX="2" MIN="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -417,10 +413,6 @@
           <Expression id="1">
             <ExpSyntax val="''"/>
             <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="2">
-            <ExpSyntax val="{0,1}"/>
-            <ExpAttribute val="N"/>
           </Expression>
           <Expression id="3">
             <ExpSyntax val="{0,4}>0 AND {0,6}"/>

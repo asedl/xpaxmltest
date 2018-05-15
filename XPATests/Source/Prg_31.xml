@@ -22,7 +22,7 @@
             <TSK_PARAMS val="2"/>
             <ParametersAttributes>
               <Attr MgAttr="U"/>
-              <Attr MgAttr="V"/>
+              <Attr MgAttr="O"/>
             </ParametersAttributes>
           </ReturnValue>
           <SqlWhereExist val="N"/>
@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736827" _time="52818" date="13/05/2018" time="14:40:18"/>
+          <LastModified _date="736829" _time="4789" date="15/05/2018" time="01:19:49"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -116,13 +116,13 @@
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="A"/>
-            <LockingStrategy val="I"/>
+            <LockingStrategy val="M"/>
             <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
             <TransactionMode val="P"/>
-            <TransactionBegin val="T"/>
+            <TransactionBegin val="N"/>
             <PreloadView val="N"/>
-            <AllowEmptyDataview val="Y"/>
+            <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
           </TaskProperties>
           <SIDE_WIN>

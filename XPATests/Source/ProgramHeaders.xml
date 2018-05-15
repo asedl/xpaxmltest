@@ -23,12 +23,12 @@
         <RunProjectAs val="O"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="78013" date="13/05/2018" time="21:40:13"/>
+        <LastModified _date="736829" _time="5113" date="15/05/2018" time="01:25:13"/>
       </Header>
-      <SourceFileTimeStamp _date="736827" _time="70813" date="13/05/2018" time="19:40:13"/>
+      <SourceFileTimeStamp _date="736828" _time="84313" date="14/05/2018" time="23:25:13"/>
     </Program>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3">
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="38">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -44,29 +44,10 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736824" _time="83520" date="10/05/2018" time="23:12:00"/>
+      <SourceFileTimeStamp _date="736828" _time="83913" date="14/05/2018" time="23:18:33"/>
     </Program>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="27">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
-    </Program>
-    <Program>
-      <Header Description="xpatest_uris" ISN_2="1" LastIsn="2" id="28">
+      <Header Description="WCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="28">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -80,9 +61,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736829" _time="344" date="15/05/2018" time="00:05:44"/>
+        <LastModified _date="736829" _time="9196" date="15/05/2018" time="02:33:16"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736829" _time="1996" date="15/05/2018" time="00:33:16"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="29">
@@ -123,9 +104,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="41253" date="13/05/2018" time="11:27:33"/>
+        <LastModified _date="736829" _time="4775" date="15/05/2018" time="01:19:35"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="83975" date="14/05/2018" time="23:19:35"/>
     </Program>
     <Program>
       <Header Description="ExecuteScript_scriptcs" ISN_2="1" LastIsn="1" id="31">
@@ -137,7 +118,7 @@
           <TSK_PARAMS val="2"/>
           <ParametersAttributes>
             <Attr MgAttr="U"/>
-            <Attr MgAttr="V"/>
+            <Attr MgAttr="O"/>
           </ParametersAttributes>
         </ReturnValue>
         <SqlWhereExist val="N"/>
@@ -146,9 +127,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="52818" date="13/05/2018" time="14:40:18"/>
+        <LastModified _date="736829" _time="4789" date="15/05/2018" time="01:19:49"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="83989" date="14/05/2018" time="23:19:49"/>
     </Program>
     <Program>
       <Header Description="ExecuteScript_curl" ISN_2="1" LastIsn="1" id="32">
@@ -169,9 +150,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="56181" date="13/05/2018" time="15:36:21"/>
+        <LastModified _date="736829" _time="4797" date="15/05/2018" time="01:19:57"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="83997" date="14/05/2018" time="23:19:57"/>
     </Program>
     <Program>
       <Header Description="HttpGet (Apache)" ISN_2="1" LastIsn="1" id="33">
@@ -192,9 +173,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="72398" date="13/05/2018" time="20:06:38"/>
+        <LastModified _date="736829" _time="4805" date="15/05/2018" time="01:20:05"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="84005" date="14/05/2018" time="23:20:05"/>
     </Program>
     <Program>
       <Header Description="HttpGet(Magic)" ISN_2="1" LastIsn="1" id="34">
@@ -216,9 +197,33 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736829" _time="835" date="15/05/2018" time="00:13:55"/>
+        <LastModified _date="736829" _time="7259" date="15/05/2018" time="02:00:59"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736829" _time="59" date="15/05/2018" time="00:00:59"/>
+    </Program>
+    <Program>
+      <Header Description="HttpGet(Magic .NET)" ISN_2="1" LastIsn="1" id="40">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="U"/>
+            <Attr MgAttr="O"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="736829" _time="9545" date="15/05/2018" time="02:39:05"/>
+      </Header>
+      <SourceFileTimeStamp _date="736829" _time="2345" date="15/05/2018" time="00:39:05"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="35">
@@ -254,9 +259,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="71020" date="13/05/2018" time="19:43:40"/>
+        <LastModified _date="736829" _time="5123" date="15/05/2018" time="01:25:23"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="84323" date="14/05/2018" time="23:25:23"/>
     </Program>
     <Program>
       <Header Description="CheckJava" ISN_2="1" LastIsn="1" id="37">
@@ -276,9 +281,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="72615" date="13/05/2018" time="20:10:15"/>
+        <LastModified _date="736829" _time="4956" date="15/05/2018" time="01:22:36"/>
       </Header>
-      <SourceFileTimeStamp _date="736828" _time="81548" date="14/05/2018" time="22:39:08"/>
+      <SourceFileTimeStamp _date="736828" _time="84156" date="14/05/2018" time="23:22:36"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="21">
@@ -346,28 +351,6 @@
         <LastModified _date="736827" _time="38299" date="13/05/2018" time="10:38:19"/>
       </Header>
       <SourceFileTimeStamp _date="736827" _time="31099" date="13/05/2018" time="08:38:19"/>
-    </Program>
-    <Program>
-      <Header Description="CreateAssembly" ISN_2="1" LastIsn="1" id="26">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="1"/>
-          <ParametersAttributes>
-            <Attr MgAttr="O"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="Y"/>
-        <LastModified _date="736827" _time="39984" date="13/05/2018" time="11:06:24"/>
-      </Header>
-      <SourceFileTimeStamp _date="736827" _time="32784" date="13/05/2018" time="09:06:24"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="24">
@@ -568,25 +551,6 @@
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
         <LastModified _date="736824" _time="72956" date="10/05/2018" time="20:15:56"/>
-      </Header>
-      <SourceFileTimeStamp _date="736824" _time="83520" date="10/05/2018" time="23:12:00"/>
-    </Program>
-    <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="6">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
       <SourceFileTimeStamp _date="736824" _time="83520" date="10/05/2018" time="23:12:00"/>
     </Program>

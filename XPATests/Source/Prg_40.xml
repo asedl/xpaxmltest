@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="HttpGet(Magic)" ISN_2="1" LastIsn="1" id="34">
+        <Header Description="HttpGet(Magic .NET)" ISN_2="1" LastIsn="1" id="40">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,10 +31,10 @@
           <External val="N"/>
           <Offline val="N"/>
           <FormType val="N"/>
-          <DotNetObjectExists val="N"/>
-          <LastModified _date="736829" _time="7259" date="15/05/2018" time="02:00:59"/>
+          <DotNetObjectExists val="Y"/>
+          <LastModified _date="736829" _time="9545" date="15/05/2018" time="02:39:05"/>
         </Header>
-        <ItemIsn val="7"/>
+        <ItemIsn val="8"/>
         <Resource>
           <Columns>
             <Column id="1" name="pi.Uri">
@@ -97,6 +97,16 @@
             <Column id="6" name="Success">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="8" name="nSizeResponse">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
@@ -269,6 +279,17 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="8" FlowIsn="39" id="8">
+                  <Column val="8"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="10">
                   <Type val="0"/>
                   <Text val=" "/>
@@ -307,92 +328,42 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <Update FlowIsn="13">
-                  <FieldID val="3"/>
-                  <WithValue val="2"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
+                <Invoke FlowIsn="37">
+                  <OperationType val="."/>
+                  <TaskID comp="-1"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="N"/>
+                      <DotNetType val="void"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                      <Name val="url"/>
+                      <DotNetType val="System.String"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="2"/>
+                      <Skip val="N"/>
+                      <Name val="fbody"/>
+                      <DotNetType val="System.String"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <FunctionName val="func"/>
+                  <SnippetCode val="using System;&#xA;using System.Net;&#xA;using System.IO;&#xA;using System.Text;&#xA;&#xA;public static class Snippet&#xA;{&#xA;&#x9;public static void func(System.String url, System.String fbody)&#xA;&#x9;{&#xA;        // Create web client simulating IE6.&#xA;        using (WebClient client = new WebClient())&#xA;        {&#xA;            Console.WriteLine(&quot;Requesting ....&quot;);&#xA;&#xA;&#x9;&#x9;&#x9;ServicePointManager.SecurityProtocol = &#xA;&#x9;&#x9;&#x9;  (SecurityProtocolType)192 |  // TLS 1.0&#xA;              (SecurityProtocolType)768 |  // TLS 1.1&#xA;&#x9;&#x9;&#x9;  (SecurityProtocolType)3072   // TLS 1.2&#xA;&#x9;&#x9;&#x9;;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;// Fake IE ...&#xA;            client.Headers[&quot;User-Agent&quot;] =&#xA;                &quot;Mozilla/4.0 (Compatible; Windows NT 5.1; MSIE 6.0) &quot; +&#xA;                &quot;(compatible; MSIE 6.0; Windows NT 5.1; &quot; +&#xA;                &quot;.NET CLR 1.1.4322; .NET CLR 2.0.50727)&quot;;&#xA;&#xA;            // Download data.&#xA;            byte[] arr = client.DownloadData(url);&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;BinaryWriter Writer = null;&#xA;&#x9;&#x9;&#x9;&#xA;    &#x9;&#x9;try {&#xA;        &#x9;&#x9;Writer = new BinaryWriter(File.OpenWrite(fbody));&#xA;        &#x9;&#x9;Writer.Write(Encoding.UTF8.GetString(arr));&#xA;        &#x9;&#x9;Writer.Flush();&#xA;        &#x9;&#x9;Writer.Close();&#xA;    &#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;catch &#xA;&#x9;&#x9;&#x9;{&#xA;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;&#xA;        }&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;}&#xA;&#xA;}"/>
+                  <CompiledCode val="TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABQRQAATAEDACgs+loAAAAAAAAAAOAAAiELAQsAAAgAAAAGAAAAAAAADicAAAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAEAAAAAAAAAACAAAAAAgAAAAAAAAMAQIUAABAAABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAALgmAABTAAAAAEAAAKgCAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAFAcAAAAgAAAACAAAAAIAAAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAKgCAAAAQAAAAAQAAAAKAAAAAAAAAAAAAAAAAABAAABALnJlbG9jAAAMAAAAAGAAAAACAAAADgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADwJgAAAAAAAEgAAAACAAUA7CAAAMwFAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABswAwB0AAAAAQAAEXMDAAAKCnIBAABwKAQAAAogwA8AACgFAAAKBm8GAAAKciEAAHByNwAAcG8HAAAKBgJvCAAACgsUDAMoCQAACnMKAAAKDAgoCwAACgdvDAAACm8NAAAKCG8OAAAKCG8PAAAK3gMm3gDeCgYsBgZvEAAACtwqARwAAAAAOQArZAADAQAAAQIABgBjaQAKAAAAAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAIgBAAAjfgAA9AEAAAgCAAAjU3RyaW5ncwAAAAD8AwAAPAEAACNVUwA4BQAAEAAAACNHVUlEAAAASAUAAIQAAAAjQmxvYgAAAAAAAAACAAABRxUCAAkAAAAA+iUzABYAAAEAAAAPAAAAAgAAAAEAAAACAAAAEAAAAAIAAAABAAAAAQAAAAIAAAAAAAoAAQAAAAAABgAvACgABgBlAEUABgCLAEUACgC9ALIABgDHACgACgDZALIACgDtALIACgAXAbIACgBWATcBBgCKAYABBgCPAYABBgCkAYABBgCxAYABBgDEAbgBBgDyASgAAAAAAAEAAAAAAAEAAQCBARAAFwAAAAUAAQABAFAgAAAAAJYANgAKAAEAAAABADsAAAACAD8AEQCFABAAGQCFABUAIQCFABUAKQDPABkAMQACAR4AIQArASQASQBqASkAIQBzAS8AUQCaATUAYQCFADsAcQDNAUEAcQDWAUYAYQDgAUwAYQDmARUAYQDsARUAeQD+ARUALgALAFoALgATAGMAUQAEgAAAAAAAAAAAAAAAAAAAAACpAAAABAAAAAAAAAAAAAAAAQAfAAAAAAAEAAAAAAAAAAAAAAABACgAAAAAAAAAADxNb2R1bGU+AGFpY3Jlc3dxLmRsbABTbmlwcGV0AG1zY29ybGliAFN5c3RlbQBPYmplY3QAZnVuYwB1cmwAZmJvZHkAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAC5jdG9yAFJ1bnRpbWVDb21wYXRpYmlsaXR5QXR0cmlidXRlAGFpY3Jlc3dxAFN5c3RlbS5OZXQAV2ViQ2xpZW50AENvbnNvbGUAV3JpdGVMaW5lAFNlcnZpY2VQb2ludE1hbmFnZXIAU2VjdXJpdHlQcm90b2NvbFR5cGUAc2V0X1NlY3VyaXR5UHJvdG9jb2wAV2ViSGVhZGVyQ29sbGVjdGlvbgBnZXRfSGVhZGVycwBTeXN0ZW0uQ29sbGVjdGlvbnMuU3BlY2lhbGl6ZWQATmFtZVZhbHVlQ29sbGVjdGlvbgBzZXRfSXRlbQBEb3dubG9hZERhdGEAU3lzdGVtLklPAEZpbGUARmlsZVN0cmVhbQBPcGVuV3JpdGUAQmluYXJ5V3JpdGVyAFN0cmVhbQBTeXN0ZW0uVGV4dABFbmNvZGluZwBnZXRfVVRGOABHZXRTdHJpbmcAV3JpdGUARmx1c2gAQ2xvc2UASURpc3Bvc2FibGUARGlzcG9zZQAAAAAfUgBlAHEAdQBlAHMAdABpAG4AZwAgAC4ALgAuAC4AABVVAHMAZQByAC0AQQBnAGUAbgB0AAGBAU0AbwB6AGkAbABsAGEALwA0AC4AMAAgACgAQwBvAG0AcABhAHQAaQBiAGwAZQA7ACAAVwBpAG4AZABvAHcAcwAgAE4AVAAgADUALgAxADsAIABNAFMASQBFACAANgAuADAAKQAgACgAYwBvAG0AcABhAHQAaQBiAGwAZQA7ACAATQBTAEkARQAgADYALgAwADsAIABXAGkAbgBkAG8AdwBzACAATgBUACAANQAuADEAOwAgAC4ATgBFAFQAIABDAEwAUgAgADEALgAxAC4ANAAzADIAMgA7ACAALgBOAEUAVAAgAEMATABSACAAMgAuADAALgA1ADAANwAyADcAKQAAAAA+tXCBUycRQKFon2XMPldfAAi3elxWGTTgiQUAAgEODgQgAQEIAyAAAQQAAQEOBQABAREdBCAAEiEFIAIBDg4FIAEdBQ4FAAESLQ4FIAEBEjUEAAASOQUgAQ4dBQQgAQEOCAcDEhEdBRIxCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQAA4CYAAAAAAAAAAAAA/iYAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAmAAAAAAAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAAAFhAAABMAgAAAAAAAAAAAABMAjQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAAvQTv/gAAAQAAAAAAAAAAAAAAAAAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAAAAAAALAErAEAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAiAEAAAEAMAAwADAAMAAwADQAYgAwAAAALAACAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAAACAAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADAALgAwAC4AMAAuADAAAAA8AA0AAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAGEAaQBjAHIAZQBzAHcAcQAuAGQAbABsAAAAAAAoAAIAAQBMAGUAZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQAAAAgAAAARAANAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAGEAaQBjAHIAZQBzAHcAcQAuAGQAbABsAAAAAAA0AAgAAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAwAC4AMAAuADAALgAwAAAAOAAIAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADAALgAwAC4AMAAuADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAADAAAABA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="/>
+                  <SnippetLanguage val="C"/>
+                  <ForCompactFramework val="N"/>
+                  <isGuiThreadExecution val="N"/>
+                  <CompileTime HighDateTime="30665701" LowDateTime="538000604"/>
+                  <RetainFocus val="Y"/>
                   <Condition val="Y"/>
-                  <Modifier val="B"/>
+                  <Modifier val="S"/>
                   <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="22">
-                  <FieldID val="7"/>
-                  <WithValue val="8"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="14">
-                  <FieldID val="6"/>
-                  <WithValue val="3"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="15">
-                  <FieldID val="6"/>
-                  <WithValue val="9"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="16">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <BLOCK EndBlock="20" EndBlockSegment="20" FlowIsn="17" Type="I">
-                  <Condition Exp="6"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="23">
-                  <Type val="2"/>
-                  <Text val="We did get UTF-8 as response ..."/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="18">
-                  <FieldID val="5"/>
-                  <WithValue val="7"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="19">
-                  <FieldID val="6"/>
-                  <WithValue val="4"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <END_BLK FlowIsn="20"/>
+                </Invoke>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -401,7 +372,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="HttpGet(Magic)"/>
+              <FormName id="311" valUnicode="HttpGet(Magic .NET)"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>
@@ -410,34 +381,6 @@
           <Expression id="1">
             <ExpSyntax val="Trim({0,2}) &amp; '.headers.out'"/>
             <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="2">
-            <ExpSyntax val="HTTPCall('GET', Trim({0,1}), '')"/>
-            <ExpAttribute val="O"/>
-          </Expression>
-          <Expression id="3">
-            <ExpSyntax val="Blb2File({0,3}, {0,2})"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="4">
-            <ExpSyntax val="Blb2File({0,5}, Trim({0,2}) &amp; '.html')"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="8">
-            <ExpSyntax val="HTTPLastHeader('')"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="9">
-            <ExpSyntax val="Blb2File({0,7}, {0,4})"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="6">
-            <ExpSyntax val="InStr({0,7}, 'Content-Type:text/html;')>0 AND InStr({0,7}, 'charset=UTF-8')>0"/>
-            <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="7">
-            <ExpSyntax val="UnicodeFromANSI({0,3}, 65001)"/>
-            <ExpAttribute val="U"/>
           </Expression>
         </Expressions>
       </Task>

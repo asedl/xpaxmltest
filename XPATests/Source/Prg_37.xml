@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736827" _time="72615" date="13/05/2018" time="20:10:15"/>
+          <LastModified _date="736829" _time="4956" date="15/05/2018" time="01:22:36"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -47,7 +47,7 @@
                 <Picture id="157" valUnicode="N10C"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_EDIT">
-                    <Font id="50" val="32"/>
+                    <Font id="50" val="1"/>
                     <V11Style id="539" val="4"/>
                   </PropertyList>
                 </GuiDisplay>
@@ -122,11 +122,11 @@
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="A"/>
-            <LockingStrategy val="I"/>
+            <LockingStrategy val="M"/>
             <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
             <TransactionMode val="P"/>
-            <TransactionBegin val="T"/>
+            <TransactionBegin val="N"/>
             <PreloadView val="N"/>
             <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
@@ -413,8 +413,8 @@
               <ShowGrid id="37"/>
               <GridX id="38" val="1"/>
               <GridY id="39" val="4"/>
-              <Font id="50" val="14"/>
-              <Color id="51" val="4"/>
+              <Font id="50" val="1"/>
+              <Color id="51" val="2"/>
               <BorderStyle id="64" val="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Title"/>
