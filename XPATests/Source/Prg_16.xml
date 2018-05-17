@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736825" _time="26386" date="11/05/2018" time="07:19:46"/>
+          <LastModified _date="736831" _time="29611" date="17/05/2018" time="08:13:31"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -246,7 +246,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
-            <ExpSyntax val="'C:\magic\projects\xpaxmltest\XPATests\Data\csv'"/>
+            <ExpSyntax val="Trim(Translate('%WorkingDir%')) &amp; 'Data\csv'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

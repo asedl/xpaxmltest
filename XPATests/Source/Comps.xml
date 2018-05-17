@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="6"/>
+    <LastIsn val="10"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -22,21 +22,59 @@
         <MciFile val="C:\magic\Magic XPA 3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
         <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
       </Component>
-      <Component id="6" name="System.Windows.Forms">
+      <Component id="6" name="5">
         <ComponentType val=".NET"/>
         <Type val="D"/>
         <LoadImmediate val="N"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
+      <Component id="7" name="System.Net">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="N"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="9" name="System.Net.Http">
+        <Description val="System.Net.Http"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="8" name="System.Net.WebSockets">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="N"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="10" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
     </Components>
-    <Aliases LastIsnAliases="4">
+    <Aliases LastIsnAliases="5">
       <Alias id="3">
         <name val="Saxon"/>
         <DotNetType val="net.sf.saxon"/>
       </Alias>
+      <Alias id="5">
+        <name val="WebSockets"/>
+        <DotNetType val="System.Net.WebSockets"/>
+      </Alias>
     </Aliases>
-    <JavaAliases LastIsnAliases="4">
+    <JavaAliases LastIsnAliases="5">
       <Alias id="4">
         <name val="XMLProcessor"/>
         <JavaType val="com.magic.examples.xml.XMLProcessor"/>

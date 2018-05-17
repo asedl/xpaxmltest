@@ -32,9 +32,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736824" _time="72956" date="10/05/2018" time="20:15:56"/>
+          <LastModified _date="736829" _time="12894" date="15/05/2018" time="03:34:54"/>
         </Header>
-        <ItemIsn val="18"/>
+        <ItemIsn val="19"/>
         <Resource>
           <Columns>
             <Column id="1" name="Filename (XML Input)">
@@ -155,6 +155,24 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="88">
+                  <Type val="0"/>
+                  <Text val="Transforms XML Input by applying XSLT and writes the result to a file"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="89">
+                  <Type val="0"/>
+                  <Text val="Implemented in a Java wrapper to Saxon HE library ..."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="90">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
