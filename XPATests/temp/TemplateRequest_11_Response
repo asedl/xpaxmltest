@@ -1,0 +1,4109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+
+
+<html>
+<head>
+	<title>SSL Server Test: www&#46;magicsoftware&#46;com (Powered by Qualys SSL Labs)</title>
+        <link href="/includes/analyze_ssllabs.css" rel="styleSheet" type="text/css">
+        <link href="/includes/analyze_report.css" rel="styleSheet" type="text/css">
+        <link href="/includes/main.css" rel="styleSheet" type="text/css">
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="referrer" content="no-referrer">
+
+	
+			
+
+</head>
+
+<body>
+
+
+
+<div id="page">
+
+
+    <div id="header">
+
+        <div id="logo">
+                        <a href="/index.html" rel="noreferrer"><img src="https://ssllabs.com/images/qualys-ssl-labs-logo.png" width="341"
+                height="55" alt="SSL Labs logo" title="SSL Labs logo"></a>
+                    </div>
+
+        <div id="navigation">
+            <a class="link" href="/index.html" rel="noreferrer">Home</a>
+            <a class="link" href="/projects/index.html" rel="noreferrer">Projects</a>
+            <a class="link" href="https://www.qualys.com" rel="noreferrer">Qualys.com</a>
+            <a class="link" href="/about/contact.html" rel="noreferrer">Contact</a>
+        </div>
+
+        <br clear="all" />
+    </div>
+
+	<div id="breadcrumbs">
+        <b>You are here:&nbsp;</b>
+        <a href="/index.html" rel="noreferrer">Home</a> &gt; <a href="/projects/index.html" rel="noreferrer">Projects</a>
+        &gt; <a href="/ssltest/index.html" rel="noreferrer">SSL Server Test</a> &gt;
+					www&#46;magicsoftware&#46;com			</div>
+
+<div id="main">
+	<div class="reportTitle">SSL Report: <span class="url">
+	    www&#46;magicsoftware&#46;com
+        </span> <span class=ip> (23&#46;185&#46;0&#46;2)</span>    </div> 
+        <div class="reportTime floatLeft" >
+    <b>Assessed on:</b>&nbsp; Wed, 16 May 2018 23:55:06 UTC
+                | <a href="hide.html?d=www.magicsoftware.com">Hide</a>
+        | <a href="analyze.html?d=www.magicsoftware.com&amp;clearCache=on">Clear cache</a>
+    </div>
+
+    <div class="floatRight"><a href="index.html" rel="noreferrer">Scan Another&nbsp;&raquo;</a></div>
+    <br clear="all"/>
+    
+    <div id="appleTestDiv" >
+        <div class="errorBox"><center>
+        Due to a recently discovered bug in Apple's code, your browser is exposed to MITM attacks. <a href="/ssltest/viewMyClient.html">Click here</a> for more information.
+        </center></div><br>
+    </div>
+
+    
+        
+	<div align="center">
+    
+		<div class="reportSection">
+	<div class="sectionTitle">Summary</div>
+	<div class="sectionBody">
+                <div id="rating" >
+
+            			    <div class="ratingTitle">Overall Rating</div>
+		    
+                        <div class="rating_g " id="gradeA">
+                                    A
+                            </div>
+
+			            
+                        
+            
+            
+            
+            
+
+			
+		</div>
+
+		<div id="chart">
+
+			<div class="chartScale">
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv zeroMargin" ></div>
+				<div class="chartScaleLabelRow">
+					<div class="chartScaleLabel">0</div>
+					<div class="chartScaleLabel">20</div>
+					<div class="chartScaleLabel">40</div>
+					<div class="chartScaleLabel">60</div>
+					<div class="chartScaleLabel">80</div>
+					<div class="chartScaleLabel">100</div>
+				</div>
+			</div>
+
+			<div class="chartBody">
+				<div class="chartRow">
+					<div class="chartLabel">Certificate</div>
+										<div class="chartBar_g category_width_300">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Protocol Support</div>
+										<div class="chartBar_g category_width_300">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Key Exchange</div>
+										<div class="chartBar_g category_width_270">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Cipher Strength</div>
+										<div class="chartBar_g category_width_270">&nbsp;</div>
+									</div>
+			</div>
+
+		</div>
+
+		<br clear="all">
+
+				<div class="infoBox">
+		Visit our <a href="https://www.ssllabs.com/projects/documentation/index.html" rel="noreferrer">documentation page</a>
+            for more information, configuration guides, and books. Known issues are documented
+        <a href="https://community.qualys.com/docs/DOC-4865">here</a>.
+		</div>
+
+				                                      
+                                                                    
+                
+                
+        		
+        
+				
+																																								
+		
+		
+        
+        
+        
+                
+                
+                
+                
+                
+                
+                
+				
+        
+                
+                
+                
+        
+                
+				
+		
+
+		
+
+        
+
+        
+
+                
+                                
+				
+				
+		        
+		                            
+		        
+				
+                
+                
+                
+                        
+                
+                
+                
+                
+						<div class="noticeBox">
+				This site works only in browsers with SNI support.
+				</div>
+		
+        
+
+        
+
+        
+
+                
+        
+
+        
+		        
+        
+        
+
+        
+	</div>
+    </div>
+
+     
+
+    <input id="chainCount" type="hidden" value="2">
+                                        <a name="3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698"></a>
+<div class="reportSection">
+<div class="sectionTitle">Certificate #1: RSA 2048 bits (SHA256withRSA)
+    </div>
+<div class="sectionBody chain1Block">
+
+		<!-- CERTIFICATE -->
+		<img class="tIcon" src="/images/icon-certificate.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div class="serverKeyCert">Server Key and Certificate #1</div>
+                                <a href="getTestCertificate?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895" title="Download server certificate">
+                    <div class="icon-download downloadIcon"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+        <tr class="tableRow">
+            <td class="tableLabel">Subject</td>
+            <td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">
+                5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+                <br><span class="greySmall">
+                Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+            </span>
+            </td>
+        </tr>
+
+		<tr class="tableRow">
+		    <td class="tableLabelTop">Common names</td>
+            <td class="tableCell">5748418722922496&#45;fe2&#46;pantheonsite&#46;io</td>
+		</tr>
+
+		<tr class="tableRow">
+                                                <td class="tableLabel">Alternative names</td>
+                    <td class="tableCell">5748418722922496&#45;fe2&#46;pantheonsite&#46;io&#32;5thstreeteast&#46;com&#32;alacrityturkey&#46;com&#32;alexf&#46;ninja&#32;battaenv&#46;com&#32;beta&#46;datatrend&#46;com&#32;bnai&#45;israel&#46;org&#32;capensiswines&#46;com&#32;cascadevalleywinecountry&#46;com&#32;constructional&#45;annotation&#46;net&#32;day&#45;ketterer&#46;com&#32;dayketterer&#46;com&#32;deleyes&#46;com&#32;dev&#46;cof&#46;org&#32;dev&#46;highlanderhr&#46;com&#32;dev&#46;jfwnow&#46;com&#32;etstrans&#46;com&#32;experience&#46;manipal&#46;edu&#32;futuradigital&#46;com&#46;au&#32;globalnetwork&#46;io&#32;glover&#45;ace&#46;com&#32;highlanderhr&#46;com&#32;hilldrup&#46;com&#32;i&#45;site&#46;com&#32;iammbk&#46;org&#32;infocypher&#46;com&#32;infomerkblatt&#46;ch&#32;inside&#46;stonybrookmedicine&#46;edu&#32;isabc&#46;ca&#32;kidsquestmuseum&#46;org&#32;kokomorescuemission&#46;org&#32;m&#46;todaystrucking&#46;com&#32;magicsoftware&#46;com&#32;midtownmartin&#46;com&#32;nycacc&#46;org&#32;nykolami&#46;org&#32;pattvet&#46;com&#32;preview&#46;buildnavajo&#46;org&#32;prostatespore&#46;weillcornell&#46;org&#32;remsmartpharmacy&#46;com&#32;return&#45;btn&#45;bugs&#45;1927&#46;coreservices&#46;win&#32;rosenbergcg&#46;com&#32;security&#46;capensiswines&#46;com&#32;security&#46;jfwnow&#46;com&#32;security&#46;silverpalmwines&#46;com&#32;segosolutions&#46;com&#32;sfaacademy&#46;org&#32;shopdocfords&#46;com&#32;shorelineconsulting&#46;ca&#32;suburbaninns&#46;com&#32;supportdriven&#46;com&#32;swissannoncen&#46;ch&#32;test&#46;highlanderhr&#46;com&#32;theacousticspot&#46;com&#32;todaystrucking&#46;com&#32;try&#46;tintri&#46;com&#32;uat&#46;grasslife&#46;ca&#32;vinylindesign&#46;com&#32;winners&#45;auctions&#46;com&#32;www&#46;5thstreeteast&#46;com&#32;www&#46;alacrityturkey&#46;com&#32;www&#46;archwdm&#46;com&#32;www&#46;battaenv&#46;com&#32;www&#46;berkscountyweddings&#46;com&#32;www&#46;bnai&#45;israel&#46;org&#32;www&#46;capensiswines&#46;com&#32;www&#46;cascadevalleywinecountry&#46;com&#32;www&#46;constructional&#45;annotation&#46;net&#32;www&#46;day&#45;ketterer&#46;com&#32;www&#46;dayketterer&#46;com&#32;www&#46;deleyes&#46;com&#32;www&#46;etstrans&#46;com&#32;www&#46;futuradigital&#46;com&#46;au&#32;www&#46;glover&#45;ace&#46;com&#32;www&#46;highlanderhr&#46;com&#32;www&#46;hilldrup&#46;com&#32;www&#46;i&#45;site&#46;com&#32;www&#46;iammbk&#46;org&#32;www&#46;infomerkblatt&#46;ch&#32;www&#46;isabc&#46;ca&#32;www&#46;kidsquestmuseum&#46;org&#32;www&#46;kokomorescuemission&#46;org&#32;www&#46;magicsoftware&#46;com&#32;www&#46;motorized&#45;cart&#46;com&#32;www&#46;northpointtower&#46;com&#46;au&#32;www&#46;nycacc&#46;org&#32;www&#46;nykolami&#46;org&#32;www&#46;pattvet&#46;com&#32;www&#46;remsmartpharmacy&#46;com&#32;www&#46;rosenbergcg&#46;com&#32;www&#46;segosolutions&#46;com&#32;www&#46;sfaacademy&#46;org&#32;www&#46;shopdocfords&#46;com&#32;www&#46;shorelineconsulting&#46;ca&#32;www&#46;strawberrysound&#46;co&#46;nz&#32;www&#46;suburbaninns&#46;com&#32;www&#46;supportdriven&#46;com&#32;www&#46;theacousticspot&#46;com&#32;www&#46;todaystrucking&#46;com&#32;www&#46;vinylindesign&#46;com</td>
+                            		</tr>
+
+				<tr class="tableRow">
+                            <td class="tableLabel">Serial Number</td>
+                <td>03f354dbf671d3cce9b6d20d428b96b674be</td>
+            		</tr>
+
+        		<tr class="tableRow">
+						    <td class="tableLabel">Valid from</td>
+			    <td class="tableCell">Mon, 07 May 2018 13:26:30 UTC</td>
+					</tr>
+
+				<tr class="tableRow">
+						    <td class="tableLabel">Valid until</td>
+			    <td class="tableCell">Sun, 05 Aug 2018 13:26:30 UTC (expires in 2 months and 19 days)</td>
+					</tr>
+
+				<tr class="tableRow">
+		    			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                (e 65537)</td>
+					</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel"> Weak key (Debian) </td>
+			<td class="tableCell"> No </td>
+		</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3                <br><span class="greySmall">
+                                    AIA: http&#58;&#47;&#47;cert&#46;int&#45;x3&#46;letsencrypt&#46;org&#47;
+                                        <br>
+                                </span>
+            </td>
+		</tr>
+
+				<tr class="tableRow">
+			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">SHA256withRSA</td>
+		</tr>
+		
+				<tr class="tableRow">
+			<td class="tableLabel">Extended Validation</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+                                                    <tr class="tableRow">
+                <td class="tableLabel"><font color=green>Certificate Transparency</font></td>
+                <td class="tableCell"><font color=green><b>Yes
+                                        (certificate)</b></font></td>
+            </tr>
+        
+                    <tr class="tableRow">
+                <td class="tableLabel">OCSP Must Staple</td>
+                <td class="tableCell">No</td>
+            </tr>
+        
+        
+		<tr class="tableRow">
+			<td class="tableLabel">Revocation information</td>
+			<td class="tableCell">
+						 OCSP 						            <br><span class="greySmall">
+                                        OCSP: http&#58;&#47;&#47;ocsp&#46;int&#45;x3&#46;letsencrypt&#46;org
+                                <br>
+                        </span>
+			</td>
+		</tr>
+
+				<tr class="tableRow">
+												<td class="tableLabel">Revocation status</td>
+			<td class="tableCell">Good (not revoked)    <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+            </td>
+								</tr>
+		
+        				<tr class="tableRow">
+			<td class="tableLabel"><font color=#F88017>DNS CAA</font></td>
+			<td class="tableCell"><font color=#F88017>No (<a class="colorF88017" href="https://blog.qualys.com/ssllabs/2017/03/13/caa-mandated-by-cabrowser-forum">more info</a>)</font></td>
+		</tr>
+		        
+        		<tr class="tableRow">
+						<td class="tableLabel"><font color=green>Trusted</font></td>
+			<td class="tableCell"><font color=green><b>Yes</b></font>
+			<b><br><span class="greySmall">
+			                                    <font color="green" title="Trusted by Mozilla trust store" class ="cursor-help">Mozilla</font>&nbsp;
+                                                                <font color="green" title="Trusted by Apple trust store" class ="cursor-help">Apple</font>&nbsp;
+                                                                <font color="green" title="Trusted by Android trust store" class ="cursor-help">Android</font>&nbsp;
+                                                                <font color="green" title="Trusted by Java trust store" class ="cursor-help">Java</font>&nbsp;
+                                                                <font color="green" title="Trusted by Windows trust store" class ="cursor-help">Windows</font>&nbsp;
+                                        </span></b>
+            </td>
+			
+		</tr>
+
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="/images/icon-certificates.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div class="serverKeyCert">Additional Certificates (if supplied)</div>
+                <a href="getTestChain?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895" title="Download server chain">
+                    <div class="icon-download downloadIcon"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Certificates provided</td>
+			<td class="tableCell">2 (4829 bytes)</td>
+		</tr>
+
+		<tr class="tableRow">
+                        <td class="tableLabel">Chain issues</td>
+            <td class="tableCell">None</font></td>
+                    </tr>
+
+						 						<tr class="tableSeparator"><td class="tableSubHead" colspan="2">#2</td></tr>
+
+		<tr class="tableRow">
+						<td class="tableLabel">Subject</td>
+			<td class="tableCell">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3 <br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;</span></td>
+					</tr>
+		<tr class="tableRow">
+						<td class="tableLabel">Valid until</td>
+			<td class="tableCell">Wed, 17 Mar 2021 16:40:46 UTC (expires in 2 years and 10 months)</td>
+					</tr>
+		<tr class="tableRow">
+            			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                 (e 65537)</td>
+					</tr>
+		<tr>
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell">DST&#32;Root&#32;CA&#32;X3</td>
+		</tr>
+
+				<tr class="tableRow">
+            			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">
+                SHA256withRSA</td>
+					
+		 		 
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="/images/icon-chain.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="3">
+				            	
+                <span class="hideIcon" cert="cert1" id="hidecert1"><img src="/images/collapse.png" title="Hide Certification Paths" width="14" height="14"></span>
+            	<span class="showIcon" cert="cert1" id="showcert1"><img src="/images/expand.png" title="Show Certification Paths" width="14" height="14"></span>
+			    Certification Paths</td>
+		</tr>
+		</thead>
+		</table>
+
+
+        <table class="reportTable cert1Block">
+        <thead>
+        <tr>
+        <td class="tableCell" colspan="3">
+                        <div class="tab">
+                            <button class="tablinks1" title="Mozilla" id="Mozilla1">Mozilla</button>
+                            <button class="tablinks1" title="OS&#32;X&#32;10&#46;11&#46;6" id="Apple1">Apple</button>
+                            <button class="tablinks1" title="Android&#32;8&#46;0" id="Android1">Android</button>
+                            <button class="tablinks1" title="Java&#32;8u161" id="Java1">Java</button>
+                            <button class="tablinks1" title="Windows" id="Windows1">Windows</button>
+                        </div>
+        </td>
+        </tr>
+        </thead>
+				        <tbody id="Mozilla1content" class="tabcontent1 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Trusted
+                
+                
+                
+                            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895&amp;id=1&amp;trustStore=1" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Apple1content" class="tabcontent1 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Trusted
+                
+                
+                
+                            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895&amp;id=1&amp;trustStore=2" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Android1content" class="tabcontent1 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Trusted
+                
+                
+                
+                            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895&amp;id=1&amp;trustStore=3" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Java1content" class="tabcontent1 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Trusted
+                
+                
+                
+                            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895&amp;id=1&amp;trustStore=4" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Windows1content" class="tabcontent1 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Trusted
+                
+                
+                
+                            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698&amp;time=1526514841895&amp;id=1&amp;trustStore=5" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5748418722922496&#45;fe2&#46;pantheonsite&#46;io">5748418722922496&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  1cf3376642cd6ea2a080cee106dcefbb3beb73d74d997946e6ee20d0e36e1100<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+				</table>
+		<p class="expand" id="expandcert1" cert="cert1"><span>Click here to expand</span></p>
+</div>
+</div>                            <a name="ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff"></a>
+<div class="reportSection">
+<div class="sectionTitle">Certificate #2: RSA 2048 bits (SHA256withRSA)
+            <span class="sectionInfo colorF88017 cursor-help"
+        title="We've obtained this certificate while connecting to the TLS server without Server Name Indication (SNI) enabled. Only very old clients will get this certificate. Review the complete results in the simulations section.">No SNI</span>
+        <span cert="chain2" class="hideIcon indent" id="hidechain2"><img src="/images/collapse.png" title="Hide Server Certificate" width="14" height="14"></span>
+        <span cert="chain2" class="showIcon indent" id="showchain2"><img src="/images/expand.png" title="Show Server Certificate" width="14" height="14"></span>
+    </div>
+<div class="sectionBody chain2Block">
+
+		<!-- CERTIFICATE -->
+		<img class="tIcon" src="/images/icon-certificate.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div class="serverKeyCert">Server Key and Certificate #1</div>
+                                <a href="getTestCertificate?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895" title="Download server certificate">
+                    <div class="icon-download downloadIcon"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+        <tr class="tableRow">
+            <td class="tableLabel">Subject</td>
+            <td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">
+                5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+                <br><span class="greySmall">
+                Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+            </span>
+            </td>
+        </tr>
+
+		<tr class="tableRow">
+		    <td class="tableLabelTop">Common names</td>
+            <td class="tableCell">5706504271298560&#45;fe2&#46;pantheonsite&#46;io</td>
+		</tr>
+
+		<tr class="tableRow">
+                                                <td class="tableLabel"><font color=red>Alternative names</font></td>
+                    <td class="tableCell"><font color=red>5706504271298560&#45;fe2&#46;pantheonsite&#46;io&#32;8xonthepark&#46;com&#32;aapde&#46;com&#32;abingtonhearthealth&#46;com&#32;act&#46;winningforwomen&#46;com&#32;au&#46;org&#32;blog&#46;winecollective&#46;ca&#32;cdnl&#46;tblsft&#46;com&#32;cdns&#46;tblsft&#46;com&#32;cdnsmall&#46;tableausoftware&#46;com&#32;chabadnorcal&#46;com&#32;chicagoems&#46;org&#32;communitychristian&#46;org&#32;csse&#46;mnhs&#46;org&#32;dev&#45;www&#45;1&#46;tableausoftware&#46;com&#32;dev&#46;stilpalast&#46;ch&#32;developer&#46;corelogic&#46;com&#32;docs&#46;piano&#46;io&#32;douglaselectricco&#46;com&#32;ecblog&#46;limestone&#46;edu&#32;evermind&#46;us&#32;fitness&#46;dev&#46;tabint&#46;net&#32;gatesinstitute&#46;org&#32;gateway&#46;redoriginproxy&#46;com&#32;globalinnovationhubsummit&#46;com&#32;hattrbridge&#46;co&#46;uk&#32;headlandproperty&#46;com&#46;au&#32;inspiredspine&#46;com&#32;inviarobotics&#46;net&#32;inviarobotics&#46;org&#32;jlfhc&#46;com&#32;justlikefamilyhomecare&#46;com&#32;members&#46;au&#46;org&#32;mncsse&#46;org&#32;nanofate&#46;eu&#32;ncf&#46;church&#32;necaaetc&#46;org&#32;neighborstaphouse&#46;com&#32;neo&#46;imccann&#46;com&#32;nvsenioradvisors&#46;com&#32;oceansnorth&#46;org&#32;origin&#45;pantheon&#45;www&#46;tableausoftware&#46;com&#32;origin&#45;www&#45;global&#46;tableau&#46;com&#32;origin&#45;www&#46;tableau&#46;com&#32;origin&#45;www&#46;tableausoftware&#46;com&#32;orion&#46;c3iot&#46;com&#32;rainforestqa&#46;com&#32;req&#46;co&#32;rr&#45;arch&#46;com&#32;shopping&#46;mindspring&#46;com&#32;signage&#46;limestone&#46;edu&#32;smcaonthebay&#46;org&#32;support&#46;au&#46;org&#32;tableau&#46;com&#32;templebetyam&#46;org&#32;test&#46;ferme&#45;ledevant&#46;fr&#32;thalassodesign&#46;com&#32;thenewreformtemple&#46;com&#32;traffic&#46;piano&#46;io&#32;vancouverenergyusa&#46;com&#32;wickdental&#46;com&#32;www&#46;8xonthepark&#46;com&#32;www&#46;abingtonhearthealth&#46;com&#32;www&#46;au&#46;org&#32;www&#46;chicagoems&#46;org&#32;www&#46;corporatetraveller&#46;ca&#32;www&#46;deliciouslyde&#46;com&#32;www&#46;donpickett&#46;com&#32;www&#46;douglaselectricco&#46;com&#32;www&#46;gatesinstitute&#46;org&#32;www&#46;globalinnovationhubsummit&#46;com&#32;www&#46;goodfind&#46;guru&#32;www&#46;hattrbridge&#46;co&#46;uk&#32;www&#46;headlandproperty&#46;com&#46;au&#32;www&#46;inspiredspine&#46;com&#32;www&#46;inviarobotics&#46;net&#32;www&#46;inviarobotics&#46;org&#32;www&#46;jlfhc&#46;com&#32;www&#46;justlikefamilyhomecare&#46;com&#32;www&#46;local1088&#46;org&#32;www&#46;local1321&#46;org&#32;www&#46;mncsse&#46;org&#32;www&#46;nanofate&#46;eu&#32;www&#46;ncf&#46;church&#32;www&#46;necaaetc&#46;org&#32;www&#46;neighborscookhouse&#46;com&#32;www&#46;neighborstaphouse&#46;com&#32;www&#46;nvsenioradvisors&#46;com&#32;www&#46;oceansnorth&#46;org&#32;www&#46;phoenixlighting&#46;com&#32;www&#46;phoenixproducts&#46;com&#32;www&#46;rainforestqa&#46;com&#32;www&#46;req&#46;co&#32;www&#46;rr&#45;arch&#46;com&#32;www&#46;smcaonthebay&#46;org&#32;www&#46;stilpalast&#46;ch&#32;www&#46;thalassodesign&#46;com&#32;www&#46;thenewreformtemple&#46;com&#32;www&#46;vancouverenergyusa&#46;com&#32;www&#46;wickdental&#46;com &nbsp; <b>MISMATCH</b></font></td>
+                            		</tr>
+
+				<tr class="tableRow">
+                            <td class="tableLabel">Serial Number</td>
+                <td>032a7625e92b5a703f78bce8ea51b14216cd</td>
+            		</tr>
+
+        		<tr class="tableRow">
+						    <td class="tableLabel">Valid from</td>
+			    <td class="tableCell">Fri, 04 May 2018 20:03:02 UTC</td>
+					</tr>
+
+				<tr class="tableRow">
+						    <td class="tableLabel">Valid until</td>
+			    <td class="tableCell">Thu, 02 Aug 2018 20:03:02 UTC (expires in 2 months and 16 days)</td>
+					</tr>
+
+				<tr class="tableRow">
+		    			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                (e 65537)</td>
+					</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel"> Weak key (Debian) </td>
+			<td class="tableCell"> No </td>
+		</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3                <br><span class="greySmall">
+                                    AIA: http&#58;&#47;&#47;cert&#46;int&#45;x3&#46;letsencrypt&#46;org&#47;
+                                        <br>
+                                </span>
+            </td>
+		</tr>
+
+				<tr class="tableRow">
+			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">SHA256withRSA</td>
+		</tr>
+		
+				<tr class="tableRow">
+			<td class="tableLabel">Extended Validation</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+                                                    <tr class="tableRow">
+                <td class="tableLabel"><font color=green>Certificate Transparency</font></td>
+                <td class="tableCell"><font color=green><b>Yes
+                                        (certificate)</b></font></td>
+            </tr>
+        
+                    <tr class="tableRow">
+                <td class="tableLabel">OCSP Must Staple</td>
+                <td class="tableCell">No</td>
+            </tr>
+        
+        
+		<tr class="tableRow">
+			<td class="tableLabel">Revocation information</td>
+			<td class="tableCell">
+						 OCSP 						            <br><span class="greySmall">
+                                        OCSP: http&#58;&#47;&#47;ocsp&#46;int&#45;x3&#46;letsencrypt&#46;org
+                                <br>
+                        </span>
+			</td>
+		</tr>
+
+				<tr class="tableRow">
+												<td class="tableLabel">Revocation status</td>
+			<td class="tableCell">Good (not revoked)    <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+            </td>
+								</tr>
+		
+        
+        		<tr class="tableRow">
+						<td class="tableLabel"><font color=red>Trusted</font></td>
+			<td class="tableCell"><font color=red>No &nbsp; <b>NOT TRUSTED</b>
+						<b><br><span class="greySmall">
+			                                    <font color="red" title="Not trusted by Mozilla trust store" class ="cursor-help">Mozilla</font>&nbsp;
+                                                                <font color="red" title="Not trusted by Apple trust store" class ="cursor-help">Apple</font>&nbsp;
+                                                                <font color="red" title="Not trusted by Android trust store" class ="cursor-help">Android</font>&nbsp;
+                                                                <font color="red" title="Not trusted by Java trust store" class ="cursor-help">Java</font>&nbsp;
+                                                                <font color="red" title="Not trusted by Windows trust store" class ="cursor-help">Windows</font>&nbsp;
+                                        </span></b>
+            </td>
+			
+		</tr>
+
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="/images/icon-certificates.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div class="serverKeyCert">Additional Certificates (if supplied)</div>
+                <a href="getTestChain?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895" title="Download server chain">
+                    <div class="icon-download downloadIcon"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Certificates provided</td>
+			<td class="tableCell">2 (4851 bytes)</td>
+		</tr>
+
+		<tr class="tableRow">
+                        <td class="tableLabel">Chain issues</td>
+            <td class="tableCell">None</font></td>
+                    </tr>
+
+						 						<tr class="tableSeparator"><td class="tableSubHead" colspan="2">#2</td></tr>
+
+		<tr class="tableRow">
+						<td class="tableLabel">Subject</td>
+			<td class="tableCell">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3 <br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;</span></td>
+					</tr>
+		<tr class="tableRow">
+						<td class="tableLabel">Valid until</td>
+			<td class="tableCell">Wed, 17 Mar 2021 16:40:46 UTC (expires in 2 years and 10 months)</td>
+					</tr>
+		<tr class="tableRow">
+            			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                 (e 65537)</td>
+					</tr>
+		<tr>
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell">DST&#32;Root&#32;CA&#32;X3</td>
+		</tr>
+
+				<tr class="tableRow">
+            			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">
+                SHA256withRSA</td>
+					
+		 		 
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="/images/icon-chain.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="3">
+				            	
+                <span class="hideIcon" cert="cert2" id="hidecert2"><img src="/images/collapse.png" title="Hide Certification Paths" width="14" height="14"></span>
+            	<span class="showIcon" cert="cert2" id="showcert2"><img src="/images/expand.png" title="Show Certification Paths" width="14" height="14"></span>
+			    Certification Paths</td>
+		</tr>
+		</thead>
+		</table>
+
+
+        <table class="reportTable cert2Block">
+        <thead>
+        <tr>
+        <td class="tableCell" colspan="3">
+                        <div class="tab">
+                            <button class="tablinks2" title="Mozilla" id="Mozilla2">Mozilla</button>
+                            <button class="tablinks2" title="OS&#32;X&#32;10&#46;11&#46;6" id="Apple2">Apple</button>
+                            <button class="tablinks2" title="Android&#32;8&#46;0" id="Android2">Android</button>
+                            <button class="tablinks2" title="Java&#32;8u161" id="Java2">Java</button>
+                            <button class="tablinks2" title="Windows" id="Windows2">Windows</button>
+                        </div>
+        </td>
+        </tr>
+        </thead>
+				        <tbody id="Mozilla2content" class="tabcontent2 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Not trusted (invalid&#32;certificate&#32;&#91;Fingerprint&#32;SHA256&#58;&#32;3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243&#93;)            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895&amp;id=1&amp;trustStore=1" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Apple2content" class="tabcontent2 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Not trusted (invalid&#32;certificate&#32;&#91;Fingerprint&#32;SHA256&#58;&#32;3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243&#93;)            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895&amp;id=1&amp;trustStore=2" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Android2content" class="tabcontent2 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Not trusted (invalid&#32;certificate&#32;&#91;Fingerprint&#32;SHA256&#58;&#32;3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243&#93;)            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895&amp;id=1&amp;trustStore=3" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Java2content" class="tabcontent2 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Not trusted (invalid&#32;certificate&#32;&#91;Fingerprint&#32;SHA256&#58;&#32;3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243&#93;)            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895&amp;id=1&amp;trustStore=4" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+		        <tbody id="Windows2content" class="tabcontent2 fadeEffect">
+				
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div class="serverKeyCert">
+                Path #1:  Not trusted (invalid&#32;certificate&#32;&#91;Fingerprint&#32;SHA256&#58;&#32;3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243&#93;)            </div>
+            <a href="getTestTrustPath?d=www.magicsoftware.com&amp;cid=ac2f1829cdcea124732c1308446d7bb20db0fd86fc4f97bcb6894d1ce174a0ff&amp;time=1526514841895&amp;id=1&amp;trustStore=5" title="Download chain">
+                <div class="icon-download downloadIcon"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>1</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;5706504271298560&#45;fe2&#46;pantheonsite&#46;io">5706504271298560&#45;fe2&#46;pantheonsite&#46;io
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  3d4713aa1b7966b508bcc21b544c5e907cd915365cc87116d35d8ce93cf9d243<br>
+                            Pin SHA256: lJ4nGLIPE02D7ySP5YGSJnl&#43;x6iamtDB&#47;2BCAl2mFxQ&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>2</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN&#61;Let&#39;s&#32;Encrypt&#32;Authority&#32;X3&#44;&#32;O&#61;Let&#39;s&#32;Encrypt&#44;&#32;C&#61;US">Let&#39;s&#32;Encrypt&#32;Authority&#32;X3
+
+                
+                
+                
+						<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d<br>
+                            Pin SHA256: YLh1dUR9y6Kja30RrAn7JKnbQG&#47;uEtLMkBgFF2Fuihg&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+						
+									
+									
+			                                    
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell tableCellRight" ><b>3</b></td>
+
+						<td class="tableCell tableCellCenter">
+			
+			                			     <font color=green>In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN&#61;DST&#32;Root&#32;CA&#32;X3&#44;&#32;O&#61;Digital&#32;Signature&#32;Trust&#32;Co&#46;">DST&#32;Root&#32;CA&#32;X3
+
+                
+                
+                
+			 &nbsp; <font color=grey>Self-signed</font>			<br>
+			<span class="greySmall">
+			Fingerprint SHA256:  0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739<br>
+                            Pin SHA256: Vjs8r4z&#43;80wjNcr1YKepWQboSIRi63WsWXhIMN&#43;eWys&#61;
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA1withRSA
+            
+						
+						
+									
+									
+			                        <br><font color="gray">Weak or insecure signature, but no impact on root certificate</b></font>            
+                <font color=#F88017><b>
+            </b></font>
+
+    <font color=#F88017><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+										</tbody>
+				</table>
+		<p class="expand" id="expandcert2" cert="cert2"><span>Click here to expand</span></p>
+</div>
+    <p class="expand" id="expandchain2" cert="chain2"><span>Click here to expand</span></p>
+</div>                    
+		
+		<div class="reportSection">
+		<div class="sectionTitle">Configuration</div>
+		<div class="sectionBody">
+
+		<!-- PROTOCOLS -->
+		<img class="tIcon" src="/images/icon-protocol.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Protocols</td>
+		</tr>
+		</thead>
+		<tbody>
+				<tr class="tableRow">
+			<td class="tableLeft">TLS 1.3</font></td>
+			<td class="tableRight">No</font></td>
+		</tr>
+						<tr class="tableRow">
+			<td class="tableLeft"><font color=green>TLS 1.2</font></td>
+			<td class="tableRight"><font color=green>Yes</font></td>
+		</tr>
+		
+		<tr class="tableRow">
+			<td class="tableLeft">TLS 1.1</td>
+			<td class="tableRight"> No </td>
+		</tr>
+		<tr class="tableRow">
+			<td class="tableLeft">TLS 1.0</td>
+			 <td class="tableRight">No </td>
+		</tr>
+
+				<tr class="tableRow">
+						<td class="tableLeft">SSL 3 </td>
+			<td class="tableRight">No</td>
+					</tr>
+
+		<tr class="tableRow">
+															<td class="tableLeft">SSL 2</td>
+			<td class="tableRight">No</td>
+								</tr>
+
+        <tr class="tableRow">
+        <td colspan="4">
+        <span class ="color666666">For TLS 1.3 tests, we currently support draft version 18.</b></span>
+        </td></tr>
+
+		
+		
+		
+		</tbody>
+		</table>
+
+		<br><br>
+
+        
+		<img class="tIcon" src="/images/icon-cipher.png" width="65" height="50" alt="">
+		<table class="reportTable">
+
+		<thead>
+		<tr>
+			<td id="suitesHeading" class="tableHead" colspan="3">Cipher Suites</td>
+		</tr>
+		</thead>
+
+		<tbody id="suitesBody">
+
+        
+        
+        
+        
+        
+        
+                                            <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+                <span class="hideIcon" cipher="cipher1" id="hidecipher1"><img src="/images/collapse.png" width="14" height="14"></span>
+                <span class="showIcon" cipher="cipher1" id="showcipher1"><img src="/images/expand.png" width="14" height="14"></span>
+                <div class="reportSubHeading"># TLS 1.2                                                 (suites in server-preferred order)
+                                    </div>
+            </td>
+            <tbody class="cipher1Block">                                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            <span class="color-green">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256 (<code>0xc02f</code>)</span>
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            <span class="color-green">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;256&#95;GCM&#95;SHA384 (<code>0xc030</code>)</span>
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256 (<code>0xc027</code>)
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;256&#95;CBC&#95;SHA384 (<code>0xc028</code>)
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA (<code>0xc013</code>)
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;256&#95;CBC&#95;SHA (<code>0xc014</code>)
+                    
+                                                            &nbsp; <span class=greySmall>ECDH x25519 (eq. 3072 bits RSA) &nbsp; FS</span>
+                                
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+               	                            <tr class="tableRow">
+                                        <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256 (<code>0x9c</code>)
+                                                                                    &nbsp; <b>WEAK</b></font>
+                </td>
+                <td class="tableRight"><font color=#F88017>128</font></td>
+
+                                </tr>
+               	                            <tr class="tableRow">
+                                        <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA (<code>0x2f</code>)
+                                                                                    &nbsp; <b>WEAK</b></font>
+                </td>
+                <td class="tableRight"><font color=#F88017>128</font></td>
+
+                                </tr>
+               	                            <tr class="tableRow">
+                                        <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#95;WITH&#95;AES&#95;256&#95;CBC&#95;SHA (<code>0x35</code>)
+                                                                                    &nbsp; <b>WEAK</b></font>
+                </td>
+                <td class="tableRight"><font color=#F88017>256</font></td>
+
+                                </tr>
+               	           	</tbody>
+        
+                
+        
+        
+                    <input id="noSniSuites" type="hidden" value="false">
+        
+        <input id="protocolCount" type="hidden" value="1">
+        <input id="identicalSuites" type="hidden" value="true">
+
+		
+        
+		</tbody>
+		</table>
+
+		<br><br>
+
+                		<img class="tIcon" src="/images/icon-handshake.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="4">Handshake Simulation</td>
+		</tr>
+		</thead>
+
+		
+                        	        	    <tbody>
+        	
+		        		 		 				        		 		 				        		 		 				        		 		 				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.4.2&amp;key=62">Android 4&#46;4&#46;2</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=5.0.0&amp;key=88">Android 5&#46;0&#46;0</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=6.0&amp;key=129">Android 6&#46;0</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; http&#47;1&#46;1</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=7.0&amp;key=139">Android 7&#46;0</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH x25519</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=BingPreview&amp;version=Jan%202015&amp;key=91">BingPreview Jan&#32;2015</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Chrome&amp;version=49&amp;platform=XP%20SP3&amp;key=136">Chrome 49 / XP&#32;SP3</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Chrome&amp;version=57&amp;platform=Win%207&amp;key=141">Chrome 57 / Win&#32;7</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH x25519</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=31.3.0%20ESR&amp;platform=Win%207&amp;key=84">Firefox 31&#46;3&#46;0&#32;ESR / Win&#32;7</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=47&amp;platform=Win%207&amp;key=132">Firefox 47 / Win&#32;7</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=49&amp;platform=XP%20SP3&amp;key=137">Firefox 49 / XP&#32;SP3</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=53&amp;platform=Win%207&amp;key=142">Firefox 53 / Win&#32;7</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH x25519</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Googlebot&amp;version=Feb%202018&amp;key=145">Googlebot Feb&#32;2018</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH x25519</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		 		 				        		 		 				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%207&amp;key=143">IE 11 / Win&#32;7</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%208.1&amp;key=134">IE 11 / Win&#32;8&#46;1</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; http&#47;1&#46;1</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%20Phone%208.1&amp;key=65">IE 11 / Win&#32;Phone&#32;8&#46;1</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; http&#47;1&#46;1</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%20Phone%208.1%20Update&amp;key=106">IE 11 / Win&#32;Phone&#32;8&#46;1&#32;Update</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; http&#47;1&#46;1</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%2010&amp;key=131">IE 11 / Win&#32;10</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Edge&amp;version=15&amp;platform=Win%2010&amp;key=144">Edge 15 / Win&#32;10</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH x25519</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Edge&amp;version=13&amp;platform=Win%20Phone%2010&amp;key=120">Edge 13 / Win&#32;Phone&#32;10</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=8u161&amp;key=147">Java 8u161</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=1.0.1l&amp;key=99">OpenSSL 1&#46;0&#46;1l</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=1.0.2e&amp;key=121">OpenSSL 1&#46;0&#46;2e</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=6&amp;platform=iOS%206.0.1&amp;key=33">Safari 6 / iOS&#32;6&#46;0&#46;1</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		 		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=7&amp;platform=iOS%207.1&amp;key=63">Safari 7 / iOS&#32;7&#46;1</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=7&amp;platform=OS%20X%2010.9&amp;key=35">Safari 7 / OS&#32;X&#32;10&#46;9</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=8&amp;platform=iOS%208.4&amp;key=85">Safari 8 / iOS&#32;8&#46;4</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=8&amp;platform=OS%20X%2010.10&amp;key=87">Safari 8 / OS&#32;X&#32;10&#46;10</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc027">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=9&amp;platform=iOS%209&amp;key=114">Safari 9 / iOS&#32;9</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=9&amp;platform=OS%20X%2010.11&amp;key=111">Safari 9 / OS&#32;X&#32;10&#46;11</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=10&amp;platform=iOS%2010&amp;key=140">Safari 10 / iOS&#32;10</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=10&amp;platform=OS%20X%2010.12&amp;key=138">Safari 10 / OS&#32;X&#32;10&#46;12</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Apple%20ATS&amp;version=9&amp;platform=iOS%209&amp;key=112">Apple&#32;ATS 9 / iOS&#32;9</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                    <span title="ALPN">&gt; h2</span>
+                    &nbsp;
+                                </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Yahoo%20Slurp&amp;version=Jan%202015&amp;key=92">Yahoo&#32;Slurp Jan&#32;2015</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=YandexBot&amp;version=Jan%202015&amp;key=93">YandexBot Jan&#32;2015</a>
+								</td>
+
+				
+        <td class="tableLeft"><span class="font-10">
+                                                <a class="simCertLink" href="#3069533df7139c8a993162d5d2f59ae955557d8a29e8899ccbbf747d4a6e5698" title="View certificate chain">RSA 2048 (SHA256)</a>
+                            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS&#32;1&#46;2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span class = "font-11" title="0xc02f">
+					TLS&#95;ECDHE&#95;RSA&#95;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256
+
+                    
+                    
+                                            &nbsp;
+                                                <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+																				</span>
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+						</tbody>
+		<tr>
+                	        	                       <tr class="tableSeparator">
+                   <td class="tableSubHead" colspan="4">
+                       <span class="hideIcon" id="hidesimulations"><img src="/images/collapse.png" width="14" height="14"></span>
+                       <span class="showIcon" id="showsimulations"><img src="/images/expand.png" width="14" height="14"></span>
+                       <div class="reportSubHeading"># Not simulated clients (Protocol mismatch)</div>
+                   </td>
+                   </tr>
+                   <tbody class="simulationsBlock">
+        	
+		        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=2.3.7&amp;key=56">Android 2&#46;3&#46;7</a>
+				 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.0.4&amp;key=58">Android 4&#46;0&#46;4</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.1.1&amp;key=59">Android 4&#46;1&#46;1</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.2.2&amp;key=60">Android 4&#46;2&#46;2</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.3&amp;key=61">Android 4&#46;3</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		 				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Baidu&amp;version=Jan%202015&amp;key=94">Baidu Jan&#32;2015</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=6&amp;platform=XP&amp;key=100">IE 6 / XP</a>
+		 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser effectively does not support Forward Secrecy.">No FS <sup>1</sup></span>		 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=7&amp;platform=Vista&amp;key=19">IE 7 / Vista</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=8&amp;platform=XP&amp;key=101">IE 8 / XP</a>
+		 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser effectively does not support Forward Secrecy.">No FS <sup>1</sup></span>		 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=8%2d10&amp;platform=Win%207&amp;key=113">IE 8&#45;10 / Win&#32;7</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=10&amp;platform=Win%20Phone%208.0&amp;key=64">IE 10 / Win&#32;Phone&#32;8&#46;0</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		 				        		 				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=6u45&amp;key=25">Java 6u45</a>
+				 &nbsp; <span class="greySmall colorF88017 cursor-help"
+		title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=7u25&amp;key=26">Java 7u25</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=0.9.8y&amp;key=27">OpenSSL 0&#46;9&#46;8y</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=5.1.9&amp;platform=OS%20X%2010.6.8&amp;key=32">Safari 5&#46;1&#46;9 / OS&#32;X&#32;10&#46;6&#46;8</a>
+								</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		<tr>
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=6.0.4&amp;platform=OS%20X%2010.8.4&amp;key=34">Safari 6&#46;0&#46;4 / OS&#32;X&#32;10&#46;8&#46;4</a>
+						&nbsp;<span class="greySmall"><font color=green>R</font></span>		</td>
+
+								<td class="tableLeft" colspan="3">
+		                    <font color="grey">Protocol&#32;mismatch&#32;&#40;not&#32;simulated&#41;</font><br>
+		                <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		 				        		 						</tbody>
+		<tr>
+        
+                <input id="notSimulatedCount" type="hidden" value=16 >
+        <tr><td colspan="4">
+            <p class="expand" id="expandsimulations"><span>Click here to expand</span></p>
+        </tr>
+        
+		<tr><td colspan="4">
+		<font color=grey>(1) Clients that do not support Forward Secrecy (FS) are excluded when determining support for it.</font>
+		</td></tr>
+
+		<tr><td colspan="4">
+		<font color=grey>(2) No support for virtual SSL hosting (SNI). Connects to the default site if the server uses SNI.</font>
+		</td></tr>
+
+				<tr><td colspan="4">
+		<font color=grey>(3) Only first connection attempt simulated. Browsers sometimes retry with a lower protocol version.</font>
+		</td></tr>
+		
+		<tr><td colspan="4">
+        <font color=grey>(R) Denotes a reference browser or client, with which we expect better effective security.</font>
+        </td></tr>
+
+        <tr><td colspan="4">
+        <font color=grey>(All) We use defaults, but some platforms do not use their best protocols and features (e.g., Java 6 & 7, older IE).</font>
+        </td></tr>
+
+        <tr><td colspan="4">
+        <font color=grey><b>(All) Certificate trust is not checked in handshake simulation, we only perform TLS handshake.</b></font>
+        </td></tr>
+
+		</tbody>
+		</table>
+		<br><br>
+        
+		<img class="tIcon" src="/images/icon-protocol-details.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Protocol Details</td>
+		</tr>
+		</thead>
+		<tbody>
+
+
+                
+        <tr class="tableRow">
+                                                                    <td class="tableLabel">DROWN</td>
+                        <td class="tableCell">No, server keys and hostname not seen elsewhere with SSLv2<br>
+                            <table><tr><td colspan="5" class="drown-test">
+                                <b>(1) For a better understanding of this test, please read <a href="https://blog.qualys.com/securitylabs/2016/03/04/ssl-labs-drown-test-implementation-details">this longer explanation</a></b><br>
+                            (2) Key usage data kindly provided by the <a href="https://censys.io/">Censys</a> network search engine; original DROWN website <a href="https://drownattack.com/">here</a><br>
+                            (3) Censys data is only indicative of possible key and certificate reuse; possibly out-of-date and not complete<br>
+                            </td></tr></table>
+                                        <font color=#F88017><b>
+                    </b></font>
+                                </td>
+                                        </tr>
+
+        
+                
+		
+														<tr class="tableRow">
+					<td class="tableLabel"><font color=green>Secure Renegotiation</font></td>
+					<td class="tableCell"><font color=green><b>Supported</b></font></td>
+				</tr>
+			
+						                <tr class="tableRow">
+                    <td class="tableLabel">Secure Client-Initiated Renegotiation</td>
+                    <td class="tableCell">No</td>
+                </tr>
+			
+									<tr class="tableRow">
+				<td class="tableLabel">Insecure Client-Initiated Renegotiation</td>
+				<td class="tableCell">No</td>
+			</tr>
+							
+		
+		
+		<tr class="tableRow">
+						<td class="tableLabel">BEAST attack</td>
+			<td class="tableCell">
+				Mitigated server-side (<a href="https://community.qualys.com/blogs/securitylabs/2013/09/10/is-beast-still-a-threat">more info</a>)
+				&nbsp;<span class=greySmall></span>
+				</font>
+			</td>
+			</tr>
+					</tr>
+
+        
+        <tr class="tableRow">
+                            <td class="tableLabel">POODLE (SSLv3)</td>
+                <td class="tableCell">
+                    No, SSL 3 not supported (<a href="https://community.qualys.com/blogs/securitylabs/2014/10/15/ssl-3-is-dead-killed-by-the-poodle-attack">more info</a>)
+                                </td>
+                    </tr>
+
+                <tr class="tableRow">
+                            <td class="tableLabel">POODLE (TLS)</td>
+                <td class="tableCell">
+                    No
+                    (<a href="https://community.qualys.com/blogs/securitylabs/2014/12/08/poodle-bites-tls">more info</a>)
+                </td>
+                    </tr>
+
+                <tr class="tablerow">
+                            <td class="tableLabel">Downgrade attack prevention</td>
+                <td class="tableCell">Unknown (requires support for at least two protocols, excl. SSL2)</td>
+                    </tr>
+
+		
+		
+				<tr class="tableRow">
+			<td class="tableLabel">SSL/TLS compression</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+						<tr class="tableRow">
+			<td class="tableLabel">RC4</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+                        <tr class="tableRow">
+            <td class="tableLabel">Heartbeat (extension)</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">Heartbleed (vulnerability)</td>
+            <td class="tableCell">No (<a href="https://community.qualys.com/blogs/securitylabs/2014/04/08/ssl-labs-test-for-the-heartbleed-attack">more info</a>)</td>
+        </tr>
+        
+                        <tr class="tableRow">
+            <td class="tableLabel">Ticketbleed (vulnerability)</td>
+            <td class="tableCell">No (<a href="https://blog.qualys.com/ssllabs/2017/02/23/ticketbleed-detection-added-to-ssl-labs">more info</a>)</td>
+        </tr>
+               
+                <tr class="tableRow">
+            <td class="tableLabel">OpenSSL CCS vuln. (CVE-2014-0224)</td>
+            <td class="tableCell">No (<a href="https://community.qualys.com/blogs/securitylabs/2014/06/13/ssl-pulse-49-vulnerable-to-cve-2014-0224-14-exploitable">more info</a>)</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">OpenSSL Padding Oracle vuln.<br>(CVE-2016-2107)</td>
+            <td class="tableCell">No (<a href="https://blog.cloudflare.com/yet-another-padding-oracle-in-openssl-cbc-ciphersuites/">more info</a>)</td>
+        </tr>
+        
+        
+                        <tr class="tableRow">
+            <td class="tableLabel">ROBOT (vulnerability)</td>
+            <td class="tableCell">No (<a href="https://robotattack.org/">more info</a>)</td>
+        </tr>
+        
+		                                <tr class="tableRow">
+                <td class="tableLabel"><font color="green">Forward Secrecy</font></td>
+                <td class="tableCell"><font color="green"><b>Yes (with most browsers)</b>
+                 &nbsp; <b>ROBUST</b> (<a class="color-green" href="https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices#25-use-forward-secrecy">more info</a>)</font></td>
+            </tr>
+                    
+                
+                            <tr class="tableRow">
+                <td class="tableLabel" title="Application-Layer Protocol Negotiation">ALPN</td>
+                <td class="tableCell">Yes &nbsp; <span class="greySmall">
+                                h2
+                                http&#47;1&#46;1
+                                </span></td>
+            </tr>
+        
+		
+				<tr class="tableRow">
+			<td class="tableLabel" title="Next Protocol Negotiation">NPN</td>
+			<td class="tableCell">No</td>
+		</tr>
+		        
+        		
+		
+				<tr class="tableRow">
+			<td class="tableLabel"><font color=#F88017>Session resumption (caching)</font></td>
+			<td class="tableCell"><font color=#F88017><b>No (IDs assigned but not accepted)</b></font></td>
+		</tr>
+		
+		
+		
+		
+				<tr class="tableRow">
+			<td class="tableLabel">Session resumption (tickets)</td>
+			<td class="tableCell">Yes</td>
+		</tr>
+		        
+		
+				<tr class="tableRow">
+                            <td class="tableLabel"><font color="green">OCSP stapling</font></td>
+                <td class="tableCell"><b><font color="green">Yes</font></b><font color=#F88017><b>
+    </b></font>
+</td>
+            		</tr>
+		
+                		
+		<tr class="tableRow">
+                            <td class="tableLabel"><font color=green>Strict Transport Security (HSTS)</font></td>
+                <td class="tableCell"><b><font color=green>Yes</font></b>                    &nbsp; <font color=#F88017><b>TOO SHORT (less than 180 days)</b></font>
+                                    <br><span class="greySmall">max&#45;age&#61;3600&#59;includeSubDomains</span>
+                </td>
+            		</tr>
+
+        
+                                                                                                
+        <tr class="tableRow">
+            <td class="tableLabel">HSTS Preloading</td>
+            <td class="tableCell"><b>
+                                                                                                                                                                
+                <font color="grey">
+                                                                                                        Not in:
+                                                <font color="grey" title="List updated on: Wed, 16 May 2018 23:13:00 UTC" class="cursor-help">Chrome</font>&nbsp;
+                                                                                                        <font color="grey" title="List updated on: Wed, 16 May 2018 23:11:01 UTC" class="cursor-help">Edge</font>&nbsp;
+                                                                                                        <font color="grey" title="List updated on: Wed, 16 May 2018 23:11:01 UTC" class="cursor-help">Firefox</font>&nbsp;
+                                                                                                        <font color="grey" title="List updated on: Wed, 16 May 2018 23:11:01 UTC" class="cursor-help">IE</font>&nbsp;
+                                                    </font>
+                </b>
+            </td>
+        </tr>
+
+        
+                            <tr class="tableRow">
+                <td class="tableLabel">Public&#32;Key&#32;Pinning&#32;&#40;HPKP&#41;</td>
+                <td class="tableCell">No (<a href="https://blog.qualys.com/ssllabs/2016/09/06/is-http-public-key-pinning-dead">more info</a>)</td>
+            </tr>
+        
+        
+                        <tr class="tableRow">
+            <td class="tableLabel">Public&#32;Key&#32;Pinning&#32;Report&#45;Only</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+
+                            <tr class="tableRow">
+                <td class="tableLabel">Public&#32;Key&#32;Pinning&#32;&#40;Static&#41;</td>
+                <td class="tableCell">No (<a href="https://community.qualys.com/thread/17152-what-is-static-public-key-pinning">more info</a>)</td>
+            </tr>
+                
+		
+
+        		
+		<tr class="tableRow">
+				<td class="tableLabel">Long handshake intolerance</td>
+		<td class="tableCell">No</td>
+				</tr>
+
+		
+				<tr class="tableRow">
+				<td class="tableLabel">TLS extension intolerance</td>
+		<td class="tableCell">No</td>
+				</tr>
+		
+		
+
+		
+				<tr class="tableRow">
+			<td class="tableLabel">TLS version intolerance</td>
+			<td class="tableCell">
+								<b><font color="#F88017">
+																</font>
+
+				<font color="#666666">
+								</font></b>
+				No							</td>
+		</tr>
+		
+                <tr class="tableRow">
+            <td class="tableLabel">Incorrect SNI alerts</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">Uses common DH primes</td>
+            <td class="tableCell">No, DHE suites not supported</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">DH public server param (Ys) reuse</td>
+            <td class="tableCell">No, DHE suites not supported</td>
+        </tr>
+        
+                                <tr class="tableRow">
+                <td class="tableLabel">ECDH public server param reuse</td>
+                <td class="tableCell">No</td>
+            </tr>
+                            
+                    <tr class="tableRow">
+                <td class="tableLabel">Supported Named Groups</font></td>
+                <td class="tableCell">
+                                    	    x25519,                                    	    secp256r1,                                    	    secp521r1,                                    	    secp384r1                                                                                            <span class=greySmall>(server preferred order)</span>
+                                                            </td>
+            </tr>
+        
+				<tr class="tableRow">
+			<td class="tableLabel">SSL 2 handshake compatibility</td>
+			<td class="tableCell"> Yes </td>
+		</tr>
+
+		</tbody>
+		</table>
+
+        <br><br>
+
+                <!-- HTTP Block -->
+        <a name="httpRequests"></a>
+		<img class="tIcon" src="/images/icon-http.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+			<tr>
+				<td class="tableHead">
+					<span class="hideIcon" id="hidehttp"><img src="/images/collapse.png" width="14" height="14"></span>
+					<span class="showIcon" id="showhttp"><img src="/images/expand.png" width="14" height="14"></span>
+					HTTP Requests
+				</td>
+			</tr>
+		</thead>
+		</thead>
+		</table>
+
+					    <table class="reportTable ">
+        <thead>
+			<tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+	            <div class="serverKeyCert">
+	                <span class="count">1</span>&nbsp;https&#58;&#47;&#47;www&#46;magicsoftware&#46;com&#47;
+	                	                    &nbsp;<span class="normal">(HTTP&#47;1&#46;1&#32;200&#32;OK)</span>
+	                	            </div>
+	        </td></tr>
+		</thead>
+		<tbody class="httpBlock">
+						<td class="tableCell tableCellCenter2" rowspan='26'>
+        	<strong>1</strong>
+        </td>
+					<tr class="tableRow">
+				<td class="tableLabel">Connection</td>
+				<td class="tableCell">close</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Cache&#45;Control</td>
+				<td class="tableCell">no&#45;cache&#44;&#32;must&#45;revalidate</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Content&#45;Language</td>
+				<td class="tableCell">en</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Content&#45;Type</td>
+				<td class="tableCell">text&#47;html&#59;&#32;charset&#61;utf&#45;8</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Expires</td>
+				<td class="tableCell">Sun&#44;&#32;19&#32;Nov&#32;1978&#32;05&#58;00&#58;00&#32;GMT</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Server</td>
+				<td class="tableCell">nginx</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Set&#45;Cookie</td>
+				<td class="tableCell">SSESS447b6c0c400a30253c943d8c989f573f&#61;bCLTgzuUiKZJqZGdumMYWGgJ5kw&#95;W&#95;NGCdJ&#95;WFv88xI&#59;&#32;expires&#61;Sat&#44;&#32;09&#45;Jun&#45;2018&#32;03&#58;27&#58;25&#32;GMT&#59;&#32;Max&#45;Age&#61;2000000&#59;&#32;path&#61;&#47;&#59;&#32;domain&#61;&#46;magicsoftware&#46;com&#59;&#32;secure&#59;&#32;HttpOnly</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Strict&#45;Transport&#45;Security</td>
+				<td class="tableCell">max&#45;age&#61;3600&#59;includeSubDomains</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Content&#45;Type&#45;Options</td>
+				<td class="tableCell">nosniff</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Frame&#45;Options</td>
+				<td class="tableCell">SAMEORIGIN</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Generator</td>
+				<td class="tableCell">Drupal&#32;7&#32;&#40;http&#58;&#47;&#47;drupal&#46;org&#41;</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Pantheon&#45;Styx&#45;Hostname</td>
+				<td class="tableCell">styx&#45;fe2&#45;5594f4b77&#45;lmn22</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Styx&#45;Req&#45;Id</td>
+				<td class="tableCell">styx&#45;2a844e5cd192e507b94f66f2a8c91200</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Ua&#45;Compatible</td>
+				<td class="tableCell">IE&#61;edge&#44;chrome&#61;1</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Via</td>
+				<td class="tableCell">1&#46;1&#32;varnish</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Accept&#45;Ranges</td>
+				<td class="tableCell">bytes</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Date</td>
+				<td class="tableCell">Wed&#44;&#32;16&#32;May&#32;2018&#32;23&#58;54&#58;06&#32;GMT</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Via</td>
+				<td class="tableCell">1&#46;1&#32;varnish</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Age</td>
+				<td class="tableCell">0</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Served&#45;By</td>
+				<td class="tableCell">cache&#45;mdw17383&#45;MDW&#44;&#32;cache&#45;sjc3651&#45;SJC</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Cache</td>
+				<td class="tableCell">MISS&#44;&#32;MISS</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Cache&#45;Hits</td>
+				<td class="tableCell">0&#44;&#32;0</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">X&#45;Timer</td>
+				<td class="tableCell">S1526514846&#46;555231&#44;VS0&#44;VE478</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">Vary</td>
+				<td class="tableCell">Accept&#45;Encoding&#44;&#32;Cookie&#44;&#32;Cookie</td>
+			</tr>
+					<tr class="tableRow">
+				<td class="tableLabel">transfer&#45;encoding</td>
+				<td class="tableCell">chunked</td>
+			</tr>
+		        
+		</tbody>
+		</table>
+				
+		<br><br>
+        
+		<img class="tIcon" src="/images/icon-misc.png" width="65" height="50" alt="">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Miscellaneous</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="tableRow">
+			<td class="tableLabel">Test date</td>
+			<td class="tableCell">Wed, 16 May 2018 23:54:01 UTC</td>
+		</tr>
+		<tr class="tableRow">
+			<td class="tableLabel">Test duration</td>
+			<td class="tableCell">64.977 seconds</td>
+		</tr>
+
+                		<tr class="tableRow">
+			<td class="tableLabel">HTTP status code</td>
+			<td class="tableCell">
+						200
+						</td>
+		</tr>
+
+		
+		<tr class="tableRow">
+			<td class="tableLabel">HTTP server signature</td>
+						<td class="tableCell">nginx</td>
+					</tr>
+        
+		<tr class="tableRow">
+			<td class="tableLabel">Server hostname</td>
+			<td class="tableCell"> - </td>
+		</tr>
+
+        
+
+		</tbody>
+		</table>
+
+		<br><br>
+
+		</div>
+		</div>
+
+		
+	
+	</div>
+
+			
+	<p class="grayText">SSL Report v1&#46;31&#46;0</p>
+
+</div>
+
+<script type="text/javascript" src="/includes/analyze_singleView.js"></script>
+
+
+
+</div>
+
+<div id="pageEnd">
+<div id="copyright">	
+	<table width=1050 border=0 cellpadding=5 cellspacing=0><tr>
+	<td class="footer">
+    Copyright &copy; 2009-2018 <a href="https://www.qualys.com">Qualys, Inc</A>. All Rights Reserved.
+    </td><td align=right class="footer">
+    <a href="https://www.ssllabs.com/about/terms.html" rel="noreferrer">Terms and Conditions</a>
+    </td></tr>
+    <tr>
+    <td class="footer">
+    Qualys is the leading provider of integrated <a href="https://www.qualys.com/solutions/infrastructure/">infrastructure security</a>,
+    <a href="https://www.qualys.com/solutions/cloud/">cloud infrastructure security</a>,
+    <a href="https://www.qualys.com/solutions/endpoint/">endpoint security</a>,
+    <a href="https://www.qualys.com/solutions/devsecops/">devsecops</a>,
+    <a href="https://www.qualys.com/solutions/compliance/">compliance</a>
+     and <a href="https://www.qualys.com/solutions/web-app/">web app security</a> solutions.
+    </td></tr>
+    </table>
+</div>
+</div>
+</body>
+</html>

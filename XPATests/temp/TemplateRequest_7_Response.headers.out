@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: gunicorn/19.8.1
+Date: Thu, 17 May 2018 00:48:29 GMT
+Content-Type: image/svg+xml
+Content-Length: 8984
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Via: 1.1 vegur
+

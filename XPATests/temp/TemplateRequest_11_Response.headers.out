@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Wed, 16 May 2018 21:46:19 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: JSESSIONID=4B8559C12F4CB2114F32AC1217786879; Path=/; Secure; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' ssllabs.com *.ssllabs.com;
+Transfer-Encoding: chunked
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection:keep-alive
+ Access-Control-Allow-Origin:*
+ Access-Control-Allow-Credentials:true
+ Content-Length:522
+ Content-Type:application/xml
+ Date:Thu, 17 May 2018 00:01:19 GMT
+ Server:gunicorn/19.8.1
+ Via:1.1 vegur
+ 

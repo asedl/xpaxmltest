@@ -5,9 +5,12 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="51"/>
-    <LastIsnFolder val="11"/>
+    <LastIsn val="56"/>
+    <LastIsnFolder val="12"/>
     <Folders>
+      <Folder id="12">
+        <Name val="ExportData"/>
+      </Folder>
       <Folder id="11">
         <Name val=".NET"/>
       </Folder>
@@ -38,6 +41,9 @@
       <Program id="42"/>
       <Program id="28"/>
       <Program id="25"/>
+      <Program FolderIsn="12" id="52"/>
+      <Program FolderIsn="12" id="54"/>
+      <Program FolderIsn="12" id="53"/>
       <Program FolderIsn="11" id="46"/>
       <Program FolderIsn="11" id="50"/>
       <Program FolderIsn="5" id="30"/>

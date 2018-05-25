@@ -28,4 +28,4 @@ exports/
 node_modules/
 
 ### Application temp
-temp/
+##temp/

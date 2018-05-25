@@ -4,14 +4,14 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="33"/>
+    <LastIsn val="35"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
 
   <ModelsRepository>
     <Models>
-      <Object id="12" name="Filename (Path)">
+      <Object Public="Filename (Path)" id="12" name="Filename (Path)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -20,11 +20,26 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="17" name="CommandLine">
+      <Object Public="CommandLine" id="17" name="CommandLine">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="2048"/>
           <Size id="174" val="4096"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="34">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="Y/N_Null">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Range id="98" valUnicode="Y,N"/>
+          <Picture id="157" valUnicode="1"/>
+          <NullAllowed id="166" val="Y"/>
+          <Size id="174" val="2"/>
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
@@ -42,7 +57,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Object>
-      <Object id="11" name="Uri">
+      <Object Public="Uri" id="11" name="Uri">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="2048"/>
@@ -51,7 +66,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="21" name="ResponseBody(Binary)">
+      <Object Public="ResponseBody(Binary)" id="21" name="ResponseBody(Binary)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -59,7 +74,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="20" name="ResponseBody(Unicode)">
+      <Object Public="ResponseBody(Unicode)" id="20" name="ResponseBody(Unicode)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="34"/>
@@ -69,7 +84,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="23" name="ResponseBody(Ansi)">
+      <Object Public="ResponseBody(Ansi)" id="23" name="ResponseBody(Ansi)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="29"/>
@@ -193,7 +208,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Object>
-      <Object id="26" name="script_id">
+      <Object Public="script_id" id="26" name="script_id">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="9"/>
@@ -203,7 +218,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="27" name="script_source">
+      <Object Public="script_source" id="27" name="script_source">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="2000"/>
@@ -212,7 +227,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="28" name="TemplateId">
+      <Object Public="TemplateId" id="28" name="TemplateId">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="9"/>
@@ -222,7 +237,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="29" name="TemplateSource">
+      <Object Public="TemplateSource" id="29" name="TemplateSource">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <StoredAs id="173" val="34"/>
@@ -232,7 +247,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="30" name="Filename">
+      <Object Public="Filename" id="30" name="Filename">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="255"/>
@@ -240,7 +255,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="31" name="Parameter(Blob)">
+      <Object Public="Parameter(Blob)" id="31" name="Parameter(Blob)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
@@ -248,7 +263,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="32" name="Parameter(Unicode1000)">
+      <Object Public="Parameter(Unicode1000)" id="32" name="Parameter(Unicode1000)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_UNICODE" id="1"/>
           <Picture id="157" valUnicode="1000"/>
@@ -257,7 +272,7 @@
           <PartOfDataview id="449"/>
         </PropertyList>
       </Object>
-      <Object id="33" name="Parameters(Vector)">
+      <Object Public="Parameters(Vector)" id="33" name="Parameters(Vector)">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_BLOB" id="1"/>
           <Size id="174" val="28"/>
