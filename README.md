@@ -10,6 +10,10 @@ There's a free "Magic XPA 3.3 SingleUser" available as a download from the vendo
 ## XPATests 
 Magic XPA 3.3 (SingleUser) project
 
+## XPATests /Components / Scripting / Roslyn
+Magic XPA 3.3 component which encapsulates some of the functionality of "Roslyn", the .NET Compiler platform.  
+-> [Magic XPA Roslyn component](/XPATests/Components/Scripting/Roslyn/README.md)
+
 ## XPATests / external / Java / XPATest
 Java class library used in some of the samples
 
