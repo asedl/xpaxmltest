@@ -1,0 +1,32 @@
+== Info:   Trying 54.209.64.71...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (54.209.64.71) port 80 (#0)
+=> Send header, 99 bytes (0x63)
+0000: GET /redirect-to?url=http2F2F HTTP/1.1
+0028: Host: httpbin.org
+003b: User-Agent: curl/7.59.0
+0054: Accept: */*
+0061: 
+<= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 FOUND
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.8.1
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 17 May 2018 00:37:23 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 20 bytes (0x14)
+0000: Location: http2F2F
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host httpbin.org left intact

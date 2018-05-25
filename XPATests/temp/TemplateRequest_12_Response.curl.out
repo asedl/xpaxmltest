@@ -1,0 +1,937 @@
+== Info:   Trying 64.41.200.100...
+== Info: TCP_NODELAY set
+== Info: Connected to www.ssllabs.com (64.41.200.100) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+  CAfile: C:\ProgramData\chocolatey\lib\curl\tools\curl_x64\curl-ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 213 bytes (0xd5)
+0000: ........9...o.X.Q.t......o!..u...4.-.p..8.,.0.........+./...$.(.
+0040: k.#.'.g.....9.....3.....=.<.5./.....p.........www.ssllabs.com...
+0080: ...................3t.........h2.http/1.1........... ...........
+00c0: .....................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....]
+== Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 93 bytes (0x5d)
+0000: ...Y...........6..;OT.&....B....,N.... ....d......n..+.....@<...
+0040: 0:.9^.4./....................
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 2773 bytes (0xad5)
+0000: .........90..50................)...n..`..0...*.H........0D1.0...
+0040: U....US1.0...U....DigiCert Inc1.0...U....DigiCert Global CA G20.
+0080: ..180502000000Z..190503120000Z0z1.0...U....US1.0...U....Californ
+00c0: ia1.0...U....Foster City1.0...U....Qualys, Inc.1.0...U....Produc
+0100: tion1.0...U....ssllabs.com0.."0...*.H.............0.........b..
+0140: .....q...!eGq......t..6.....[....+..@...rw..To........B.$...N1:z
+0180: 4.............noH.......0.i...Y...V.3..p...E..9<#^92.:.0..7..5..
+01c0: ........Y.e@XD.Gt........Wg/...#..\!7.S.\:.U8.&wL?W...r..C/.GJy.
+0200: .n.....f.5.'...7...a...).qm.Q.l... 7.{..S`oP"..(~...............
+0240: ....0...0...U.#..0...$n+-.j.QQ%i...G...@ 0...U.........,.....[.l
+0280: .....p4.0%..U....0...ssllabs.com..*.ssllabs.com0...U...........0
+02c0: ...U.%..0...+.........+.......0w..U...p0n05.3.1./http://crl3.dig
+0300: icert.com/DigiCertGlobalCAG2.crl05.3.1./http://crl4.digicert.com
+0340: /DigiCertGlobalCAG2.crl0L..U. .E0C07..`.H...l..0*0(..+.........h
+0380: ttps://www.digicert.com/CPS0...g.....0t..+........h0f0$..+.....0
+03c0: ...http://ocsp.digicert.com0>..+.....0..2http://cacerts.digicert
+0400: .com/DigiCertGlobalCAG2.crt0...U....0.0.....+.....y............v
+0440: .......q...#...{G8W...R....d6.......c.~0......G0E. 2.......X.Q.c
+0480: WzM.0.b.i...F.......!..m......x...S.TVY...R.!h.Q.a"Ot..w.oSv.1.1
+04c0: .....Q..w.......).....7.....c.~1m.....H0F.!...>J....H.~:D].....9
+0500: r....Ic..=.\.!.._.6.Y~...........9..U\....Z..+o0...*.H..........
+0540: .........7...wo.B....".,QX.W."...fx..WrZ..!.Ye..@d.` .....@Y...
+0580: ~...#R......K.$.2.K.$s.8......z....K.....P....<K7.....~..0...=..
+05c0: ..8q..&#5...fa<"..L...8%.`...............`..)...2....<QP..@. k..
+0600: .W ......p.WpK..B.Y_..2d.?.Yx7.?I....5.....j5..(2s]{.-....../...
+0640: .J....0...0..s............j.......A..0...*.H........0a1.0...U...
+0680: .US1.0...U....DigiCert Inc1.0...U....www.digicert.com1 0...U....
+06c0: DigiCert Global Root G20...130801120000Z..280801120000Z0D1.0...U
+0700: ....US1.0...U....DigiCert Inc1.0...U....DigiCert Global CA G20..
+0740: "0...*.H.............0.........H|....][./.NK.....a.[.>j.G..v.`..
+0780: k...W~`...T.V.!...Z._.j../#'.m.....x..\..6......W...@g.0.X5..a..
+07c0: .z...."../.......&...M,29.....e...a../`...J..o*........+.}....N3
+0800: ........./.,...h1=..J.......)vQ.6v...z8J.o...|9.......{x.6^t..%.
+0840: ....hk....5.UnHI.......^.w............Z0..V0...U.......0.......0
+0880: ...U...........04..+........(0&0$..+.....0...http://ocsp.digicer
+08c0: t.com0{..U...t0r07.5.3.1http://crl4.digicert.com/DigiCertGlobalR
+0900: ootG2.crl07.5.3.1http://crl3.digicert.com/DigiCertGlobalRootG2.c
+0940: rl0=..U. .60402..U. .0*0(..+.........https://www.digicert.com/CP
+0980: S0...U......$n+-.j.QQ%i...G...@ 0...U.#..0...N"T ....n..........
+09c0: 90...*.H..............9..........Z8...lY.6.E.1......2.ZU).O@....
+0a00: ......u.v...A.z.]...[...xb...b.w....K..C.b#'..Ymq?#[....$'o.....
+0a40: ,.T.....U.Qz.-.=xXR.chW..D.WJ`..pp[.(j.;NRE..$..H.......W......
+0a80: .&.....3..U0..YN..6.......M*...};.r.E...)N......7......>.....)5 
+0ac0: 5}..`..hb....$.......
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.9.Qv..Y....a........9}...o....jG.U...J$....k....?....#@
+0040: `N1f5...Z....H..Y...".....*.NT@*.\.f....Z.... S..@...,..H....`.
+0080: .G%El..C...\.3.Xf...........R...5.n/D.N.%k....a..........O.?.*..
+00c0: I&L%..M....z,M..<*y.....q......~.Pu..#.7=`.`..+.(.._.b..Oua..7.Q
+0100: S..N........t!.u.....i...%~V:.Y'.k..I...]n&........q+.....j...}I
+0140: ..;.H...Ft..)
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA...6.O..5S.....K.H....j.<t$i.....oE.?.....B.M}Z...X.....Gv
+0040: ..Q...
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: .......`.J=...?
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ........ ......i
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+== Info: ALPN, server did not agree to a protocol
+== Info: Server certificate:
+== Info:  subject: C=US; ST=California; L=Foster City; O=Qualys, Inc.; OU=Production; CN=ssllabs.com
+== Info:  start date: May  2 00:00:00 2018 GMT
+== Info:  expire date: May  3 12:00:00 2019 GMT
+== Info:  subjectAltName: host "www.ssllabs.com" matched cert's "*.ssllabs.com"
+== Info:  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global CA G2
+== Info:  SSL certificate verify ok.
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send header, 104 bytes (0x68)
+0000: GET /ssltest/viewMyClient.html HTTP/1.1
+0029: Host: www.ssllabs.com
+0040: User-Agent: curl/7.59.0
+0059: Accept: */*
+0066: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....D
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 17 May 2018 00:35:02 GMT
+<= Recv header, 16 bytes (0x10)
+0000: Server: Apache
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 33 bytes (0x21)
+0000: X-Xss-Protection: 1; mode=block
+<= Recv header, 45 bytes (0x2d)
+0000: Strict-Transport-Security: max-age=31536000
+<= Recv header, 39 bytes (0x27)
+0000: Content-Type: text/html;charset=UTF-8
+<= Recv header, 83 bytes (0x53)
+0000: Set-Cookie: JSESSIONID=1652E457A444B746F4DA248E64A422E9; Path=/;
+0040:  Secure; HttpOnly
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 23 bytes (0x17)
+0000: X-Frame-Options: DENY
+<= Recv header, 177 bytes (0xb1)
+0000: Content-Security-Policy: default-src 'self' ssllabs.com www.ssll
+0040: abs.com:* http://plaintext.ssllabs.com plaintext.ssllabs.com  ws
+0080: s://www.ssllabs.com ws://plaintext.ssllabs.com;
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 6 bytes (0x6)
+0000: 2000
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....<
+<= Recv data, 7716 bytes (0x1e24)
+0000: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+0040: ."http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+007d: 
+007f: 
+0081: <html>
+0089: <head>
+0091: .<title>Qualys SSL Labs - Projects / SSL Client Test</title>
+00cf: 
+00d1: .<meta http-equiv="Content-Type" content="text/html;charset=utf-
+0111: 8" />
+0118: 
+011a: .<link href="/includes/ssllabs.css" rel="styleSheet" type="text/
+015a: css">
+0161: .<link href="/includes/report.css" rel="styleSheet" type="text/c
+01a1: ss">
+01a7: .<link href="/includes/main.css" rel="styleSheet" type="text/css
+01e7: ">
+01eb: .<script type="text/javascript" src="/includes/jquery-1.11.0.min
+022b: .js"></script>
+023b: </head>
+0244: 
+0246: <body>
+024e: 
+0250: 
+0252: 
+0254: <div id="page">
+0265: 
+0267: 
+0269:     <div id="header">
+0280: 
+0282:         <div id="logo">
+029b:                         <a href="/index.html" rel="noreferrer"><
+02db: img src="https://ssllabs.com/images/qualys-ssl-labs-logo.png" wi
+031b: dth="341"
+0326:                 height="55" alt="SSL Labs logo" title="SSL Labs 
+0366: logo"></a>
+0372:                     </div>
+038e: 
+0390:         <div id="navigation">
+03af:             <a class="link" href="/index.html" rel="noreferrer">
+03ef: Home</a>
+03f9:             <a class="link" href="/projects/index.html" rel="nor
+0439: eferrer">Projects</a>
+0450:             <a class="link" href="https://www.qualys.com" rel="n
+0490: oreferrer">Qualys.com</a>
+04ab:             <a class="link" href="/about/contact.html" rel="nore
+04eb: ferrer">Contact</a>
+0500:         </div>
+0510: 
+0512:         <br clear="all" />
+052e:     </div>
+053a: 
+053c: .<div id="breadcrumbs">
+0555:         <b>You are here:&nbsp;</b>
+0579:         <a href="/index.html">Home</a>
+05a1:         .&gt; <a href="/projects/index.html">Projects</a>
+05dc:         .        .&gt; SSL Client Test 
+0605:         ..</div>
+0617: 
+0619: <div id="main">
+062a: 
+062c: .    <div class="floatLeft">
+064a: .<div class="reportTitle report-title-style">SSL/TLS Capabilitie
+068a: s of Your Browser</div>
+06a3:     <div class="reportTime width-650"><b>User Agent:</b> curl&#4
+06e3: 7;7&#46;59&#46;0</div>    </div>
+0705:     <div class="floatRight"><br><a href="/ssltest/clients.html">
+0745: Other User Agents&nbsp;&raquo;</a></div>
+076f:     <br clear="all"/>
+0786:     
+078c:     
+0792:     <div align="center">
+07ac: 
+07ae:     
+07b4:     
+07ba:     
+07c0:     <noscript>
+07d0:         <div id=warningBox class="warning-box-line-height">
+080d:         <b>Without JavaScript, the following tests will not run:
+084d: </b>
+0853:         (1) Accurate protocol support, (2) SSL 3 POODLE vulnerab
+0893: ility, (3) mixed content handling,
+08b7:             (4) TLS authentication bug in Apple's products, and 
+08f7: (5) the FREAK attack.
+090e:         Please enable JavaScript for best results.
+0942:         </ul>
+0951:         </div>
+0961:         <br>
+096f:     </noscript>
+0980: 
+0982:     
+0988:     <div id="mixedCSSHiddenDiv1" class="display-none"></div>
+09c6:     <div id="mixedCSSHiddenDiv2" class="display-none"></div>
+0a04:     <iframe src="http://plaintext.ssllabs.com/plaintext/frame.ht
+0a44: ml" class="display-none" width="0" height="0"></iframe>
+0a7d: 
+0a7f:         <div id="hiddenImagesDiv" class="display-none"></div>
+0abe:     <div id="protocolSupportDiv" class="display-none"></div>
+0afc: 
+0afe: 
+0b00:     
+0b06:     <div class="reportSection" id="protocolTestDiv">
+0b3c:         <div class="sectionTitle" id="protocolTestHeading">Proto
+0b7c: col Support</div>
+0b8f:         <div class="sectionBody">
+0bb2:             <div id="protocolTestMsg"><img src=/images/progress-
+0bf2: indicator.gif width=16 height=16> Please wait, checking protocol
+0c32:  support...</div>
+0c45:             <div id="protocolTestMsgNotes"></div>
+0c78:         </div>
+0c88:     </div>
+0c94: 
+0c96:         <div class="reportSection" id="jamTestDiv">
+0ccb:             <div class="sectionTitle">Logjam Vulnerability</div>
+0d0d:             <div class="sectionBody">
+0d34:                 <div id="jamTestMsg"><img src=/images/progress-i
+0d74: ndicator.gif width=16 height=16> Please wait, checking if your u
+0db4: ser agent is vulnerable...</div>
+0dd6:                 <div id="jamTestMsgNotes">
+0e02:                     For more information about the Logjam attack
+0e42: , please go to
+0e52:                     <a href="https://weakdh.org">weakdh.org</a>.
+0e92: <br>
+0e98:                     To test manually, click <a href="https://www
+0ed8: .ssllabs.com:10445/">here</a>.
+0ef8:                     Your user agent is not vulnerable if it fail
+0f38: s to connect to the site.</div>
+0f59:             </div>
+0f6d:         </div>
+0f7d: 
+0f7f:         <div class="reportSection" id="freakTestDiv">
+0fb6:             <div class="sectionTitle">FREAK Vulnerability</div>
+0ff7:             <div class="sectionBody">
+101e:                 <div id="freakTestMsg"><img src=/images/progress
+105e: -indicator.gif width=16 height=16> Please wait, checking if your
+109e:  user agent is vulnerable...</div>
+10c2:                 <div id="freakTestMsgNotes">
+10f0:                     For more information about the FREAK attack,
+1130:  please go to
+113f:                     <a href="https://www.freakattack.com">www.fr
+117f: eakattack.com</a>.<br>
+1197:                     To test manually, click <a href="https://www
+11d7: .ssllabs.com:10444/">here</a>.
+11f7:                 Your user agent is not vulnerable if it fails to
+1237:  connect to the site.</div>
+1254:             </div>
+1268:         </div>
+1278: 
+127a:     <div class="reportSection" id="ssl3TestDiv">
+12ac:     <div class="sectionTitle">POODLE Vulnerability</div>
+12e6:     <div class="sectionBody">
+1305:         <div id="ssl3TestMsg"><img src=/images/progress-indicato
+1345: r.gif width=16 height=16> Please wait, checking if your user age
+1385: nt is vulnerable...</div>
+13a0:         <div id="ssl3TestMsgNotes">For more information about th
+13e0: e POODLE attack, please read <a href="https://community.qualys.c
+1420: om/blogs/securitylabs/2014/10/15/ssl-3-is-dead-killed-by-the-poo
+1460: dle-attack">this blog post</a>.</div>
+1487:     </div>
+1493:     </div>
+149f: 
+14a1:     <div class="reportSection" id="ssl2TestDiv">
+14d3:     <div class="sectionTitle">SSL 2 Protocol Support</div>
+150f:     <div class="sectionBody">
+152e:         <div id="ssl2TestMsg"><font color="red">Your user agent 
+156e: supports SSL 2. You should upgrade.</font></div>
+15a0:         <div id="ssl2TestMsgNotes">SSL 2 is a very old, obsolete
+15e0: , and insecure version of the SSL protocol. You can usually disa
+1620: ble this protocol
+1633: .version in configuration, but modern clients don't support it a
+1673: t all. This really means that you should upgrade your software
+16b3: .to a better version.</div>
+16d0:     </div>
+16dc:     </div>
+16e8: 
+16ea:     <script type="text/javascript" src="/includes/viewClient.js"
+172a: ></script>
+1736:     <input id="mainsitehost" type="hidden" value=www.ssllabs.com
+1776:  >
+177a:     <input id="plaintextSiteHost" type="hidden" value=plaintext.
+17ba: ssllabs.com >
+17c9:     <div class="reportSection" id="appleTestDiv">
+17fc:     <div class="sectionTitle">iOS and OS X TLS Authentication Vu
+183c: lnerability</div>
+184f:     <div class="sectionBody">
+186e: 
+1870:         <div id="appleTestMsg"><img src=/images/progress-indicat
+18b0: or.gif width=16 height=16> Please wait, checking if your user ag
+18f0: ent is vulnerable...</div>
+190c:         <div id="appleTestMsgNotes">To test manually, <a href="h
+194c: ttps://www.ssllabs.com:10443">click here</a>. If your
+1983:             user agent refuses to connect, you are not vulnerabl
+19c3: e. This test requires a connection to the SSL Labs
+19f7:             server on port 10443. A strict outbound firewall mig
+1a37: ht interfere. You should test Safari running on
+1a68:             iOS or OS X. Chrome and Firefox are not vulnerable, 
+1aa8: even when running on a vulnerable operating system.
+1add:         <a href="https://community.qualys.com/blogs/securitylabs
+1b1d: /2014/02/24/ssl-labs-testing-for-apples-tls-authentication-bug">
+1b5d: <b>MORE&nbsp;&raquo;</b></a></div>
+1b81: 
+1b83:         <script type="text/javascript" src="/includes/viewClient
+1bc3: -appleTest.js"></script>
+1bdd: 
+1bdf:     </div>
+1beb:     </div>
+1bf7:     
+1bfd:     <div class="reportSection">
+1c1e: .<div class="sectionTitle">Protocol Features</div>
+1c52: .<div class="sectionBody">
+1c6e: 
+1c70: .<input id="tls13Support" type="hidden" value=-1 >
+1ca4: .<img class="tIcon" src="/images/icon-protocol.png" width="65" h
+1ce4: eight="50">
+1cf1: .<table class="reportTable">
+1d0f: .<thead>
+1d19: .<tr>
+1d20: ..<td class="tableHead" colspan="2" align="left">Protocols</td>
+1d61: .</tr>
+1d69: .</thead>
+1d74: .<tbody>
+1d7e: .
+1d81: .
+1d84:     <tr class="tableRow">
+1d9f:         <td class="tableLeft" id="protocol_tls1_3_label"> TLS 1.
+1ddf: 3 </td>
+1de8:         <td class="tableRight" id="protocol_tls1_3">No</td>.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 476 bytes (0x1dc)
+0000: .    </tr>
+000c:     <tr class="tableRow">
+0027:         <td class="tableLeft" id="protocol_tls1_2_label">TLS 1.2
+0067: </td>
+006e:         <td class="tableRight" id="protocol_tls1_2">Yes*</td>
+00ad:     </tr>
+00b8: .<tr class="tableRow">
+00d0: ..<td class="tableLeft">TLS 1.1</td>
+00f6: ..<td class="tableRight" id="protocol_tls1_1">Yes*</td>
+012f: .</tr>
+0137: .<tr class="tableRow">
+014f: ..<td class="tableLeft">TLS 1.0</td>
+0175: ..<td class="tableRight" id="protocol_tls1">Yes*</td>
+01ac: .</tr>
+01b4: .<tr class="tableRow">
+01cc: ..<td class="tab
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....!
+<= Recv data, 521 bytes (0x209)
+0000: 204
+0005: leLeft" id="protocol_ssl3_label">SSL 3</td>
+0032: ..<td class="tableRight" id="protocol_ssl3">Yes*</td>
+0069: .</tr>
+0071: .<tr class="tableRow">
+0089: ....<td class="tableLeft" id="protocol_ssl2_label">SSL 2</td>
+00c8: ..<td class="tableRight" id="protocol_ssl2">No</td>...
+0100: ...</tr>
+010a: ..
+010e: ..<noscript>
+011c:     <tr class="tableRow">
+0137: .<td colspan=2 align=left>
+0153: .<span class="color666666">(*) Without JavaScript, this test rel
+0193: iably detects only the highest supported protocol.</span>
+01ce: .</td>
+01d6: .</tr>
+01de:     </noscript>
+01ef: ..
+01f3: .</tbody>
+01fe: .</table>
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 6 bytes (0x6)
+0000: 1dfc
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 7676 bytes (0x1dfc)
+0000: .
+0003: .<br><br>
+000e:             
+001c:     <img class="tIcon" src="/images/icon-cipher.png" width="65" 
+005c: height="50" alt="">
+0071: .<table class="reportTable">
+008f: ..
+0093: .<thead>
+009d: .<tr>
+00a4: ..<td class="tableHead" colspan="3" align="left">Cipher Suites (
+00e4: in order of preference)</td>
+0102: .</tr>
+010a: .</thead>
+0115: .
+0118: ..<tr>
+0120: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+0160: 95;AES&#95;256&#95;GCM&#95;SHA384 (<code>0xc02c</code>)
+0199: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+01d9: </span>
+01e2: ..    ..    </td>
+01f5: ..    <td class="tableRight">256</td>
+021c: ...</tr>
+0226: ..<tr>
+022e: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+026e: ;AES&#95;256&#95;GCM&#95;SHA384 (<code>0xc030</code>)
+02a5: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+02e5: </span>
+02ee: ..    ..    </td>
+0301: ..    <td class="tableRight">256</td>
+0328: ...</tr>
+0332: ..<tr>
+033a: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+037a: ES&#95;256&#95;GCM&#95;SHA384 (<code>0x9f</code>)
+03ad: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+03ed: </span>
+03f6: ..    ..    </td>
+0409: ..    <td class="tableRight">256</td>
+0430: ...</tr>
+043a: ..<tr>
+0442: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+0482: 95;CHACHA20&#95;POLY1305&#95;SHA256 (<code>0xcca9</code>)
+04bd: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+04fd: </span>
+0506: ..    ..    </td>
+0519: ..    <td class="tableRight">256</td>
+0540: ...</tr>
+054a: ..<tr>
+0552: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+0592: ;CHACHA20&#95;POLY1305&#95;SHA256 (<code>0xcca8</code>)
+05cb: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+060b: </span>
+0614: ..    ..    </td>
+0627: ..    <td class="tableRight">256</td>
+064e: ...</tr>
+0658: ..<tr>
+0660: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;C
+06a0: HACHA20&#95;POLY1305&#95;SHA256 (<code>0xccaa</code>)
+06d7: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0717: </span>
+0720: ..    ..    </td>
+0733: ..    <td class="tableRight">256</td>
+075a: ...</tr>
+0764: ..<tr>
+076c: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+07ac: 95;AES&#95;128&#95;GCM&#95;SHA256 (<code>0xc02b</code>)
+07e5: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0825: </span>
+082e: ..    ..    </td>
+0841: ..    <td class="tableRight">128</td>
+0868: ...</tr>
+0872: ..<tr>
+087a: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+08ba: ;AES&#95;128&#95;GCM&#95;SHA256 (<code>0xc02f</code>)
+08f1: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0931: </span>
+093a: ..    ..    </td>
+094d: ..    <td class="tableRight">128</td>
+0974: ...</tr>
+097e: ..<tr>
+0986: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+09c6: ES&#95;128&#95;GCM&#95;SHA256 (<code>0x9e</code>)
+09f9: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0a39: </span>
+0a42: ..    ..    </td>
+0a55: ..    <td class="tableRight">128</td>
+0a7c: ...</tr>
+0a86: ..<tr>
+0a8e: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+0ace: 95;AES&#95;256&#95;CBC&#95;SHA384 (<code>0xc024</code>)
+0b07: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0b47: </span>
+0b50: ..    ..    </td>
+0b63: ..    <td class="tableRight">256</td>
+0b8a: ...</tr>
+0b94: ..<tr>
+0b9c: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+0bdc: ;AES&#95;256&#95;CBC&#95;SHA384 (<code>0xc028</code>)
+0c13: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0c53: </span>
+0c5c: ..    ..    </td>
+0c6f: ..    <td class="tableRight">256</td>
+0c96: ...</tr>
+0ca0: ..<tr>
+0ca8: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+0ce8: ES&#95;256&#95;CBC&#95;SHA256 (<code>0x6b</code>)
+0d1b: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0d5b: </span>
+0d64: ..    ..    </td>
+0d77: ..    <td class="tableRight">256</td>
+0d9e: ...</tr>
+0da8: ..<tr>
+0db0: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+0df0: 95;AES&#95;128&#95;CBC&#95;SHA256 (<code>0xc023</code>)
+0e29: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0e69: </span>
+0e72: ..    ..    </td>
+0e85: ..    <td class="tableRight">128</td>
+0eac: ...</tr>
+0eb6: ..<tr>
+0ebe: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+0efe: ;AES&#95;128&#95;CBC&#95;SHA256 (<code>0xc027</code>)
+0f35: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+0f75: </span>
+0f7e: ..    ..    </td>
+0f91: ..    <td class="tableRight">128</td>
+0fb8: ...</tr>
+0fc2: ..<tr>
+0fca: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+100a: ES&#95;128&#95;CBC&#95;SHA256 (<code>0x67</code>)
+103d: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+107d: </span>
+1086: ..    ..    </td>
+1099: ..    <td class="tableRight">128</td>
+10c0: ...</tr>
+10ca: ..<tr>
+10d2: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+1112: 95;AES&#95;256&#95;CBC&#95;SHA (<code>0xc00a</code>)
+1148: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+1188: </span>
+1191: ..    ..    </td>
+11a4: ..    <td class="tableRight">256</td>
+11cb: ...</tr>
+11d5: ..<tr>
+11dd: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+121d: ;AES&#95;256&#95;CBC&#95;SHA (<code>0xc014</code>)
+1251: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+1291: </span>
+129a: ..    ..    </td>
+12ad: ..    <td class="tableRight">256</td>
+12d4: ...</tr>
+12de: ..<tr>
+12e6: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+1326: ES&#95;256&#95;CBC&#95;SHA (<code>0x39</code>)
+1356: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+1396: </span>
+139f: ..    ..    </td>
+13b2: ..    <td class="tableRight">256</td>
+13d9: ...</tr>
+13e3: ..<tr>
+13eb: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;ECDSA&#95;WITH&#
+142b: 95;AES&#95;128&#95;CBC&#95;SHA (<code>0xc009</code>)
+1461: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+14a1: </span>
+14aa: ..    ..    </td>
+14bd: ..    <td class="tableRight">128</td>
+14e4: ...</tr>
+14ee: ..<tr>
+14f6: ....    <td class="tableLeft">TLS&#95;ECDHE&#95;RSA&#95;WITH&#95
+1536: ;AES&#95;128&#95;CBC&#95;SHA (<code>0xc013</code>)
+156a: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+15aa: </span>
+15b3: ..    ..    </td>
+15c6: ..    <td class="tableRight">128</td>
+15ed: ...</tr>
+15f7: ..<tr>
+15ff: ....    <td class="tableLeft">TLS&#95;DHE&#95;RSA&#95;WITH&#95;A
+163f: ES&#95;128&#95;CBC&#95;SHA (<code>0x33</code>)
+166f: ..     &nbsp; <span class="dhParams color-green">Forward Secrecy
+16af: </span>
+16b8: ..    ..    </td>
+16cb: ..    <td class="tableRight">128</td>
+16f2: ...</tr>
+16fc: ..<tr>
+1704: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1744: 5;WITH&#95;AES&#95;256&#95;GCM&#95;SHA384 (<code>0x9d</code>) &n
+1784: bsp; <b>WEAK</b></font></td>
+17a2: ..    <td class="tableRight"><font color=#F88017>256</font></td>
+17e4: ...</tr>
+17ee: ..<tr>
+17f6: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1836: 5;WITH&#95;AES&#95;128&#95;GCM&#95;SHA256 (<code>0x9c</code>) &n
+1876: bsp; <b>WEAK</b></font></td>
+1894: ..    <td class="tableRight"><font color=#F88017>128</font></td>
+18d6: ...</tr>
+18e0: ..<tr>
+18e8: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1928: 5;WITH&#95;AES&#95;256&#95;CBC&#95;SHA256 (<code>0x3d</code>) &n
+1968: bsp; <b>WEAK</b></font></td>
+1986: ..    <td class="tableRight"><font color=#F88017>256</font></td>
+19c8: ...</tr>
+19d2: ..<tr>
+19da: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1a1a: 5;WITH&#95;AES&#95;128&#95;CBC&#95;SHA256 (<code>0x3c</code>) &n
+1a5a: bsp; <b>WEAK</b></font></td>
+1a78: ..    <td class="tableRight"><font color=#F88017>128</font></td>
+1aba: ...</tr>
+1ac4: ..<tr>
+1acc: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1b0c: 5;WITH&#95;AES&#95;256&#95;CBC&#95;SHA (<code>0x35</code>) &nbsp
+1b4c: ; <b>WEAK</b></font></td>
+1b67: ..    <td class="tableRight"><font color=#F88017>256</font></td>
+1ba9: ...</tr>
+1bb3: ..<tr>
+1bbb: ....    <td class="tableLeft"><font color=#F88017>TLS&#95;RSA&#9
+1bfb: 5;WITH&#95;AES&#95;128&#95;CBC&#95;SHA (<code>0x2f</code>) &nbsp
+1c3b: ; <b>WEAK</b></font></td>
+1c56: ..    <td class="tableRight"><font color=#F88017>128</font></td>
+1c98: ...</tr>
+1ca2: ..<tr>
+1caa: ....    <td class="tableLeft">TLS&#95;EMPTY&#95;RENEGOTIATION&#9
+1cea: 5;INFO&#95;SCSV (<code>0xff</code>)</td>
+1d14: ..    <td class="tableRight">-</td>
+1d39: ...</tr>
+1d43: .
+1d46: .<tr class="tableRow">
+1d5e: .<td colspan=2 align=left>
+1d7a: .<span class="color666666">(1) When a browser supports SSL 2, it
+1dba: s SSL 2-only suites are shown
+1dd9: .only on the very first connection 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 6 bytes (0x6)
+0000: 1b1f
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....T
+<= Recv data, 316 bytes (0x13c)
+0000: to this site. To see the suites,
+0022:         close all browser windows, then open this exact page dir
+0062: ectly. Don't refresh.</span>
+0080: .</td>
+0088: .</tr>
+0090: .
+0093: ..
+0097: .</table>
+00a2: .
+00a5: .<br><br>
+00b0: .
+00b3: .<img class="tIcon" src="/images/icon-protocol-details.png" widt
+00f3: h="65" height="50" alt="">
+010f: .<table class="reportTable">
+012d: .<thead>
+0137: ..<tr
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 6627 bytes (0x19e3)
+0000: >
+0003: ...<td class="tableHead" colspan="2" align="left">Protocol Detai
+0043: ls</td>
+004c: ..</tr>
+0055: .</thead>
+0060: .<tbody>
+006a: ..<tr class="tableRow">
+0083: ......<td class="tableLabel" width="250">Server Name Indication 
+00c3: (SNI)</td>
+00cf: ...<td class="tableCell">Yes</td>
+00f2: .....</tr>
+00fe: ..
+0102: ..<tr class="tableRow">
+011b: ......<td class="tableLabel">Secure Renegotiation</td>
+0153: ...<td class="tableCell">Yes</td>
+0176: .....</tr>
+0182: 
+0184: ....<tr class="tableRow">
+019f: ...<td class="tableLabel"><font color=green>TLS compression</fon
+01df: t></td>
+01e8: ...<td class="tableCell"><font color=green>No</font></td>
+0223: ..</tr>
+022c: ..
+0230:         ..<tr class="tableRow">
+0251: ...<td class="tableLabel"><font color=#F88017>Session tickets</f
+0291: ont></td>
+029c: ...<td class="tableCell"><font color=#F88017>No</font></td>
+02d9: ..</tr>
+02e2:         
+02ec: ..<tr class="tableRow">
+0305: ......<td class="tableLabel"><font color=#F88017>OCSP stapling</
+0345: font></td>
+0351: ...<td class="tableCell"><font color=#F88017>No</font></td>
+038e: .....</tr>
+039a: ..
+039e: ..<tr class="tableRow">
+03b7: ...<td class="tableLabel">Signature algorithms</td>
+03ec: ...<td class="tableCell">
+0407: .........SHA512/RSA,...SHA512/DSA,...SHA512/ECDSA,...SHA384/RSA,
+0447: ...SHA384/DSA,...SHA384/ECDSA,...SHA256/RSA,...SHA256/DSA,...SHA
+0487: 256/ECDSA,...SHA224/RSA,...SHA224/DSA,...SHA224/ECDSA,...SHA1/RS
+04c7: A,...SHA1/DSA,...SHA1/ECDSA......</td>...
+04f2: ..</tr>
+04fb: ..
+04ff: ..<tr class="tableRow">
+0518: ...<td class="tableLabel">Named Groups</td>
+0545: ...<td class="tableCell">
+0560: .........x25519,...secp256r1,...secp521r1,...secp384r1......</td
+05a0: >...
+05a6: ..</tr>
+05af: ..
+05b3: ..<tr class="tableRow">
+05cc: ...<td class="tableLabel">Next Protocol Negotiation</td>
+0606: ...<td class="tableCell">Yes</td>...
+062c: ..</tr>
+0635: ..
+0639: ..<tr class="tableRow">
+0652: ...<td class="tableLabel" width="250">Application Layer Protocol
+0692:  Negotiation</td>
+06a5: ...<td class="tableCell">Yes
+06c3:                 &nbsp; <span class="greySmall">
+06f4: ...                        h2
+0713:                                     http&#47;1&#46;1
+0749:                             </td>
+076c: ..</tr>
+0775: 
+0777: ...    <tr class="tableRow">
+0795:     .    <td class="tableLabel"><font color=green>SSL 2 handshak
+07d5: e compatibility</font></td>
+07f2:     .    <td class="tableCell"><font color=green>No</font></td>
+0833:     .</tr>
+083f: ...</tbody>
+084c: .</table> 
+0858: .
+085b: .<br>   
+0865: .
+0868: .</div>
+0871: .</div>
+087a: 
+087c:     
+0882:     <div class="reportSection display-none" id="mixedDiv">
+08be:         <div class="sectionTitle">Mixed Content Handling</div>
+08fe:         <div class="sectionBody">
+0921: 
+0923:             <img class="tIcon" src="/images/icon-misc.png" width
+0963: ="65" height="50">
+0977:             <table class="reportTable">
+09a0:                 <thead>
+09b9:                 <tr>
+09cf:                     <td class="tableHead" colspan="3" align="lef
+0a0f: t">Mixed Content Tests</td>
+0a2c:                 </tr>
+0a43:                 </thead>
+0a5d:                 <tbody>
+0a76:                 <tr class="tableRow">
+0a9d:                     <td class="tableLeft">Images</td>
+0ad4:                     <td class="tableRight width-100">Passive</td
+0b14: >
+0b17:                     <td class="tableRight width-100" id="mixedIm
+0b57: ages">Testing...</td>
+0b6e:                 </tr>
+0b85: 
+0b87:                 <tr class="tableRow">
+0bae:                     <td class="tableLeft">CSS</td>
+0be2:                     <td class="tableRight">Active</td>
+0c1a:                     <td class="tableRight" id="mixedCssLink">Tes
+0c5a: ting...</td>
+0c68:                 </tr>
+0c7f: 
+0c81:                 <tr class="tableRow">
+0ca8:                     <td class="tableLeft">Scripts</td>
+0ce0:                     <td class="tableRight">Active</td>
+0d18:                     <td class="tableRight" id="mixedScripts">Tes
+0d58: ting...</td>
+0d66:                 </tr>
+0d7d: 
+0d7f:                 <tr class="tableRow">
+0da6:                     <td class="tableLeft">XMLHttpRequest</td>
+0de5:                     <td class="tableRight">Active</td>
+0e1d:                     <td class="tableRight" id="mixedXhr">Testing
+0e5d: ...</td>
+0e67:                 </tr>
+0e7e: 
+0e80:                 <tr class="tableRow">
+0ea7:                     <td class="tableLeft">WebSockets</td>
+0ee2:                     <td class="tableRight">Active</td>
+0f1a:                     <td class="tableRight" id="mixedWebSockets">
+0f5a: Testing...</td>
+0f6b:                 </tr>
+0f82: 
+0f84:                 <tr class="tableRow">
+0fab:                     <td class="tableLeft">Frames</td>
+0fe2:                     <td class="tableRight">Active</td>
+101a:                     <td class="tableRight" id="mixedFrame">Testi
+105a: ng...</td>
+1066:                 </tr>
+107d: 
+107f:                 <tr class="tableRow">
+10a6:                     <td colspan="3" align="left">
+10d9:                         <span class="color666666">(1) These test
+1119: s might cause a mixed content warning in your browser. That's ex
+1159: pected.<br></span>
+116d:                         <span class="color666666">(2) If you see
+11ad:  a failed test, try to reload the page. If the error persists, p
+11ed: lease get in touch.</span>
+1209:                     </td>
+1224:                 </tr>
+123b:                 </tbody>
+1255:             </table>
+126b: 
+126d:             <br>
+127f: 
+1281:             <table class="reportTable report-table-margin">
+12be:                 <thead>
+12d7:                 <tr>
+12ed:                     <td class="tableHead" colspan="3" align="lef
+132d: t">Related Functionality</td>
+134c:                 </tr>
+1363:                 </thead>
+137d: 
+137f:                 <tbody>
+1398:                 <tr class="tableRow">
+13bf:                     <td class="tableLeft">Upgrade Insecure Reque
+13ff: sts request header (<a href="https://w3c.github.io/webappsec/spe
+143f: cs/upgrade/">more info</a>)</td>
+1461:                                             <td class="tableRigh
+14a1: t">No</td>
+14ad:                                     </tr>
+14d8: 
+14da:                 </tbody>
+14f4:             </table>
+150a: 
+150c:         </div>
+151c: 
+151e:         </div>
+152e:         </div>
+153e:     </div>
+154a: 
+154c:     <script type="text/javascript" src="/includes/viewClient-cli
+158c: entTest.js"></script>
+15a3: 
+15a5:     
+15ab: .</div>
+15b4: 
+15b6:           
+15c2: </div>
+15ca: 
+15cc: 
+15ce: </div>
+15d6: 
+15d8: <div id="pageEnd">
+15ec: <div id="copyright">.
+1603: .<table width=1050 border=0 cellpadding=5 cellspacing=0><tr>
+1641: .<td class="footer">
+1657:     Copyright &copy; 2009-2018 <a href="https://www.qualys.com">
+1697: Qualys, Inc</A>. All Rights Reserved.
+16be:     </td><td align=right class="footer">
+16e8:     <a href="https://www.ssllabs.com/about/terms.html" rel="nore
+1728: ferrer">Terms and Conditions</a>
+174a:     </td></tr>
+175a:     <tr>
+1764:     <td class="footer">
+177d:     Qualys is the leading provider of integrated <a href="https:
+17bd: //www.qualys.com/solutions/infrastructure/">infrastructure secur
+17fd: ity</a>,
+1807:     <a href="https://www.qualys.com/solutions/cloud/">cloud infr
+1847: astructure security</a>,
+1861:     <a href="https://www.qualys.com/solutions/endpoint/">endpoin
+18a1: t security</a>,
+18b2:     <a href="https://www.qualys.com/solutions/devsecops/">devsec
+18f2: ops</a>,
+18fc:     <a href="https://www.qualys.com/solutions/compliance/">compl
+193c: iance</a>
+1947:      and <a href="https://www.qualys.com/solutions/web-app/">web
+1987:  app security</a> solutions.
+19a5:     </td></tr>
+19b5:     </table>
+19c3: </div>
+19cb: </div>
+19d3: </body>
+19dc: </html>
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 5 bytes (0x5)
+0000: 0
+0003: 
+== Info: Connection #0 to host www.ssllabs.com left intact

@@ -14,6 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="WCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="28">
+          <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_uris which does contain URLs.&#xD;&#xA;Basically a test program for various functions on a URL called by clicking the corresponding button.&#xD;&#xA;&#xD;&#xA;"/>
           <Public val="WCLN001_xpatest_uris"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -28,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736831" _time="9552" date="17/05/2018" time="02:39:12"/>
+          <LastModified _date="736839" _time="7325" date="25/05/2018" time="02:02:05"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -282,12 +283,12 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736831" _time="9552" date="17/05/2018" time="02:39:12"/>
+            <LastModified _date="736839" _time="7325" date="25/05/2018" time="02:02:05"/>
           </Header>
-          <ItemIsn val="9"/>
+          <ItemIsn val="11"/>
           <Resource>
             <DB id="1">
-              <DataObject comp="-1" obj="14"/>
+              <DataObject comp="12" obj="15"/>
               <Access val="W"/>
               <Share val="W"/>
               <Open val="N"/>
@@ -303,6 +304,14 @@
                   <Definition id="175" val="1"/>
                   <_FieldStyle id="276" val="1"/>
                   <Content id="434" val="2"/>
+                </PropertyList>
+              </Column>
+              <Column id="7" name="v.iErrorCode">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_NUMERIC" comp="11" id="1" obj="2"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
                 </PropertyList>
               </Column>
               <Column id="5" name="pi.ResponseBody">
@@ -350,7 +359,7 @@
               <Column val="1"/>
               <Mode val="N"/>
             </Key>
-            <DB comp="-1" obj="14"/>
+            <DB comp="12" obj="15"/>
             <Sort>
               <CLS val="A"/>
             </Sort>
@@ -403,6 +412,10 @@
               <Direction val="V"/>
             </BOX>
           </Information>
+          <INT_CMP_LIST_INFO>
+            <v>11</v>
+            <v>12</v>
+          </INT_CMP_LIST_INFO>
           <TaskLogic>
             <LogicUnit id="2" propagate="78">
               <Level val="R"/>
@@ -465,6 +478,24 @@
                     <Direction val="C"/>
                   </Select>
                 </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="306">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="11" FlowIsn="307" id="11">
+                    <Column val="7"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
               </LogicLines>
             </LogicUnit>
             <LogicUnit id="18" propagate="78">
@@ -479,7 +510,6 @@
                 <Parent val="32768"/>
                 <PublicObject comp="-1" obj="3"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Select FieldID="8" FlowIsn="244" id="8">
@@ -552,6 +582,17 @@
                     <Parent val="1"/>
                     <FieldID val="1"/>
                     <WithValue val="7"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="309">
+                    <FieldID val="11"/>
+                    <WithValue val="20"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -1204,6 +1245,75 @@
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
+            <LogicUnit id="28" propagate="78">
+              <Level val="H"/>
+              <Type val="U"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="U"/>
+                <PublicObject comp="-1" obj="9"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="304">
+                    <Event>
+                      <EventType val="U"/>
+                      <PublicObject comp="-1" obj="8"/>
+                    </Event>
+                    <Wait val="89"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </RaiseEvent>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="305">
+                    <OperationType val="P"/>
+                    <TaskID comp="11" obj="6"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Expression val="18"/>
+                        <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Variable val="11"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="19" FlowIsn="308" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="27" propagate="78">
+              <Level val="K"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
             <LogicUnit id="9" propagate="78">
               <Level val="H"/>
               <Type val="U"/>
@@ -1215,7 +1325,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="7"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Remark FlowIsn="200">
@@ -1252,9 +1361,9 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="12" _last_test_id="12" id="1">
+            <FormEntry _last_isn="13" _last_test_id="13" id="1">
               <PropertyList model="FORM_GUI0">
-                <Width id="23" val="786"/>
+                <Width id="23" val="863"/>
                 <Height id="24" val="261"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="Browse - xpatest_uris"/>
@@ -1263,10 +1372,10 @@
               </PropertyList>
               <Control PDOD="128" _test_id="12" id="12">
                 <PropertyList model="CTRL_GUI0_EDIT">
-                  <X id="21" val="427"/>
-                  <Y id="22" val="12"/>
-                  <Width id="23" val="347"/>
-                  <Height id="24" val="244"/>
+                  <X id="21" val="577"/>
+                  <Y id="22" val="8"/>
+                  <Width id="23" val="283"/>
+                  <Height id="24" val="182"/>
                   <Data FieldID="7" id="43"/>
                   <MultiLineEdit id="71" val="Y"/>
                   <HorizontalScroll id="72"/>
@@ -1289,7 +1398,7 @@
                   <TitleHeight id="79" val="11"/>
                   <RowHeight id="80" val="12"/>
                   <Elements id="81" val="2"/>
-                  <_WindowWidth id="241" val="408"/>
+                  <_WindowWidth id="241" val="565"/>
                   <InactiveRowHighlightColor id="697" val="4"/>
                 </PropertyList>
               </Control>
@@ -1338,7 +1447,7 @@
                   <Placement id="20" right="100"/>
                   <X id="21" val="69"/>
                   <Y id="22" val="21"/>
-                  <Width id="23" val="321"/>
+                  <Width id="23" val="487"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="2"/>
                   <Data FieldID="2" id="43"/>
@@ -1434,6 +1543,20 @@
                   <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
+              <Control PDOD="128" _test_id="13" id="13">
+                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                  <X id="21" val="112"/>
+                  <Y id="22" val="234"/>
+                  <Width id="23" val="96"/>
+                  <Height id="24" val="14"/>
+                  <Format id="82" valUnicode="Analyze (Roslyn)"/>
+                  <RaiseEvent id="234">
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="9"/>
+                  </RaiseEvent>
+                  <TabOrder id="314" val="10"/>
+                </PropertyList>
+              </Control>
             </FormEntry>
           </TaskForms>
           <Expressions>
@@ -1473,6 +1596,10 @@
               <ExpSyntax val="FileDelete({1,2})"/>
               <ExpAttribute val="B"/>
             </Expression>
+            <Expression id="20">
+              <ExpSyntax val="-1"/>
+              <ExpAttribute val="N"/>
+            </Expression>
             <Expression id="8">
               <ExpSyntax val="'No response from: ' &amp; Trim({0,2})"/>
               <ExpAttribute val="A"/>
@@ -1488,6 +1615,14 @@
             <Expression id="12">
               <ExpSyntax val="File2Blb({1,2})"/>
               <ExpAttribute val="O"/>
+            </Expression>
+            <Expression id="18">
+              <ExpSyntax val="{1,2}"/>
+              <ExpAttribute val="U"/>
+            </Expression>
+            <Expression id="19">
+              <ExpSyntax val="'Error code for analysis of ' &amp; Trim({1,2}) &amp; ': ' &amp; Trim(Str({0,11}, ''))"/>
+              <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
           <EVNT DESC="BtnGet(scriptcs)" FORCE_EXIT="N" id="1">
@@ -1521,6 +1656,12 @@
             </Event>
           </EVNT>
           <EVNT DESC="BtnGet(Magic/C#/Async)" FORCE_EXIT="N" id="6">
+            <Event>
+              <EventType val="N"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </EVNT>
+          <EVNT DESC="BtnAnalyze(Roslyn)" FORCE_EXIT="N" id="9">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

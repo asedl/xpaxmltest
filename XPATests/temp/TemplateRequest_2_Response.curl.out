@@ -1,0 +1,33 @@
+== Info:   Trying 54.164.206.44...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (54.164.206.44) port 80 (#0)
+=> Send header, 82 bytes (0x52)
+0000: GET /headers HTTP/1.1
+0017: Host: httpbin.org
+002a: User-Agent: curl/7.59.0
+0043: Accept: */*
+0050: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.8.1
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 24 May 2018 22:00:00 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 98
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 98 bytes (0x62)
+0000: {"headers":{"Accept":"*/*","Connection":"close","Host":"httpbin.
+0040: org","User-Agent":"curl/7.59.0"}}.
+== Info: Connection #0 to host httpbin.org left intact

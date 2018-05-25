@@ -1,0 +1,12 @@
+HTTP/1.1 401 UNAUTHORIZED
+Connection:keep-alive
+ Content-Length:0
+ Content-Type:text/html; charset=utf-8
+ Date:Thu, 17 May 2018 00:01:11 GMT
+ Set-Cookie:stale_after=never; Path=/,fake=fake_value; Path=/
+ Server:gunicorn/19.8.1
+ WWW-Authenticate:Digest realm="me@kennethreitz.com", nonce="1e41f817c8447f580199feb904a3f979", qop="auth", opaque="99702e8c2af19fc6e526d37a75f939ed", algorithm=MD5, stale=FALSE
+ Access-Control-Allow-Origin:*
+ Access-Control-Allow-Credentials:true
+ Via:1.1 vegur
+ 

@@ -13,7 +13,7 @@
         <MenuType val="4"/>
         <ToolNumber val="1"/>
         <Name val="Default Pulldown menu"/>
-        <LastIsn val="7"/>
+        <LastIsn val="9"/>
         <MenuEntry id="1">
           <MenuType val="1"/>
           <Description_U val="&amp;File"/>
@@ -336,6 +336,26 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="28" comp="-1" obj="28"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="8">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Scripts"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="Browse Templates"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="25" comp="-1" obj="25"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>
@@ -683,6 +703,38 @@
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+        <MenuEntry id="9">
+          <MenuType val="1"/>
+          <Description_U val="&amp;Help"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="4"/>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="ExportData (Backup)"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="54" comp="-1" obj="54"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="About"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="36" comp="-1" obj="36"/>
+              <SourceContext val="67"/>
             </MenuEntry>
           </Menu>
         </MenuEntry>

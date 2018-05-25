@@ -11,6 +11,10 @@
     <GUID val="{4606C333-1876-4372-AC1B-CD2B2BC54214}"/>
     <Version min="13020.10"/>
     <SourceVersion val="13030.00"/>
+    <ReferencedProjects>
+      <RefProject FileName="XPATests\Components\Scripting\Roslyn\Roslyn.edp" ProjectName="Roslyn"/>
+      <RefProject FileName="XPATests\Components\DatabaseComp\DatabaseComp.edp" ProjectName="DatabaseComp"/>
+    </ReferencedProjects>
   </_Project>
 
 </Application>

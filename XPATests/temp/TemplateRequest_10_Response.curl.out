@@ -1,0 +1,38 @@
+== Info:   Trying 52.22.127.224...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (52.22.127.224) port 80 (#0)
+=> Send header, 113 bytes (0x71)
+0000: GET /digest-auth/auth/user/passwd/MD5/never HTTP/1.1
+0036: Host: httpbin.org
+0049: User-Agent: curl/7.59.0
+0062: Accept: */*
+006f: 
+<= Recv header, 27 bytes (0x1b)
+0000: HTTP/1.1 401 UNAUTHORIZED
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.8.1
+<= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 16 May 2018 20:16:14 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 179 bytes (0xb3)
+0000: Www-Authenticate: Digest realm="me@kennethreitz.com", nonce="8c3
+0040: 3530f688e821da44519b6a363f601", qop="auth", opaque="3646928cbc74
+0080: 3510a7bf5918640d1a2f", algorithm=MD5, stale=FALSE
+<= Recv header, 39 bytes (0x27)
+0000: Set-Cookie: stale_after=never; Path=/
+<= Recv header, 37 bytes (0x25)
+0000: Set-Cookie: fake=fake_value; Path=/
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host httpbin.org left intact

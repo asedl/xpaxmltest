@@ -48,6 +48,7 @@
     </Program>
     <Program>
       <Header Description="WCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="28">
+        <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_uris which does contain URLs.&#xD;&#xA;Basically a test program for various functions on a URL called by clicking the corresponding button.&#xD;&#xA;&#xD;&#xA;"/>
         <Public val="WCLN001_xpatest_uris"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -62,12 +63,14 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736831" _time="9552" date="17/05/2018" time="02:39:12"/>
+        <LastModified _date="736839" _time="7325" date="25/05/2018" time="02:02:05"/>
       </Header>
-      <SourceFileTimeStamp _date="736831" _time="2352" date="17/05/2018" time="00:39:12"/>
+      <SourceFileTimeStamp _date="736839" _time="125" date="25/05/2018" time="00:02:05"/>
     </Program>
     <Program>
-      <Header Description="Browse - xpatest_templates" ISN_2="1" LastIsn="1" id="25">
+      <Header Description="WCLN002_xpatest_templates" ISN_2="1" LastIsn="1" id="25">
+        <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_templates which does contain scripts (templates).  Basically a test program for various functions on script files.&#xD;&#xA;&#xD;&#xA;"/>
+        <Public val="WCLN002_xpatest_templates"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -81,9 +84,66 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="37405" date="13/05/2018" time="10:23:25"/>
+        <LastModified _date="736839" _time="7310" date="25/05/2018" time="02:01:50"/>
       </Header>
-      <SourceFileTimeStamp _date="736827" _time="30205" date="13/05/2018" time="08:23:25"/>
+      <SourceFileTimeStamp _date="736839" _time="110" date="25/05/2018" time="00:01:50"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="52">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736838" _time="69034" date="24/05/2018" time="19:10:34"/>
+    </Program>
+    <Program>
+      <Header Description="ExportData (Backup)" ISN_2="1" LastIsn="1" id="54">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736838" _time="76692" date="24/05/2018" time="21:18:12"/>
+      </Header>
+      <SourceFileTimeStamp _date="736838" _time="69492" date="24/05/2018" time="19:18:12"/>
+    </Program>
+    <Program>
+      <Header Description="Export - xpatest_templates" ISN_2="1" LastIsn="1" id="53">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736838" _time="76287" date="24/05/2018" time="21:11:27"/>
+      </Header>
+      <SourceFileTimeStamp _date="736838" _time="69087" date="24/05/2018" time="19:11:27"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="46">
@@ -395,9 +455,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736827" _time="37542" date="13/05/2018" time="10:25:42"/>
+        <LastModified _date="736838" _time="75313" date="24/05/2018" time="20:55:13"/>
       </Header>
-      <SourceFileTimeStamp _date="736827" _time="30342" date="13/05/2018" time="08:25:42"/>
+      <SourceFileTimeStamp _date="736838" _time="68113" date="24/05/2018" time="18:55:13"/>
     </Program>
     <Program>
       <Header Description="CompileScript" ISN_2="1" LastIsn="1" id="22">

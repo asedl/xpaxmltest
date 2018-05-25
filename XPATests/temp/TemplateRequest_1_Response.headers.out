@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Connection:keep-alive
+ Content-Language:en
+ Strict-Transport-Security:max-age=3600;includeSubDomains
+ X-Content-Type-Options:nosniff
+ X-Frame-Options:SAMEORIGIN
+ X-Generator:Drupal 7 (http://drupal.org)
+ X-Pantheon-Styx-Hostname:styx-fe2-5594f4b77-z2jbr
+ X-Styx-Req-Id:styx-2162f5ac3252ad44bbb30bca75a665e3
+ X-Ua-Compatible:IE=edge,chrome=1
+ Age:0
+ Accept-Ranges:bytes,bytes
+ Cache-Control:no-cache, must-revalidate
+ Content-Type:text/html; charset=utf-8
+ Expires:Sun, 19 Nov 1978 05:00:00 GMT
+ Set-Cookie:SSESS447b6c0c400a30253c943d8c989f573f=5JX6rNYQt4ss_4fOvOttHXbu1lj9vX2IiFFos3F8HF4; expires=Sat, 09-Jun-2018 09:57:49 GMT; Max-Age=2000000; path=/; domain=.magicsoftware.com; secure; HttpOnly
+ Server:nginx
+ Via:1.1 varnish,1.1 varnish
+ Date:Thu, 17 May 2018 06:24:29 GMT
+ X-Served-By:cache-mdw17333-MDW, cache-fra19124-FRA
+ X-Cache:MISS, MISS
+ X-Cache-Hits:0, 0
+ X-Timer:S1526538269.545948,VS0,VE550
+ Vary:Accept-Encoding, Cookie, Cookie
+ transfer-encoding:chunked
+ 
