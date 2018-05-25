@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="32"/>
+  <LastIsn val="33"/>
 
   <LastIsnFolder val="2"/>
 
@@ -24,6 +24,7 @@
 </Header>
  <DataSourceRepository>
   <DataObjects>
+ 
  
 <DataObject FolderIsn="1" PhysicalName="xpatest_uris" Public="xpatest_uris" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="16" name="xpatest_uris">
 
@@ -308,6 +309,168 @@
         <Segment>
           <Size val="8"/>
           <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject FolderIsn="1" PhysicalName="xpatest_components" Public="xpatest_components" Resident="N" UniqueISNConvState="12" data_source="XPATest" id="33" name="xpatest_components">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <IndexesLastIsn val="2"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="63"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="id"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="id" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="6" name="name">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="40"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="80"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="name"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="name" PIC_U="40" Size="80" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="7" name="type">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="3"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="type"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="type" PIC_U="3" Size="6" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="location_relative">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="31"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="510"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="location_relative"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="location_relative" PIC_U="255" Size="510" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="location_absolute">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="31"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="510"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="location_absolute"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="location_absolute" PIC_U="255" Size="510" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="description">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="2048"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="4096"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="description"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="description" PIC_U="2048" Size="4096" allowed_null="N" attribute="U" context_cookies="Y" database_definition="1" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+        <Content id="434" val="2"/>
+      </PropertyList>
+    </Column>
+    <Column id="5" name="existing">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="34"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="existing"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="existing" PIC_U="1" Size="2" allowed_null="Y" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="PK_xpatest_components">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="PK_xpatest_components"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="2" name="AK_xpatest_components_01">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="AK_xpatest_components_01"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="80"/>
+          <Column val="6"/>
           <Order val="A"/>
         </Segment>
       </Segments>

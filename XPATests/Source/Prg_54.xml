@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736838" _time="76692" date="24/05/2018" time="21:18:12"/>
+          <LastModified _date="736840" _time="3414" date="26/05/2018" time="00:56:54"/>
         </Header>
         <Resource>
           <Columns/>
@@ -52,11 +52,11 @@
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="A"/>
-            <LockingStrategy val="I"/>
+            <LockingStrategy val="M"/>
             <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
             <TransactionMode val="P"/>
-            <TransactionBegin val="T"/>
+            <TransactionBegin val="N"/>
             <PreloadView val="N"/>
             <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>

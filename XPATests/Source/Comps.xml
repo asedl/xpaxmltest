@@ -234,7 +234,7 @@
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="Y"/>
-        <LastISN val="30"/>
+        <LastISN val="32"/>
         <CompId val="79462038-31045-19073-B8732FDD7"/>
         <Revision val="0.1"/>
         <MciFile val="C:\magic\projects\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci"/>
@@ -270,6 +270,11 @@
             <id val="40"/>
             <ItemIsn val="6"/>
             <PublicName val="ResponseBody(Ansi)"/>
+          </Object>
+          <Object>
+            <id val="63"/>
+            <ItemIsn val="31"/>
+            <PublicName val="objid"/>
           </Object>
           <Object>
             <id val="55"/>
@@ -327,6 +332,11 @@
             <id val="18"/>
             <ItemIsn val="17"/>
             <PublicName val="xpatest_dotnet_locations"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="32"/>
+            <PublicName val="xpatest_components"/>
           </Object>
           <Object>
             <id val="20"/>

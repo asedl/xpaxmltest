@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736839" _time="14726" date="25/05/2018" time="04:05:26"/>
+          <LastModified _date="736839" _time="85242" date="25/05/2018" time="23:40:42"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736839" _time="14726" date="25/05/2018" time="04:05:26"/>
+            <LastModified _date="736839" _time="85242" date="25/05/2018" time="23:40:42"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -804,6 +804,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="2"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="193">

@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="62"/>
+    <LastIsn val="63"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -208,6 +208,16 @@
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Size id="174"/>
           <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Public="objid" id="63" name="objid">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
       <Object Public="script_id" id="55" name="script_id">
