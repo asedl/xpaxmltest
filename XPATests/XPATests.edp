@@ -14,6 +14,7 @@
     <ReferencedProjects>
       <RefProject FileName="XPATests\Components\DatabaseComp\DatabaseComp.edp" ProjectName="DatabaseComp"/>
       <RefProject FileName="XPATests\Components\Scripting\Roslyn\Roslyn.edp" ProjectName="Roslyn"/>
+      <RefProject FileName="XPATests\Components\UserFunctionality\UserFunctionality.edp" ProjectName="UserFunctionality"/>
     </ReferencedProjects>
   </_Project>
 

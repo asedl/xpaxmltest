@@ -11,7 +11,7 @@
 0000: .....
 == Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
 => Send SSL data, 219 bytes (0xdb)
-0000: ......%../....Q..20...7..Tc@. ......d...8.,.0.........+./...$.(.
+0000: ......<!.Ak2...}r~.V.&...&..:-...t.F....8.,.0.........+./...$.(.
 0040: k.#.'.g.....9.....3.....=.<.5./.....v.........www.magicsoftware.
 0080: com......................3t.........h2.http/1.1........... .....
 00c0: ...........................
@@ -19,8 +19,8 @@
 0000: ....j
 == Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
 <= Recv SSL data, 106 bytes (0x6a)
-0000: ...f..'....(....{`d..[.YC.K..J.?l..... Eo...e.N}..........,.u...
-0040: n..US.../...............................h2
+0000: ...f..........!{E....[S.e...[..n<....) .^../b....SB?c.......q[.H
+0040: X;w,.0../...............................h2
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
 == Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
@@ -105,11 +105,11 @@
 0000: ....,
 == Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
 <= Recv SSL data, 300 bytes (0x12c)
-0000: ...(... .?..+q~.x.....?.....uQ.M(<V.i..n....V.-k2....@..hx|...d.
-0040: `.M.$....k7..6....0.>..-..o[Z.....?..tC.u.............P.=...P^.
-0080: `R.J...dpj.g...]......_...o!.F.3.6.v..hz.....N).h.......h.{i.]x;
-00c0: ..O.b.&...l.q..."e........{3....6..i.Fs..........+X.g.......]./.
-0100: ...MO........\f.J/.S...F..Q........'..M..qz.
+0000: ...(... ..(d.........)Nd......g.d.~..|3 ....gd...?..tNI..D~..C1z
+0040: ...:.O!.4..&.$..#..t=.....x".NYs#+op.za......9.k..I*..J..}OkL.
+0080: .jH......8J..Q[.......(.U..=..64.7<.?.....g.,..e.1....P..n(.`eR.
+00c0: .t.........kK..-.9/]9....B%.).e`.._...-..Q..)........w0...Bz....
+0100: .J........}....{.>.t#..2.>Jy.=b.Y4wt'....MUZ
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
 == Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
@@ -119,7 +119,7 @@
 0000: ....%
 == Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
 => Send SSL data, 37 bytes (0x25)
-0000: ...! Y..fq=.....K.q..V.]....S...In.;O
+0000: ...! o....&w?.......'...+.Sg1....\Lv%
 => Send SSL data, 5 bytes (0x5)
 0000: .....
 == Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
@@ -129,14 +129,14 @@
 0000: ....(
 == Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
 => Send SSL data, 16 bytes (0x10)
-0000: ....E.d.2..f[Y.1
+0000: ....z/.....D...U
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
 <= Recv SSL data, 5 bytes (0x5)
 0000: ....(
 == Info: TLSv1.2 (IN), TLS handshake, Finished (20):
 <= Recv SSL data, 16 bytes (0x10)
-0000: .....4.N&...V.h.
+0000: .......Oak|.....
 == Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
 == Info: ALPN, server accepted to use h2
 == Info: Server certificate:
@@ -155,7 +155,7 @@
 0000: ....3
 => Send SSL data, 5 bytes (0x5)
 0000: ....%
-== Info: Using Stream ID: 1 (easy handle 0xe9ad975e80)
+== Info: Using Stream ID: 1 (easy handle 0x9c940a5e80)
 => Send SSL data, 5 bytes (0x5)
 0000: ....D
 => Send header, 83 bytes (0x53)
@@ -165,9 +165,11 @@
 0044: Accept: */*
 0051: 
 <= Recv SSL data, 5 bytes (0x5)
-0000: ....=
+0000: ....4
 == Info: Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
 => Send SSL data, 5 bytes (0x5)
+0000: ....!
+<= Recv SSL data, 5 bytes (0x5)
 0000: ....!
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
@@ -184,8 +186,8 @@
 <= Recv header, 15 bytes (0xf)
 0000: server: nginx
 <= Recv header, 204 bytes (0xcc)
-0000: set-cookie: SSESS447b6c0c400a30253c943d8c989f573f=tyfcHNjXz9pUBq
-0040: DRLwzkaFU93ySO4fAK2qNE7F17W0Y; expires=Sun, 17-Jun-2018 05:54:48
+0000: set-cookie: SSESS447b6c0c400a30253c943d8c989f573f=sdDQUPlcy3vhWP
+0040: fM8V9E7ABnSJxsP8tGLYxk5Um2H7g; expires=Sun, 17-Jun-2018 06:08:46
 0080:  GMT; Max-Age=2000000; path=/; domain=.magicsoftware.com; secure
 00c0: ; HttpOnly
 <= Recv header, 59 bytes (0x3b)
@@ -196,10 +198,10 @@
 0000: x-frame-options: SAMEORIGIN
 <= Recv header, 43 bytes (0x2b)
 0000: x-generator: Drupal 7 (http://drupal.org)
-<= Recv header, 52 bytes (0x34)
-0000: x-pantheon-styx-hostname: styx-fe2-b9dcc897f-mp4jh
 <= Recv header, 54 bytes (0x36)
-0000: x-styx-req-id: styx-8aa2e039405271a13a8b93429ebd105b
+0000: x-pantheon-styx-hostname: styx-fe2-a-7647d9ccb-87jqd
+<= Recv header, 54 bytes (0x36)
+0000: x-styx-req-id: styx-f744c48e499feabda95d7244453e99e8
 <= Recv header, 35 bytes (0x23)
 0000: x-ua-compatible: IE=edge,chrome=1
 <= Recv header, 18 bytes (0x12)
@@ -207,24 +209,24 @@
 <= Recv header, 22 bytes (0x16)
 0000: accept-ranges: bytes
 <= Recv header, 37 bytes (0x25)
-0000: date: Fri, 25 May 2018 02:21:28 GMT
+0000: date: Fri, 25 May 2018 02:35:26 GMT
 <= Recv header, 18 bytes (0x12)
 0000: via: 1.1 varnish
 <= Recv header, 8 bytes (0x8)
 0000: age: 0
 <= Recv header, 52 bytes (0x34)
-0000: x-served-by: cache-mdw17363-MDW, cache-hhn1526-HHN
+0000: x-served-by: cache-mdw17332-MDW, cache-hhn1540-HHN
 <= Recv header, 21 bytes (0x15)
 0000: x-cache: MISS, MISS
 <= Recv header, 20 bytes (0x14)
 0000: x-cache-hits: 0, 0
 <= Recv header, 39 bytes (0x27)
-0000: x-timer: S1527214888.640512,VS0,VE790
+0000: x-timer: S1527215725.459311,VS0,VE866
 <= Recv header, 39 bytes (0x27)
 0000: vary: Accept-Encoding, Cookie, Cookie
 <= Recv header, 2 bytes (0x2)
 0000: 
-<= Recv data, 2142 bytes (0x85e)
+<= Recv data, 2139 bytes (0x85b)
 0000: <!DOCTYPE html>.  <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8
 0040: " lang="en" xml:lang="en" dir="ltr"> <![endif]--><!--[if IE 8]> 
 0080:    <html class="no-js lt-ie9" lang="en" xml:lang="en" dir="ltr">
@@ -258,117 +260,114 @@
 0780:  rel="alternate" href="https://www.magicsoftware.com/de" hreflan
 07c0: g="de" />.<link rel="alternate" href="https://www.magicsoftware.
 0800: com/hu" hreflang="hu" />.<link rel="alternate" href="https://www
-0840: .magicsoftware.com/ja" hreflan
+0840: .magicsoftware.com/ja" href
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
 <= Recv data, 2759 bytes (0xac7)
-0000: g="ja" />.  <meta http-equiv="X-UA-Compatible" content="IE=edge,
-0040: chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}
-0080: ),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n
-00c0: ]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][
-0100: t];return r(o||t)},o,o.exports)}return t[n].exports}if("function
-0140: "==typeof __nr_require)return __nr_require;for(var o=0;o<n.lengt
-0180: h;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}functi
-01c0: on o(e,t,n){return function(){return i(e,[f.now()].concat(u(argu
-0200: ments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u
-0240: =e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"=
-0280: =typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","
-02c0: setCustomAttribute","setErrorHandler","finished","addToTrace","i
-0300: nlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[
-0340: t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.s
-0380: etCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.inte
-03c0: raction=function(){return(new r).get()};var m=r.prototype={creat
-0400: eTracer:function(e,t){var n={},r=this,o="function"==typeof t;ret
-0440: urn i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no
-0480: -")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,argume
-04c0: nts)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}fina
-0500: lly{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,sav
-0540: e,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]
-0580: =o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(
-05c0: e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){fu
-0600: nction r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(
-0640: r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.e
-0680: xports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"und
-06c0: efined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Arra
-0700: y(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[funct
-0740: ion(e,t,n){t.exports={exists:"undefined"!=typeof window.performa
-0780: nce&&window.performance.timing&&"undefined"!=typeof window.perfo
-07c0: rmance.timing.navigationStart}},{}],ee:[function(e,t,n){function
-0800:  r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c
-0840: (e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);fo
-0880: r(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p
-08c0: =s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e
-0900: ).concat(t)}function m(e){return v[e]||[]}function w(e){return p
-0940: [e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",
-0980: y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,li
-09c0: steners:m,context:t,buffer:g,abort:a,aborted:!1};return b}functi
-0a00: on i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=
-0a40: !0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={
-0a80: },d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function
-0ac0:  r(e,t,
-<= Recv SSL data, 5 bytes (0x5)
-0000: ....{
-<= Recv data, 611 bytes (0x263)
-0000: n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty
-0040: &&Object.keys)try{return Object.defineProperty(e,t,{value:r,writ
-0080: able:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object
-00c0: .prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,
-0100: n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee
-0140: ").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){fun
-0180: ction r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t
-01c0: ?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id"
-0200: ,a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(
-0240: ){if(!x++){var e=h.info=NREUM.info,
+0000: lang="ja" />.  <meta http-equiv="X-UA-Compatible" content="IE=ed
+0040: ge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM
+0080: ={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=
+00c0: t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][
+0100: 1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("funct
+0140: ion"==typeof __nr_require)return __nr_require;for(var o=0;o<n.le
+0180: ngth;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}fun
+01c0: ction o(e,t,n){return function(){return i(e,[f.now()].concat(u(a
+0200: rguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2
+0240: ),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefine
+0280: d"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName
+02c0: ","setCustomAttribute","setErrorHandler","finished","addToTrace"
+0300: ,"inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t)
+0340: {s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),
+0380: s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.i
+03c0: nteraction=function(){return(new r).get()};var m=r.prototype={cr
+0400: eateTracer:function(e,t){var n={},r=this,o="function"==typeof t;
+0440: return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":
+0480: "no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arg
+04c0: uments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}f
+0500: inally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,
+0540: save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m
+0580: [t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e
+05c0: &&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n)
+0600: {function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]
+0640: =t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;
+0680: t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"
+06c0: undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=A
+0700: rray(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[fu
+0740: nction(e,t,n){t.exports={exists:"undefined"!=typeof window.perfo
+0780: rmance&&window.performance.timing&&"undefined"!=typeof window.pe
+07c0: rformance.timing.navigationStart}},{}],ee:[function(e,t,n){funct
+0800: ion r(){}function o(e){function t(e){return e&&e instanceof r?e:
+0840: e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o)
+0880: ;for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);va
+08c0: r p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=
+0900: m(e).concat(t)}function m(e){return v[e]||[]}function w(e){retur
+0940: n p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"featur
+0980: e",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w
+09c0: ,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}fun
+0a00: ction i(){return new r}function a(){(s.api||s.feature)&&(d.abort
+0a40: ed=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},
+0a80: p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){funct
+0ac0: ion r(e
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
-<= Recv data, 2750 bytes (0xabe)
-0000: t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4)
-0040: ,!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,fun
-0080: ction(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],nul
-00c0: l,"api");var n=d.createElement("script");n.src="https://"+e.agen
-0100: t,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.re
-0140: adyState&&i()}function i(){c("mark",["domContent",a()+h.offset],
-0180: null,"api")}function a(){return E.exists&&performance.now?Math.r
-01c0: ound(performance.now()):(u=Math.max((new Date).getTime(),u))-h.o
-0200: ffset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),
-0240: p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.X
-0280: MLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setIm
-02c0: mediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Prom
-0300: ise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-d
-0340: ata.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.
-0380: com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userA
-03c0: gent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappa
-0400: ble:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1
-0440: )):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["fi
-0480: rstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</sc
-04c0: ript>.  <meta name="viewport" content="width=device-width">.  <m
-0500: eta name="google-site-verification" content="labB_MOC7StXIMoDmkp
-0540: ItnuivsFynTu_0nV85Hnef1o" />.  .  <link rel="alternate" type="ap
-0580: plication/rss+xml" title="" href="/rss.xml" />.  <title>Magic So
-05c0: ftware | Outperform The Future</title>. .  <!--[if lte IE 7]>.  
-0600: <link rel="stylesheet" href="/sites/all/themes/magic/js/libs/any
-0640: thingSlider/css/anythingslider-ie.css" media="screen" />.  <![en
-0680: dif]-->.  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.
-06c0: 7.1/jquery.min.js"></script>..  <script>window.jQuery || documen
-0700: t.write('<script src="/sites/all/themes/magic/js/libs/jquery-1.7
-0740: .1.min.js"><\/script>');</script>.   <link type="text/css" rel="
-0780: stylesheet" href="https://www.magicsoftware.com/sites/default/fi
-07c0: les/css/css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" med
-0800: ia="all" />.<link type="text/css" rel="stylesheet" href="https:/
-0840: /www.magicsoftware.com/sites/default/files/css/css_3DObRIJEzKTka
-0880: lHr5dQ9jNomQMAJfy0D_9naJfkO1SA.css" media="all" />.<link type="t
-08c0: ext/css" rel="stylesheet" href="https://www.magicsoftware.com/si
-0900: tes/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3
-0940: hSuFU.css" media="screen" />.<link type="text/css" rel="styleshe
-0980: et" href="https://www.magicsoftware.com/sites/default/files/css/
-09c0: css_GpoqO1H_YKBzOUVTKzK4d9W18v7xNMiFHpOi_Fjx5zo.css" media="all"
-0a00:  />.<link type="text/css" rel="stylesheet" href="https://www.mag
-0a40: icsoftware.com/sites/default/files/css/css_e9i1o2m_GsLXCsIe3pJwp
-0a80: eNkUjTw8sddNBrCOrjat7I.css" media="all" />.<link type="text/cs
+<= Recv data, 2759 bytes (0xac7)
+0000: ,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.definePrope
+0040: rty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,w
+0080: ritable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Obj
+00c0: ect.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e
+0100: ,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e(
+0140: "ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){
+0180: function r(e){var t=typeof e;return!e||"object"!==t&&"function"!
+01c0: ==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@
+0200: id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function
+0240:  r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("
+0280: script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.appl
+02c0: icationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}
+0300: ),c("mark",["onload",a()+h.offset],null,"api");var n=d.createEle
+0340: ment("script");n.src="https://"+e.agent,t.parentNode.insertBefor
+0380: e(n,t)}}function o(){"complete"===d.readyState&&i()}function i()
+03c0: {c("mark",["domContent",a()+h.offset],null,"api")}function a(){r
+0400: eturn E.exists&&performance.now?Math.round(performance.now()):(u
+0440: =Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).get
+0480: Time(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="a
+04c0: ddEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.proto
+0500: type;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XH
+0540: R:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver}
+0580: ;var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.
+05c0: nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&
+0600: g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:
+0640: u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DO
+0680: MContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechan
+06c0: ge",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");va
+0700: r x=0,E=e(4)},{}]},{},["loader"]);</script>.  <meta name="viewpo
+0740: rt" content="width=device-width">.  <meta name="google-site-veri
+0780: fication" content="labB_MOC7StXIMoDmkpItnuivsFynTu_0nV85Hnef1o" 
+07c0: />.  .  <link rel="alternate" type="application/rss+xml" title="
+0800: " href="/rss.xml" />.  <title>Magic Software | Outperform The Fu
+0840: ture</title>. .  <!--[if lte IE 7]>.  <link rel="stylesheet" hre
+0880: f="/sites/all/themes/magic/js/libs/anythingSlider/css/anythingsl
+08c0: ider-ie.css" media="screen" />.  <![endif]-->.  <script src="//a
+0900: jax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></scrip
+0940: t>..  <script>window.jQuery || document.write('<script src="/sit
+0980: es/all/themes/magic/js/libs/jquery-1.7.1.min.js"><\/script>');</
+09c0: script>.   <link type="text/css" rel="stylesheet" href="https://
+0a00: www.magicsoftware.com/sites/default/files/css/css_rEI_5cK_B9hB4S
+0a40: o2yZUtr5weuEV3heuAllCDE6XsIkI.css" media="all" />.<link type="te
+0a80: xt/css" rel="stylesheet" href="https://www.magicsoftware.com/sit
+0ac0: es/defa
 <= Recv SSL data, 5 bytes (0x5)
-0000: ....!
-<= Recv data, 9 bytes (0x9)
-0000: s" rel="s
+0000: ....~
+<= Recv data, 614 bytes (0x266)
+0000: ult/files/css/css_3DObRIJEzKTkalHr5dQ9jNomQMAJfy0D_9naJfkO1SA.cs
+0040: s" media="all" />.<link type="text/css" rel="stylesheet" href="h
+0080: ttps://www.magicsoftware.com/sites/default/files/css/css_47DEQpj
+00c0: 8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="screen" />.<lin
+0100: k type="text/css" rel="stylesheet" href="https://www.magicsoftwa
+0140: re.com/sites/default/files/css/css_GpoqO1H_YKBzOUVTKzK4d9W18v7xN
+0180: MiFHpOi_Fjx5zo.css" media="all" />.<link type="text/css" rel="st
+01c0: ylesheet" href="https://www.magicsoftware.com/sites/default/file
+0200: s/css/css_e9i1o2m_GsLXCsIe3pJwpeNkUjTw8sddNBrCOrjat7I.css" media
+0240: ="all" />.<link type="text/css" rel="s
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
 <= Recv data, 2750 bytes (0xabe)
@@ -416,55 +415,52 @@
 0a40: ass="de"><a href="/de" class="language-link" xml:lang="de">Deuts
 0a80: ch</a></li><li class="hu"><a href="/hu" class="language-link" 
 <= Recv SSL data, 5 bytes (0x5)
-0000: ....!
-<= Recv data, 9 bytes (0x9)
-0000: xml:lang=
-<= Recv SSL data, 5 bytes (0x5)
 0000: .....
-<= Recv data, 2750 bytes (0xabe)
-0000: "hu">Magyar</a></li><li class="ja last"><a href="/ja" class="lan
-0040: guage-link" xml:lang="ja">.........</a></li></ul>               
-0080:  </nav>.              </li>.                              <li cl
-00c0: ass="last no-border">.                <a href="/contact" class="
-0100: btn-contact-us">Contact Us</a>.              </li>.            <
-0140: /ul>.          </div> .        </div>.        <div class="row">.
-0180:                        <div id="block-system-main-menu" class="b
-01c0: lock block-system block-menu first odd span6" role="navigation">
-0200: ..      .  <nav id="main-menu">.    <ul class="nav nav-pills"><l
-0240: i class="menu__item is-expanded first expanded menu-2406 dropdow
-0280: n"><a href="/magic-xpi-integration-platform" title="Integrate wi
-02c0: th Magic leading integration platforms" class="menu__link dropdo
-0300: wn-toggle" data-toggle="dropdown">Integration Platforms</a><ul >
-0340: <li class="menu__item is-leaf first leaf menu-3942"><a href="htt
-0380: ps://www.magicsoftware.com/magic-xpi-integration-platform" title
-03c0: ="" class="menu__link">Magic xpi Integration Platform</a></li>.<
-0400: li class="menu__item is-leaf leaf menu-3836"><a href="https://ww
-0440: w.magicsoftware.com/magic-xpc-ipaas" title="Magic xpc Integratio
-0480: n Platform as a Service" class="menu__link">Magic xpc iPaaS</a><
-04c0: /li>.<li class="menu__item is-expanded expanded menu-3685 dropdo
-0500: wn"><a href="/magic-integration-it-systems" class="menu__link dr
-0540: opdown-toggle" data-toggle="dropdown">By IT Systems</a><ul ><li 
-0580: class="menu__item is-leaf first leaf menu-2397"><a href="/jd-edw
-05c0: ards-integration" class="menu__link">JD Edwards Integration</a><
-0600: /li>.<li class="menu__item is-leaf leaf menu-2398"><a href="/sap
-0640: -business-one-integration" class="menu__link">SAP Business One I
-0680: ntegration</a></li>.<li class="menu__item is-leaf leaf menu-2399
-06c0: "><a href="/SAP-ERP-Integration" class="menu__link">SAP ERP Inte
-0700: gration</a></li>.<li class="menu__item is-leaf leaf menu-3630"><
-0740: a href="/servicemax-integration-magic-xpi" class="menu__link">Se
-0780: rviceMax Integration</a></li>.<li class="menu__item is-leaf leaf
-07c0:  menu-2400"><a href="/salesforce-integration" class="menu__link"
-0800: >Salesforce Integration</a></li>.<li class="menu__item is-leaf l
-0840: eaf menu-2617"><a href="/sugarcrm-integration" class="menu__link
-0880: ">SugarCRM Integration</a></li>.<li class="menu__item is-leaf le
-08c0: af menu-2401"><a href="/lotus-integration" class="menu__link">Lo
-0900: tus Domino Integration</a></li>.<li class="menu__item is-leaf le
-0940: af menu-2402"><a href="/lotus-integration" title="" class="menu_
-0980: _link">Lotus Notes Integration</a></li>.<li class="menu__item is
-09c0: -leaf leaf menu-2403"><a href="/dynamics-365-integration" class=
-0a00: "menu__link">Microsoft Dynamics 365 Integration</a></li>.<li cla
-0a40: ss="menu__item is-leaf leaf menu-2404"><a href="/sharepoint-inte
-0a80: gration" class="menu__link">Microsoft SharePoint Integration</
+<= Recv data, 2759 bytes (0xac7)
+0000: xml:lang="hu">Magyar</a></li><li class="ja last"><a href="/ja" c
+0040: lass="language-link" xml:lang="ja">.........</a></li></ul>      
+0080:           </nav>.              </li>.                           
+00c0:    <li class="last no-border">.                <a href="/contact
+0100: " class="btn-contact-us">Contact Us</a>.              </li>.    
+0140:         </ul>.          </div> .        </div>.        <div clas
+0180: s="row">.                       <div id="block-system-main-menu"
+01c0:  class="block block-system block-menu first odd span6" role="nav
+0200: igation">..      .  <nav id="main-menu">.    <ul class="nav nav-
+0240: pills"><li class="menu__item is-expanded first expanded menu-240
+0280: 6 dropdown"><a href="/magic-xpi-integration-platform" title="Int
+02c0: egrate with Magic leading integration platforms" class="menu__li
+0300: nk dropdown-toggle" data-toggle="dropdown">Integration Platforms
+0340: </a><ul ><li class="menu__item is-leaf first leaf menu-3942"><a 
+0380: href="https://www.magicsoftware.com/magic-xpi-integration-platfo
+03c0: rm" title="" class="menu__link">Magic xpi Integration Platform</
+0400: a></li>.<li class="menu__item is-leaf leaf menu-3836"><a href="h
+0440: ttps://www.magicsoftware.com/magic-xpc-ipaas" title="Magic xpc I
+0480: ntegration Platform as a Service" class="menu__link">Magic xpc i
+04c0: PaaS</a></li>.<li class="menu__item is-expanded expanded menu-36
+0500: 85 dropdown"><a href="/magic-integration-it-systems" class="menu
+0540: __link dropdown-toggle" data-toggle="dropdown">By IT Systems</a>
+0580: <ul ><li class="menu__item is-leaf first leaf menu-2397"><a href
+05c0: ="/jd-edwards-integration" class="menu__link">JD Edwards Integra
+0600: tion</a></li>.<li class="menu__item is-leaf leaf menu-2398"><a h
+0640: ref="/sap-business-one-integration" class="menu__link">SAP Busin
+0680: ess One Integration</a></li>.<li class="menu__item is-leaf leaf 
+06c0: menu-2399"><a href="/SAP-ERP-Integration" class="menu__link">SAP
+0700:  ERP Integration</a></li>.<li class="menu__item is-leaf leaf men
+0740: u-3630"><a href="/servicemax-integration-magic-xpi" class="menu_
+0780: _link">ServiceMax Integration</a></li>.<li class="menu__item is-
+07c0: leaf leaf menu-2400"><a href="/salesforce-integration" class="me
+0800: nu__link">Salesforce Integration</a></li>.<li class="menu__item 
+0840: is-leaf leaf menu-2617"><a href="/sugarcrm-integration" class="m
+0880: enu__link">SugarCRM Integration</a></li>.<li class="menu__item i
+08c0: s-leaf leaf menu-2401"><a href="/lotus-integration" class="menu_
+0900: _link">Lotus Domino Integration</a></li>.<li class="menu__item i
+0940: s-leaf leaf menu-2402"><a href="/lotus-integration" title="" cla
+0980: ss="menu__link">Lotus Notes Integration</a></li>.<li class="menu
+09c0: __item is-leaf leaf menu-2403"><a href="/dynamics-365-integratio
+0a00: n" class="menu__link">Microsoft Dynamics 365 Integration</a></li
+0a40: >.<li class="menu__item is-leaf leaf menu-2404"><a href="/sharep
+0a80: oint-integration" class="menu__link">Microsoft SharePoint Integr
+0ac0: ation</
 <= Recv SSL data, 5 bytes (0x5)
 0000: ....!
 <= Recv data, 9 bytes (0x9)
@@ -560,55 +556,52 @@
 0a40: ><li class="menu__item is-leaf first leaf menu-2833"><a href="/m
 0a80: agic-products-updates" class="menu__link">Magic Product Update
 <= Recv SSL data, 5 bytes (0x5)
-0000: ....!
-<= Recv data, 9 bytes (0x9)
-0000: s</a></li
-<= Recv SSL data, 5 bytes (0x5)
 0000: .....
-<= Recv data, 2750 bytes (0xabe)
-0000: >.<li class="menu__item is-leaf leaf menu-786"><a href="/support
-0040: -notifications-americas" class="menu__link">Support Notification
-0080: s Americas</a></li>.<li class="menu__item is-leaf leaf menu-787"
-00c0: ><a href="/support-notifications-row" class="menu__link">Support
-0100:  Notifications RoW</a></li>.<li class="menu__item is-leaf leaf m
-0140: enu-788"><a href="/product-lifecycle-policy" class="menu__link">
-0180: Product Lifecycle Policy</a></li>.<li class="menu__item is-leaf 
-01c0: last leaf menu-1164"><a href="/License_Activation" class="menu__
-0200: link">License Activation Policy</a></li>.</ul></li>.<li class="m
-0240: enu__item is-expanded expanded menu-861 dropdown"><a href="/trai
-0280: ning" class="menu__link dropdown-toggle" data-toggle="dropdown">
-02c0: Training</a><ul ><li class="menu__item is-leaf first leaf menu-8
-0300: 74"><a href="/training" title="" class="menu__link">Overview</a>
-0340: </li>.<li class="menu__item is-leaf leaf menu-872"><a href="/tra
-0380: ining-schedule" class="menu__link">Training Schedule</a></li>.<l
-03c0: i class="menu__item is-leaf leaf menu-868"><a href="/magic-cours
-0400: e-offering" class="menu__link">Learning Offering</a></li>.<li cl
-0440: ass="menu__item is-leaf leaf menu-871"><a href="/Magic-Universit
-0480: y-Contact-Information" class="menu__link">Contact Information</a
-04c0: ></li>.<li class="menu__item is-leaf last leaf menu-2842"><a hre
-0500: f="http://www.magicsoftware.com/resources#selfpace" title="Self-
-0540: Paced Courses" class="menu__link">Download Self-Paced Courses</a
-0580: ></li>.</ul></li>.<li class="menu__item is-leaf leaf menu-421"><
-05c0: a href="/resources" class="menu__link">Resources</a></li>.<li cl
-0600: ass="menu__item is-leaf leaf menu-3689"><a href="http://kb.magic
-0640: software.com/" title="" class="menu__link">... Knowledge Center<
-0680: /a></li>.<li class="menu__item is-leaf last leaf menu-3545"><a h
-06c0: ref="https://www.magicsoftware.com/prob-sub" title="Magic Proble
-0700: m Submission Form" class="menu__link">... Problem Submission</a>
-0740: </li>.</ul></li>.<li class="menu__item is-expanded last expanded
-0780:  menu-3237 dropdown"><a href="/about-us" title="" class="menu__l
-07c0: ink dropdown-toggle" data-toggle="dropdown">Company</a><ul ><li 
-0800: class="menu__item is-leaf first leaf menu-3236"><a href="/about-
-0840: us" class="menu__link">About Us</a></li>.<li class="menu__item i
-0880: s-leaf leaf menu-3947"><a href="https://www.magicsoftware.com/ma
-08c0: gic-software-platforms" title="" class="menu__link">Products</a>
-0900: </li>.<li class="menu__item is-leaf leaf menu-3496"><a href="/ev
-0940: ents" title="" class="menu__link">Events</a></li>.<li class="men
-0980: u__item is-expanded expanded menu-796 dropdown"><a href="/webina
-09c0: rs" class="menu__link dropdown-toggle" data-toggle="dropdown">We
-0a00: binar</a><ul ><li class="menu__item is-leaf first leaf menu-2772
-0a40: "><a href="/webinars" title="" class="menu__link">Live Webinars<
-0a80: /a></li>.<li class="menu__item is-leaf last leaf menu-797"><a 
+<= Recv data, 2759 bytes (0xac7)
+0000: s</a></li>.<li class="menu__item is-leaf leaf menu-786"><a href=
+0040: "/support-notifications-americas" class="menu__link">Support Not
+0080: ifications Americas</a></li>.<li class="menu__item is-leaf leaf 
+00c0: menu-787"><a href="/support-notifications-row" class="menu__link
+0100: ">Support Notifications RoW</a></li>.<li class="menu__item is-le
+0140: af leaf menu-788"><a href="/product-lifecycle-policy" class="men
+0180: u__link">Product Lifecycle Policy</a></li>.<li class="menu__item
+01c0:  is-leaf last leaf menu-1164"><a href="/License_Activation" clas
+0200: s="menu__link">License Activation Policy</a></li>.</ul></li>.<li
+0240:  class="menu__item is-expanded expanded menu-861 dropdown"><a hr
+0280: ef="/training" class="menu__link dropdown-toggle" data-toggle="d
+02c0: ropdown">Training</a><ul ><li class="menu__item is-leaf first le
+0300: af menu-874"><a href="/training" title="" class="menu__link">Ove
+0340: rview</a></li>.<li class="menu__item is-leaf leaf menu-872"><a h
+0380: ref="/training-schedule" class="menu__link">Training Schedule</a
+03c0: ></li>.<li class="menu__item is-leaf leaf menu-868"><a href="/ma
+0400: gic-course-offering" class="menu__link">Learning Offering</a></l
+0440: i>.<li class="menu__item is-leaf leaf menu-871"><a href="/Magic-
+0480: University-Contact-Information" class="menu__link">Contact Infor
+04c0: mation</a></li>.<li class="menu__item is-leaf last leaf menu-284
+0500: 2"><a href="http://www.magicsoftware.com/resources#selfpace" tit
+0540: le="Self-Paced Courses" class="menu__link">Download Self-Paced C
+0580: ourses</a></li>.</ul></li>.<li class="menu__item is-leaf leaf me
+05c0: nu-421"><a href="/resources" class="menu__link">Resources</a></l
+0600: i>.<li class="menu__item is-leaf leaf menu-3689"><a href="http:/
+0640: /kb.magicsoftware.com/" title="" class="menu__link">... Knowledg
+0680: e Center</a></li>.<li class="menu__item is-leaf last leaf menu-3
+06c0: 545"><a href="https://www.magicsoftware.com/prob-sub" title="Mag
+0700: ic Problem Submission Form" class="menu__link">... Problem Submi
+0740: ssion</a></li>.</ul></li>.<li class="menu__item is-expanded last
+0780:  expanded menu-3237 dropdown"><a href="/about-us" title="" class
+07c0: ="menu__link dropdown-toggle" data-toggle="dropdown">Company</a>
+0800: <ul ><li class="menu__item is-leaf first leaf menu-3236"><a href
+0840: ="/about-us" class="menu__link">About Us</a></li>.<li class="men
+0880: u__item is-leaf leaf menu-3947"><a href="https://www.magicsoftwa
+08c0: re.com/magic-software-platforms" title="" class="menu__link">Pro
+0900: ducts</a></li>.<li class="menu__item is-leaf leaf menu-3496"><a 
+0940: href="/events" title="" class="menu__link">Events</a></li>.<li c
+0980: lass="menu__item is-expanded expanded menu-796 dropdown"><a href
+09c0: ="/webinars" class="menu__link dropdown-toggle" data-toggle="dro
+0a00: pdown">Webinar</a><ul ><li class="menu__item is-leaf first leaf 
+0a40: menu-2772"><a href="/webinars" title="" class="menu__link">Live 
+0a80: Webinars</a></li>.<li class="menu__item is-leaf last leaf menu-7
+0ac0: 97"><a 
 <= Recv SSL data, 5 bytes (0x5)
 0000: ....!
 <= Recv data, 9 bytes (0x9)
@@ -694,7 +687,7 @@
 0640:                  ..    <div class="row">.                <sectio
 0680: n class="span3 product first quoteBox press">.            <div c
 06c0: lass="view view-reviews view-id-reviews view-display-id-block ar
-0700: ticle view-dom-id-3fea079807a80a7ff6de418d6465a374">....  <div c
+0700: ticle view-dom-id-6169140465f3cd80c5e1efcf9e31cfa8">....  <div c
 0740: lass="learnMore">.    <div class="view-content">.      <div clas
 0780: s="item-list">    <ul class="articleList">          <li class="v
 07c0: iews-row views-row-1 views-row-odd views-row-first views-row-las
@@ -719,8 +712,8 @@
 0000: </a>.<!--        </p>-->.<!--    </div>-->...    </div>        <
 0040: /section>.        <section class="span3 product quoteBox review"
 0080: >.            <div class="view view-reviews view-id-reviews view
-00c0: -display-id-block_1 article view-dom-id-2f65ab7e86bc12424ad4e5d9
-0100: 17baf612">....  <div class="learnMore">.    <div class="view-con
+00c0: -display-id-block_1 article view-dom-id-ab75e5f20af7c93d455cc5ba
+0100: 1b50dedf">....  <div class="learnMore">.    <div class="view-con
 0140: tent">.      <div class="item-list">    <ul class="articleList">
 0180:           <li class="views-row views-row-1 views-row-odd views-r
 01c0: ow-first views-row-last userReview"><div class="imgWrapper">.  <
@@ -741,7 +734,7 @@
 0580: -block" class="block block-views first last odd">..      .  <div
 05c0:  class="content">.    <div class="view view-featured-press-relea
 0600: se view-id-featured_press_release view-display-id-block news vie
-0640: w-dom-id-86d37103f9a682b486a7eba57f608ab4">.        .  .  .     
+0640: w-dom-id-b68dc26754efd9cd52503e2fc236d3a2">.        .  .  .     
 0680:  <div class="view-content">.      <div class="item-list">    <ul
 06c0: >          <li class="views-row views-row-1 views-row-odd views-
 0700: row-first">  .  <div class="views-field views-field-title-1">   
@@ -760,323 +753,338 @@
 0a40: le-1">        <span class="field-content"><h4><a href="/feature_
 0a80: news/magic-software-announces-filing-2017-annual-report">Magic
 <= Recv SSL data, 5 bytes (0x5)
-0000: ....!
-<= Recv data, 9 bytes (0x9)
-0000:  Software
-<= Recv SSL data, 5 bytes (0x5)
 0000: ....>
-<= Recv data, 2589 bytes (0xa1d)
-0000:  Announces Filing of 2017 Annual Report </a></h4></span>  </div>
-0040: </li>.      </ul></div>    </div>.  .  .  .  .  .  .</div>  </di
-0080: v>..</div><!-- /.block -->.  </div><!-- /.region -->.           
-00c0:    </section>.    </div>.        <div class="row learnMore">.   
-0100:      <section class="span3 product learnMore first">.           
-0140:    <div class="region region-home-left-second-row">.    <div id=
-0180: "block-views-learn-more-block" class="block block-views first la
-01c0: st odd">..      .  <div class="content">.    <div class="view vi
-0200: ew-learn-more view-id-learn_more view-display-id-block view-dom-
-0240: id-d7f5c0299f26a7a2c8776d39618d6e3e">.        .  .  .      <div 
-0280: class="view-content">.        <div class="views-row-odd views-ro
-02c0: w-first views-row-last">.      .          <h3 class="field-conte
-0300: nt">Magic xpi Integration Platform</h3>    .          <p class="
-0340: field-content">Magic xpi Integration Platform is a flexible and 
-0380: scalable approach to on-premise, cloud, and mobile application i
-03c0: ntegration</p>    .          <a href="https://www.magicsoftware.
-0400: com/magic-xpi-integration-platform">Learn More</a>    </div>.   
-0440:  </div>.  .  .  .  .  .  .</div>  </div>..</div><!-- /.block -->
-0480: .  </div><!-- /.region -->.        </section>.        <section c
-04c0: lass="span3 product learnMore">.              <div class="region
-0500:  region-home-center-second-row">.    <div id="block-views-learn-
-0540: more-block-1" class="block block-views first last odd">..      .
-0580:   <div class="content">.    <div class="view view-learn-more vie
-05c0: w-id-learn_more view-display-id-block_1 view-dom-id-02351a3d25b3
-0600: 6de5b0a05a08aae4132c">.        .  .  .      <div class="view-con
-0640: tent">.        <div class="views-row-odd views-row-first views-r
-0680: ow-last">.      .          <h3 class="field-content">Magic Integ
-06c0: ration Partner Program</h3>    .          <p class="field-conten
-0700: t">Magic Integration Partner Program is a multi-tier program tha
-0740: t provides a comprehensive and competitive offer for a variety o
-0780: f business opportunities.</p>    .          <a href="https://www
-07c0: .magicsoftware.com/magic-software-integration-partner-program">L
-0800: earn More</a>    </div>.    </div>.  .  .  .  .  .  .</div>  </d
-0840: iv>..</div><!-- /.block -->.  </div><!-- /.region -->.        </
-0880: section>.        <section class="span3 product learnMore">.     
-08c0:          <div class="region region-home-right-second-row">.    <
-0900: div id="block-views-learn-more-block-2" class="block block-views
-0940:  first last odd">..      .  <div class="content">.    <div class
-0980: ="view view-learn-more view-id-learn_more view-display-id-block_
-09c0: 2 view-dom-id-78b2101a1615e77329c29e9e38f34b8d">.        .  .  .
-0a00:       <div class="view-conten
+<= Recv data, 2598 bytes (0xa26)
+0000:  Software Announces Filing of 2017 Annual Report </a></h4></span
+0040: >  </div></li>.      </ul></div>    </div>.  .  .  .  .  .  .</d
+0080: iv>  </div>..</div><!-- /.block -->.  </div><!-- /.region -->.  
+00c0:             </section>.    </div>.        <div class="row learnM
+0100: ore">.        <section class="span3 product learnMore first">.  
+0140:             <div class="region region-home-left-second-row">.   
+0180:  <div id="block-views-learn-more-block" class="block block-views
+01c0:  first last odd">..      .  <div class="content">.    <div class
+0200: ="view view-learn-more view-id-learn_more view-display-id-block 
+0240: view-dom-id-c3db7ff224fcaf224ad0322bdc020cd5">.        .  .  .  
+0280:     <div class="view-content">.        <div class="views-row-odd
+02c0:  views-row-first views-row-last">.      .          <h3 class="fi
+0300: eld-content">Magic xpi Integration Platform</h3>    .          <
+0340: p class="field-content">Magic xpi Integration Platform is a flex
+0380: ible and scalable approach to on-premise, cloud, and mobile appl
+03c0: ication integration</p>    .          <a href="https://www.magic
+0400: software.com/magic-xpi-integration-platform">Learn More</a>    <
+0440: /div>.    </div>.  .  .  .  .  .  .</div>  </div>..</div><!-- /.
+0480: block -->.  </div><!-- /.region -->.        </section>.        <
+04c0: section class="span3 product learnMore">.              <div clas
+0500: s="region region-home-center-second-row">.    <div id="block-vie
+0540: ws-learn-more-block-1" class="block block-views first last odd">
+0580: ..      .  <div class="content">.    <div class="view view-learn
+05c0: -more view-id-learn_more view-display-id-block_1 view-dom-id-50d
+0600: 6de643e5f19f59fa9cfb5914d745d">.        .  .  .      <div class=
+0640: "view-content">.        <div class="views-row-odd views-row-firs
+0680: t views-row-last">.      .          <h3 class="field-content">Ma
+06c0: gic Integration Partner Program</h3>    .          <p class="fie
+0700: ld-content">Magic Integration Partner Program is a multi-tier pr
+0740: ogram that provides a comprehensive and competitive offer for a 
+0780: variety of business opportunities.</p>    .          <a href="ht
+07c0: tps://www.magicsoftware.com/magic-software-integration-partner-p
+0800: rogram">Learn More</a>    </div>.    </div>.  .  .  .  .  .  .</
+0840: div>  </div>..</div><!-- /.block -->.  </div><!-- /.region -->. 
+0880:        </section>.        <section class="span3 product learnMor
+08c0: e">.              <div class="region region-home-right-second-ro
+0900: w">.    <div id="block-views-learn-more-block-2" class="block bl
+0940: ock-views first last odd">..      .  <div class="content">.    <
+0980: div class="view view-learn-more view-id-learn_more view-display-
+09c0: id-block_2 view-dom-id-a2662d2414955b76efb4edcbc73e9c56">.      
+0a00:   .  .  .      <div class="view-conten
 <= Recv SSL data, 5 bytes (0x5)
-0000: ...5.
-<= Recv data, 13768 bytes (0x35c8)
-0000: t">.        <div class="views-row-odd views-row-first views-row-
-0040: last">.      .          <h3 class="field-content">Magic xpa Appl
-0080: ication Platform</h3>    .          <p class="field-content">Mag
-00c0: ic xpa Application Platform is a code-free development and deplo
-0100: yment platform for the quick creation of enterprise-grade apps</
-0140: p>    .          <a href="https://www.magicsoftware.com/magic-xp
-0180: a-application-platform">Learn More</a>    </div>.    </div>.  . 
-01c0:  .  .  .  .  .</div>  </div>..</div><!-- /.block -->.  </div><!-
-0200: - /.region -->.        </section>.    </div>.    .  </div>.    .
-0240:   <footer class="container">.    .      <div class="row termsAnd
-0280: Share">.             <div class="span5">  
-02ac:                        <div id="block-menu-menu-footer-menu" cla
-02ec: ss="block block-menu first last odd" role="navigation">..      .
-032c:   <div class="content">.    <ul class="inline simpleNav fewLinks
-036c: "><li class="menu__item is-leaf first leaf menu-538"><a href="/t
-03ac: erms-use" class="menu__link">Terms Of Use</a></li>.<li class="me
-03ec: nu__item is-leaf leaf menu-540"><a href="/privacy-policy" class=
-042c: "menu__link">Privacy Policy</a></li>.<li class="menu__item is-le
-046c: af leaf menu-542"><a href="/sitemap" title="" class="menu__link"
-04ac: >Sitemap</a></li>.<li class="menu__item is-leaf leaf menu-1437">
-04ec: <a href="https://partner.magicsoftware.com/" title="Magic Partne
-052c: r Portal" class="menu__link">Partner Portal</a></li>.<li class="
-056c: menu__item is-leaf last leaf menu-779"><a href="/worldwide-offic
-05ac: es-distributors" class="menu__link">Worldwide Offices &amp; Dist
-05ec: ributors</a></li>.</ul>  </div>..</div><!-- /.block -->.        
-062c:   
-0630:              </div>  
-0647:                        <div class="span3 offset1 share">
-0681:           <!--label>Share</label-->
-06a6:           <!-- AddThis Button BEGIN -->
-06cf:           <div class="addthis_toolbox addthis_default_style ">
-070f:          <a href="http://www.addthis.com/bookmark.php?v=250&amp;
-074f: pubid=ra-4f6e310233d08bc6" class="addthis_button_compact"><label
-078f: >Share</label></a>
-07a3:           </div>
-07b5:           <script type="text/javascript" src="//s7.addthis.com/j
-07f5: s/250/addthis_widget.js#pubid=ra-4f6e310233d08bc6"></script>
-0833:           <!-- AddThis Button END -->
-085a:           
-0866:           <ul class="inline">
-0885:                       <li>
-08a1:               <a target="_blank" class="bolggerShare" href="http
-08e1: ://blog.magicsoftware.com/">Blogger</a>
-090a:             </li>
-091d:             <li>
-092f:               <a target="_blank" class="linkedinShare" href="htt
-096f: p://www.linkedin.com/company/magic-software-enterprises">Faceboo
-09af: k</a>
-09b6:             </li>
-09c9:             <li>
-09db:               <a target="_blank" class="facebookShare" href="htt
-0a1b: ps://www.facebook.com/MagicSoftwareEnterprises">Facebook</a>
-0a59:             </li>
-0a6c:                           <li>
-0a8c:                 <a target="_blank" class="twitterShare" href="ht
-0acc: tp://twitter.com/MagicSoftware">Twitter</a>
-0af9:               </li>
-0b0e:                         <li>
-0b2c:               <a target="_blank" class="youtubeShare" href="http
-0b6c: ://www.youtube.com/MagicSoftware">Youtube</a>
-0b9b:             </li>
-0bae:             <li>
-0bc0:               <a target="_blank" class="gplus" href="https://plu
-0c00: s.google.com/+magicsoftware" rel="publisher">Google+</a>
-0c3a:             </li>
-0c4d:                               </ul>
-0c72:         </div>
-0c82:       </div>
-0c90:                   <div class="region region-footer row vNav">
-0ccf:             <div id="block-menu-menu-products" class="block bloc
-0d0f: k-menu first odd span1" role="navigation">.        <div class="b
-0d4f: lock__title block-title">Business Integration Footer</div>.     
-0d8f:  <ul class="menu"><li class="menu__item is-leaf first leaf menu-
-0dcf: 3584"><a href="/magic-xpi-integration-platform-" title="" class=
-0e0f: "menu__link">Business Integration</a></li>.<li class="menu__item
-0e4f:  is-leaf leaf menu-2209"><a href="/magic-xpi-integration-platfor
-0e8f: m-" title="Magic Integration Platform" class="menu__link">Magic 
-0ecf: xpi Integration Platform</a></li>.<li class="menu__item is-leaf 
-0f0f: leaf menu-3837"><a href="https://www.magicsoftware.com/magic-xpc
-0f4f: -ipaas" title="" class="menu__link">Magic xpc iPaaS</a></li>.<li
-0f8f:  class="menu__item is-leaf leaf menu-2242"><a href="/jd-edwards-
-0fcf: integration" title="Extend and Integrate JD Edwards across Your 
-100f: Company" class="menu__link">JD Edwards Integration</a></li>.<li 
-104f: class="menu__item is-leaf leaf menu-2243"><a href="/sap-business
-108f: -one-integration" title="Industry-proven SAP-certified Integrati
-10cf: on Platform" class="menu__link">SAP Business One integration</a>
-110f: </li>.<li class="menu__item is-leaf leaf menu-2244"><a href="/SA
-114f: P-ERP-Integration" title="Industry-proven SAP-certified Integrat
-118f: ion Platform" class="menu__link">SAP ERP Integration</a></li>.<l
-11cf: i class="menu__item is-leaf leaf menu-2245"><a href="/salesforce
-120f: -integration" title="Industry-proven Salesforce.com-certified In
-124f: tegration Platform" class="menu__link">Salesforce Integration</a
-128f: ></li>.<li class="menu__item is-leaf leaf menu-2246"><a href="/l
-12cf: otus-integration" title="" class="menu__link">Lotus Domino Integ
-130f: ration</a></li>.<li class="menu__item is-leaf leaf menu-2247"><a
-134f:  href="/lotus-integration" title="" class="menu__link">Lotus Not
-138f: es Integration</a></li>.<li class="menu__item is-leaf leaf menu-
-13cf: 2248"><a href="/dynamics-365-integration" title="" class="menu__
-140f: link">Microsoft Dynamics CRM Integration</a></li>.<li class="men
-144f: u__item is-leaf leaf menu-2249"><a href="/sharepoint-integration
-148f: " title="" class="menu__link">SharePoint Integration</a></li>.<l
-14cf: i class="menu__item is-leaf leaf menu-3582"><a href="https://www
-150f: .magicsoftware.com/sugarcrm-integration" title="" class="menu__l
-154f: ink">SugarCRM Integration</a></li>.<li class="menu__item is-leaf
-158f:  leaf menu-3583"><a href="https://www.magicsoftware.com/SYSPRO-i
-15cf: ntegration" title="" class="menu__link">SYSPRO Integration</a></
-160f: li>.<li class="menu__item is-leaf leaf menu-3815"><a href="/magi
-164f: c-vertical-solutions" title="" class="menu__link">Magic Vertical
-168f:  Solutions</a></li>.<li class="menu__item is-leaf last leaf menu
-16cf: -3578"><a href="/Mobile-Device-Management" title="MDM For Secure
-170f:  Enterprise Mobility" class="menu__link">Mobile Device Managemen
-174f: t (MDM)</a></li>.</ul>.</div><!-- /.block -->..<div id="block-me
-178f: nu-menu-footer-menu-no-4" class="block block-menu even span1" ro
-17cf: le="navigation">.        <div class="block__title block-title">B
-180f: usiness App Development Footer</div>.      <ul class="menu"><li 
-184f: class="menu__item is-leaf first leaf menu-3586"><a href="/magic-
-188f: xpa-application-platform" title="" class="menu__link">Business A
-18cf: pp Development</a></li>.<li class="menu__item is-leaf leaf menu-
-190f: 2208"><a href="/magic-xpa-application-platform" title="Magic App
-194f: lication Platform" class="menu__link">Magic xpa Application Plat
-198f: form</a></li>.<li class="menu__item is-leaf leaf menu-3817"><a h
-19cf: ref="https://www.magicsoftware.com/xpa-free" title="" class="men
-1a0f: u__link">Magic xpa Free Edition</a></li>.<li class="menu__item i
-1a4f: s-leaf last leaf menu-3818"><a href="https://www.magicsoftware.c
-1a8f: om/professional-services" title="" class="menu__link">Profession
-1acf: al Services</a></li>.</ul>.</div><!-- /.block -->..<div id="bloc
-1b0f: k-menu-menu-footer-menu-no-5" class="block block-menu even span1
-1b4f: " role="navigation">.        <div class="block__title block-titl
-1b8f: e">Partners</div>.      <ul class="menu"><li class="menu__item i
-1bcf: s-leaf first leaf menu-3588"><a href="https://www.magicsoftware.
-1c0f: com/magic-partner-programs" title="" class="menu__link">Partners
-1c4f: </a></li>.<li class="menu__item is-leaf leaf menu-2237"><a href=
-1c8f: "https://www.magicsoftware.com/magic-partner-programs" title="Ma
-1ccf: gic Partner Program Overview" class="menu__link">Overview</a></l
-1d0f: i>.<li class="menu__item is-leaf leaf menu-2238"><a href="https:
-1d4f: //www.magicsoftware.com/software-partners-isvs" title="Magic Sof
-1d8f: tware Partners (ISVs)" class="menu__link">Software Partners (ISV
-1dcf: s)</a></li>.<li class="menu__item is-leaf leaf menu-2239"><a hre
-1e0f: f="https://www.magicsoftware.com/service-delivery-partners-sdps"
-1e4f:  title="Magic Service Delivery Partners (SDPs)" class="menu__lin
-1e8f: k">Service Delivery Partners (SDPs)</a></li>.<li class="menu__it
-1ecf: em is-leaf leaf menu-2240"><a href="https://www.magicsoftware.co
-1f0f: m/magic-sis" title="Magic Partner Program for SIs" class="menu__
-1f4f: link">Magic for SIs</a></li>.<li class="menu__item is-leaf leaf 
-1f8f: menu-2241"><a href="https://www.magicsoftware.com/distributors-a
-1fcf: nd-resellers" title="Distributors and Resellers" class="menu__li
-200f: nk">Distributors and Resellers</a></li>.<li class="menu__item is
-204f: -leaf leaf menu-3819"><a href="https://www.magicsoftware.com/mag
-208f: ic-strategic-alliances-and-ecosystems" title="" class="menu__lin
-20cf: k">Magic Strategic Alliances and Ecosystems</a></li>.<li class="
-210f: menu__item is-leaf last leaf menu-3820"><a href="https://www.mag
-214f: icsoftware.com/solution-provider-directory" title="" class="menu
-218f: __link">Solution Provider Directory</a></li>.</ul>.</div><!-- /.
-21cf: block -->..<div id="block-menu-menu-magic-customers" class="bloc
-220f: k block-menu odd span1" role="navigation">.        <div class="b
-224f: lock__title block-title">Support</div>.      <ul class="menu"><l
-228f: i class="menu__item is-leaf first leaf menu-3821"><a href="https
-22cf: ://www.magicsoftware.com/support" title="" class="menu__link">Su
-230f: pport</a></li>.<li class="menu__item is-leaf leaf menu-2230"><a 
-234f: href="https://www.magicsoftware.com/support" title="" class="men
-238f: u__link">Overview</a></li>.<li class="menu__item is-leaf leaf me
-23cf: nu-2233"><a href="https://www.magicsoftware.com/training" title=
-240f: "" class="menu__link">Training</a></li>.<li class="menu__item is
-244f: -leaf leaf menu-2232"><a href="http://kb.magicsoftware.com/" tit
-248f: le="" class="menu__link">Knowledge Center</a></li>.<li class="me
-24cf: nu__item is-leaf leaf menu-2234"><a href="https://www.magicsoftw
-250f: are.com/prob-sub" title="" class="menu__link">Problem Submission
-254f: </a></li>.<li class="menu__item is-leaf last leaf menu-3830"><a 
-258f: href="https://www.magicsoftware.com/resources" title="" class="m
-25cf: enu__link">Resources</a></li>.</ul>.</div><!-- /.block -->..<div
-260f:  id="block-menu-menu-technology" class="block block-menu last ev
-264f: en span1" role="navigation">.        <div class="block__title bl
-268f: ock-title">Company</div>.      <ul class="menu"><li class="menu_
-26cf: _item is-leaf first leaf menu-3590"><a href="https://www.magicso
-270f: ftware.com/about-us" title="" class="menu__link">Company</a></li
-274f: >.<li class="menu__item is-leaf leaf menu-2228"><a href="https:/
-278f: /www.magicsoftware.com/about-us" title="Magic Customers List" cl
-27cf: ass="menu__link">About Us</a></li>.<li class="menu__item is-leaf
-280f:  leaf menu-2229"><a href="https://www.magicsoftware.com/events" 
-284f: title="" class="menu__link">Events</a></li>.<li class="menu__ite
-288f: m is-leaf leaf menu-1438"><a href="https://www.magicsoftware.com
-28cf: /press-releases" title="" class="menu__link">Press Releases</a><
-290f: /li>.<li class="menu__item is-leaf leaf menu-3822"><a href="http
-294f: s://www.magicsoftware.com/media-coverage" title="" class="menu__
-298f: link">Media Coverage</a></li>.<li class="menu__item is-leaf leaf
-29cf:  menu-3823"><a href="https://www.magicsoftware.com/board-directo
-2a0f: rs" title="" class="menu__link">Board of Directors</a></li>.<li 
-2a4f: class="menu__item is-leaf leaf menu-3824"><a href="https://www.m
-2a8f: agicsoftware.com/management-team" title="" class="menu__link">Ma
-2acf: nagement Team</a></li>.<li class="menu__item is-leaf leaf menu-3
-2b0f: 825"><a href="https://www.magicsoftware.com/certifications-award
-2b4f: s" title="" class="menu__link">Certifications &amp; Awards</a></
-2b8f: li>.<li class="menu__item is-leaf leaf menu-3826"><a href="https
-2bcf: ://www.magicsoftware.com/group-offering" title="" class="menu__l
-2c0f: ink">Group Offering</a></li>.<li class="menu__item is-leaf leaf 
-2c4f: menu-3827"><a href="https://www.magicsoftware.com/investor-relat
-2c8f: ions" title="" class="menu__link">Investor Relations</a></li>.<l
-2ccf: i class="menu__item is-leaf leaf menu-3828"><a href="https://www
-2d0f: .magicsoftware.com/worldwide-offices-distributors" title="" clas
-2d4f: s="menu__link">Worldwide Offices &amp; Distributors</a></li>.<li
-2d8f:  class="menu__item is-leaf last leaf menu-3829"><a href="https:/
-2dcf: /www.magicsoftware.com/careers" title="" class="menu__link">Care
-2e0f: ers</a></li>.</ul>.</div><!-- /.block -->..          </div><!-- 
-2e4f: /.region -->
-2e5d:           </footer>...  <script src="https://www.magicsoftware.c
-2e9d: om/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.mi
-2edd: n.js?v=1.10.2"></script>.<script src="https://www.magicsoftware.
-2f1d: com/misc/jquery.once.js?v=1.2"></script>.<script src="https://ww
-2f5d: w.magicsoftware.com/misc/drupal.js?p98kwa"></script>.<script src
-2f9d: ="https://www.magicsoftware.com/sites/all/modules/custom_search/
-2fdd: js/custom_search.js?p98kwa"></script>.<script src="https://www.m
-301d: agicsoftware.com/sites/all/themes/magic/js/libs/bootstrap/transi
-305d: tion.js?p98kwa"></script>.<script src="https://www.magicsoftware
-309d: .com/sites/all/themes/magic/js/libs/bootstrap/collapse.js?p98kwa
-30dd: "></script>.<script src="https://www.magicsoftware.com/sites/all
-311d: /themes/magic/js/libs/bootstrap/tab.js?p98kwa"></script>.<script
-315d:  src="https://www.magicsoftware.com/sites/all/themes/magic/js/li
-319d: bs/jquery.ba-bbq.min.js?p98kwa"></script>.<script src="https://w
-31dd: ww.magicsoftware.com/sites/all/themes/magic/js/libs/anythingSlid
-321d: er/js/jquery.anythingslider.js?p98kwa"></script>.<script src="ht
-325d: tps://www.magicsoftware.com/sites/all/themes/magic/js/libs/prett
-329d: yPhoto/js/jquery.prettyPhoto.js?p98kwa"></script>.<script src="h
-32dd: ttps://www.magicsoftware.com/sites/all/themes/magic/js/script.js
-331d: ?p98kwa"></script>.<script src="https://www.magicsoftware.com/si
-335d: tes/all/themes/magic/js/inner.js?p98kwa"></script>.<script>jQuer
-339d: y.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajax
-33dd: PageState":{"theme":"magic","theme_token":"CpkKeK-nKg1fmDvIDbYV8
-341d: Gy2GktYswxun7w3tuNG9FE","js":{"sites\/all\/modules\/jquery_updat
-345d: e\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js
-349d: ":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom_search\/js\
-34dd: /custom_search.js":1,"sites\/all\/themes\/magic\/js\/libs\/boots
-351d: trap\/transition.js":1,"sites\/all\/themes\/magic\/js\/libs\/boo
-355d: tstrap\/collapse.js":1,"sites\/all\/themes\/magic\/js\/libs\/boo
-359d: tstrap\/tab.js":1,"sites\/all\/themes\/magi
+0000: ....'
+<= Recv data, 6 bytes (0x6)
+0000: t">.  
 <= Recv SSL data, 5 bytes (0x5)
 0000: .....
-<= Recv data, 2026 bytes (0x7ea)
-0000: c\/js\/libs\/jquery.ba-bbq.min.js":1,"sites\/all\/themes\/magic\
-0040: /js\/libs\/anythingSlider\/js\/jquery.anythingslider.js":1,"site
-0080: s\/all\/themes\/magic\/js\/libs\/prettyPhoto\/js\/jquery.prettyP
-00c0: hoto.js":1,"sites\/all\/themes\/magic\/js\/script.js":1,"sites\/
-0100: all\/themes\/magic\/js\/inner.js":1},"css":{"modules\/system\/sy
-0140: stem.base.css":1,"modules\/system\/system.messages.css":1,"modul
-0180: es\/aggregator\/aggregator.css":1,"sites\/all\/modules\/date\/da
-01c0: te_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/them
-0200: es\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"
-0240: sites\/all\/modules\/find_content\/find_content.css":1,"modules\
-0280: /node\/node.css":1,"modules\/search\/search.css":1,"modules\/use
-02c0: r\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"s
-0300: ites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/locale\
-0340: /locale.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"si
-0380: tes\/all\/themes\/magic\/css\/system.menus.css":1,"sites\/all\/t
-03c0: hemes\/magic\/js\/libs\/anythingSlider\/css\/anythingslider.css"
-0400: :1,"sites\/all\/themes\/magic\/js\/libs\/prettyPhoto\/css\/prett
-0440: yPhoto.css":1,"sites\/all\/themes\/magic\/js\/libs\/tipso\/tipso
-0480: .css":1,"sites\/all\/themes\/magic\/css\/font-awesome.min.css":1
-04c0: ,"sites\/all\/themes\/magic\/css\/style.css":1}},"smart_ip":{"lo
-0500: cation":{"country_code":"","country":"","region":"","region_code
-0540: ":"","city":"","zip":"","latitude":null,"longitude":null,"time_z
-0580: one":"","ip_address":"46.189.28.206","timestamp":1527214887}},"c
-05c0: ustom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted
-0600: ":{"\/":true}});</script>.    <!--[if lt IE 9]>.  <script src="/
-0640: /ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>.
-0680:   <![endif]-->.<script type="text/javascript">window.NREUM||(NRE
-06c0: UM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"505b
-0700: 95c79f","applicationID":"78128286","transactionName":"YFRSZ0cDXE
-0740: IFABcPXVkecVBBC11fSw0MAldoQVFUUD1WVAICFgpG","queueTime":0,"appli
-0780: cationTime":651,"atts":"TBNREQ8ZT0w=","errorBeacon":"bam.nr-data
-07c0: .net","agent":""}</script></body>.</html>.
+<= Recv data, 2750 bytes (0xabe)
+0000:       <div class="views-row-odd views-row-first views-row-last">
+0040: .      .          <h3 class="field-content">Magic xpa Applicatio
+0080: n Platform</h3>    .          <p class="field-content">Magic xpa
+00c0:  Application Platform is a code-free development and deployment 
+0100: platform for the quick creation of enterprise-grade apps</p>    
+0140: .          <a href="https://www.magicsoftware.com/magic-xpa-appl
+0180: ication-platform">Learn More</a>    </div>.    </div>.  .  .  . 
+01c0:  .  .  .</div>  </div>..</div><!-- /.block -->.  </div><!-- /.re
+0200: gion -->.        </section>.    </div>.    .  </div>.    .  <foo
+0240: ter class="container">.    .      <div class="row termsAndShare"
+0280: >.             <div class="span5">  
+02a6:                        <div id="block-menu-menu-footer-menu" cla
+02e6: ss="block block-menu first last odd" role="navigation">..      .
+0326:   <div class="content">.    <ul class="inline simpleNav fewLinks
+0366: "><li class="menu__item is-leaf first leaf menu-538"><a href="/t
+03a6: erms-use" class="menu__link">Terms Of Use</a></li>.<li class="me
+03e6: nu__item is-leaf leaf menu-540"><a href="/privacy-policy" class=
+0426: "menu__link">Privacy Policy</a></li>.<li class="menu__item is-le
+0466: af leaf menu-542"><a href="/sitemap" title="" class="menu__link"
+04a6: >Sitemap</a></li>.<li class="menu__item is-leaf leaf menu-1437">
+04e6: <a href="https://partner.magicsoftware.com/" title="Magic Partne
+0526: r Portal" class="menu__link">Partner Portal</a></li>.<li class="
+0566: menu__item is-leaf last leaf menu-779"><a href="/worldwide-offic
+05a6: es-distributors" class="menu__link">Worldwide Offices &amp; Dist
+05e6: ributors</a></li>.</ul>  </div>..</div><!-- /.block -->.        
+0626:   
+062a:              </div>  
+0641:                        <div class="span3 offset1 share">
+067b:           <!--label>Share</label-->
+06a0:           <!-- AddThis Button BEGIN -->
+06c9:           <div class="addthis_toolbox addthis_default_style ">
+0709:          <a href="http://www.addthis.com/bookmark.php?v=250&amp;
+0749: pubid=ra-4f6e310233d08bc6" class="addthis_button_compact"><label
+0789: >Share</label></a>
+079d:           </div>
+07af:           <script type="text/javascript" src="//s7.addthis.com/j
+07ef: s/250/addthis_widget.js#pubid=ra-4f6e310233d08bc6"></script>
+082d:           <!-- AddThis Button END -->
+0854:           
+0860:           <ul class="inline">
+087f:                       <li>
+089b:               <a target="_blank" class="bolggerShare" href="http
+08db: ://blog.magicsoftware.com/">Blogger</a>
+0904:             </li>
+0917:             <li>
+0929:               <a target="_blank" class="linkedinShare" href="htt
+0969: p://www.linkedin.com/company/magic-software-enterprises">Faceboo
+09a9: k</a>
+09b0:             </li>
+09c3:             <li>
+09d5:               <a target="_blank" class="facebookShare" href="htt
+0a15: ps://www.facebook.com/MagicSoftwareEnterprises">Facebook</a>
+0a53:             </li>
+0a66:                           <li>
+0a86:                 <a target="_blank" class="twitterShare" 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2759 bytes (0xac7)
+0000: href="http://twitter.com/MagicSoftware">Twitter</a>
+0035:               </li>
+004a:                         <li>
+0068:               <a target="_blank" class="youtubeShare" href="http
+00a8: ://www.youtube.com/MagicSoftware">Youtube</a>
+00d7:             </li>
+00ea:             <li>
+00fc:               <a target="_blank" class="gplus" href="https://plu
+013c: s.google.com/+magicsoftware" rel="publisher">Google+</a>
+0176:             </li>
+0189:                               </ul>
+01ae:         </div>
+01be:       </div>
+01cc:                   <div class="region region-footer row vNav">
+020b:             <div id="block-menu-menu-products" class="block bloc
+024b: k-menu first odd span1" role="navigation">.        <div class="b
+028b: lock__title block-title">Business Integration Footer</div>.     
+02cb:  <ul class="menu"><li class="menu__item is-leaf first leaf menu-
+030b: 3584"><a href="/magic-xpi-integration-platform-" title="" class=
+034b: "menu__link">Business Integration</a></li>.<li class="menu__item
+038b:  is-leaf leaf menu-2209"><a href="/magic-xpi-integration-platfor
+03cb: m-" title="Magic Integration Platform" class="menu__link">Magic 
+040b: xpi Integration Platform</a></li>.<li class="menu__item is-leaf 
+044b: leaf menu-3837"><a href="https://www.magicsoftware.com/magic-xpc
+048b: -ipaas" title="" class="menu__link">Magic xpc iPaaS</a></li>.<li
+04cb:  class="menu__item is-leaf leaf menu-2242"><a href="/jd-edwards-
+050b: integration" title="Extend and Integrate JD Edwards across Your 
+054b: Company" class="menu__link">JD Edwards Integration</a></li>.<li 
+058b: class="menu__item is-leaf leaf menu-2243"><a href="/sap-business
+05cb: -one-integration" title="Industry-proven SAP-certified Integrati
+060b: on Platform" class="menu__link">SAP Business One integration</a>
+064b: </li>.<li class="menu__item is-leaf leaf menu-2244"><a href="/SA
+068b: P-ERP-Integration" title="Industry-proven SAP-certified Integrat
+06cb: ion Platform" class="menu__link">SAP ERP Integration</a></li>.<l
+070b: i class="menu__item is-leaf leaf menu-2245"><a href="/salesforce
+074b: -integration" title="Industry-proven Salesforce.com-certified In
+078b: tegration Platform" class="menu__link">Salesforce Integration</a
+07cb: ></li>.<li class="menu__item is-leaf leaf menu-2246"><a href="/l
+080b: otus-integration" title="" class="menu__link">Lotus Domino Integ
+084b: ration</a></li>.<li class="menu__item is-leaf leaf menu-2247"><a
+088b:  href="/lotus-integration" title="" class="menu__link">Lotus Not
+08cb: es Integration</a></li>.<li class="menu__item is-leaf leaf menu-
+090b: 2248"><a href="/dynamics-365-integration" title="" class="menu__
+094b: link">Microsoft Dynamics CRM Integration</a></li>.<li class="men
+098b: u__item is-leaf leaf menu-2249"><a href="/sharepoint-integration
+09cb: " title="" class="menu__link">SharePoint Integration</a></li>.<l
+0a0b: i class="menu__item is-leaf leaf menu-3582"><a href="https://www
+0a4b: .magicsoftware.com/sugarcrm-integration" title="" class="menu__l
+0a8b: ink">SugarCRM Integration</a></li>.<li class="menu__item is-
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2759 bytes (0xac7)
+0000: leaf leaf menu-3583"><a href="https://www.magicsoftware.com/SYSP
+0040: RO-integration" title="" class="menu__link">SYSPRO Integration</
+0080: a></li>.<li class="menu__item is-leaf leaf menu-3815"><a href="/
+00c0: magic-vertical-solutions" title="" class="menu__link">Magic Vert
+0100: ical Solutions</a></li>.<li class="menu__item is-leaf last leaf 
+0140: menu-3578"><a href="/Mobile-Device-Management" title="MDM For Se
+0180: cure Enterprise Mobility" class="menu__link">Mobile Device Manag
+01c0: ement (MDM)</a></li>.</ul>.</div><!-- /.block -->..<div id="bloc
+0200: k-menu-menu-footer-menu-no-4" class="block block-menu even span1
+0240: " role="navigation">.        <div class="block__title block-titl
+0280: e">Business App Development Footer</div>.      <ul class="menu">
+02c0: <li class="menu__item is-leaf first leaf menu-3586"><a href="/ma
+0300: gic-xpa-application-platform" title="" class="menu__link">Busine
+0340: ss App Development</a></li>.<li class="menu__item is-leaf leaf m
+0380: enu-2208"><a href="/magic-xpa-application-platform" title="Magic
+03c0:  Application Platform" class="menu__link">Magic xpa Application 
+0400: Platform</a></li>.<li class="menu__item is-leaf leaf menu-3817">
+0440: <a href="https://www.magicsoftware.com/xpa-free" title="" class=
+0480: "menu__link">Magic xpa Free Edition</a></li>.<li class="menu__it
+04c0: em is-leaf last leaf menu-3818"><a href="https://www.magicsoftwa
+0500: re.com/professional-services" title="" class="menu__link">Profes
+0540: sional Services</a></li>.</ul>.</div><!-- /.block -->..<div id="
+0580: block-menu-menu-footer-menu-no-5" class="block block-menu even s
+05c0: pan1" role="navigation">.        <div class="block__title block-
+0600: title">Partners</div>.      <ul class="menu"><li class="menu__it
+0640: em is-leaf first leaf menu-3588"><a href="https://www.magicsoftw
+0680: are.com/magic-partner-programs" title="" class="menu__link">Part
+06c0: ners</a></li>.<li class="menu__item is-leaf leaf menu-2237"><a h
+0700: ref="https://www.magicsoftware.com/magic-partner-programs" title
+0740: ="Magic Partner Program Overview" class="menu__link">Overview</a
+0780: ></li>.<li class="menu__item is-leaf leaf menu-2238"><a href="ht
+07c0: tps://www.magicsoftware.com/software-partners-isvs" title="Magic
+0800:  Software Partners (ISVs)" class="menu__link">Software Partners 
+0840: (ISVs)</a></li>.<li class="menu__item is-leaf leaf menu-2239"><a
+0880:  href="https://www.magicsoftware.com/service-delivery-partners-s
+08c0: dps" title="Magic Service Delivery Partners (SDPs)" class="menu_
+0900: _link">Service Delivery Partners (SDPs)</a></li>.<li class="menu
+0940: __item is-leaf leaf menu-2240"><a href="https://www.magicsoftwar
+0980: e.com/magic-sis" title="Magic Partner Program for SIs" class="me
+09c0: nu__link">Magic for SIs</a></li>.<li class="menu__item is-leaf l
+0a00: eaf menu-2241"><a href="https://www.magicsoftware.com/distributo
+0a40: rs-and-resellers" title="Distributors and Resellers" class="menu
+0a80: __link">Distributors and Resellers</a></li>.<li class="menu__ite
+0ac0: m is-le
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2759 bytes (0xac7)
+0000: af leaf menu-3819"><a href="https://www.magicsoftware.com/magic-
+0040: strategic-alliances-and-ecosystems" title="" class="menu__link">
+0080: Magic Strategic Alliances and Ecosystems</a></li>.<li class="men
+00c0: u__item is-leaf last leaf menu-3820"><a href="https://www.magics
+0100: oftware.com/solution-provider-directory" title="" class="menu__l
+0140: ink">Solution Provider Directory</a></li>.</ul>.</div><!-- /.blo
+0180: ck -->..<div id="block-menu-menu-magic-customers" class="block b
+01c0: lock-menu odd span1" role="navigation">.        <div class="bloc
+0200: k__title block-title">Support</div>.      <ul class="menu"><li c
+0240: lass="menu__item is-leaf first leaf menu-3821"><a href="https://
+0280: www.magicsoftware.com/support" title="" class="menu__link">Suppo
+02c0: rt</a></li>.<li class="menu__item is-leaf leaf menu-2230"><a hre
+0300: f="https://www.magicsoftware.com/support" title="" class="menu__
+0340: link">Overview</a></li>.<li class="menu__item is-leaf leaf menu-
+0380: 2233"><a href="https://www.magicsoftware.com/training" title="" 
+03c0: class="menu__link">Training</a></li>.<li class="menu__item is-le
+0400: af leaf menu-2232"><a href="http://kb.magicsoftware.com/" title=
+0440: "" class="menu__link">Knowledge Center</a></li>.<li class="menu_
+0480: _item is-leaf leaf menu-2234"><a href="https://www.magicsoftware
+04c0: .com/prob-sub" title="" class="menu__link">Problem Submission</a
+0500: ></li>.<li class="menu__item is-leaf last leaf menu-3830"><a hre
+0540: f="https://www.magicsoftware.com/resources" title="" class="menu
+0580: __link">Resources</a></li>.</ul>.</div><!-- /.block -->..<div id
+05c0: ="block-menu-menu-technology" class="block block-menu last even 
+0600: span1" role="navigation">.        <div class="block__title block
+0640: -title">Company</div>.      <ul class="menu"><li class="menu__it
+0680: em is-leaf first leaf menu-3590"><a href="https://www.magicsoftw
+06c0: are.com/about-us" title="" class="menu__link">Company</a></li>.<
+0700: li class="menu__item is-leaf leaf menu-2228"><a href="https://ww
+0740: w.magicsoftware.com/about-us" title="Magic Customers List" class
+0780: ="menu__link">About Us</a></li>.<li class="menu__item is-leaf le
+07c0: af menu-2229"><a href="https://www.magicsoftware.com/events" tit
+0800: le="" class="menu__link">Events</a></li>.<li class="menu__item i
+0840: s-leaf leaf menu-1438"><a href="https://www.magicsoftware.com/pr
+0880: ess-releases" title="" class="menu__link">Press Releases</a></li
+08c0: >.<li class="menu__item is-leaf leaf menu-3822"><a href="https:/
+0900: /www.magicsoftware.com/media-coverage" title="" class="menu__lin
+0940: k">Media Coverage</a></li>.<li class="menu__item is-leaf leaf me
+0980: nu-3823"><a href="https://www.magicsoftware.com/board-directors"
+09c0:  title="" class="menu__link">Board of Directors</a></li>.<li cla
+0a00: ss="menu__item is-leaf leaf menu-3824"><a href="https://www.magi
+0a40: csoftware.com/management-team" title="" class="menu__link">Manag
+0a80: ement Team</a></li>.<li class="menu__item is-leaf leaf menu-3825
+0ac0: "><a hr
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2759 bytes (0xac7)
+0000: ef="https://www.magicsoftware.com/certifications-awards" title="
+0040: " class="menu__link">Certifications &amp; Awards</a></li>.<li cl
+0080: ass="menu__item is-leaf leaf menu-3826"><a href="https://www.mag
+00c0: icsoftware.com/group-offering" title="" class="menu__link">Group
+0100:  Offering</a></li>.<li class="menu__item is-leaf leaf menu-3827"
+0140: ><a href="https://www.magicsoftware.com/investor-relations" titl
+0180: e="" class="menu__link">Investor Relations</a></li>.<li class="m
+01c0: enu__item is-leaf leaf menu-3828"><a href="https://www.magicsoft
+0200: ware.com/worldwide-offices-distributors" title="" class="menu__l
+0240: ink">Worldwide Offices &amp; Distributors</a></li>.<li class="me
+0280: nu__item is-leaf last leaf menu-3829"><a href="https://www.magic
+02c0: software.com/careers" title="" class="menu__link">Careers</a></l
+0300: i>.</ul>.</div><!-- /.block -->..          </div><!-- /.region -
+0340: ->
+0344:           </footer>...  <script src="https://www.magicsoftware.c
+0384: om/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.mi
+03c4: n.js?v=1.10.2"></script>.<script src="https://www.magicsoftware.
+0404: com/misc/jquery.once.js?v=1.2"></script>.<script src="https://ww
+0444: w.magicsoftware.com/misc/drupal.js?p98kwa"></script>.<script src
+0484: ="https://www.magicsoftware.com/sites/all/modules/custom_search/
+04c4: js/custom_search.js?p98kwa"></script>.<script src="https://www.m
+0504: agicsoftware.com/sites/all/themes/magic/js/libs/bootstrap/transi
+0544: tion.js?p98kwa"></script>.<script src="https://www.magicsoftware
+0584: .com/sites/all/themes/magic/js/libs/bootstrap/collapse.js?p98kwa
+05c4: "></script>.<script src="https://www.magicsoftware.com/sites/all
+0604: /themes/magic/js/libs/bootstrap/tab.js?p98kwa"></script>.<script
+0644:  src="https://www.magicsoftware.com/sites/all/themes/magic/js/li
+0684: bs/jquery.ba-bbq.min.js?p98kwa"></script>.<script src="https://w
+06c4: ww.magicsoftware.com/sites/all/themes/magic/js/libs/anythingSlid
+0704: er/js/jquery.anythingslider.js?p98kwa"></script>.<script src="ht
+0744: tps://www.magicsoftware.com/sites/all/themes/magic/js/libs/prett
+0784: yPhoto/js/jquery.prettyPhoto.js?p98kwa"></script>.<script src="h
+07c4: ttps://www.magicsoftware.com/sites/all/themes/magic/js/script.js
+0804: ?p98kwa"></script>.<script src="https://www.magicsoftware.com/si
+0844: tes/all/themes/magic/js/inner.js?p98kwa"></script>.<script>jQuer
+0884: y.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajax
+08c4: PageState":{"theme":"magic","theme_token":"2NFXRfaRGtazSGKZd5yfO
+0904: FEGlHQKKi1B4ZnvqaQmg1o","js":{"sites\/all\/modules\/jquery_updat
+0944: e\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js
+0984: ":1,"misc\/drupal.js":1,"sites\/all\/modules\/custom_search\/js\
+09c4: /custom_search.js":1,"sites\/all\/themes\/magic\/js\/libs\/boots
+0a04: trap\/transition.js":1,"sites\/all\/themes\/magic\/js\/libs\/boo
+0a44: tstrap\/collapse.js":1,"sites\/all\/themes\/magic\/js\/libs\/boo
+0a84: tstrap\/tab.js":1,"sites\/all\/themes\/magic\/js\/libs\/jquery.b
+0ac4: a-b
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2002 bytes (0x7d2)
+0000: bq.min.js":1,"sites\/all\/themes\/magic\/js\/libs\/anythingSlide
+0040: r\/js\/jquery.anythingslider.js":1,"sites\/all\/themes\/magic\/j
+0080: s\/libs\/prettyPhoto\/js\/jquery.prettyPhoto.js":1,"sites\/all\/
+00c0: themes\/magic\/js\/script.js":1,"sites\/all\/themes\/magic\/js\/
+0100: inner.js":1},"css":{"modules\/system\/system.base.css":1,"module
+0140: s\/system\/system.messages.css":1,"modules\/aggregator\/aggregat
+0180: or.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sit
+01c0: es\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":
+0200: 1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fin
+0240: d_content\/find_content.css":1,"modules\/node\/node.css":1,"modu
+0280: les\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/a
+02c0: ll\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctoo
+0300: ls\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/a
+0340: ll\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/magic\
+0380: /css\/system.menus.css":1,"sites\/all\/themes\/magic\/js\/libs\/
+03c0: anythingSlider\/css\/anythingslider.css":1,"sites\/all\/themes\/
+0400: magic\/js\/libs\/prettyPhoto\/css\/prettyPhoto.css":1,"sites\/al
+0440: l\/themes\/magic\/js\/libs\/tipso\/tipso.css":1,"sites\/all\/the
+0480: mes\/magic\/css\/font-awesome.min.css":1,"sites\/all\/themes\/ma
+04c0: gic\/css\/style.css":1}},"smart_ip":{"location":{"country_code":
+0500: "","country":"","region":"","region_code":"","city":"","zip":"",
+0540: "latitude":null,"longitude":null,"time_zone":"","ip_address":"46
+0580: .189.28.206","timestamp":1527215725}},"custom_search":{"form_tar
+05c0: get":"_self","solr":0},"urlIsAjaxTrusted":{"\/":true}});</script
+0600: >.    <!--[if lt IE 9]>.  <script src="//ie7-js.googlecode.com/s
+0640: vn/version/2.1(beta4)/IE9.js"></script>.  <![endif]-->.<script t
+0680: ype="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beac
+06c0: on":"bam.nr-data.net","licenseKey":"505b95c79f","applicationID":
+0700: "78128286","transactionName":"YFRSZ0cDXEIFABcPXVkecVBBC11fSw0MAl
+0740: doQVFUUD1WVAICFgpG","queueTime":0,"applicationTime":727,"atts":"
+0780: TBNREQ8ZT0w=","errorBeacon":"bam.nr-data.net","agent":""}</scrip
+07c0: t></body>.</html>.
 == Info: Connection #0 to host www.magicsoftware.com left intact

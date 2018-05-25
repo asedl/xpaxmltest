@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735275" _time="35419" date="11/02/2014" time="09:50:19"/>
+          <LastModified _date="736839" _time="16897" date="25/05/2018" time="04:41:37"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -202,7 +202,6 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="6">
@@ -241,7 +240,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="8">
@@ -302,7 +300,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="2"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="12">
@@ -363,7 +360,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="4"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="16">

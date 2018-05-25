@@ -29,7 +29,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
           <ToBeMigrated val="Y"/>
-          <LastModified _date="736839" _time="14193" date="25/05/2018" time="03:56:33"/>
+          <LastModified _date="736839" _time="16737" date="25/05/2018" time="04:38:57"/>
         </Header>
         <ItemIsn val="106"/>
         <Resource>
@@ -1453,6 +1453,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="40">
@@ -5427,7 +5428,6 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="10"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="98" FlowIsn="430" id="98">
