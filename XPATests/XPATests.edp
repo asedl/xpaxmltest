@@ -12,8 +12,8 @@
     <Version min="13020.10"/>
     <SourceVersion val="13030.00"/>
     <ReferencedProjects>
-      <RefProject FileName="XPATests\Components\Scripting\Roslyn\Roslyn.edp" ProjectName="Roslyn"/>
       <RefProject FileName="XPATests\Components\DatabaseComp\DatabaseComp.edp" ProjectName="DatabaseComp"/>
+      <RefProject FileName="XPATests\Components\Scripting\Roslyn\Roslyn.edp" ProjectName="Roslyn"/>
     </ReferencedProjects>
   </_Project>
 

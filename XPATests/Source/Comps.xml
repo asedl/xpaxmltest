@@ -17,19 +17,144 @@
   <ComponentsRepository>
     <Components>
       <Component id="1" name="UserFunctionality">
-        <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
         <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
-        <CompId val="738976342-28670-18720-BFE77D42E"/>
-        <MciFile val="C:\magic\Magic XPA 3.3\Add_On\UserFunctionality\UserFunctionality.eci"/>
-        <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+        <CompId val="233213427-44898-17507-BAE21B3F5"/>
+        <MciFile val="C:\magic\projects\xpaxmltest\XPATests\Components\UserFunctionality\UserFunctionality.eci"/>
+        <CABINET_FILE val="%Components%UserFunctionality.ecf"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="9"/>
+            <ItemIsn val="1"/>
+            <PublicName val="OnlineManageScreen"/>
+          </Object>
+          <Object>
+            <id val="11"/>
+            <ItemIsn val="2"/>
+            <PublicName val="OnlineColumnSelection"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="3"/>
+            <PublicName val="OnlineDelimiters"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="4"/>
+            <PublicName val="ManageScreen"/>
+          </Object>
+          <Object>
+            <id val="15"/>
+            <ItemIsn val="5"/>
+            <PublicName val="PrintData"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="6"/>
+            <PublicName val="ColumnSelection"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="7"/>
+            <PublicName val="Delimiters"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="8"/>
+            <PublicName val="OnlineRangeManager"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="9"/>
+            <PublicName val="OnlineRange"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="10"/>
+            <PublicName val="OnlineRangeExpression"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="11"/>
+            <PublicName val="OnlineLocate"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="12"/>
+            <PublicName val="OnlineSort"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="13"/>
+            <PublicName val="OnlineRangeFilter"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="14"/>
+            <PublicName val="ViewByKey"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="15"/>
+            <PublicName val="RCRangeManager"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="16"/>
+            <PublicName val="RCRange"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="17"/>
+            <PublicName val="RCRangeExpression"/>
+          </Object>
+          <Object>
+            <id val="34"/>
+            <ItemIsn val="18"/>
+            <PublicName val="RCLocate"/>
+          </Object>
+          <Object>
+            <id val="35"/>
+            <ItemIsn val="19"/>
+            <PublicName val="RCSort"/>
+          </Object>
+          <Object>
+            <id val="36"/>
+            <ItemIsn val="20"/>
+            <PublicName val="RCRangeFilter"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="21"/>
+            <PublicName val="RCViewByKey"/>
+          </Object>
+          <Object>
+            <id val="42"/>
+            <ItemIsn val="22"/>
+            <PublicName val="OnlineExcelPreview"/>
+          </Object>
+          <Object>
+            <id val="43"/>
+            <ItemIsn val="23"/>
+            <PublicName val="RCExcelPreview"/>
+          </Object>
+        </ComponentPrograms>
+        <ComponentEvents>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="24"/>
+            <PublicName val="RangeLocateSort"/>
+          </Object>
+        </ComponentEvents>
       </Component>
       <Component id="7" name="System.Net">
         <ComponentType val=".NET"/>
         <Type val="D"/>
         <LoadImmediate val="N"/>
+        <LastISN val="24"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
@@ -38,6 +163,7 @@
         <ComponentType val=".NET"/>
         <Type val="D"/>
         <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
         <AssemblyName val="System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
         <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll"/>
         <UseSpecificVersion val="N"/>
@@ -47,6 +173,7 @@
         <ComponentType val=".NET"/>
         <Type val="D"/>
         <LoadImmediate val="N"/>
+        <LastISN val="24"/>
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
@@ -55,6 +182,7 @@
         <ComponentType val=".NET"/>
         <Type val="D"/>
         <LoadImmediate val="Y"/>
+        <LastISN val="24"/>
         <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
         <AssemblyPath val="C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
         <UseSpecificVersion val="N"/>
@@ -70,7 +198,7 @@
         <Revision val="0.1"/>
         <MciFile val="C:\magic\projects\xpaxmltest\XPATests\Components\Scripting\Roslyn\Roslyn.eci"/>
         <ProjectFile val="C:\magic\projects\xpaxmltest\XPATests\Components\Scripting\Roslyn\Roslyn.edp"/>
-        <CABINET_FILE val="C:\magic\projects\xpaxmltest\XPATests\Components\Scripting\Roslyn\Roslyn.ecf"/>
+        <CABINET_FILE val="%Components%Roslyn.ecf"/>
         <ComponentModels>
           <Object>
             <id val="1"/>
@@ -111,7 +239,7 @@
         <Revision val="0.1"/>
         <MciFile val="C:\magic\projects\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci"/>
         <ProjectFile val="C:\magic\projects\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.edp"/>
-        <CABINET_FILE val="C:\magic\projects\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.ecf"/>
+        <CABINET_FILE val="%Components%DatabaseComp.ecf"/>
         <ComponentModels>
           <Object>
             <id val="31"/>
