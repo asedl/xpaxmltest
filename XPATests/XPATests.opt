@@ -7,48 +7,6 @@
 
   <RIAExecutionPlatform Val="Desktop"/>
 
-  <Breakpoints>
-    <DelAll/>
-    <Breakpoint>
-      <Condition Val=""/>
-      <Location Val="WCLN002_xpatest_templates"/>
-      <HandlerId Val="11"/>
-      <OperationId Val="46"/>
-      <LineIndex Val="16"/>
-      <HandlerDesc Val="Event:BtnCompile(csc)"/>
-      <Count Val="0"/>
-      <Enable Val="1"/>
-      <Component1 Val="1174848307"/>
-      <Component2 Val="6262"/>
-      <Component3 Val="17266"/>
-      <Component4 Val="734862252"/>
-      <Component5 Val="339920171"/>
-      <Prog Val="25"/>
-      <Subtask Val="1"/>
-      <Type Val="1"/>
-      <Operation Val="46"/>
-    </Breakpoint>
-    <Breakpoint>
-      <Condition Val=""/>
-      <Location Val="About"/>
-      <HandlerId Val="3"/>
-      <OperationId Val="12"/>
-      <LineIndex Val="6"/>
-      <HandlerDesc Val="Record Suffix"/>
-      <Count Val="0"/>
-      <Enable Val="1"/>
-      <Component1 Val="1174848307"/>
-      <Component2 Val="6262"/>
-      <Component3 Val="17266"/>
-      <Component4 Val="734862252"/>
-      <Component5 Val="339920171"/>
-      <Prog Val="36"/>
-      <Subtask Val="1"/>
-      <Type Val="1"/>
-      <Operation Val="12"/>
-    </Breakpoint>
-  </Breakpoints>
-
   <WatchListItems>
     <RestData/>
   </WatchListItems>
