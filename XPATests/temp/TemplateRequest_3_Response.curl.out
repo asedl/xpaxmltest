@@ -1,6 +1,6 @@
-== Info:   Trying 52.72.80.190...
+== Info:   Trying 52.20.145.121...
 == Info: TCP_NODELAY set
-== Info: Connected to httpbin.org (52.72.80.190) port 80 (#0)
+== Info: Connected to httpbin.org (52.20.145.121) port 80 (#0)
 => Send header, 83 bytes (0x53)
 0000: GET /anything HTTP/1.1
 0018: Host: httpbin.org
@@ -14,7 +14,7 @@
 <= Recv header, 25 bytes (0x19)
 0000: Server: gunicorn/19.8.1
 <= Recv header, 37 bytes (0x25)
-0000: Date: Wed, 16 May 2018 23:42:18 GMT
+0000: Date: Sat, 26 May 2018 02:38:32 GMT
 <= Recv header, 32 bytes (0x20)
 0000: Content-Type: application/json
 <= Recv header, 21 bytes (0x15)
@@ -30,6 +30,6 @@
 <= Recv data, 227 bytes (0xe3)
 0000: {"args":{},"data":"","files":{},"form":{},"headers":{"Accept":"*
 0040: /*","Connection":"close","Host":"httpbin.org","User-Agent":"curl
-0080: /7.59.0"},"json":null,"method":"GET","origin":"46.189.28.212","u
+0080: /7.59.0"},"json":null,"method":"GET","origin":"46.189.28.206","u
 00c0: rl":"http://httpbin.org/anything"}.
 == Info: Connection #0 to host httpbin.org left intact

@@ -29,12 +29,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736839" _time="7310" date="25/05/2018" time="02:01:50"/>
+          <LastModified _date="736840" _time="14534" date="26/05/2018" time="04:02:14"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="15"/>
+            <DataObject comp="12" obj="16"/>
             <Access val="W"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -73,7 +73,7 @@
             <Column val="1"/>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1" obj="15"/>
+          <DB comp="12" obj="16"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -128,6 +128,7 @@
         </Information>
         <INT_CMP_LIST_INFO>
           <v>11</v>
+          <v>12</v>
         </INT_CMP_LIST_INFO>
         <TaskLogic>
           <LogicUnit id="2" propagate="78">
@@ -627,7 +628,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" _test_id="3" id="3">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="3" id="3">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="2"/>
@@ -694,7 +695,7 @@
         <Expressions>
           <Expression id="1">
             <ExpSyntax val="{0,1}>0"/>
-            <ExpAttribute val="B"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="Len(Trim({0,4}))>0"/>

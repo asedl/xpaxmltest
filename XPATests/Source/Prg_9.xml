@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ExportCustomers (final)" ISN_2="2" LastIsn="2" id="9">
+        <Header Description="WCLN003_ExportCustomers" ISN_2="2" LastIsn="2" id="9">
+          <Public val="WCLN003_ExportCustomers"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736831" _time="30099" date="17/05/2018" time="08:21:39"/>
+          <LastModified _date="736840" _time="47736" date="26/05/2018" time="13:15:36"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -425,7 +426,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="ExportCustomers (final)"/>
+              <FormName id="311" valUnicode="WCLN003_ExportCustomers"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -457,12 +458,12 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736831" _time="30099" date="17/05/2018" time="08:21:39"/>
+            <LastModified _date="736840" _time="47736" date="26/05/2018" time="13:15:36"/>
           </Header>
           <ItemIsn val="19"/>
           <Resource>
             <DB id="1">
-              <DataObject comp="-1" obj="2"/>
+              <DataObject comp="12" obj="26"/>
               <Access val="W"/>
               <Share val="W"/>
               <Open val="N"/>
@@ -476,7 +477,7 @@
               <Column val="1"/>
               <Mode val="N"/>
             </Key>
-            <DB comp="-1" obj="2"/>
+            <DB comp="12" obj="26"/>
             <Sort>
               <CLS val="A"/>
             </Sort>
@@ -529,6 +530,9 @@
               <Direction val="V"/>
             </BOX>
           </Information>
+          <INT_CMP_LIST_INFO>
+            <v>12</v>
+          </INT_CMP_LIST_INFO>
           <TaskLogic>
             <LogicUnit id="2" propagate="78">
               <Level val="R"/>
@@ -933,6 +937,40 @@
                         <Parent val="2"/>
                         <Variable val="8"/>
                         <Skip val="N"/>
+                      </Argument>
+                      <Argument>
+                        <Expression val="28"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="223">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="225">
+                    <Type val="2"/>
+                    <Text val="Displaya result ..."/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="224">
+                    <OperationType val="P"/>
+                    <TaskID comp="-1" obj="65"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Skip val="Y"/>
                       </Argument>
                       <Argument>
                         <Expression val="28"/>

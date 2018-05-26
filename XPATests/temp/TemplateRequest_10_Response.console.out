@@ -1,0 +1,5 @@
+Http Request
+Request (URI): http://httpbin.org/digest-auth/auth/user/passwd/MD5/never
+Response (Body): C:\magic\samples\xpaxmltest\XPATests\temp\TemplateRequest_10_Response
+The remote server returned an error: (401) Unauthorized.
+ProtocolError

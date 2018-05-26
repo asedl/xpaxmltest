@@ -33,12 +33,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736838" _time="75313" date="24/05/2018" time="20:55:13"/>
+          <LastModified _date="736840" _time="14541" date="26/05/2018" time="04:02:21"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
           <DB id="1">
-            <DataObject comp="-1" obj="15"/>
+            <DataObject comp="12" obj="16"/>
             <Access val="R"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -149,6 +149,9 @@
             <Direction val="V"/>
           </BOX>
         </Information>
+        <INT_CMP_LIST_INFO>
+          <v>12</v>
+        </INT_CMP_LIST_INFO>
         <TaskLogic>
           <LogicUnit id="1" propagate="78">
             <Level val="R"/>
@@ -233,7 +236,7 @@
               </LogicLine>
               <LogicLine>
                 <LNK Direction="A" EVL_CND="R" FieldID="6" FlowIsn="7" Key="1" Mode="R" SortType="8" VIEW="5" VIEWS="2">
-                  <DB comp="-1" obj="15"/>
+                  <DB comp="12" obj="16"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
                 </LNK>

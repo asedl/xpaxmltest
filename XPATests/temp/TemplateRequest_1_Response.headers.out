@@ -1,25 +1,26 @@
-HTTP/2 200 
-cache-control: no-cache, must-revalidate
-content-language: en
-content-type: text/html; charset=utf-8
-expires: Sun, 19 Nov 1978 05:00:00 GMT
-server: nginx
-set-cookie: SSESS447b6c0c400a30253c943d8c989f573f=sdDQUPlcy3vhWPfM8V9E7ABnSJxsP8tGLYxk5Um2H7g; expires=Sun, 17-Jun-2018 06:08:46 GMT; Max-Age=2000000; path=/; domain=.magicsoftware.com; secure; HttpOnly
-strict-transport-security: max-age=3600;includeSubDomains
-x-content-type-options: nosniff
-x-frame-options: SAMEORIGIN
-x-generator: Drupal 7 (http://drupal.org)
-x-pantheon-styx-hostname: styx-fe2-a-7647d9ccb-87jqd
-x-styx-req-id: styx-f744c48e499feabda95d7244453e99e8
-x-ua-compatible: IE=edge,chrome=1
-via: 1.1 varnish
-accept-ranges: bytes
-date: Fri, 25 May 2018 02:35:26 GMT
-via: 1.1 varnish
-age: 0
-x-served-by: cache-mdw17332-MDW, cache-hhn1540-HHN
-x-cache: MISS, MISS
-x-cache-hits: 0, 0
-x-timer: S1527215725.459311,VS0,VE866
-vary: Accept-Encoding, Cookie, Cookie
-
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, must-revalidate
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Server: nginx
+Set-Cookie: SSESS447b6c0c400a30253c943d8c989f573f=w0VXyVKmPpi_AVRl4G_htES7wmj-sCiaa7pGziNmkHI; expires=Mon, 18-Jun-2018 14:31:26 GMT; Max-Age=2000000; path=/; domain=.magicsoftware.com; secure; HttpOnly
+Strict-Transport-Security: max-age=3600;includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe2-b9dcc897f-vwp8c
+X-Styx-Req-Id: styx-e5bb455c4bd940a8d3c05c2351c701c9
+X-Ua-Compatible: IE=edge,chrome=1
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Date: Sat, 26 May 2018 10:58:06 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-mdw17358-MDW, cache-hhn1538-HHN
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1527332286.994528,VS0,VE701
+Vary: Accept-Encoding, Cookie, Cookie
+transfer-encoding: chunked

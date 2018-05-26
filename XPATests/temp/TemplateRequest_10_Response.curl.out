@@ -1,6 +1,6 @@
-== Info:   Trying 52.22.127.224...
+== Info:   Trying 52.204.188.97...
 == Info: TCP_NODELAY set
-== Info: Connected to httpbin.org (52.22.127.224) port 80 (#0)
+== Info: Connected to httpbin.org (52.204.188.97) port 80 (#0)
 => Send header, 113 bytes (0x71)
 0000: GET /digest-auth/auth/user/passwd/MD5/never HTTP/1.1
 0036: Host: httpbin.org
@@ -14,15 +14,15 @@
 <= Recv header, 25 bytes (0x19)
 0000: Server: gunicorn/19.8.1
 <= Recv header, 37 bytes (0x25)
-0000: Date: Wed, 16 May 2018 20:16:14 GMT
+0000: Date: Sat, 26 May 2018 03:07:21 GMT
 <= Recv header, 40 bytes (0x28)
 0000: Content-Type: text/html; charset=utf-8
 <= Recv header, 19 bytes (0x13)
 0000: Content-Length: 0
 <= Recv header, 179 bytes (0xb3)
-0000: Www-Authenticate: Digest realm="me@kennethreitz.com", nonce="8c3
-0040: 3530f688e821da44519b6a363f601", qop="auth", opaque="3646928cbc74
-0080: 3510a7bf5918640d1a2f", algorithm=MD5, stale=FALSE
+0000: Www-Authenticate: Digest realm="me@kennethreitz.com", nonce="574
+0040: 3c6dc5e64fd22a0d81debc4148866", qop="auth", opaque="cff9c3127cf8
+0080: 7ff95e59a93fe81f48a6", algorithm=MD5, stale=FALSE
 <= Recv header, 39 bytes (0x27)
 0000: Set-Cookie: stale_after=never; Path=/
 <= Recv header, 37 bytes (0x25)

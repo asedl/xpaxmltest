@@ -1,6 +1,6 @@
-== Info:   Trying 54.164.206.44...
+== Info:   Trying 52.20.145.121...
 == Info: TCP_NODELAY set
-== Info: Connected to httpbin.org (54.164.206.44) port 80 (#0)
+== Info: Connected to httpbin.org (52.20.145.121) port 80 (#0)
 => Send header, 82 bytes (0x52)
 0000: GET /headers HTTP/1.1
 0017: Host: httpbin.org
@@ -14,7 +14,7 @@
 <= Recv header, 25 bytes (0x19)
 0000: Server: gunicorn/19.8.1
 <= Recv header, 37 bytes (0x25)
-0000: Date: Thu, 24 May 2018 22:00:00 GMT
+0000: Date: Sat, 26 May 2018 02:38:25 GMT
 <= Recv header, 32 bytes (0x20)
 0000: Content-Type: application/json
 <= Recv header, 20 bytes (0x14)
