@@ -27,26 +27,14 @@ One goal of this project is to get a framework / container application for demo 
 
 Currently this project contains samples / demos for following usecases 
 
-## Alternatives for Magic's built-in Http Functions (HttpCall, HttpGet, ..)
-### Using a .NET (C#) script from command line to request a URL (Http GET)
-Plan is to compile the script(s) to assemblies., that's however not yet done.
-In order to get these samples running you need something which allows you to execute .NET scripts.
-The Testprogram uses scriptcs, which you need to download and install in order to get these samples working
--> http://scriptcs.net/
+| Demo / Subproject    | Brief description
+| -------------------- | ----------------- |
+| XpaTest | Its pretty hard to create a Magic application of some complexity which does not require an expert in order to get it running on a different system - without a setup program. In this "subproject" this issue gets addressed. Goal is basically a small Framework for more complex Magic applications which does autoconfigure itself |
+| XpaTHttp | https://github.com/asedl/xpaxmltest/tree/master/XPATests/Doc |
+| XpaTOffice | There's some samples which do use functionality from Apache POI for MS Office stuff like converting Excel -> CSV for an easy import into Magic without the requirement to have MS Office actally be installed |
+| XpaTXML | There's some samples which do demo "advanced" XML technics, like XSL/XSLT/XQuery for reformatting of existing XML to whatever or extracting information from there with standard query languages |  
+  
+some more stuff is in the pipeline.  
 
-### Using cURL to request a URL (Http Get)
-Very complete implementation of HTTP (and other protocols) client.
-In order to get this sample(s) working you need to download and install cURL for Windows.
-Since it will run in its own process you can use both: The 64-Bit or 32-Bit version
--> https://curl.haxx.se/
 
-### Using Apache Http component/core to request a URL from a Java library
-### Using Magic HttpCall to request a URL with Magic native functionality
-### Using a .NET (C#) inline code (snippet) to request a URL via Http GET from Magic
-
-## MS Office stuff / Apache Poi
-### Export XLS/SLSX to CSV via Magic & Apache Poi
-
-## XSLT/XQUERY / Saxon HE
-### Apply XSLT file on XML to do a transformation with XSLT
 
