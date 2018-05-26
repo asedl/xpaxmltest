@@ -1,4 +1,4 @@
-# Getting information about the Magic runtime environemnt from inside a Magic application (project)
+# Getting information about the Magic runtime environment from inside a Magic application (project)
 
 ## How does XPATEST find the Magic installation it will use for shortcuts and (.ini) settings
 
@@ -18,4 +18,33 @@ XPATEST will query the registry for a key named HKEY_CLASSES_ROOT\EDPFile\shell\
 
 On a system where Magic was not installed from Installation media (Setup) this won't help and in the Magic world its quite common to simply copy an installation from one machine to another.
 
- 
+# Altering the configuration of a Magic application before it's actually started 
+
+Sometimes there is a need to alter the configuration of a Magic application before it's actually started resp. where it would be too late to check/alter the configuration from inside the Magic application.  Examples for that are some of the .INI settings where Magic does not accept logical names or where you would rather want to use environment variables in the .INI file in order to get some user/session specific information, ... . System environment variables you cannot use in a Magic.Ini, they will be interpreted as Magic logical names.
+
+This issue with Magic applications is once a while discussed in the Magic community, last time I was aware of such a discussion is folloing thread from the user group: [Can you dynamically set the error log path?](https://magicu-l.groups.io/g/main/topic/can_you_dynamically_set_the/18140035)
+
+Options / Possible solutions for this dilemma are:
+
+## Windows Setup Program
+
+The obvious solution. Write a setup program for your application and do a proper installation of your application. There's plenty of toolkits which make this task quite easy (InstallShield, Wise, ...) and (today) there's also a lot of packet managers you can use - or even build managers like Ant / Maven / Gradle / ....
+
+## Startup script
+
+Instead of asking the Magic engine (Studio, Runtime) to start a project (MyApp.edp / MyApp.ecf) you ask a script to do so which will, before it actually and finally starts the Magic engine, modify the configuration (like adding some information to the .INI, putting some parameters on the command line ... ).  
+  
+The script (can be a compiled application as well of course), can terminate when it created the Magic process, it can however also keep running and thereby can "monitor" the process it started: The Magic runtime which started your application. Good for crash recovery and other stuff (Cleanup, ...)
+
+The XPATEST demo application has samples for "Magic startup scripts". 
+
+## Host / Container application
+
+That's basically not much different from the "Startup script" approach only that you do a bit more now in the application which is initially started and which serves as the host for your Magic applications. Samples for this are "Node & Magic" applications where you then can integrate with the container, can have a Magic application which acts as a http server, ... . 
+
+
+
+
+
+
+
