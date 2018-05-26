@@ -4,7 +4,7 @@
 
 There's not much need for a Magic application to know how it does get executed (by a Studio, by a Runtime, which version of that "Engine", ...). Autoconfiguration of a Magic application is however part of that Demo container and so it tries to get that information from inside the Magic application. There's several options.
 
-### %EnginDir%
+### %EngineDir%
 
 Thats's a logical name which Magic runtime injects during startup and which you can query from inside the application. It gives you the directory of the "Engine" used to start the application. Only problem with that: Magic renames the product quite often. How would you know what the .exe currently is named ? For XPA 3.3 it's "MgXPARuntime.Exe" and if you want tro create links/shortcuts, you could use following expression: Trim(Translate('%EngineDir%')) & 'MgXpaRuntime.exe".
 
