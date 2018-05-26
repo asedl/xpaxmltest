@@ -1,4 +1,4 @@
-# XPATests Magic XPA 3.3 (SingleUser) demo project
+# Magic XPA (SingleUser) demo project XPATests
 
 This is a repository with a growing collection of Magic XPA demos / samples with a strong focus on the exotic stuff. If you do want demos / samples in order to actually learn "Magic" you should download and install (latest version) of Magic XPA and first have a look into the samples and demo applications which do ship with that (also exotic) development tool.
 
