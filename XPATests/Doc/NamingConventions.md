@@ -4,8 +4,7 @@
 The naming of the programs is a bit cryptic but that eases at the end referencing and usage in URIs or filenames. Only names of "important" programs will follow these naming conventions ... that's those fow which documentation exists (which requires then this naming)  
 
 A (documented) program name has to adhere following syntax:  
-
-<program type><module><running number>_<descriptive name>  
+   <program type><module><running number>_<descriptive name>  
 
     **program type** :=  
         "O" (Online, program has a GUI and can be started without preconditions)  
