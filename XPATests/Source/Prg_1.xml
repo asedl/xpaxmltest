@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="56217" date="27/05/2018" time="15:36:57"/>
+          <LastModified _date="736841" _time="72507" date="27/05/2018" time="20:08:27"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -226,6 +226,7 @@
               <HorizontalFactor id="35" val="4"/>
               <Color id="51" val="3"/>
               <_Comment id="218"/>
+              <StartupPosition id="275" val="1"/>
               <FormName id="311" valUnicode="XPATests"/>
               <WindowType id="358" val="11"/>
               <StartupMode id="362" val="2"/>

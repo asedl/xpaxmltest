@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="35"/>
+    <LastIsn val="39"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -31,6 +31,8 @@
       <Object id="34">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
       <Object id="35" name="Y/N_Null">
@@ -279,6 +281,26 @@
           <_FieldStyle id="276" val="4"/>
           <CellModel attr_obj="FIELD_BLOB" comp="-1" id="287" obj="32"/>
           <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="36">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="FrameSet">
+        <PropertyList model="FORM_GUI0_FRAMESET">
+          <_Comment id="218"/>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="AAA">
+        <PropertyList model="CTRL_GUI0_FRAME"/>
+      </Object>
+      <Object id="39" name="BBBB">
+        <PropertyList model="FORM_GUI0_FRAMESET">
+          <_Comment id="218"/>
         </PropertyList>
       </Object>
     </Models>
