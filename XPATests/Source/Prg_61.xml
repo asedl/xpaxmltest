@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="54276" date="27/05/2018" time="15:04:36"/>
+          <LastModified _date="736841" _time="79765" date="27/05/2018" time="22:09:25"/>
         </Header>
         <Resource>
           <Columns/>
@@ -169,7 +169,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736840" _time="11024" date="26/05/2018" time="03:03:44"/>
+            <LastModified _date="736841" _time="79765" date="27/05/2018" time="22:09:25"/>
           </Header>
           <ItemIsn val="14"/>
           <Resource>
@@ -288,7 +288,7 @@
                 <LogicLine>
                   <Remark FlowIsn="32">
                     <Type val="0"/>
-                    <Text val=" "/>
+                    <Text val="Link Descending OMG. Should be ok, it's single user XPA and SQLIte"/>
                   </Remark>
                 </LogicLine>
                 <LogicLine>
@@ -560,7 +560,7 @@
                 <Width id="23" val="815"/>
                 <Height id="24" val="310"/>
                 <_Comment id="218"/>
-                <FormName id="311" valUnicode="BrowseComponents"/>
+                <FormName id="311" valUnicode="OUTIL002_Components"/>
               </PropertyList>
               <Control _test_id="14" id="14">
                 <PropertyList model="CTRL_GUI0_EDIT">

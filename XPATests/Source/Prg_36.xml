@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="56145" date="27/05/2018" time="15:35:45"/>
+          <LastModified _date="736841" _time="75986" date="27/05/2018" time="21:06:26"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -390,7 +390,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736841" _time="6939" date="27/05/2018" time="01:55:39"/>
+            <LastModified _date="736841" _time="75986" date="27/05/2018" time="21:06:26"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -735,7 +735,7 @@
                 <Height id="24" val="296"/>
                 <_Comment id="218"/>
                 <StartupPosition id="275" val="3"/>
-                <FormName id="311" valUnicode="About"/>
+                <FormName id="311" valUnicode="OUTIL001_About"/>
                 <PersistentFormState id="493"/>
               </PropertyList>
               <Control _test_id="2" id="1">

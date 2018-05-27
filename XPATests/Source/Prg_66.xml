@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="DisplayFile" ISN_2="1" LastIsn="1" id="66">
+        <Header Description="OUTIL101_EmbeddedBrowserFile" ISN_2="1" LastIsn="1" id="66">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -30,9 +30,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736840" _time="17489" date="26/05/2018" time="04:51:29"/>
+          <LastModified _date="736841" _time="75945" date="27/05/2018" time="21:05:45"/>
         </Header>
-        <ItemIsn val="3"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="1" name="piFilename">
@@ -129,6 +129,18 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="11">
+                  <Type val="0"/>
+                  <Text val="Converts the filename which points to filesystem to a URL and invokes the embedded browser"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="12">
+                  <Type val="0"/>
+                  <Text val="to display that file"/>
+                </Remark>
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
@@ -244,7 +256,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="DisplayFile"/>
+              <FormName id="311" valUnicode="OUTIL101_EmbeddedBrowser"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
