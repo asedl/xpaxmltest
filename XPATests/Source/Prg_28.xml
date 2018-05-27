@@ -13,9 +13,9 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="WCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="28">
+        <Header Description="OWCLN001_xpatest_uris" ISN_2="1" LastIsn="2" id="28">
           <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_uris which does contain URLs.&#xD;&#xA;Basically a test program for various functions on a URL called by clicking the corresponding button.&#xD;&#xA;&#xD;&#xA;"/>
-          <Public val="WCLN001_xpatest_uris"/>
+          <Public val="OWCLN001_xpatest_uris"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736840" _time="17872" date="26/05/2018" time="04:57:52"/>
+          <LastModified _date="736841" _time="54040" date="27/05/2018" time="15:00:40"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -254,7 +254,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="WCLN001_xpatest_uris"/>
+              <FormName id="311" valUnicode="OWCLN001_xpatest_uris"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736840" _time="17872" date="26/05/2018" time="04:57:52"/>
+            <LastModified _date="736841" _time="4704" date="27/05/2018" time="01:18:24"/>
           </Header>
           <ItemIsn val="13"/>
           <Resource>
@@ -824,7 +824,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="2"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="193">
@@ -837,12 +836,6 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </RaiseEvent>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="43">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
                 </LogicLine>
                 <LogicLine>
                   <Select FieldID="5" FlowIsn="24" id="5">
@@ -947,12 +940,6 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </RaiseEvent>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="31">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
                 </LogicLine>
                 <LogicLine>
                   <Update FlowIsn="32">
@@ -1614,7 +1601,7 @@
             </Expression>
             <Expression id="17">
               <ExpSyntax val="{1,4}"/>
-              <ExpAttribute val="A"/>
+              <ExpAttribute val="*"/>
             </Expression>
             <Expression id="13">
               <ExpSyntax val="NULL()"/>
@@ -1666,7 +1653,7 @@
             </Expression>
             <Expression id="18">
               <ExpSyntax val="{1,2}"/>
-              <ExpAttribute val="U"/>
+              <ExpAttribute val="*"/>
             </Expression>
             <Expression id="19">
               <ExpSyntax val="'Error code for analysis of ' &amp; Trim({1,2}) &amp; ': ' &amp; Trim(Str({0,11}, ''))"/>

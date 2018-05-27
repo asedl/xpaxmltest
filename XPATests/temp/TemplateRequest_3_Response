@@ -1,1 +1,0 @@
-{"args":{},"data":"","files":{},"form":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,deflate","Connection":"close","Host":"httpbin.org","User-Agent":"Apache-HttpClient/4.5.5 (Java/1.8.0_172)"},"json":null,"method":"GET","origin":"46.189.28.206","url":"http://httpbin.org/anything"}

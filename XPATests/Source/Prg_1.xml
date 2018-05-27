@@ -28,9 +28,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736840" _time="8768" date="26/05/2018" time="02:26:08"/>
+          <LastModified _date="736841" _time="56217" date="27/05/2018" time="15:36:57"/>
         </Header>
-        <ItemIsn val="5"/>
+        <ItemIsn val="9"/>
         <Resource>
           <Columns>
             <Column id="2" name="v.TimerContextName">
@@ -42,18 +42,20 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="1" name="ParamString">
+            <Column id="7" name="pi.RelativeLocation">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="15"/>
-                <StoredAs id="173" val="1"/>
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="4" name="pi.ResponseBody">
+            <Column id="8" name="v.AbsolutePathname">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_BLOB" id="1"/>
-                <Picture id="157"/>
-                <Size id="174" val="28"/>
-                <Definition id="175" val="1"/>
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -148,83 +150,66 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="2" propagate="78">
-            <Level val="H"/>
-            <Type val="U"/>
-            <Scope val="G"/>
+          <LogicUnit id="6" propagate="78">
+            <Level val="F"/>
+            <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
             <Event>
-              <EventType val="U"/>
-              <PublicObject comp="-1" obj="2"/>
+              <EventType val="F"/>
+              <PublicObject comp="-1"/>
             </Event>
+            <TXT val="gfBasedirExpand"/>
+            <ReturnValueExpression val="5"/>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <Select FieldID="1" FlowIsn="1" id="1">
-                  <Column val="1"/>
+                <Remark FlowIsn="25">
+                  <Type val="2"/>
+                  <Text val="Expand locations relative to home dir ..."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="8" FlowIsn="19" id="8">
+                  <Column val="7"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="1" FlowIsn="2" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                  <AppendToErrorLog val="N"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </STP>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="7">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="8">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-            </LogicLines>
-          </LogicUnit>
-          <LogicUnit id="4" propagate="78">
-            <Level val="H"/>
-            <Type val="U"/>
-            <Scope val="G"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="U"/>
-              <PublicObject comp="-1" obj="3"/>
-            </Event>
-            <Expanded val="1"/>
-            <LogicLines>
-              <LogicLine>
-                <Select FieldID="4" FlowIsn="12" id="4">
-                  <Column val="4"/>
+                <Select FieldID="9" FlowIsn="21" id="9">
+                  <Column val="8"/>
                   <Type val="V"/>
-                  <IsParameter val="Y"/>
+                  <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="3" FlowIsn="14" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
-                  <AppendToErrorLog val="N"/>
+                <Update FlowIsn="17">
+                  <FieldID val="9"/>
+                  <WithValue val="4"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
-                </STP>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="20">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -249,17 +234,17 @@
           </FormEntry>
         </TaskForms>
         <Expressions>
-          <Expression id="1">
-            <ExpSyntax val="'Global handler' &amp; {0,1}"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="3">
-            <ExpSyntax val="'Global handler' &amp; {0,4}"/>
-            <ExpAttribute val="A"/>
-          </Expression>
           <Expression id="2">
             <ExpSyntax val="'TimerProg_Context'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="Trim(Translate('%XPATEST_HOME%')) &amp; Trim({0,8})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="{0,9}"/>
+            <ExpAttribute val="U"/>
           </Expression>
         </Expressions>
         <EVNT DESC="gEvent_001" EXPOSE="1" FORCE_EXIT="N" Public="gEvent_001" id="2">

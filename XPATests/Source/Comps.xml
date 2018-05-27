@@ -172,14 +172,6 @@
         <UseSpecificVersion val="N"/>
         <isGuiThreadExecution val="N"/>
       </Component>
-      <Component FolderIsn="2" id="8" name="System.Net.WebSockets">
-        <ComponentType val=".NET"/>
-        <Type val="D"/>
-        <LoadImmediate val="N"/>
-        <LastISN val="24"/>
-        <UseSpecificVersion val="N"/>
-        <isGuiThreadExecution val="N"/>
-      </Component>
       <Component FolderIsn="2" id="10" name="System.Windows.Forms">
         <Description val="System.Windows.Forms"/>
         <ComponentType val=".NET"/>

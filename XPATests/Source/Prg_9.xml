@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="WCLN003_ExportCustomers" ISN_2="2" LastIsn="2" id="9">
-          <Public val="WCLN003_ExportCustomers"/>
+        <Header Description="OXMLT001_ExportCustomers" ISN_2="2" LastIsn="2" id="9">
+          <Public val="OXMLT001_ExportCustomers"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736840" _time="47736" date="26/05/2018" time="13:15:36"/>
+          <LastModified _date="736841" _time="54063" date="27/05/2018" time="15:01:03"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -426,7 +426,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="WCLN003_ExportCustomers"/>
+              <FormName id="311" valUnicode="OXMLT001_ExportCustomers"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
@@ -458,7 +458,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736840" _time="47736" date="26/05/2018" time="13:15:36"/>
+            <LastModified _date="736841" _time="9101" date="27/05/2018" time="02:31:41"/>
           </Header>
           <ItemIsn val="19"/>
           <Resource>
@@ -517,7 +517,7 @@
               <AllowEvents val="Y"/>
               <AllowIndexOptimization val="Y"/>
               <AllowLocationInQuery val="Y"/>
-              <AllowPrintingData val="N"/>
+              <AllowPrintingData val="Y"/>
             </SIDE_WIN>
             <WIN>
               <OpenTaskWindow val="Y"/>

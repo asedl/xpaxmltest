@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ExcelToCSV" ISN_2="1" LastIsn="1" id="14">
+        <Header Description="BOFFI001_ConvertExcelDir" ISN_2="1" LastIsn="1" id="14">
+          <Public val="BOFFI001_ConvertExcelDir"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,12 +32,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736825" _time="26424" date="11/05/2018" time="07:20:24"/>
+          <LastModified _date="736841" _time="54190" date="27/05/2018" time="15:03:10"/>
         </Header>
         <ItemIsn val="19"/>
         <Resource>
           <Columns>
-            <Column id="1" name="Filename (Excel Input)">
+            <Column id="1" name="ExcelFiles">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
                 <DbColumnName id="178"/>
@@ -44,7 +45,7 @@
                 <UserType id="180"/>
               </PropertyList>
             </Column>
-            <Column id="3" name="Filename (Result)">
+            <Column id="3" name="Outputdir">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
                 <DbColumnName id="178"/>
@@ -310,7 +311,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="ExcelToCSV"/>
+              <FormName id="311" valUnicode="BOFFI001_ConvertExcelDir"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

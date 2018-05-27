@@ -1,9 +1,0 @@
-HTTP/1.1 406 NOT ACCEPTABLE
-Connection: keep-alive
-Server: gunicorn/19.8.1
-Date: Sat, 26 May 2018 02:59:27 GMT
-Content-Type: application/json
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Credentials: true
-Content-Length: 142
-Via: 1.1 vegur

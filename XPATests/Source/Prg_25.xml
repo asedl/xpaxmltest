@@ -13,9 +13,9 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="WCLN002_xpatest_templates" ISN_2="1" LastIsn="1" id="25">
+        <Header Description="OWCLN002_xpatest_templates" ISN_2="1" LastIsn="1" id="25">
           <Comment val="@@CREATED: May 15, 2018&#xD;&#xA;@@HISTORY:&#xD;&#xA;&#xD;&#xA;Online Line Mode Browse program for table xpatest_templates which does contain scripts (templates).  Basically a test program for various functions on script files.&#xD;&#xA;&#xD;&#xA;"/>
-          <Public val="WCLN002_xpatest_templates"/>
+          <Public val="OWCLN002_xpatest_templates"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736840" _time="14534" date="26/05/2018" time="04:02:14"/>
+          <LastModified _date="736841" _time="54053" date="27/05/2018" time="15:00:53"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -502,7 +502,7 @@
               <Width id="23" val="814"/>
               <Height id="24" val="280"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="WCLN002_xpatest_templates"/>
+              <FormName id="311" valUnicode="OWCLN002_xpatest_templates"/>
             </PropertyList>
             <Control _test_id="6" id="6">
               <PropertyList model="CTRL_GUI0_EDIT">
@@ -628,7 +628,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" PDOD="128" _test_id="3" id="3">
+            <Control ISN_FATHER="1" _test_id="3" id="3">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="2"/>
@@ -695,7 +695,7 @@
         <Expressions>
           <Expression id="1">
             <ExpSyntax val="{0,1}>0"/>
-            <ExpAttribute val="A"/>
+            <ExpAttribute val="B"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="Len(Trim({0,4}))>0"/>
