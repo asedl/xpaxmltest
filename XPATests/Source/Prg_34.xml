@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="HttpGet(Magic)" ISN_2="1" LastIsn="1" id="34">
+        <Header Description="BWCLN001_HttpGet(Magic)" ISN_2="1" LastIsn="1" id="34">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736829" _time="7259" date="15/05/2018" time="02:00:59"/>
+          <LastModified _date="736841" _time="58749" date="27/05/2018" time="16:19:09"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -401,7 +401,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="HttpGet(Magic)"/>
+              <FormName id="311" valUnicode="BWCLN001_HttpGet(Magic)"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>

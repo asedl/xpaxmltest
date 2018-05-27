@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736841" _time="54040" date="27/05/2018" time="15:00:40"/>
+          <LastModified _date="736841" _time="60539" date="27/05/2018" time="16:48:59"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736841" _time="4704" date="27/05/2018" time="01:18:24"/>
+            <LastModified _date="736841" _time="60539" date="27/05/2018" time="16:48:59"/>
           </Header>
           <ItemIsn val="13"/>
           <Resource>
@@ -639,6 +639,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="1"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="192">
@@ -824,6 +825,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="2"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="193">
@@ -928,6 +930,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="3"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="194">
@@ -1020,6 +1023,7 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="4"/>
               </Event>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="195">
@@ -1198,7 +1202,6 @@
                 <EventType val="U"/>
                 <PublicObject comp="-1" obj="6"/>
               </Event>
-              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <RaiseEvent FlowIsn="197">
@@ -1578,20 +1581,6 @@
                   <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
-              <Control PDOD="128" _test_id="13" id="13">
-                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="112"/>
-                  <Y id="22" val="234"/>
-                  <Width id="23" val="96"/>
-                  <Height id="24" val="14"/>
-                  <Format id="82" valUnicode="Analyze (Roslyn)"/>
-                  <RaiseEvent id="234">
-                    <EventType val="U"/>
-                    <PublicObject comp="-1" obj="9"/>
-                  </RaiseEvent>
-                  <TabOrder id="314" val="10"/>
-                </PropertyList>
-              </Control>
             </FormEntry>
           </TaskForms>
           <Expressions>
@@ -1601,7 +1590,7 @@
             </Expression>
             <Expression id="17">
               <ExpSyntax val="{1,4}"/>
-              <ExpAttribute val="*"/>
+              <ExpAttribute val="A"/>
             </Expression>
             <Expression id="13">
               <ExpSyntax val="NULL()"/>
@@ -1653,7 +1642,7 @@
             </Expression>
             <Expression id="18">
               <ExpSyntax val="{1,2}"/>
-              <ExpAttribute val="*"/>
+              <ExpAttribute val="U"/>
             </Expression>
             <Expression id="19">
               <ExpSyntax val="'Error code for analysis of ' &amp; Trim({1,2}) &amp; ': ' &amp; Trim(Str({0,11}, ''))"/>

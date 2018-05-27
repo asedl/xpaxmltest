@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ExecuteScript_scriptcs" ISN_2="1" LastIsn="1" id="31">
+        <Header Description="BWCLN210_ExeScript_csscript" ISN_2="1" LastIsn="1" id="31">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736829" _time="4789" date="15/05/2018" time="01:19:49"/>
+          <LastModified _date="736841" _time="60623" date="27/05/2018" time="16:50:23"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -413,7 +413,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="ExecuteScript_scriptcs"/>
+              <FormName id="311" valUnicode="BWCLN210_ExeScript_csscript"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>

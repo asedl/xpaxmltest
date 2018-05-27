@@ -13,6 +13,7 @@ Only a few samples for alternative solutions implemented with
 * cURL (command line requests)
 * other scripting technology bawsed on templates (csscript, wsh, csript/wscript)
 * ...
+See sample [OWCLN001_xpatest_uris](/XPATests/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md
   
   
 You can have a look into these and decide yourself regarding future direction.

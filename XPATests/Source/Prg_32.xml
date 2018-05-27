@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ExecuteScript_curl" ISN_2="1" LastIsn="1" id="32">
+        <Header Description="BWCLN003_HttpGet(cURL)" ISN_2="1" LastIsn="1" id="32">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736829" _time="4797" date="15/05/2018" time="01:19:57"/>
+          <LastModified _date="736841" _time="59693" date="27/05/2018" time="16:34:53"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -415,7 +415,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="ExecuteScript_curl"/>
+              <FormName id="311" valUnicode="BWCLN003_HttpGet(cURL)"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>

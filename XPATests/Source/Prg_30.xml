@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="LoadTemplate" ISN_2="1" LastIsn="1" id="30">
+        <Header Description="BWCLN200_LoadTemplate" ISN_2="1" LastIsn="1" id="30">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736840" _time="14550" date="26/05/2018" time="04:02:30"/>
+          <LastModified _date="736841" _time="60590" date="27/05/2018" time="16:49:50"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -407,7 +407,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="LoadTemplate"/>
+              <FormName id="311" valUnicode="BWCLN200_LoadTemplate"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>
