@@ -734,7 +734,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="4"/>
+            <LastIsn val="5"/>
             <MenuEntry id="3">
               <MenuType val="2"/>
               <Description_U val="ExportData (Backup)"/>
@@ -749,11 +749,20 @@
             </MenuEntry>
             <MenuEntry id="2">
               <MenuType val="2"/>
-              <Description_U val="About"/>
+              <Description_U val="OUTIL001a_About"/>
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="36" comp="-1" obj="36"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="5">
+              <MenuType val="2"/>
+              <Description_U val="OUTIL001b_About (Lite)"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="83" comp="-1" obj="83"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

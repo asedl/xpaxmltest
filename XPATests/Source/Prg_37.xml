@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="CheckJava" ISN_2="1" LastIsn="1" id="37">
+        <Header Description="BUTIL200_CheckJava" ISN_2="1" LastIsn="1" id="37">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736829" _time="4956" date="15/05/2018" time="01:22:36"/>
+          <LastModified _date="736842" _time="11682" date="28/05/2018" time="03:14:42"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>

@@ -29,7 +29,9 @@ That's the value of the system environment variable JAVA_HOME which typically ge
 That's the value of the .INI setting [MAGIC_JAVA]JAVA_HOME which can be used to overwrite the system setting when Magic has to start a JVM. If you do not overwrite JAVA_HOME in the Magic.INI the "default" JVM will be started and most of the time that will be one which Magic cannot use because it's either 64-Bit or a later version, not yet supported by Magic.
 
 OUTIL001_About checks if the JAVA_HOME points to a Java version which is compatible with Magic XPA, it can however not set this value for you if it's empty. For that it would have to scan the complete harddisk for existing Java installations.  
-  
+
+Below JAVA_HOME (system) and JAVA_HOME(Magic.INI) are two hidden fields for version information which do get filled and displayed if you press the "Check Version" button
+
 ### .Net SDK / Framework
 #### SDK Release
 #### SDK Installpath
@@ -39,6 +41,9 @@ OUTIL001_About uses program Roslyn.ROSL003_CheckFramerworkSDKs to gather informa
 XPATEST requires a .NET Framework >= 4.5 for some of its functionality. Most of the .NET stuff does however not require that SDK but will run fine with the .NET Runtime (CLR). The version of the CLR which gets used (and which is also the Version the Magic Runtime uses) gets displayed here.  
 
 ## Buttons
+### Check Version (Java)
+Runs program BUTIL201_CheckJavaVersion for the Java JAVA_HOME path specified in JAVA_HOME (system) and # JAVA_HOME (Magic.INI) and fills the Java Version fields with the result.
+
 ### Components
-Starts program OUTIL002_Components. For more information check there. It's an online (line mode) browse program for XPATEST table DatabaseComponent.xpatest_comp where some of the optional and mandatory components of XPA can be configured and checked (for existence and proper installation / configuration).  
+Starts program [OUTIL002_Components](OUTIL002_Components.md). For more information check there. It's an online (line mode) browse program for XPATEST table DatabaseComponent.xpatest_comp where some of the optional and mandatory components of XPA can be configured and checked (for existence and proper installation / configuration).  
 

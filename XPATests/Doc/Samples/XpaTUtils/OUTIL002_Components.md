@@ -8,7 +8,7 @@ a broken installation.
   Status: TODO (most of it)   
 
 ## Screen
-![OUTIL001_About](../../Screens/OUTIL002_Components)
+![OUTIL001_About](../../Screens/OUTIL002_Components.png)
 
 ## Description
 

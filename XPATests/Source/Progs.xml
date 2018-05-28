@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="81"/>
+    <LastIsn val="87"/>
     <LastIsnFolder val="13"/>
     <Folders>
       <Folder id="5">
@@ -32,8 +32,6 @@
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
-      <Program id="42"/>
-      <Program id="75"/>
       <Program FolderIsn="5" id="77"/>
       <Program FolderIsn="5" id="28"/>
       <Program FolderIsn="5" id="33"/>
@@ -57,12 +55,15 @@
       <Program FolderIsn="1" id="11"/>
       <Program FolderIsn="1" id="43"/>
       <Program FolderIsn="7" id="36"/>
+      <Program FolderIsn="7" id="83"/>
       <Program FolderIsn="7" id="61"/>
       <Program FolderIsn="7" id="65"/>
       <Program FolderIsn="7" id="66"/>
       <Program FolderIsn="7" id="57"/>
-      <Program FolderIsn="7" id="76"/>
       <Program FolderIsn="7" id="37"/>
+      <Program FolderIsn="7" id="85"/>
+      <Program FolderIsn="7" id="86"/>
+      <Program FolderIsn="7" id="84"/>
       <Program FolderIsn="7" id="59"/>
       <Program FolderIsn="7" id="60"/>
       <Program FolderIsn="2" id="7"/>

@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="OUTIL001a_About" ISN_2="1" LastIsn="2" id="36">
-          <Public val="OUTIL001_About"/>
+        <Header Description="OUTIL001b_About (Lite)" ISN_2="1" LastIsn="2" id="83">
+          <Public val="OUTIL001b_About"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736842" _time="15907" date="28/05/2018" time="04:25:07"/>
+          <LastModified _date="736841" _time="82703" date="27/05/2018" time="22:58:23"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -331,7 +331,7 @@
                   <Wait val="Y"/>
                   <SyncData val="N"/>
                   <RetainFocus val="N"/>
-                  <Condition val="Y"/>
+                  <Condition val="N"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </CallTask>
@@ -364,7 +364,7 @@
               <Width id="23" val="2706"/>
               <Height id="24" val="94"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="OUTIL001a_About"/>
+              <FormName id="311" valUnicode="OUTIL001b_About (Lite)"/>
               <_TabbingOrder id="318" val="1"/>
               <PersistentFormState id="493"/>
             </PropertyList>
@@ -377,7 +377,7 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="About" ISN_2="2" LastIsn="2" id="36">
+          <Header Description="About" ISN_2="2" LastIsn="2" id="83">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -390,9 +390,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736842" _time="15907" date="28/05/2018" time="04:25:07"/>
+            <LastModified _date="736841" _time="75986" date="27/05/2018" time="21:06:26"/>
           </Header>
-          <ItemIsn val="18"/>
+          <ItemIsn val="11"/>
           <Resource>
             <Columns>
               <Column id="1" name="XPATEST_HOME">
@@ -443,22 +443,6 @@
                   <UserType id="180"/>
                 </PropertyList>
               </Column>
-              <Column id="12" name="JAVA_Version (System)">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="255"/>
-                  <Size id="174" val="510"/>
-                  <_FieldStyle id="276" val="1"/>
-                </PropertyList>
-              </Column>
-              <Column id="13" name="JAVA_Version (Magic)">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="255"/>
-                  <Size id="174" val="510"/>
-                  <_FieldStyle id="276" val="1"/>
-                </PropertyList>
-              </Column>
               <Column id="7" name="DNetSdkRelease">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
@@ -483,30 +467,6 @@
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
-                </PropertyList>
-              </Column>
-              <Column id="15" name="Version">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="100"/>
-                  <Size id="174" val="200"/>
-                  <_FieldStyle id="276" val="1"/>
-                </PropertyList>
-              </Column>
-              <Column id="16" name="Product">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="100"/>
-                  <Size id="174" val="200"/>
-                  <_FieldStyle id="276" val="1"/>
-                </PropertyList>
-              </Column>
-              <Column id="17" name="VM">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_UNICODE" id="1"/>
-                  <Picture id="157" valUnicode="100"/>
-                  <Size id="174" val="200"/>
-                  <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
             </Columns>
@@ -685,36 +645,12 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
-                  <Select FieldID="12" FlowIsn="27" id="12">
-                    <Column val="12"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="17"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="S"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <Select FieldID="13" FlowIsn="28" id="13">
-                    <Column val="13"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="18"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="S"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
                   <Select FieldID="7" FlowIsn="11" id="7">
                     <ASS val="7"/>
                     <Column val="7"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="21"/>
+                    <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -727,7 +663,7 @@
                     <Column val="8"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="23"/>
+                    <_DitIndexForToolkit val="20"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -752,187 +688,6 @@
                 <LogicLine>
                   <Remark FlowIsn="10">
                     <Type val="0"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-              </LogicLines>
-            </LogicUnit>
-            <LogicUnit id="4" propagate="78">
-              <Level val="H"/>
-              <Type val="U"/>
-              <Scope val="S"/>
-              <EngineDirective val="S"/>
-              <ShowMessage val="Y"/>
-              <Condition val="89"/>
-              <Event>
-                <EventType val="U"/>
-                <PublicObject comp="-1" obj="2"/>
-              </Event>
-              <LogicLines>
-                <LogicLine>
-                  <Select FieldID="15" FlowIsn="34" id="15">
-                    <Column val="15"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <Select FieldID="16" FlowIsn="35" id="16">
-                    <Column val="16"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <Select FieldID="17" FlowIsn="36" id="17">
-                    <Column val="17"/>
-                    <Type val="V"/>
-                    <IsParameter val="N"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="50">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <CallTask FlowIsn="30">
-                    <OperationType val="P"/>
-                    <TaskID comp="-1" obj="85"/>
-                    <Lock val="N"/>
-                    <Arguments>
-                      <Argument>
-                        <Variable val="6"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="15"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="16"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="17"/>
-                        <Skip val="N"/>
-                      </Argument>
-                    </Arguments>
-                    <Wait val="Y"/>
-                    <SyncData val="N"/>
-                    <RetainFocus val="N"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </CallTask>
-                </LogicLine>
-                <LogicLine>
-                  <BLOCK EndBlock="48" EndBlockSegment="48" FlowIsn="47" Type="I">
-                    <Condition Exp="13"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </BLOCK>
-                </LogicLine>
-                <LogicLine>
-                  <Update FlowIsn="49">
-                    <FieldID val="12"/>
-                    <WithValue val="14"/>
-                    <Incremental val="N"/>
-                    <ForcedUpdate val="Y"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Update>
-                </LogicLine>
-                <LogicLine>
-                  <END_BLK FlowIsn="48"/>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="51">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <CallTask FlowIsn="54">
-                    <OperationType val="P"/>
-                    <TaskID comp="-1" obj="85"/>
-                    <Lock val="N"/>
-                    <Arguments>
-                      <Argument>
-                        <Variable val="11"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="15"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="16"/>
-                        <Skip val="N"/>
-                      </Argument>
-                      <Argument>
-                        <Variable val="17"/>
-                        <Skip val="N"/>
-                      </Argument>
-                    </Arguments>
-                    <Wait val="Y"/>
-                    <SyncData val="N"/>
-                    <RetainFocus val="N"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </CallTask>
-                </LogicLine>
-                <LogicLine>
-                  <BLOCK EndBlock="57" EndBlockSegment="57" FlowIsn="55" Type="I">
-                    <Condition Exp="13"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </BLOCK>
-                </LogicLine>
-                <LogicLine>
-                  <Update FlowIsn="56">
-                    <FieldID val="13"/>
-                    <WithValue val="14"/>
-                    <Incremental val="N"/>
-                    <ForcedUpdate val="Y"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Update>
-                </LogicLine>
-                <LogicLine>
-                  <END_BLK FlowIsn="57"/>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="31">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="32">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="33">
-                    <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
                 </LogicLine>
@@ -970,38 +725,11 @@
                     <Direction val="C"/>
                   </CallTask>
                 </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="68">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
-              </LogicLines>
-            </LogicUnit>
-            <LogicUnit id="7" propagate="78">
-              <Level val="R"/>
-              <Type val="P"/>
-              <Scope val="S"/>
-              <EngineDirective val="S"/>
-              <ShowMessage val="Y"/>
-              <Condition val="89"/>
-              <Event>
-                <EventType val="S"/>
-                <PublicObject comp="-1"/>
-              </Event>
-              <Expanded val="1"/>
-              <LogicLines>
-                <LogicLine>
-                  <Remark FlowIsn="69">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
               </LogicLines>
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="34" _last_test_id="34" id="1">
+            <FormEntry _last_isn="31" _last_test_id="31" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="556"/>
                 <Height id="24" val="296"/>
@@ -1236,7 +964,7 @@
                     <Var FieldID="11"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="162"/>
+                  <Y id="22" val="160"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="11" id="43"/>
@@ -1245,54 +973,6 @@
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="7"/>
-                </PropertyList>
-              </Control>
-              <Control ISN_FATHER="29" _test_id="33" id="33">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="12"/>
-                  </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="180"/>
-                  <Width id="23" val="377"/>
-                  <Height id="24" val="10"/>
-                  <Data FieldID="12" id="43"/>
-                  <ControlName id="46" val="JAVA_Version (System)_0001"/>
-                  <Modifiable id="53"/>
-                  <Format id="82" valUnicode="255"/>
-                  <_Orientation id="143"/>
-                  <TabOrder id="314" val="9"/>
-                </PropertyList>
-              </Control>
-              <Control ISN_FATHER="29" _test_id="34" id="34">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="13"/>
-                  </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="190"/>
-                  <Width id="23" val="377"/>
-                  <Height id="24" val="10"/>
-                  <Data FieldID="13" id="43"/>
-                  <ControlName id="46" val="JAVA_Version (Magic)_0001"/>
-                  <Modifiable id="53"/>
-                  <Format id="82" valUnicode="255"/>
-                  <_Orientation id="143"/>
-                  <TabOrder id="314" val="10"/>
-                </PropertyList>
-              </Control>
-              <Control ISN_FATHER="29" PDOD="128" _test_id="32" id="32">
-                <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="20"/>
-                  <Y id="22" val="179"/>
-                  <Width id="23" val="89"/>
-                  <Height id="24" val="14"/>
-                  <Format id="82" valUnicode="Check Version"/>
-                  <RaiseEvent id="234">
-                    <EventType val="U"/>
-                    <PublicObject comp="-1" obj="2"/>
-                  </RaiseEvent>
-                  <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
               <Control _test_id="13" id="13">
@@ -1318,7 +998,7 @@
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="DNetSdkRelease"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="11"/>
+                  <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="13" _test_id="15" id="15">
@@ -1347,7 +1027,7 @@
                   <ControlName id="46" val="DNetSdkInstallpath_0001"/>
                   <Modifiable id="53"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="12"/>
+                  <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="13" _test_id="16" id="16">
@@ -1374,7 +1054,7 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="13"/>
+                  <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -1416,28 +1096,8 @@
               <ExpSyntax val="{1,6}"/>
               <ExpAttribute val="U"/>
             </Expression>
-            <Expression id="13">
-              <ExpSyntax val="{0,15}&lt;>''"/>
-              <ExpAttribute val="B"/>
-            </Expression>
-            <Expression id="14">
-              <ExpSyntax val="Trim({0,15}) &amp; ', ' &amp; Trim({0,16}) &amp; ', ' &amp; Trim({0,17})"/>
-              <ExpAttribute val="A"/>
-            </Expression>
           </Expressions>
           <EVNT DESC="BtnComponents" FORCE_EXIT="N" id="1">
-            <Event>
-              <EventType val="N"/>
-              <PublicObject comp="-1"/>
-            </Event>
-          </EVNT>
-          <EVNT DESC="CheckJavaVersion" FORCE_EXIT="N" id="2">
-            <Event>
-              <EventType val="N"/>
-              <PublicObject comp="-1"/>
-            </Event>
-          </EVNT>
-          <EVNT DESC="DisplayEnvironemnt" FORCE_EXIT="N" id="3">
             <Event>
               <EventType val="N"/>
               <PublicObject comp="-1"/>

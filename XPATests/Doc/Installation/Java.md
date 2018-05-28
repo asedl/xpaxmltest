@@ -1,14 +1,11 @@
 # Getting the Java samples working ...
 
-Java raises some installation / configuration issues when you decide to leverage the "Magic & Java" functionality of Magic XPA, which saw quite some rework in Magic XPA 3.3 btw.  
-  
-One of the major reasons for that is: Magic is quite picky regarding the Java versions it supports and also requires a 32-Bit Java VM. On today's desktop systems you do however rather find: Latest version of Java Runtime (JRE), 64 Bit (which currently would expand to 64-Bit-Java v8 for Windows). Magic XPA 3.3 requires 32-Bit-Java for Windows, support for Java 7 has been added (asfaik) to XPA 2.5. Versions before do require Java 6 and cannot work with a later Java version.
+Java raises some installation / configuration issues when you decide to leverage the "Magic & Java" functionality of Magic XPA. Magic requires a 32-Bit Java VM and typically is a bit behind when it comes to supported Java versions. Magic XPA 3.3 requires 32-Bit-Java 8 for Windows, support for Java 7 has been added (asfaik) to uniPaaS 1.9. Versions before do require Java 6 and cannot work with a later Java version.
 
-On a development system a JRE is not sufficient too, you will need a JDK. A JDK you will also need in order to get some of the "enterprise functionality" of XPA running but that we do not cover in a demo project for the SingleUser edition anyways. Related to this is also Magic development for Mobile (Android), since the Android SDK which is required then to be installed is Java based.
+On a development system a JRE is not sufficient too, you will need a JDK. A JDK you will also need in order to get some of the "enterprise functionality" of XPA running but that we do not cover in a demo project for the SingleUser edition anyways.
 
-Fortunately the vendor (Magic Software) knows that they are always a few years behind when it comes to the Java versions they do support and added Java settings to the configuration file ("Magic.ini") which allows us to specify which Java VM will be used by Magic XPA in order to execute our Java stuff. During installation/configuration we just have to check if we find a Java 8 32-Bit on the system and modify the .INI settings accordingly. 
+Note: During Startup the Magic Runtime scans all directories in System PATH environment variable for existing Java (client) installations, respectively for jvm.dll (the Java Invocation API) and checks it. If it's a version it can work with, it will use that and set JAVA_HOME (system) environment variable and [MAGIC_JAVA]JAVA_HOME accordingly. If you have a Java version installed Magic can work with you do not have to care about these settings.
 
-Currently this feature is however missing in the demo, you have to adjust the .INI of the application manually. 
   
 [MAGIC_JAVA]  
 JAVA_HOME=*C:\Java\jdk1.8.x86  
