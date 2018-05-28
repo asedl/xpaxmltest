@@ -90,6 +90,17 @@ advise XpaRunner to keep running and wait for the process it started to terminat
 too. Basically its possible to do some housekeeping now and check if the application XpaRunner started terminated "gracefully" or crashed.
 That feature is however not yet implemented. There might be anpther parameter which allows to specify a command line for a "suffix process"
 
+# Instance handling
+"Instance handling" is a feature from a predecessor Version which did not make it into first version of XpaRunner. It helps when you 
+have an application where the users tend to start multiple instances of your application and you want to identify these and need some 
+(e.g.) "instance specific temp. directories". That requires some coordination of the running instances (since users can continue to 
+to start instances and can terminate some while continue to work with others). Information about the instance you get as command line parameter and/or .INI setting and you can f.i. add this "id" to the title bar of your application - which is a surprising nice feature 
+when you <alt><tab> fast between theb instances of your application ;).  
+
+You can also use this feature to limit the maximum number of instances a user is allowed to create and if you set it to one, you 
+effectively limited the number of possible instances to 1, which helps if multiple instances cause issues, as it is often the case for 
+applications with a lot of I/O on lacal drives.
+
 # Further Notes
 
 Processes which XpaRunner creates are started with Process.Start method from System.Diagnostics
