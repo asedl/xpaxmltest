@@ -1,3 +1,0 @@
-EXEFILE="C:\magic\Magic XPA 3.3\MgxpaStudio.exe"
-WORKINGDIR="C:\magic\Magic XPA 3.3"
-COMMANDLINEARGS=@C:\magic\samples\xpaxmltest\XPATests\XPATests.ini
