@@ -526,9 +526,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736842" _time="15907" date="28/05/2018" time="04:25:07"/>
+        <LastModified _date="736845" _time="35273" date="31/05/2018" time="09:47:53"/>
       </Header>
-      <SourceFileTimeStamp _date="736842" _time="8707" date="28/05/2018" time="02:25:07"/>
+      <SourceFileTimeStamp _date="736845" _time="28073" date="31/05/2018" time="07:47:53"/>
     </Program>
     <Program>
       <Header Description="OUTIL001b_About (Lite)" ISN_2="1" LastIsn="2" id="83">
@@ -787,6 +787,64 @@
         <LastModified _date="736823" _time="5453" date="09/05/2018" time="01:30:53"/>
       </Header>
       <SourceFileTimeStamp _date="736839" _time="84272" date="25/05/2018" time="23:24:32"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="91">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736845" _time="3597" date="31/05/2018" time="00:59:57"/>
+    </Program>
+    <Program>
+      <Header Description="Rich Client - DatabaseComponen" ISN_2="1" LastIsn="1" id="92">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736845" _time="10991" date="31/05/2018" time="03:03:11"/>
+      </Header>
+      <SourceFileTimeStamp _date="736845" _time="3791" date="31/05/2018" time="01:03:11"/>
+    </Program>
+    <Program>
+      <Header Description="Browse - DatabaseComponent.Cus" ISN_2="1" LastIsn="1" id="93">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736845" _time="11091" date="31/05/2018" time="03:04:51"/>
+      </Header>
+      <SourceFileTimeStamp _date="736845" _time="3891" date="31/05/2018" time="01:04:51"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

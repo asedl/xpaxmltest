@@ -22,7 +22,19 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="7"/>
+            <LastIsn val="10"/>
+            <MenuEntry id="8">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Open Application"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="23"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
             <MenuEntry id="2">
               <MenuType val="3"/>
               <Flags val="1088"/>
@@ -38,6 +50,30 @@
               <Tool>
                 <ToolNumber val="21"/>
               </Tool>
+            </MenuEntry>
+            <MenuEntry id="9">
+              <MenuType val="3"/>
+              <Description_U val="Open Form Designer"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="578"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </MenuEntry>
+            <MenuEntry id="10">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Shell to OS"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="27"/>
+                <PublicObject comp="-1"/>
+              </Event>
             </MenuEntry>
             <MenuEntry id="3">
               <MenuType val="5"/>
@@ -734,19 +770,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="5"/>
-            <MenuEntry id="3">
-              <MenuType val="2"/>
-              <Description_U val="ExportData (Backup)"/>
-              <Right comp="-1"/>
-              <Help comp="-1"/>
-              <Prompt comp="-1"/>
-              <Program ObjIsn="54" comp="-1" obj="54"/>
-              <SourceContext val="67"/>
-            </MenuEntry>
-            <MenuEntry id="4">
-              <MenuType val="5"/>
-            </MenuEntry>
+            <LastIsn val="7"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Description_U val="OUTIL001a_About"/>
@@ -756,14 +780,20 @@
               <Program ObjIsn="36" comp="-1" obj="36"/>
               <SourceContext val="67"/>
             </MenuEntry>
-            <MenuEntry id="5">
-              <MenuType val="2"/>
-              <Description_U val="OUTIL001b_About (Lite)"/>
+            <MenuEntry id="6">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="7">
+              <MenuType val="3"/>
+              <Description_U val="&amp;Help"/>
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
-              <Program ObjIsn="83" comp="-1" obj="83"/>
-              <SourceContext val="67"/>
+              <Event>
+                <EventType val="I"/>
+                <InternalEventID val="156"/>
+                <PublicObject comp="-1"/>
+              </Event>
             </MenuEntry>
           </Menu>
         </MenuEntry>

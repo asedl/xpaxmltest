@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736842" _time="15907" date="28/05/2018" time="04:25:07"/>
+          <LastModified _date="736845" _time="35273" date="31/05/2018" time="09:47:53"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -390,12 +390,28 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736842" _time="15907" date="28/05/2018" time="04:25:07"/>
+            <LastModified _date="736845" _time="35273" date="31/05/2018" time="09:47:53"/>
           </Header>
-          <ItemIsn val="18"/>
+          <ItemIsn val="20"/>
           <Resource>
             <Columns>
               <Column id="1" name="XPATEST_HOME">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="30"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="18" name="APPDATAALL">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="30"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="19" name="APPDATAUSR">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="30"/>
                   <DbColumnName id="178"/>
@@ -609,12 +625,40 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
+                  <Select FieldID="19" FlowIsn="70" id="19">
+                    <ASS val="15"/>
+                    <Column val="18"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="4"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="20" FlowIsn="103" id="20">
+                    <ASS val="16"/>
+                    <Column val="19"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="6"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
                   <Select FieldID="3" FlowIsn="6" id="3">
                     <ASS val="3"/>
                     <Column val="3"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="7"/>
+                    <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -628,7 +672,7 @@
                     <Column val="4"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="9"/>
+                    <_DitIndexForToolkit val="13"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -642,7 +686,7 @@
                     <Column val="5"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="11"/>
+                    <_DitIndexForToolkit val="15"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -662,7 +706,7 @@
                     <Column val="6"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="14"/>
+                    <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -676,7 +720,7 @@
                     <Column val="11"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="16"/>
+                    <_DitIndexForToolkit val="21"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -689,7 +733,7 @@
                     <Column val="12"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="17"/>
+                    <_DitIndexForToolkit val="19"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -701,7 +745,7 @@
                     <Column val="13"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="18"/>
+                    <_DitIndexForToolkit val="22"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -714,7 +758,7 @@
                     <Column val="7"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="21"/>
+                    <_DitIndexForToolkit val="25"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -727,7 +771,7 @@
                     <Column val="8"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="23"/>
+                    <_DitIndexForToolkit val="27"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -741,7 +785,7 @@
                     <Column val="9"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="4"/>
+                    <_DitIndexForToolkit val="8"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -1001,10 +1045,10 @@
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="34" _last_test_id="34" id="1">
+            <FormEntry _last_isn="38" _last_test_id="38" id="1">
               <PropertyList model="FORM_GUI0">
-                <Width id="23" val="556"/>
-                <Height id="24" val="296"/>
+                <Width id="23" val="553"/>
+                <Height id="24" val="325"/>
                 <_Comment id="218"/>
                 <StartupPosition id="275" val="3"/>
                 <FormName id="311" valUnicode="OUTIL001_About"/>
@@ -1039,11 +1083,69 @@
                   <TabOrder id="314" val="1"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="35" id="35">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="APPDATA (ALL)"/>
+                  <X id="21" val="20"/>
+                  <Y id="22" val="24"/>
+                  <Width id="23" val="79"/>
+                  <Height id="24" val="8"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <_VerticalScroll id="73"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="36" id="36">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="19"/>
+                  </Model>
+                  <X id="21" val="157"/>
+                  <Y id="22" val="24"/>
+                  <Width id="23" val="388"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="19" id="43"/>
+                  <ControlName id="46" val="APPDATA"/>
+                  <Modifiable id="53"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="37" id="37">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="APPDATA (USR)"/>
+                  <X id="21" val="20"/>
+                  <Y id="22" val="40"/>
+                  <Width id="23" val="79"/>
+                  <Height id="24" val="8"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <_VerticalScroll id="73"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="38" id="38">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="20"/>
+                  </Model>
+                  <X id="21" val="157"/>
+                  <Y id="22" val="40"/>
+                  <Width id="23" val="388"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="20" id="43"/>
+                  <ControlName id="46" val="APPDATAUSR_0001"/>
+                  <Modifiable id="53"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="3"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="18" id="18">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="Commandline"/>
                   <X id="21" val="19"/>
-                  <Y id="22" val="21"/>
+                  <Y id="22" val="67"/>
                   <Width id="23" val="79"/>
                   <Height id="24" val="8"/>
                   <Font id="50" val="1"/>
@@ -1058,7 +1160,7 @@
                     <Var FieldID="9"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="21"/>
+                  <Y id="22" val="67"/>
                   <Width id="23" val="388"/>
                   <Height id="24" val="35"/>
                   <Data FieldID="9" id="43"/>
@@ -1071,7 +1173,7 @@
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
                   <ShowScrollBars id="273"/>
-                  <TabOrder id="314" val="2"/>
+                  <TabOrder id="314" val="4"/>
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
@@ -1079,23 +1181,10 @@
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="Project directories"/>
                   <X id="21" val="8"/>
-                  <Y id="22" val="59"/>
+                  <Y id="22" val="105"/>
                   <Width id="23" val="537"/>
-                  <Height id="24" val="67"/>
+                  <Height id="24" val="55"/>
                   <StaticType id="70" val="128"/>
-                  <_Orientation id="143"/>
-                </PropertyList>
-              </Control>
-              <Control ISN_FATHER="21" _test_id="5" id="5">
-                <PropertyList model="CTRL_GUI0_STATIC">
-                  <Text id="19" valUnicode="EngineDir"/>
-                  <X id="21" val="20"/>
-                  <Y id="22" val="73"/>
-                  <Width id="23" val="79"/>
-                  <Height id="24" val="8"/>
-                  <Font id="50" val="1"/>
-                  <Style id="63" val="7"/>
-                  <_VerticalScroll id="73"/>
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
@@ -1105,7 +1194,7 @@
                     <Var FieldID="3"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="73"/>
+                  <Y id="22" val="116"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="3" id="43"/>
@@ -1113,14 +1202,27 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="3"/>
+                  <TabOrder id="314" val="5"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="21" _test_id="5" id="5">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="EngineDir"/>
+                  <X id="21" val="20"/>
+                  <Y id="22" val="118"/>
+                  <Width id="23" val="79"/>
+                  <Height id="24" val="8"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <_VerticalScroll id="73"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="21" _test_id="7" id="7">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="WorkingDir"/>
                   <X id="21" val="20"/>
-                  <Y id="22" val="88"/>
+                  <Y id="22" val="129"/>
                   <Width id="23" val="79"/>
                   <Height id="24" val="8"/>
                   <Font id="50" val="1"/>
@@ -1135,7 +1237,7 @@
                     <Var FieldID="4"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="88"/>
+                  <Y id="22" val="129"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="4" id="43"/>
@@ -1143,14 +1245,14 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="4"/>
+                  <TabOrder id="314" val="6"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="21" _test_id="9" id="9">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="TempDir"/>
                   <X id="21" val="20"/>
-                  <Y id="22" val="103"/>
+                  <Y id="22" val="143"/>
                   <Width id="23" val="79"/>
                   <Height id="24" val="8"/>
                   <Font id="50" val="1"/>
@@ -1165,7 +1267,7 @@
                     <Var FieldID="5"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="103"/>
+                  <Y id="22" val="143"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="5" id="43"/>
@@ -1173,16 +1275,16 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="5"/>
+                  <TabOrder id="314" val="7"/>
                 </PropertyList>
               </Control>
               <Control _test_id="29" id="29">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="Java directories / installation"/>
-                  <X id="21" val="9"/>
-                  <Y id="22" val="133"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="160"/>
                   <Width id="23" val="536"/>
-                  <Height id="24" val="70"/>
+                  <Height id="24" val="79"/>
                   <StaticType id="70" val="128"/>
                   <_Orientation id="143"/>
                 </PropertyList>
@@ -1190,8 +1292,8 @@
               <Control ISN_FATHER="29" _test_id="11" id="11">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="JAVA_HOME (System)"/>
-                  <X id="21" val="20"/>
-                  <Y id="22" val="144"/>
+                  <X id="21" val="19"/>
+                  <Y id="22" val="171"/>
                   <Width id="23" val="133"/>
                   <Height id="24" val="10"/>
                   <Font id="50" val="1"/>
@@ -1205,8 +1307,8 @@
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="6"/>
                   </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="144"/>
+                  <X id="21" val="156"/>
+                  <Y id="22" val="171"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="6" id="43"/>
@@ -1214,14 +1316,31 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="6"/>
+                  <TabOrder id="314" val="8"/>
+                </PropertyList>
+              </Control>
+              <Control ISN_FATHER="29" _test_id="33" id="33">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="12"/>
+                  </Model>
+                  <X id="21" val="156"/>
+                  <Y id="22" val="183"/>
+                  <Width id="23" val="377"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="12" id="43"/>
+                  <ControlName id="46" val="JAVA_Version (System)_0001"/>
+                  <Modifiable id="53"/>
+                  <Format id="82" valUnicode="255"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="9"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="29" _test_id="30" id="30">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="JAVA_HOME (Magic.INI)"/>
-                  <X id="21" val="20"/>
-                  <Y id="22" val="160"/>
+                  <X id="21" val="19"/>
+                  <Y id="22" val="197"/>
                   <Width id="23" val="133"/>
                   <Height id="24" val="10"/>
                   <Font id="50" val="1"/>
@@ -1235,8 +1354,8 @@
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="11"/>
                   </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="162"/>
+                  <X id="21" val="156"/>
+                  <Y id="22" val="197"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="11" id="43"/>
@@ -1244,24 +1363,7 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="7"/>
-                </PropertyList>
-              </Control>
-              <Control ISN_FATHER="29" _test_id="33" id="33">
-                <PropertyList model="CTRL_GUI0_EDIT">
-                  <Model ID="MODEL_GUI_INT" id="1">
-                    <Var FieldID="12"/>
-                  </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="180"/>
-                  <Width id="23" val="377"/>
-                  <Height id="24" val="10"/>
-                  <Data FieldID="12" id="43"/>
-                  <ControlName id="46" val="JAVA_Version (System)_0001"/>
-                  <Modifiable id="53"/>
-                  <Format id="82" valUnicode="255"/>
-                  <_Orientation id="143"/>
-                  <TabOrder id="314" val="9"/>
+                  <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="29" _test_id="34" id="34">
@@ -1269,8 +1371,8 @@
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="13"/>
                   </Model>
-                  <X id="21" val="157"/>
-                  <Y id="22" val="190"/>
+                  <X id="21" val="156"/>
+                  <Y id="22" val="209"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="13" id="43"/>
@@ -1278,13 +1380,13 @@
                   <Modifiable id="53"/>
                   <Format id="82" valUnicode="255"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="10"/>
+                  <TabOrder id="314" val="11"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="29" PDOD="128" _test_id="32" id="32">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                  <X id="21" val="20"/>
-                  <Y id="22" val="179"/>
+                  <X id="21" val="18"/>
+                  <Y id="22" val="220"/>
                   <Width id="23" val="89"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Check Version"/>
@@ -1292,14 +1394,14 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="2"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="8"/>
+                  <TabOrder id="314" val="12"/>
                 </PropertyList>
               </Control>
               <Control _test_id="13" id="13">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode=".NET SDK / Framework"/>
                   <X id="21" val="8"/>
-                  <Y id="22" val="213"/>
+                  <Y id="22" val="242"/>
                   <Width id="23" val="537"/>
                   <Height id="24" val="56"/>
                   <StaticType id="70" val="128"/>
@@ -1312,20 +1414,20 @@
                     <Var FieldID="7"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="230"/>
+                  <Y id="22" val="256"/>
                   <Width id="23" val="54"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="DNetSdkRelease"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="11"/>
+                  <TabOrder id="314" val="13"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="13" _test_id="15" id="15">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="SDK Release"/>
                   <X id="21" val="19"/>
-                  <Y id="22" val="231"/>
+                  <Y id="22" val="257"/>
                   <Width id="23" val="73"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
@@ -1340,21 +1442,21 @@
                     <Var FieldID="8"/>
                   </Model>
                   <X id="21" val="157"/>
-                  <Y id="22" val="245"/>
+                  <Y id="22" val="269"/>
                   <Width id="23" val="377"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="8" id="43"/>
                   <ControlName id="46" val="DNetSdkInstallpath_0001"/>
                   <Modifiable id="53"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="12"/>
+                  <TabOrder id="314" val="14"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="13" _test_id="16" id="16">
                 <PropertyList model="CTRL_GUI0_STATIC">
                   <Text id="19" valUnicode="SDK Installpath"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="246"/>
+                  <X id="21" val="20"/>
+                  <Y id="22" val="271"/>
                   <Width id="23" val="73"/>
                   <Height id="24" val="9"/>
                   <Font id="50" val="1"/>
@@ -1366,7 +1468,7 @@
               <Control PDOD="128" _test_id="20" id="20">
                 <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
                   <X id="21" val="8"/>
-                  <Y id="22" val="277"/>
+                  <Y id="22" val="306"/>
                   <Width id="23" val="89"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Components"/>
@@ -1374,7 +1476,7 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1" obj="1"/>
                   </RaiseEvent>
-                  <TabOrder id="314" val="13"/>
+                  <TabOrder id="314" val="15"/>
                 </PropertyList>
               </Control>
             </FormEntry>
@@ -1402,6 +1504,14 @@
             </Expression>
             <Expression id="10">
               <ExpSyntax val="Trim(Translate(INIGet('[MAGIC_JAVA]JAVA_HOME')))"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="15">
+              <ExpSyntax val="Trim(Translate('%APPDATAALL%'))"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="16">
+              <ExpSyntax val="Trim(Translate('%APPDATAUSR%'))"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="7">
