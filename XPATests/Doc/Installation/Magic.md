@@ -2,11 +2,16 @@
 
 ## How does XPATEST find the Magic installation it will use for shortcuts and (.ini) settings
 
-There's not much need for a Magic application to know how it does get executed (by a Studio, by a Runtime, which version of that "Engine", ...). Autoconfiguration of a Magic application is however part of that Demo container and so it tries to get that information from inside the Magic application. There's several options.
+There's not often a need for a Magic application to know how it does get executed (by a Studio, by a Runtime, which version of that "Engine", ...). Autoconfiguration of a Magic application is however part of that Demo container and so it tries to get that information from inside the Magic application. There's several options.
 
 ### %EngineDir%
 
 Thats's a logical name which Magic runtime injects during startup and which you can query from inside the application. It gives you the directory of the "Engine" used to start the application. Only problem with that: Magic renames the product quite often. How would you know what the .exe currently is named ? For XPA 3.3 it's "MgXPARuntime.Exe" and if you want tro create links/shortcuts, you could use following expression: Trim(Translate('%EngineDir%')) & 'MgXpaRuntime.exe".
+
+### %WorkingDir%
+%WorkingDir% is one of the three project directories which the Magic runtime "injects" during startup. You can work with it as if it would be a logical name named "WorkingDir", it does however not exist in the Magic.ini ([MAGIC_LOGICAL_NAMES]. %WorkingDir% will always point to your project directory, that's the directory where the application's .ecf file reside. Basically that's a nice feature, but there's two issues with %WorkingDir%:  
+1. You cannot use it in the .INI for settings which do get evaluated before the application is actually started, resp. the .ecf is loaded. If you use %WorkingDir% f.i. in location property of databases in [MAGIC_DATABASES] section, the path to those DBs will be invalid when your application starts.
+2. A .ecf I would consider a binary which requires to be stored in a separate directory with special permissions ("/bin" f.i). If one uses %WorkingDirectory% as root (home) directory for an application you end up with everything in your "/bin" folder.  On Windows you should put user specific program data to (system environment variable) %APPDATA% and data which is shared by all users which do use your application on that machine to %ProgramData%
 
 ### Commandline
 
