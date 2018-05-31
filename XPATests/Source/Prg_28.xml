@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736841" _time="60539" date="27/05/2018" time="16:48:59"/>
+          <LastModified _date="736844" _time="79864" date="30/05/2018" time="22:11:04"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,7 +283,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736841" _time="60539" date="27/05/2018" time="16:48:59"/>
+            <LastModified _date="736844" _time="79864" date="30/05/2018" time="22:11:04"/>
           </Header>
           <ItemIsn val="13"/>
           <Resource>
@@ -321,14 +321,6 @@
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
-                </PropertyList>
-              </Column>
-              <Column id="5" name="pi.ResponseBody">
-                <PropertyList model="FIELD">
-                  <Model attr_obj="FIELD_BLOB" id="1"/>
-                  <Picture id="157"/>
-                  <Size id="174" val="28"/>
-                  <Definition id="175" val="1"/>
                 </PropertyList>
               </Column>
               <Column id="1" name="Filename">
@@ -515,50 +507,6 @@
                     <Modifier val="S"/>
                     <Direction val="C"/>
                   </Select>
-                </LogicLine>
-              </LogicLines>
-            </LogicUnit>
-            <LogicUnit id="18" propagate="78">
-              <Level val="H"/>
-              <Type val="U"/>
-              <Scope val="T"/>
-              <EngineDirective val="S"/>
-              <ShowMessage val="Y"/>
-              <Condition val="89"/>
-              <Event>
-                <EventType val="U"/>
-                <Parent val="32768"/>
-                <PublicObject comp="-1" obj="3"/>
-              </Event>
-              <LogicLines>
-                <LogicLine>
-                  <Select FieldID="8" FlowIsn="244" id="8">
-                    <Column val="5"/>
-                    <Type val="V"/>
-                    <IsParameter val="Y"/>
-                    <DIFF_UPDATE val="T"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Select>
-                </LogicLine>
-                <LogicLine>
-                  <RaiseEvent FlowIsn="246">
-                    <Event>
-                      <EventType val="U"/>
-                      <PublicObject comp="-1" obj="7"/>
-                    </Event>
-                    <Wait val="89"/>
-                    <Condition val="Y"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </RaiseEvent>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="247">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>

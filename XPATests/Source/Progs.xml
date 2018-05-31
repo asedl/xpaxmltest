@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="87"/>
+    <LastIsn val="89"/>
     <LastIsnFolder val="13"/>
     <Folders>
       <Folder id="5">
@@ -32,7 +32,7 @@
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
-      <Program FolderIsn="5" id="77"/>
+      <Program id="88"/>
       <Program FolderIsn="5" id="28"/>
       <Program FolderIsn="5" id="33"/>
       <Program FolderIsn="5" id="34"/>

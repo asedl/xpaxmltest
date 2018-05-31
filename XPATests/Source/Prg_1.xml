@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="72507" date="27/05/2018" time="20:08:27"/>
+          <LastModified _date="736844" _time="80147" date="30/05/2018" time="22:15:47"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -206,10 +206,73 @@
                 </Update>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="30">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="20">
                   <Type val="2"/>
                   <Text val=" "/>
                 </Remark>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="7" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Remark FlowIsn="31">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="33" EndBlockSegment="33" FlowIsn="32" Type="I">
+                  <Condition Exp="6"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="34">
+                  <Type val="2"/>
+                  <Text val="try to fix the XPATEST_HOME logical name"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="37">
+                  <Type val="2"/>
+                  <Text val="Note the asteriks after equal sign. Without you need to escape backslash charecters"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="38">
+                  <Type val="2"/>
+                  <Text val="If you dont, Magic/Iniput will remove them"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="35">
+                  <Expression val="7"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="33"/>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -247,40 +310,15 @@
             <ExpSyntax val="{0,9}"/>
             <ExpAttribute val="U"/>
           </Expression>
+          <Expression id="6">
+            <ExpSyntax val="Trim(Translate('%XPATEST_HOME%'))=''"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="7">
+            <ExpSyntax val="INIPut('[MAGIC_LOGICAL_NAMES]XPATEST_HOME=*' &amp; Trim(Translate('%WorkingDir%')), 'TRUE'LOG)"/>
+            <ExpAttribute val="B"/>
+          </Expression>
         </Expressions>
-        <EVNT DESC="gEvent_001" EXPOSE="1" FORCE_EXIT="N" Public="gEvent_001" id="2">
-          <Event>
-            <EventType val="N"/>
-            <PublicObject comp="-1"/>
-          </Event>
-          <EVENT_PARAMETER ATTR="U" NAME="ParamString" id="1">
-            <MODEL>
-              <PublicObject comp="-1" obj="15"/>
-            </MODEL>
-          </EVENT_PARAMETER>
-        </EVNT>
-        <EVNT DESC="gEvent_RequestFinished" FORCE_EXIT="N" id="3">
-          <Event>
-            <EventType val="N"/>
-            <PublicObject comp="-1"/>
-          </Event>
-          <EVENT_PARAMETER ATTR="O" NAME="pi.ResponseBody" id="1">
-            <MODEL>
-              <PublicObject comp="-1"/>
-            </MODEL>
-          </EVENT_PARAMETER>
-        </EVNT>
-        <EVNT DESC="ge.SnakeCommand" FORCE_EXIT="N" id="4">
-          <Event>
-            <EventType val="N"/>
-            <PublicObject comp="-1"/>
-          </Event>
-          <EVENT_PARAMETER ATTR="O" NAME="Command" id="1">
-            <MODEL>
-              <PublicObject comp="-1" obj="20"/>
-            </MODEL>
-          </EVENT_PARAMETER>
-        </EVNT>
       </Task>
     </Programs>
   </ProgramsRepository>

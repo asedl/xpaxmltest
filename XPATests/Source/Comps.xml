@@ -26,8 +26,8 @@
         <LastISN val="24"/>
         <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
         <CompId val="233213427-44898-17507-BAE21B3F5"/>
-        <MciFile val="%XPATEST_HOME%Components\UserFunctionality\UserFunctionality.eci"/>
-        <CABINET_FILE val="%XPATEST_HOME%UserFunctionality.ecf"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\UserFunctionality\UserFunctionality.eci"/>
+        <CABINET_FILE val="UserFunctionality.ecf"/>
         <ComponentPrograms>
           <Object>
             <id val="9"/>
@@ -193,7 +193,7 @@
         <Revision val="0.1"/>
         <MciFile val="%XPATEST_HOME%Components\Scripting\Roslyn\Roslyn.eci"/>
         <ProjectFile val="%XPATEST_HOME%Components\Scripting\Roslyn\Roslyn.edp"/>
-        <CABINET_FILE val="%XPATEST_HOME%Roslyn.ecf"/>
+        <CABINET_FILE val="Roslyn.ecf"/>
         <ComponentModels>
           <Object>
             <id val="1"/>
@@ -234,7 +234,7 @@
         <Revision val="0.1"/>
         <MciFile val="%XPATEST_HOME%Components\DatabaseComp\DatabaseComp.eci"/>
         <ProjectFile val="%XPATEST_HOME%Components\DatabaseComp\DatabaseComp.edp"/>
-        <CABINET_FILE val="%XPATEST_HOME%DatabaseComp.ecf"/>
+        <CABINET_FILE val="DatabaseComp.ecf"/>
         <ComponentModels>
           <Object>
             <id val="31"/>
