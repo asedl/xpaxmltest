@@ -90,6 +90,6 @@ Samples for XpaRunner.settings files you will find in the XPATEST /conf director
 + XpaTest.settings
   
 # Acknowledgments / Credits
-Funfact is: The initial version for that little utility I cloned from the [git repository of Firefly Migrations] (https://github.com/FireflyMigration/AppRunner). That's the guys from Israel who caonstantly tell Magic developers to migrate to .NET with their help, resp. migration technology ^^. So here is the credits: Todah Rabbah!  
+Funfact is: The initial version for that little utility I cloned from the [AppRunner from Firefly Migrations](https://github.com/FireflyMigration/AppRunner). That's the guys from Israel who constantly tell Magic developers to migrate to .NET with their help, resp. migration technology ^^. So here is the credits: Todah Rabbah!  
 
 I kept the original license intact although I messed up the code quite a bit.
