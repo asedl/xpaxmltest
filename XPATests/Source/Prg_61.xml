@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="79765" date="27/05/2018" time="22:09:25"/>
+          <LastModified _date="736845" _time="48555" date="31/05/2018" time="13:29:15"/>
         </Header>
         <Resource>
           <Columns/>
@@ -169,9 +169,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736841" _time="79765" date="27/05/2018" time="22:09:25"/>
+            <LastModified _date="736845" _time="48555" date="31/05/2018" time="13:29:15"/>
           </Header>
-          <ItemIsn val="14"/>
+          <ItemIsn val="22"/>
           <Resource>
             <DB id="1">
               <DataObject comp="12" obj="32"/>
@@ -182,6 +182,38 @@
               <IdentifyRowModifications val="84"/>
             </DB>
             <Columns>
+              <Column id="7" name="v.location_expanded">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="12" id="1" obj="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="4" name="v.APPDATAALL">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="5" name="v.APPDATAUSR">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="6" name="v.XPATEST_HOME">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="12"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
               <Column id="3" name="v.FileExist">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_LOGICAL" id="1"/>
@@ -327,6 +359,9 @@
                     <Column val="1"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
+                    <INT_RCMP_INFO>
+                      <v>86</v>
+                    </INT_RCMP_INFO>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -338,7 +373,7 @@
                     <Column val="6"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="9"/>
+                    <_DitIndexForToolkit val="15"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -350,7 +385,7 @@
                     <Column val="7"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="10"/>
+                    <_DitIndexForToolkit val="16"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -362,7 +397,7 @@
                     <Column val="2"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="11"/>
+                    <_DitIndexForToolkit val="17"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -374,7 +409,6 @@
                     <Column val="3"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -398,8 +432,73 @@
                     <Column val="5"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="13"/>
+                    <_DitIndexForToolkit val="19"/>
                     <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="85">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="20" FlowIsn="86" id="20">
+                    <ASS val="21"/>
+                    <Column val="7"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="18"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="63">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="16" FlowIsn="64" id="16">
+                    <Column val="4"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="3"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="17" FlowIsn="65" id="17">
+                    <Column val="5"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="5"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="18" FlowIsn="66" id="18">
+                    <Column val="6"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_DitIndexForToolkit val="7"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="N"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
                     <Direction val="C"/>
@@ -427,7 +526,7 @@
                     <Column val="2"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="2"/>
+                    <_DitIndexForToolkit val="8"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="N"/>
                     <Condition val="Y"/>
@@ -474,7 +573,73 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
+                  <Remark FlowIsn="109">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="67">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
                   <Remark FlowIsn="15">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="5" propagate="78">
+              <Level val="T"/>
+              <Type val="P"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Update FlowIsn="68">
+                    <FieldID val="16"/>
+                    <WithValue val="12"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="70">
+                    <FieldID val="17"/>
+                    <WithValue val="13"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Update FlowIsn="71">
+                    <FieldID val="18"/>
+                    <WithValue val="14"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="69">
                     <Type val="2"/>
                     <Text val=" "/>
                   </Remark>
@@ -500,62 +665,11 @@
                     <Text val=" "/>
                   </Remark>
                 </LogicLine>
-                <LogicLine>
-                  <BLOCK EndBlock="54" EndBlockSegment="54" FlowIsn="53" Type="I">
-                    <Condition Exp="5"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </BLOCK>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="56">
-                    <Type val="2"/>
-                    <Text val="for Type=X (Executables) we have the full pathname in location_absolute. If we find that file we are ok for now, If not, we"/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="57">
-                    <Type val="2"/>
-                    <Text val="check if we can find the file in the (system environment variable) PATH"/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <Update FlowIsn="55">
-                    <FieldID val="14"/>
-                    <WithValue val="9"/>
-                    <Incremental val="N"/>
-                    <ForcedUpdate val="Y"/>
-                    <Condition Exp="10"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Update>
-                </LogicLine>
-                <LogicLine>
-                  <RaiseEvent FlowIsn="13">
-                    <Event>
-                      <EventType val="U"/>
-                      <PublicObject comp="-1" obj="1"/>
-                    </Event>
-                    <Wait val="89"/>
-                    <Condition Exp="11"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </RaiseEvent>
-                </LogicLine>
-                <LogicLine>
-                  <END_BLK FlowIsn="54"/>
-                </LogicLine>
-                <LogicLine>
-                  <Remark FlowIsn="12">
-                    <Type val="2"/>
-                    <Text val=" "/>
-                  </Remark>
-                </LogicLine>
               </LogicLines>
             </LogicUnit>
           </TaskLogic>
           <TaskForms>
-            <FormEntry _last_isn="19" _last_test_id="19" id="1">
+            <FormEntry _last_isn="25" _last_test_id="25" id="1">
               <PropertyList model="FORM_GUI0">
                 <Width id="23" val="815"/>
                 <Height id="24" val="310"/>
@@ -570,7 +684,7 @@
                   <X id="21" val="8"/>
                   <Y id="22" val="193"/>
                   <Width id="23" val="800"/>
-                  <Height id="24" val="73"/>
+                  <Height id="24" val="36"/>
                   <Data FieldID="6" id="43"/>
                   <ControlName id="46" val="description"/>
                   <MultiLineEdit id="71" val="Y"/>
@@ -581,19 +695,103 @@
                   <MultilineWordwrapScroll id="455" val="3"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="21" id="21">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="APPDATAALL"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="233"/>
+                  <Width id="23" val="66"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="20" id="20">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="16"/>
+                  </Model>
+                  <X id="21" val="78"/>
+                  <Y id="22" val="233"/>
+                  <Width id="23" val="730"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="16" id="43"/>
+                  <ControlName id="46" val="v.APPDATAALL"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="7"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="22" id="22">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="APPDATAUSR"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="248"/>
+                  <Width id="23" val="66"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="23" id="23">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="17"/>
+                  </Model>
+                  <X id="21" val="78"/>
+                  <Y id="22" val="248"/>
+                  <Width id="23" val="730"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="17" id="43"/>
+                  <ControlName id="46" val="v.APPDATAUSR"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="8"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="24" id="24">
+                <PropertyList model="CTRL_GUI0_STATIC">
+                  <Text id="19" valUnicode="APPDATAUSR"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="264"/>
+                  <Width id="23" val="66"/>
+                  <Height id="24" val="9"/>
+                  <Font id="50" val="1"/>
+                  <Style id="63" val="7"/>
+                  <EnableRTF id="69"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="25" id="25">
+                <PropertyList model="CTRL_GUI0_EDIT">
+                  <Model ID="MODEL_GUI_INT" id="1">
+                    <Var FieldID="18"/>
+                  </Model>
+                  <X id="21" val="78"/>
+                  <Y id="22" val="264"/>
+                  <Width id="23" val="730"/>
+                  <Height id="24" val="10"/>
+                  <Data FieldID="18" id="43"/>
+                  <ControlName id="46" val="v.XPATEST_HOME"/>
+                  <_Orientation id="143"/>
+                  <TabOrder id="314" val="9"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="16" id="16">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT" id="1">
                     <Var FieldID="10"/>
                   </Model>
                   <X id="21" val="8"/>
-                  <Y id="22" val="269"/>
+                  <Y id="22" val="293"/>
                   <Width id="23" val="800"/>
                   <Height id="24" val="10"/>
                   <Data FieldID="10" id="43"/>
                   <ControlName id="46" val="v.Path"/>
                   <_Orientation id="143"/>
-                  <TabOrder id="314" val="7"/>
+                  <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
               <Control _test_id="1" id="1">
@@ -635,7 +833,7 @@
                 <PropertyList model="CTRL_GUI0_COLUMN">
                   <Width id="23" val="324"/>
                   <ControlLayer id="25" val="4"/>
-                  <ColumnTitle id="139" valUnicode="location_absolute"/>
+                  <ColumnTitle id="139" valUnicode="expanded"/>
                 </PropertyList>
               </Control>
               <Control ISN_FATHER="1" PDOD="128" _test_id="13" id="13">
@@ -706,7 +904,7 @@
               <Control ISN_FATHER="1" _test_id="5" id="5">
                 <PropertyList model="CTRL_GUI0_EDIT">
                   <Model ID="MODEL_GUI_INT_TBL" id="1">
-                    <Var FieldID="5"/>
+                    <Var FieldID="20"/>
                   </Model>
                   <Placement bottom="100" id="20" right="100"/>
                   <X id="21" val="350"/>
@@ -714,8 +912,8 @@
                   <Width id="23" val="320"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="4"/>
-                  <Data FieldID="5" id="43"/>
-                  <ControlName id="46" val="location_absolute"/>
+                  <Data FieldID="20" id="43"/>
+                  <ControlName id="46" val="location_expanded"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="4"/>
@@ -748,10 +946,6 @@
               <ExpSyntax val="{0,3}"/>
               <ExpAttribute val="U"/>
             </Expression>
-            <Expression id="5">
-              <ExpSyntax val="{0,11}='X'"/>
-              <ExpAttribute val="B"/>
-            </Expression>
             <Expression id="7">
               <ExpSyntax val="{0,13}+1"/>
               <ExpAttribute val="N"/>
@@ -760,17 +954,21 @@
               <ExpSyntax val="Stat(0, 'C'MODE)"/>
               <ExpAttribute val="B"/>
             </Expression>
-            <Expression id="9">
-              <ExpSyntax val="FileExist({0,5})"/>
-              <ExpAttribute val="B"/>
+            <Expression id="12">
+              <ExpSyntax val="Trim(Translate('%APPDATAALL%'))"/>
+              <ExpAttribute val="A"/>
             </Expression>
-            <Expression id="10">
-              <ExpSyntax val="{0,5}&lt;>''"/>
-              <ExpAttribute val="B"/>
+            <Expression id="13">
+              <ExpSyntax val="Trim(Translate('%APPDATAUSR%'))"/>
+              <ExpAttribute val="A"/>
             </Expression>
-            <Expression id="11">
-              <ExpSyntax val="NOT({0,14})"/>
-              <ExpAttribute val="B"/>
+            <Expression id="14">
+              <ExpSyntax val="Trim(Translate('%XPATEST_HOME%'))"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="21">
+              <ExpSyntax val="CallProg('{94,-1}'PROG, {0,2}, {0,20})"/>
+              <ExpAttribute val="*"/>
             </Expression>
           </Expressions>
           <EVNT DESC="FindOnPath" FORCE_EXIT="N" id="1">

@@ -1,13 +1,13 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
-       // Created Date :27/05/2018 Time :01:01:26              //
+       // Created Date :01/06/2018 Time :03:39:57              //
        // File Name    :C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci
 COMPID = 79462038-31045-19073-B8732FDD7
 NAME = "DatabaseComponent"
 DESC = "Database component for XPATEST project"
 COMPTYPE = "Magic xpa"
 IMMED = "Y"
-PROJECTFILE = "%XPATEST_HOME%Components\DatabaseComp\DatabaseComp.edp"
+PROJECTFILE = "C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.edp"
 CABINETFILE = "%XPATEST_HOME%DatabaseComp.ecf"
 VRSN = 0.1
 HLPFILE = ""

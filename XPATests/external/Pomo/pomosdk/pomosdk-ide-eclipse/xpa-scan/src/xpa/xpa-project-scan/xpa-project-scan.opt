@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <MobileDesignMode Val="N"/>
+
+  <DebugMode Val="Y"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="ScanXpaProject..OpenProjectFile"/>
+      <HandlerId Val="2"/>
+      <OperationId Val="15"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="1391128295"/>
+      <Component2 Val="11672"/>
+      <Component3 Val="18325"/>
+      <Component4 Val="808324790"/>
+      <Component5 Val="1816149705"/>
+      <Prog Val="3"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="15"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

@@ -23,6 +23,7 @@ exports/
 
 ### Visual Studio Code ###
 .vscode/*
+.vs/*
 
 ### Node modules ####
 node_modules/

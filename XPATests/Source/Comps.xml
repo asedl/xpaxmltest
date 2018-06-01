@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="13"/>
+    <LastIsn val="14"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -399,6 +399,36 @@
             <PublicName val="Orders"/>
           </Object>
         </ComponentDataObjects>
+      </Component>
+      <Component FolderIsn="1" id="14" name="xpa_project_scan">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="N"/>
+        <LastISN val="4"/>
+        <CompId val="53023801-13933-16598-BCECFDD8D"/>
+        <Revision val="0.1"/>
+        <MciFile val="C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
+        <ProjectFile val="C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
+        <CABINET_FILE val="C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.ecf"/>
+        <ComponentDataObjects>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="xpa_projectfiles"/>
+          </Object>
+        </ComponentDataObjects>
+        <ComponentPrograms>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="3"/>
+            <PublicName val="BPOML001_ScanXpaProject"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="4"/>
+            <PublicName val="OPOML001_XpaProject"/>
+          </Object>
+        </ComponentPrograms>
       </Component>
     </Components>
     <Aliases LastIsnAliases="6">
