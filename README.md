@@ -3,7 +3,7 @@
 This is a repository with a growing collection of Magic XPA demos / samples with a strong focus on the exotic stuff. If you do want demos / samples in order to actually learn "Magic" you should download and install (latest version) of Magic XPA and first have a look into the samples and demo applications which do ship with that (also exotic) development tool.
 
 It's rather pricey and also requires you to pay for runtime licenses later on when you want to deply your applications, there is however since a while, at least a free "Single User" edition which lacks support of all the "enterprise features" and does support SQLite as datbase only. You can download that edition from following link (requires registration):  
-<http://info.magicsoftware.com/Magic-xpa-Free-Single-User-Edition>
+<http://info.magicsoftware.com/Magic-xpa-Free-Single-User-Edition> . There's also a website from Magic Software which is exclusively about this specia, free, version. Its a bit old resp. not maintained, many links don't work anymore and the "Magic DevNet" has been discontinued: http://homeedition.magicsoftware.com/
 
 The IDE (resp. "Magic XPA Studio") is only available for Microsoft Windows. The applications you do build with Magic XPA do then run on some different systems / platforms too and if you keep it "Single User" you can also deploy your applications for free and do not have to purchase runtime licenses from the vendor.
 
