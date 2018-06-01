@@ -33,7 +33,8 @@ Currently this project contains samples / demos for following usecases
 | XpaTHttp | https://github.com/asedl/xpaxmltest/tree/master/XPATests/Doc |
 | XpaTOffice | There's some samples which do use functionality from Apache POI for MS Office stuff like converting Excel -> CSV for an easy import into Magic without the requirement to have MS Office actally be installed |
 | XpaTXML | There's some samples which do demo "advanced" XML technics, like XSL/XSLT/XQuery for reformatting of existing XML to whatever or extracting information from there with standard query languages |  
-XpaTPomo | "POMO" is a new term invented for this project in analogy to POJOs, a "plain old Magic object". Goal is to get a (compile time) framework for Magic XPA applications in order to enable dependency injection and aspect oriented programming |      
+XpaTPomo | "POMO" is a new term invented for this project in analogy to Java POJOs, a "plain old Magic object". Goal is to get a (compile time) framework for Magic XPA applications in order to enable dependency injection and aspect oriented programming |  
+  
 some more stuff is in the pipeline.  
 
 
