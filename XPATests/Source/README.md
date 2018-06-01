@@ -21,46 +21,46 @@ Also in this project it's planned to add some tools which do work on "Magic sour
 
 # Magic XPA (source) Repositories and -files
 ## \<your project\>.edp
-Sample: [XPATests.edp](/xpaxmltest/XPATests/XPATests.edp)
+Sample: [XPATests.edp](/XPATests/XPATests.edp)
 
 ## \<your project\>.opt
-Sample: [XPATests.opt](/xpaxmltest/XPATests/XPATests.opt)
+Sample: [XPATests.opt](/XPATests/XPATests.opt)
 
 ## [Components](Comps.xml)
-Sample: [XPATests.Comps.xml](/xpaxmltest/XPATests/Comps.xml)
+Sample: [XPATests.Comps.xml](/XPATests/Comps.xml)
 
 ## [Data Sources](DataSources.xml)
-Sample: [XPATests.DataSources.xml](/xpaxmltest/XPATests/DataSources.xml)
+Sample: [XPATests.DataSources.xml](/XPATests/DataSources.xml)
 
 ## [Data Sources Indexes](DataSourcesIndex.xml)
-Sample: [XPATests.DataSourcesIndex.xml](/xpaxmltest/XPATests/DataSourcesIndex.xml)
+Sample: [XPATests.DataSourcesIndex.xml](/XPATests/DataSourcesIndex.xml)
 
 ## [Helps](Helps.xml)
-Sample: [XPATests.Helps.xml](/xpaxmltest/XPATests/Helps.xml)
+Sample: [XPATests.Helps.xml](/XPATests/Helps.xml)
 
 ## [Menues](Menues.xml)
-Sample: [XPATests.Menus.xml](/xpaxmltest/XPATests/Menus.xml)
+Sample: [XPATests.Menus.xml](/XPATests/Menus.xml)
 
 ## [Models](Models.xml)
-Sample: [XPATests.Models.xml](/xpaxmltest/XPATests/Models.xml)
+Sample: [XPATests.Models.xml](/XPATests/Models.xml)
 
 ## [Program Headers](ProgramHeaders.xml)
-Sample: [XPATests.ProgramHeaders.xml](/xpaxmltest/XPATests/ProgramHeaders.xml)
+Sample: [XPATests.ProgramHeaders.xml](/XPATests/ProgramHeaders.xml)
 
 ## [Programs](Progs.xml)
-Sample: [XPATests.Progs.xml](/xpaxmltest/XPATests/Progs.xml)
+Sample: [XPATests.Progs.xml](/XPATests/Progs.xml)
 
 ## [Project properties](ProjProps.xml)
-Sample: [XPATests.ProjProps.xml](/xpaxmltest/XPATests/ProjProps.xml)
+Sample: [XPATests.ProjProps.xml](/XPATests/ProjProps.xml)
 
 ## [Rights](Rights.xml)
-Sample: [XPATests.Rights.xml](/xpaxmltest/XPATests/Rights.xml)
+Sample: [XPATests.Rights.xml](/XPATests/Rights.xml)
   
   
 # Visual Studio solution / project files
 ## \<your project\>.sln
-[XPATests.sln](/xpaxmltest/XPATests/XPATests.sln)
+[XPATests.sln](/XPATests/XPATests.sln)
 
 ## \<your project\>.xpaproj
-[XPATests.xpaproj](/xpaxmltest/XPATests/XPATests.xpaproj)
+[XPATests.xpaproj](/XPATests/XPATests.xpaproj)
 
