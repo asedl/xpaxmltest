@@ -24,13 +24,13 @@ which do help a lttle with these issues a bit (Magic Optimizer / Magic Compare).
 Also in this project it's planned to add some tools which do work on "Magic sources" in order to be able to refactor them. 
 
 # Repositories
-## [Components] (Comps.xml)
-## [Data Sources] (DataSources.xml)
-## [Data Sources Indexes] (DataSourcesIndex.xml)
-## [Help] definitions (Helps.xml)
-## [Menues] (Menues.xml)
-## [Models] (Models.xml)
-## [Programs] (Headers) (ProgramHeaders.xml)
-## [Programs] (Progs.xml)
-## [Project properties] (ProjProps.xml)
-## [Rights] (Rights.xml)
+## [Components](Comps.xml)
+## [Data Sources](DataSources.xml)
+## [Data Sources Indexes](DataSourcesIndex.xml)
+## [Help] definitions(Helps.xml)
+## [Menues](Menues.xml)
+## [Models](Models.xml)
+## [Programs](Headers) (ProgramHeaders.xml)
+## [Programs](Progs.xml)
+## [Project properties](ProjProps.xml)
+## [Rights](Rights.xml)
