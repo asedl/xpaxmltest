@@ -3,24 +3,12 @@
 Here we have "external" stuff. Libraries and components which are not implemented with Magic XPA. The Magic XPA components you will find in 
 directory [Components](/XPATests/Components/)  
 
-## Directory structure
-|  |  |  |
+## Directory structure / subprojects
+|  Location | Type | Description  |
 | --- | --- | --- |
-| Java | Java libraries | |
-|      | [XPATest](Java/XPATest/) | XPATest class library which currently contains all Java we use in XPATests application |  
-
-|  |  |  |
-| --- | --- | --- |
-| Dotnet | .NET libraries / applications | |  
-|      | [XpaRunner](Dotnet/XpaRunner/) | Xpa Startup application |  
-  
-  
-|  |  |  |
-| --- | --- | --- |
-| Magic | Magic applications (other versions) | |    
-|      | [upTest](Magic/upTest/) | uniPaaS application with a subset of XPATests for compatibility- and Java 7 tests |  
+| [XPATest](Java/XPATest/) | Java  | Java class library which currently contains some Java classes used in demo programs for Office and Http functionality |  
+| [XpaRunner](Dotnet/XpaRunner/) | Dotnet (C#) | Xpa Startup application |  
+| [upTest](Magic/upTest/) | Magic (uniPaaS) | uniPaaS application with a subset of XPATests for compatibility- and Java 7 tests |
+| [XPATPomo](Java/XPATPomo/) | Java / Magic  | Dependency injection framework for Magic XPA ("plain old magic objects") |  
   
  
-|  |  |  |
-| --- | --- | --- |
-| Node | Node / Angular / Electron | |
