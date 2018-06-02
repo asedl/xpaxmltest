@@ -1,0 +1,6 @@
+;Export, C:\magic\samples\xpaxmltest\XPATests\temp\application.xml, A
+ECF, C:\magic\samples\xpaxmltest\XPATests\temp\output.ECF
+;Export, C:\magic\samples\xpaxmltest\XPATests\temp\models.xml, M
+;Export, C:\magic\samples\xpaxmltest\XPATests\temp\programs.xml, P
+;Export, C:\magic\samples\xpaxmltest\XPATests\temp\components.xml, C
+
