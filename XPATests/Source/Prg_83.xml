@@ -14,7 +14,6 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="OUTIL001b_About (Lite)" ISN_2="1" LastIsn="2" id="83">
-          <Public val="OUTIL001b_About"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736841" _time="82703" date="27/05/2018" time="22:58:23"/>
+          <LastModified _date="736847" _time="13171" date="02/06/2018" time="03:39:31"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -326,6 +325,9 @@
                     <Argument>
                       <Variable val="4"/>
                       <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Skip val="Y"/>
                     </Argument>
                   </Arguments>
                   <Wait val="Y"/>

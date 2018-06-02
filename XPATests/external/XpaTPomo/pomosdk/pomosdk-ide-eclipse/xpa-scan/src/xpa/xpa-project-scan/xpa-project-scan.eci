@@ -1,7 +1,7 @@
        // Magic ECI Generator                                          //
        // Created by   :----No User logged in----         //
-       // Created Date :02/06/2018 Time :00:19:01              //
-       // File Name    :C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT
+       // Created Date :02/06/2018 Time :03:57:40              //
+       // File Name    :C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-ecli
 COMPID = 53023801-13933-16598-BCECFDD8D
 NAME = "xpa_project_scan"
 DESC = ""
@@ -14,7 +14,9 @@ HLPFILE = ""
 HLPKEY = ""
 
 File=PUBLIC="xpa_projectfiles" RMK="" HELPKEY=""
+File=PUBLIC="xpa_schemas" RMK="" HELPKEY=""
 PRG=PUBLIC="BPOML001_ScanXpaProject" RMK="" HELPKEY=""
-PRG=PUBLIC="OPOML001_XpaProject" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOML002_ShowXpaProject" RMK="" HELPKEY=""
+PRG=PUBLIC="OPOML003_ValidateXml" RMK="" HELPKEY=""
 
 [ENVIRONMENT]
