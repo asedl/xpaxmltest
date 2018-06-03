@@ -20,11 +20,12 @@
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="3"/>
+            <TSK_PARAMS val="4"/>
             <ParametersAttributes>
               <Attr MgAttr="U"/>
               <Attr MgAttr="N"/>
               <Attr MgAttr="U"/>
+              <Attr MgAttr="N"/>
             </ParametersAttributes>
           </ReturnValue>
           <SqlWhereExist val="N"/>
@@ -33,9 +34,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736848" _time="8559" date="03/06/2018" time="02:22:39"/>
+          <LastModified _date="736848" _time="50968" date="03/06/2018" time="14:09:28"/>
         </Header>
-        <ItemIsn val="37"/>
+        <ItemIsn val="41"/>
         <Resource>
           <Columns>
             <Column id="1" name="pi.InputFile (.edp)">
@@ -61,6 +62,36 @@
                 <Model attr_obj="FIELD_UNICODE" id="1"/>
                 <Picture id="157" valUnicode="255"/>
                 <Size id="174" val="510"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="32" name="pio.scan_id">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="31" name="v.scan_id">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="33" name="v.scan_id_parent">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="9"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="9"/>
+                <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
@@ -348,6 +379,45 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="40" FlowIsn="789" id="40">
+                  <Column val="32"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="787">
+                  <Type val="0"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="39" FlowIsn="788" id="39">
+                  <Column val="31"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="41" FlowIsn="840" id="41">
+                  <Column val="33"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="709">
                   <Type val="0"/>
                   <Text val=" "/>
@@ -492,6 +562,13 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
+                <BLOCK EndBlock="784" EndBlockSegment="784" FlowIsn="783" Type="I">
+                  <Condition Exp="13"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="32">
                   <Type val="2"/>
                   <Text val="delete all records from a previous scan ...."/>
@@ -504,6 +581,64 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="786">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="785">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="22"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="36"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="40"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition Exp="37"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="784"/>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="791">
+                  <FieldID val="39"/>
+                  <WithValue val="38"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition Exp="39"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="890">
+                  <FieldID val="41"/>
+                  <WithValue val="42"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
               <LogicLine>
                 <Remark FlowIsn="625">
@@ -663,6 +798,17 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </RaiseEvent>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="841">
+                  <FieldID val="41"/>
+                  <WithValue val="40"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
               <LogicLine>
                 <Remark FlowIsn="20">
@@ -919,6 +1065,14 @@
             <ExpSyntax val="DbDel('{6,-1}'DSOURCE, '')"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="37">
+            <ExpSyntax val="{0,40}=0"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="36">
+            <ExpSyntax val="'ComponentScan'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
           <Expression id="11">
             <ExpSyntax val="'Project'"/>
             <ExpAttribute val="A"/>
@@ -950,6 +1104,22 @@
           <Expression id="35">
             <ExpSyntax val="'C:\magic\samples\xpaxmltest\XPATests\XPATests.edp'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="38">
+            <ExpSyntax val="{0,40}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="42">
+            <ExpSyntax val="{0,20}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="39">
+            <ExpSyntax val="{0,39}=0 AND {0,40}>0"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="40">
+            <ExpSyntax val="{32768,2}"/>
+            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
         <EVNT DESC="CreateComponentRec" FORCE_EXIT="N" id="1">
@@ -1848,7 +2018,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="736848" _time="3645" date="03/06/2018" time="01:00:45"/>
+              <LastModified _date="736848" _time="49990" date="03/06/2018" time="13:53:10"/>
             </Header>
             <ItemIsn val="22"/>
             <Resource>
@@ -2734,6 +2904,11 @@
                         <Argument>
                           <Skip val="Y"/>
                         </Argument>
+                        <Argument>
+                          <Parent val="1"/>
+                          <Variable val="39"/>
+                          <Skip val="N"/>
+                        </Argument>
                       </Arguments>
                       <Wait val="Y"/>
                       <SyncData val="N"/>
@@ -2882,9 +3057,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736847" _time="86141" date="02/06/2018" time="23:55:41"/>
+            <LastModified _date="736848" _time="50841" date="03/06/2018" time="14:07:21"/>
           </Header>
-          <ItemIsn val="32"/>
+          <ItemIsn val="33"/>
           <Resource>
             <DB id="1">
               <DataObject comp="-1" obj="6"/>
@@ -3208,11 +3383,23 @@
                   </Remark>
                 </LogicLine>
                 <LogicLine>
-                  <LNK Direction="A" EVL_CND="R" FlowIsn="3" Key="1" Mode="A" SortType="4" VIEW="12" VIEWS="15">
+                  <LNK Direction="A" EVL_CND="R" FlowIsn="3" Key="1" Mode="A" SortType="4" VIEW="12" VIEWS="16">
                     <DB comp="-1" obj="6"/>
                     <Expanded val="1"/>
                     <Condition val="Y"/>
                   </LNK>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="33" FlowIsn="324" id="33">
+                    <ASS val="18"/>
+                    <Column val="16"/>
+                    <Type val="R"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="N"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
                 </LogicLine>
                 <LogicLine>
                   <Select FieldID="2" FlowIsn="5" id="2">
@@ -3457,7 +3644,7 @@
                 <LogicLine>
                   <Update FlowIsn="243">
                     <FieldID val="29"/>
-                    <WithValue val="15"/>
+                    <WithValue val="19"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -3601,6 +3788,10 @@
               <ExpSyntax val="{32768,2}"/>
               <ExpAttribute val="N"/>
             </Expression>
+            <Expression id="18">
+              <ExpSyntax val="{1,39}"/>
+              <ExpAttribute val="N"/>
+            </Expression>
             <Expression id="3">
               <ExpSyntax val="{0,19}"/>
               <ExpAttribute val="U"/>
@@ -3645,8 +3836,8 @@
               <ExpSyntax val="{32768,2}"/>
               <ExpAttribute val="N"/>
             </Expression>
-            <Expression id="15">
-              <ExpSyntax val="{0,30}"/>
+            <Expression id="19">
+              <ExpSyntax val="{1,41}"/>
               <ExpAttribute val="N"/>
             </Expression>
           </Expressions>

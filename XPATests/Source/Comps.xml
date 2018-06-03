@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="16"/>
+    <LastIsn val="17"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -19,15 +19,15 @@
 
   <ComponentsRepository>
     <Components>
-      <Component id="1" name="UserFunctionality">
+      <Component id="17" name="_UserFunctionality">
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="Y"/>
         <LastISN val="24"/>
-        <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
-        <CompId val="233213427-44898-17507-BAE21B3F5"/>
-        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\UserFunctionality\UserFunctionality.eci"/>
-        <CABINET_FILE val="UserFunctionality.ecf"/>
+        <CompId val="3902674675-36743-19037-9421D7318"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\_UserFunctionality\_UserFunctionality.edp"/>
+        <CABINET_FILE val="_UserFunctionality.ecf"/>
         <ComponentPrograms>
           <Object>
             <id val="9"/>
@@ -471,17 +471,17 @@
           </Object>
         </ComponentDataObjects>
       </Component>
-      <Component FolderIsn="1" id="14" name="xpa_project_scan">
-        <Description val="xpa_project_scan"/>
+      <Component FolderIsn="1" id="14" name="xpa-project-scan">
+        <Description val="xpa-project-scan"/>
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="N"/>
-        <LastISN val="13"/>
+        <LastISN val="14"/>
         <CompId val="175473761-52033-19813-95CBC2F3"/>
         <Revision val="0.1.0"/>
-        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa_project_scan.eci"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
         <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
-        <CABINET_FILE val="xpa_project_scan.ecf"/>
+        <CABINET_FILE val="xpa-project-scan.ecf"/>
         <ComponentDataObjects>
           <Object>
             <id val="1"/>
@@ -516,8 +516,9 @@
             <PublicName val="OPOML003_ShowXpaProjectComps"/>
           </Object>
           <Object>
-            <ItemIsn val="7"/>
-            <PublicName val="OPOML003_ValidateXml"/>
+            <id val="5"/>
+            <ItemIsn val="14"/>
+            <PublicName val="OPOML004_ValidateXml"/>
           </Object>
           <Object>
             <id val="6"/>

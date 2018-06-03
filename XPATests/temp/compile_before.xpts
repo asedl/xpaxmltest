@@ -1,7 +1,0 @@
-
-Export, C:\magic\samples\xpaxmltest\XPATests\Temp\application.xml, Repository=A
-Export, C:\magic\samples\xpaxmltest\XPATests\Temp\models.xml, Repository=M
-Export, C:\magic\samples\xpaxmltest\XPATests\Temp\applicationdata.xml, Repository=D
-Export, C:\magic\samples\xpaxmltest\XPATests\Temp\components.xml, Repository=C
-Export, C:\magic\samples\xpaxmltest\XPATests\Temp\menues.xml, Repository=M
-ECF, C:\magic\samples\xpaxmltest\XPATests\Temp\output.ECF
