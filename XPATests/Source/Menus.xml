@@ -424,7 +424,7 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="2"/>
+            <LastIsn val="3"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
               <Description_U val="OPOMO001_ScanXpaProject"/>
@@ -432,6 +432,15 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="96" comp="-1" obj="96"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="xpa_project_scan.BPOML003_ScanXpaProject_Comp_P"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program comp="14" obj="13"/>
               <SourceContext val="67"/>
             </MenuEntry>
           </Menu>

@@ -5,7 +5,7 @@
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="15"/>
+    <LastIsn val="16"/>
     <LastIsnFolder val="2"/>
     <Folders>
       <Folder id="2">
@@ -472,15 +472,16 @@
         </ComponentDataObjects>
       </Component>
       <Component FolderIsn="1" id="14" name="xpa_project_scan">
+        <Description val="xpa_project_scan"/>
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="N"/>
-        <LastISN val="7"/>
-        <CompId val="53023801-13933-16598-BCECFDD8D"/>
-        <Revision val="0.1"/>
-        <MciFile val="C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.eci"/>
-        <ProjectFile val="C:\Users\Andreas\pomosdk\pomosdk-ide-eclipse\pomosdk-ide-eclipse.0.0.2-SNAPSHOT\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
-        <CABINET_FILE val="xpa-project-scan.ecf"/>
+        <LastISN val="13"/>
+        <CompId val="175473761-52033-19813-95CBC2F3"/>
+        <Revision val="0.1.0"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa_project_scan.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\external\XpaTPomo\pomosdk\pomosdk-ide-eclipse\xpa-scan\src\xpa\xpa-project-scan\xpa-project-scan.edp"/>
+        <CABINET_FILE val="xpa_project_scan.ecf"/>
         <ComponentDataObjects>
           <Object>
             <id val="1"/>
@@ -491,6 +492,11 @@
             <id val="2"/>
             <ItemIsn val="5"/>
             <PublicName val="xpa_schemas"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="10"/>
+            <PublicName val="xpa_tools_components"/>
           </Object>
         </ComponentDataObjects>
         <ComponentPrograms>
@@ -505,11 +511,54 @@
             <PublicName val="OPOML002_ShowXpaProject"/>
           </Object>
           <Object>
-            <id val="7"/>
+            <id val="12"/>
+            <ItemIsn val="11"/>
+            <PublicName val="OPOML003_ShowXpaProjectComps"/>
+          </Object>
+          <Object>
             <ItemIsn val="7"/>
             <PublicName val="OPOML003_ValidateXml"/>
           </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="8"/>
+            <PublicName val="BPOML050_CreateAutoprocSeqF"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="12"/>
+            <PublicName val="BPOML002_ScanXpaProject_Comp_C"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="13"/>
+            <PublicName val="BPOML002_ScanXpaProject_Comp_P"/>
+          </Object>
+          <Object>
+            <id val="10"/>
+            <ItemIsn val="9"/>
+            <PublicName val="OPOMO100_ToolsUI"/>
+          </Object>
         </ComponentPrograms>
+      </Component>
+      <Component FolderIsn="1" id="16" name="XpaTHelp">
+        <Description val="XpaTest project help system / component"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="1"/>
+        <CompId val="3963158731-4198-16972-A38CCED11"/>
+        <Revision val="0.1.0"/>
+        <MciFile val="C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.eci"/>
+        <ProjectFile val="C:\magic\samples\xpaxmltest\XPATests\Components\XpaTHelp\XpaTHelp.edp"/>
+        <CABINET_FILE val="XpaTHelp.ecf"/>
+        <ComponentEvents>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="GlobalHelp"/>
+          </Object>
+        </ComponentEvents>
       </Component>
     </Components>
     <Aliases LastIsnAliases="6">

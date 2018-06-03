@@ -14,4 +14,4 @@ Allows you to specify a XPA project file. You can either type the full pathname 
 Runs program xpa_project_scan.BPOMO001_ScanProject with the filename specified in "Project (edp) as parameter. The project file and it's dependencies will be scanned and the result will be written to a database table 
 
 ### Scan Result
-Calls program xpa_project_scan.OPOMO002_ShowProject to display the result of a previous project scan in an online (line mode) browse program
+Calls program xpa_project_scan.OPOML002_ShowXpaProject to display the result of a previous project scan in an online (line mode) browse program

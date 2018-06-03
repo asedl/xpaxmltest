@@ -6,4 +6,4 @@
 | Scripting | | XpaTest scripting functionality |
 | UserFunctionality |  | |
 | Utilities |  | |
-| [XpaTHelp](XpaTHelp\) | [Doc/XpatHelp](/Doc/Components/XpaTHelp/) | XpaTest Help system / component  |
+| [XpaTHelp](.\XpaTHelp\) | [Doc/XpatHelp](/Doc/Components/XpaTHelp/) | XpaTest Help system / component  |

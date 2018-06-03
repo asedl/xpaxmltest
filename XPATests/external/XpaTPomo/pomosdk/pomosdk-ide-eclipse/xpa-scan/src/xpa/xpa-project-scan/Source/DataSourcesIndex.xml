@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="2"/>
+  <LastIsn val="6"/>
 
   <LastIsnFolder val="0"/>
 
@@ -18,7 +18,9 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="xpa_projectfiles" Public="xpa_projectfiles" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="1" name="xpa_projectfiles" offset="213" length="8304"/> 
-<DataObject PhysicalName="xpa_schemas" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="2" name="xpa_schemas" offset="8518" length="2927"/>  </DataObjects>
+<DataObject PhysicalName="xpa_projectfiles" Public="xpa_projectfiles" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="1" name="xpa_projectfiles" offset="213" length="8244"/> 
+<DataObject PhysicalName="xpa_schemas" Public="xpa_schemas" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="2" name="xpa_schemas" offset="8458" length="3951"/> 
+<DataObject PhysicalName="xpa_tools_information" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="4" name="xpa_tools_information" offset="12410" length="3115"/> 
+<DataObject PhysicalName="xpa_tools_components" Public="xpa_tools_components" Resident="N" UniqueISNConvState="12" data_source="XPATest_POMO" id="6" name="xpa_tools_components" offset="15526" length="11124"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="30669309170985547"/>  </Application>
+ <LastModified val="30669511101906735"/>  </Application>

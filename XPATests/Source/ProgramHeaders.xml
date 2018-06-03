@@ -82,9 +82,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="Y"/>
-        <LastModified _date="736844" _time="79864" date="30/05/2018" time="22:11:04"/>
+        <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
       </Header>
-      <SourceFileTimeStamp _date="736844" _time="72664" date="30/05/2018" time="20:11:04"/>
+      <SourceFileTimeStamp _date="736848" _time="38807" date="03/06/2018" time="10:46:47"/>
     </Program>
     <Program>
       <Header Description="BWCLN002_HttpGet (Apache)" ISN_2="1" LastIsn="1" id="33">
@@ -828,65 +828,6 @@
       <SourceFileTimeStamp _date="736845" _time="41260" date="31/05/2018" time="11:27:40"/>
     </Program>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="91">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
-      </Header>
-      <SourceFileTimeStamp _date="736845" _time="3597" date="31/05/2018" time="00:59:57"/>
-    </Program>
-    <Program>
-      <Header Description="RCCustomers" ISN_2="1" LastIsn="1" id="92">
-        <Public val="RCCustomers"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="C"/>
-        <Interactive val="Y"/>
-        <External val="Y"/>
-        <Offline val="N"/>
-        <FormType val="M"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736846" _time="17046" date="01/06/2018" time="04:44:06"/>
-      </Header>
-      <SourceFileTimeStamp _date="736846" _time="9846" date="01/06/2018" time="02:44:06"/>
-    </Program>
-    <Program>
-      <Header Description="Browse - DatabaseComponent.Cus" ISN_2="1" LastIsn="1" id="93">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736845" _time="11091" date="31/05/2018" time="03:04:51"/>
-      </Header>
-      <SourceFileTimeStamp _date="736845" _time="3891" date="31/05/2018" time="01:04:51"/>
-    </Program>
-    <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="98">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -907,7 +848,6 @@
     </Program>
     <Program>
       <Header Description="OPOMO001_ScanXpaProject" ISN_2="1" LastIsn="1" id="96">
-        <Public val="OPOMO001_ScanXpaProject"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -921,9 +861,49 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736847" _time="14460" date="02/06/2018" time="04:01:00"/>
+        <LastModified _date="736848" _time="5092" date="03/06/2018" time="01:24:52"/>
       </Header>
-      <SourceFileTimeStamp _date="736847" _time="7260" date="02/06/2018" time="02:01:00"/>
+      <SourceFileTimeStamp _date="736847" _time="84292" date="02/06/2018" time="23:24:52"/>
+    </Program>
+    <Program>
+      <Header Description="OPOMO002_ScanXpaProjectComps" ISN_2="1" LastIsn="1" id="99">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736848" _time="5484" date="03/06/2018" time="01:31:24"/>
+      </Header>
+      <SourceFileTimeStamp _date="736847" _time="84684" date="02/06/2018" time="23:31:24"/>
+    </Program>
+    <Program>
+      <Header Description="OPOMO003_ShowComponents" ISN_2="1" LastIsn="9" id="101">
+        <Public val="OPOMO003_ShowComponents"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <ToBeMigrated val="Y"/>
+        <LastModified _date="736848" _time="11224" date="03/06/2018" time="03:07:04"/>
+      </Header>
+      <SourceFileTimeStamp _date="736848" _time="4024" date="03/06/2018" time="01:07:04"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

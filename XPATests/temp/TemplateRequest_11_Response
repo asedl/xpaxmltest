@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+
+
+<html>
+<head>
+	<title>SSL Server Test: www&#46;magicsoftware&#46;com (Powered by Qualys SSL Labs)</title>
+        <link href="/includes/analyze_ssllabs.css" rel="styleSheet" type="text/css">
+        <link href="/includes/analyze_report.css" rel="styleSheet" type="text/css">
+        <link href="/includes/main.css" rel="styleSheet" type="text/css">
+
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="referrer" content="no-referrer">
+
+	    	<meta http-equiv="refresh" content="3; url=analyze.html?d=www.magicsoftware.com&amp;latest" />
+	
+                        
+    <input id="refreshUrl" type="hidden" value=analyze&#46;html&#63;d&#61;www&#46;magicsoftware&#46;com&amp;latest >
+        <input id="refreshIntervalMillisec" type="hidden" value=1000 >
+    <script type="text/javascript" src="/includes/analyze_singleView_refresh.js"></script>
+   
+	
+		
+
+</head>
+
+<body>
+
+
+
+<div id="page">
+
+
+    <div id="header">
+
+        <div id="logo">
+                        <a href="/index.html" rel="noreferrer"><img src="https://ssllabs.com/images/qualys-ssl-labs-logo.png" width="341"
+                height="55" alt="SSL Labs logo" title="SSL Labs logo"></a>
+                    </div>
+
+        <div id="navigation">
+            <a class="link" href="/index.html" rel="noreferrer">Home</a>
+            <a class="link" href="/projects/index.html" rel="noreferrer">Projects</a>
+            <a class="link" href="https://www.qualys.com" rel="noreferrer">Qualys.com</a>
+            <a class="link" href="/about/contact.html" rel="noreferrer">Contact</a>
+        </div>
+
+        <br clear="all" />
+    </div>
+
+	<div id="breadcrumbs">
+        <b>You are here:&nbsp;</b>
+        <a href="/index.html" rel="noreferrer">Home</a> &gt; <a href="/projects/index.html" rel="noreferrer">Projects</a>
+        &gt; <a href="/ssltest/index.html" rel="noreferrer">SSL Server Test</a> &gt;
+					www&#46;magicsoftware&#46;com			</div>
+
+<div id="main">
+	<div class="reportTitle">SSL Report: <span class="url">
+	    www&#46;magicsoftware&#46;com
+        </span>    </div> 
+    
+    <div id="appleTestDiv" >
+        <div class="errorBox"><center>
+        Due to a recently discovered bug in Apple's code, your browser is exposed to MITM attacks. <a href="/ssltest/viewMyClient.html">Click here</a> for more information.
+        </center></div><br>
+    </div>
+
+        	    	    	<div id=warningBox>
+    	<img src=/images/progress-indicator.gif width=16 height=16> Please wait... (Resolving domain names)
+    	</div>
+    	
+    	<br>
+
+    
+        
+	<div align="center">
+    
+	 
+
+    <input id="chainCount" type="hidden" value="$_f.html($sw.chains.size())">
+    
+	</div>
+
+	
+	<p class="grayText">SSL Report v1&#46;31&#46;0</p>
+
+</div>
+
+<script type="text/javascript" src="/includes/analyze_singleView.js"></script>
+
+
+
+</div>
+
+<div id="pageEnd">
+<div id="copyright">	
+	<table width=1050 border=0 cellpadding=5 cellspacing=0><tr>
+	<td class="footer">
+    Copyright &copy; 2009-2018 <a href="https://www.qualys.com">Qualys, Inc</A>. All Rights Reserved.
+    </td><td align=right class="footer">
+    <a href="https://www.ssllabs.com/about/terms.html" rel="noreferrer">Terms and Conditions</a>
+    </td></tr>
+    <tr>
+    <td class="footer">
+    Qualys is the leading provider of integrated <a href="https://www.qualys.com/solutions/infrastructure/">infrastructure security</a>,
+    <a href="https://www.qualys.com/solutions/cloud/">cloud infrastructure security</a>,
+    <a href="https://www.qualys.com/solutions/endpoint/">endpoint security</a>,
+    <a href="https://www.qualys.com/solutions/devsecops/">devsecops</a>,
+    <a href="https://www.qualys.com/solutions/compliance/">compliance</a>
+     and <a href="https://www.qualys.com/solutions/web-app/">web app security</a> solutions.
+    </td></tr>
+    </table>
+</div>
+</div>
+</body>
+</html>

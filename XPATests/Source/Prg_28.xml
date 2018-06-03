@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736844" _time="79864" date="30/05/2018" time="22:11:04"/>
+          <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -283,9 +283,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736844" _time="79864" date="30/05/2018" time="22:11:04"/>
+            <LastModified _date="736848" _time="46007" date="03/06/2018" time="12:46:47"/>
           </Header>
-          <ItemIsn val="13"/>
+          <ItemIsn val="15"/>
           <Resource>
             <DB id="1">
               <DataObject comp="12" obj="15"/>
@@ -318,6 +318,14 @@
               <Column id="7" name="v.iErrorCode">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" comp="11" id="1" obj="2"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="10" name="@XpaTHelp.URL">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="17"/>
                   <DbColumnName id="178"/>
                   <Type id="179"/>
                   <UserType id="180"/>
@@ -507,6 +515,62 @@
                     <Modifier val="S"/>
                     <Direction val="C"/>
                   </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="433">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="434">
+                    <Type val="0"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="15" FlowIsn="435" id="15">
+                    <Column val="10"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="31" propagate="78">
+              <Level val="T"/>
+              <Type val="P"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Update FlowIsn="436">
+                    <FieldID val="15"/>
+                    <WithValue val="21"/>
+                    <Incremental val="N"/>
+                    <ForcedUpdate val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Update>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="437">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
@@ -1535,6 +1599,10 @@
             <Expression id="1">
               <ExpSyntax val="1"/>
               <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="21">
+              <ExpSyntax val="'https://github.com/asedl/xpaxmltest/blob/master/XPATests/Doc/Samples/XpaTHttp/OWCLN001_xpatest_uris.md'"/>
+              <ExpAttribute val="A"/>
             </Expression>
             <Expression id="17">
               <ExpSyntax val="{1,4}"/>
