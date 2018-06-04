@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.magicxpa.xpatest</groupId>
   <artifactId>xpatest-project</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <version>0.1-SNAPSHOT</version>
   <name>xpatest-project</name>
   <url>https://github.com/asedl/xpaxmltest</url>
@@ -15,4 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+  	<module>
+  		../../external/XpaTPomo/pomosdk/pomosdk-ide-eclipse
+  	</module>
+  </modules>
+  <scm>
+  	<url>https://github.com/asedl/xpaxmltest</url>
+  </scm>
 </project>

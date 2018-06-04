@@ -19,4 +19,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <parent>
+  	<groupId>org.magicxpa.xpatest</groupId>
+  	<artifactId>xpatest-project</artifactId>
+  	<version>0.1-SNAPSHOT</version>
+  	<relativePath>../../../../maven/xpatest-project</relativePath>
+  </parent>
 </project>

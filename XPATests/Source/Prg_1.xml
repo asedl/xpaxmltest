@@ -28,9 +28,9 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736844" _time="80147" date="30/05/2018" time="22:15:47"/>
+          <LastModified _date="736849" _time="75871" date="04/06/2018" time="21:04:31"/>
         </Header>
-        <ItemIsn val="9"/>
+        <ItemIsn val="10"/>
         <Resource>
           <Columns>
             <Column id="2" name="v.TimerContextName">
@@ -40,6 +40,12 @@
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="40"/>
                 <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="9" name="gv.TRUE_Val">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
             <Column id="7" name="pi.RelativeLocation">
@@ -148,6 +154,18 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="10" FlowIsn="45" id="10">
+                  <ASS val="9"/>
+                  <Column val="9"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="6" propagate="78">
@@ -239,40 +257,39 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="33" EndBlockSegment="33" FlowIsn="32" Type="I">
-                  <Condition Exp="6"/>
-                  <Modifier val="B"/>
+                <Remark FlowIsn="42">
+                  <Type val="2"/>
+                  <Text val="This is a public demo so application typically won't work because .INI stuff is missing, .."/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="43">
+                  <Type val="2"/>
+                  <Text val="We check configuration during startup by default therefore and try to fix it if its broken"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="44">
+                  <Type val="2"/>
+                  <Text val="Feature is enabled by default and can be disabled in .INI by setting [XPATEST]CHECKCONFIG=N"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="41">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="102"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <Condition Exp="8"/>
+                  <Modifier val="S"/>
                   <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="34">
-                  <Type val="2"/>
-                  <Text val="try to fix the XPATEST_HOME logical name"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="37">
-                  <Type val="2"/>
-                  <Text val="Note the asteriks after equal sign. Without you need to escape backslash charecters"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="38">
-                  <Type val="2"/>
-                  <Text val="If you dont, Magic/Iniput will remove them"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Evaluate FlowIsn="35">
-                  <Expression val="7"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Evaluate>
-              </LogicLine>
-              <LogicLine>
-                <END_BLK FlowIsn="33"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -310,12 +327,12 @@
             <ExpSyntax val="{0,9}"/>
             <ExpAttribute val="U"/>
           </Expression>
-          <Expression id="6">
-            <ExpSyntax val="Trim(Translate('%XPATEST_HOME%'))=''"/>
+          <Expression id="8">
+            <ExpSyntax val="Upper(Trim(INIGet('[XPATEST]CHECKCONFIG')))&lt;>'N'"/>
             <ExpAttribute val="B"/>
           </Expression>
-          <Expression id="7">
-            <ExpSyntax val="INIPut('[MAGIC_LOGICAL_NAMES]XPATEST_HOME=*' &amp; Trim(Translate('%WorkingDir%')), 'TRUE'LOG)"/>
+          <Expression id="9">
+            <ExpSyntax val="'TRUE'LOG"/>
             <ExpAttribute val="B"/>
           </Expression>
         </Expressions>

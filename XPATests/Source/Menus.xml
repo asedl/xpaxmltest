@@ -799,23 +799,14 @@
           <Prompt comp="-1"/>
           <Menu>
             <MenuType val="1"/>
-            <LastIsn val="9"/>
+            <LastIsn val="14"/>
             <MenuEntry id="2">
               <MenuType val="2"/>
-              <Description_U val="OUTIL001a_About"/>
+              <Description_U val="OUTIL001About"/>
               <Right comp="-1"/>
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="36" comp="-1" obj="36"/>
-              <SourceContext val="67"/>
-            </MenuEntry>
-            <MenuEntry id="8">
-              <MenuType val="2"/>
-              <Description_U val="OUTIL001b_About (Lite)"/>
-              <Right comp="-1"/>
-              <Help comp="-1"/>
-              <Prompt comp="-1"/>
-              <Program ObjIsn="83" comp="-1" obj="83"/>
               <SourceContext val="67"/>
             </MenuEntry>
             <MenuEntry id="9">
@@ -825,6 +816,38 @@
               <Help comp="-1"/>
               <Prompt comp="-1"/>
               <Program ObjIsn="61" comp="-1" obj="61"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="12">
+              <MenuType val="5"/>
+            </MenuEntry>
+            <MenuEntry id="13">
+              <MenuType val="2"/>
+              <Description_U val="Check Configuration"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="102" comp="-1" obj="102"/>
+              <Arguments>
+                <Argument>
+                  <Skip val="Y"/>
+                </Argument>
+              </Arguments>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="14">
+              <MenuType val="2"/>
+              <Description_U val="Create Shortcuts ..."/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="102" comp="-1" obj="102"/>
+              <Arguments>
+                <Argument>
+                  <Variable val="10"/>
+                  <Skip val="N"/>
+                </Argument>
+              </Arguments>
               <SourceContext val="67"/>
             </MenuEntry>
             <MenuEntry id="6">
