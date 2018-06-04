@@ -29,5 +29,9 @@ Currently this project contains following top-level samples / demos / modules, m
 XpaTPomo | "POMO" is a new term invented for this project in analogy to Java POJOs, a "plain old Magic object". Goal is to get a (compile time) framework for Magic XPA applications in order to enable dependency injection and aspect oriented programming |
 | XpaTHelp | Component which can be added to Magic programs to integrate/implement an online help system |
   
-some more stuff is in the pipeline.  
+some more stuff is in the pipeline. Initial versions not yet commited to this repository.
+
+| Demo / Subproject    | Brief description
+| -------------------- | ----------------- |
+| XpaTBuild | Maven multi-module project + required stuff to get a Magic application (or parts of it) deployed with standard build systems / continouus delivery piplines / Jenkins / .... |
 
