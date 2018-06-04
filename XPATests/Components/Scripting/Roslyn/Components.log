@@ -1,0 +1,33 @@
+
+Errors and Warnings while Loading Component : C:\magic\projects\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (27/05/18 00:59:37)
+================================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
+Component Files not found : DatabaseComp.ecf
+-----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (27/05/18 01:01:55)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
+-----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (31/05/18 12:23:57)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
+Component Files not found : DatabaseComp.ecf
+-----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (01/06/18 03:33:45)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
+Component Files not found : DatabaseComp.ecf
+-----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (01/06/18 03:40:33)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
+-----------------------------------
