@@ -14,7 +14,9 @@ In order to be able to start the demo application(s) included in this package yo
 To open the sample project you do simply start your XPA 3.3 Studio and open the project file [XPATests.edp](/XPATests/XPATests.edp). Basically that's it, there's however a few adjustments to your .INI required which you can either do directly and manually in your Magic.INI (better a copy of it) or by adjusting the accompanying @ini [XPATests.ini](/XPATests/XPATests.ini) and put that on the command line properties of the shortcut you do use to start your Studio / Runtime. In Help Menu there's also an entry which does this for you. It generates the required .INI file and creates shortcuts to start Studio and Runtime - in your installation folder.  
   
 One goal of this project is to get a framework / container application for demo programs which allows you to download and start an application developed with Magic without much need for an installation or a complicated configuration. Thanks to the %WorkingDir% variable which Magic injects during startup that's trivial for simple applications but when you start to add components to your application (may be Magic components or 3'rd party) things might get complicated - you either need a setup / deploy script or try to configure the application automatically during startup. There's separate documents for these issues, be sure to check the folder for those too if you run into issues: https://github.com/asedl/xpaxmltest/tree/master/XPATests/Doc/Installation
-  
+
+**Important notice**  
+> By cloning the git repository or downloading the zip you only get the sources which requires you to build the binaries. There's however no build management yet, so if you run into trouble with the Java / C# stuff you can choose to download a release first, which does then contain the files which you would have to build first otherwise. This will change when artefacts will be deployed in one of the next major steps forward. https://github.com/asedl/xpaxmltest/releases
 
 # Content
 
