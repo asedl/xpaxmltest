@@ -5,7 +5,7 @@
 
   <DebugMode Val="Y"/>
 
-  <RIAExecutionPlatform Val="Android"/>
+  <RIAExecutionPlatform Val="Desktop"/>
 
   <WatchListItems>
     <RestData/>

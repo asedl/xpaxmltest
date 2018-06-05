@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Browse - DatabaseComponent.Cus" ISN_2="1" LastIsn="1" id="5">
+        <Header Description="OL: BrowseCustomer" ISN_2="1" LastIsn="1" id="5">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736848" _time="42528" date="03/06/2018" time="11:48:48"/>
+          <LastModified _date="736850" _time="7320" date="05/06/2018" time="02:02:00"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -40,7 +40,7 @@
             <IdentifyRowModifications val="84"/>
           </DB>
           <Columns>
-            <Column id="1" name="@XpaTHelp.URL">
+            <Column id="1" name="@XpaTHelp.URL (id=999)">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="2" id="1" obj="3"/>
                 <DbColumnName id="178"/>

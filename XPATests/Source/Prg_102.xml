@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736849" _time="76855" date="04/06/2018" time="21:20:55"/>
+          <LastModified _date="736850" _time="8414" date="05/06/2018" time="02:20:14"/>
         </Header>
         <ItemIsn val="23"/>
         <Resource>
@@ -2010,7 +2010,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="736849" _time="14907" date="04/06/2018" time="04:08:27"/>
+              <LastModified _date="736850" _time="8414" date="05/06/2018" time="02:20:14"/>
             </Header>
             <ItemIsn val="9"/>
             <Resource>
@@ -2333,7 +2333,7 @@
             <TaskForms>
               <FormEntry CLSS="1" id="2">
                 <PropertyList model="FORM_MERGE">
-                  <FileName id="4" val="%WorkingDir%Templates\scripts\wsh\CreateShortcut.wsh"/>
+                  <FileName id="4" val="%WorkingDir%Templates\scripts\wsh\CreateShortcut.vbs"/>
                   <TagsTable id="7">
                     <MERGE_PARM Exp="2" PIC_U="255" TXT_U="XPATEST_HOME" id="1"/>
                     <MERGE_PARM Exp="3" PIC_U="255" TXT_U="LINK_FILENAME" id="2"/>

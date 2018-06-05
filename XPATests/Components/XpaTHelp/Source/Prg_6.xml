@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736848" _time="46147" date="03/06/2018" time="12:49:07"/>
+          <LastModified _date="736850" _time="7155" date="05/06/2018" time="01:59:15"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -909,7 +909,7 @@
           </Expressions>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Stcktrace" ISN_2="4" LastIsn="4" id="6">
+          <Header Description="Stacktrace" ISN_2="4" LastIsn="4" id="6">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -922,7 +922,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736848" _time="44108" date="03/06/2018" time="12:15:08"/>
+            <LastModified _date="736850" _time="7155" date="05/06/2018" time="01:59:15"/>
           </Header>
           <ItemIsn val="2"/>
           <Resource>
@@ -1135,7 +1135,7 @@
           </TaskForms>
           <Expressions>
             <Expression id="1">
-              <ExpSyntax val="Counter(0)>100 OR {0,2}&lt;=0"/>
+              <ExpSyntax val="Counter(0)>1000 OR {0,2}&lt;=0"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="2">
