@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="Y"/>
-          <LastModified _date="736846" _time="13490" date="01/06/2018" time="03:44:50"/>
+          <LastModified _date="736852" _time="8751" date="07/06/2018" time="02:25:51"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -281,7 +281,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736839" _time="5353" date="25/05/2018" time="01:29:13"/>
+            <LastModified _date="736851" _time="11778" date="06/06/2018" time="03:16:18"/>
           </Header>
           <ItemIsn val="8"/>
           <Resource>
@@ -320,7 +320,7 @@
               <CacheStrategy val="T"/>
               <ForceRecordSuffix val="N"/>
               <TransactionMode val="P"/>
-              <TransactionBegin val="T"/>
+              <TransactionBegin val="N"/>
               <PreloadView val="N"/>
               <AllowEmptyDataview val="N"/>
               <KeepCreatedContext val="N"/>
@@ -516,7 +516,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="Y"/>
-            <LastModified _date="736839" _time="5371" date="25/05/2018" time="01:29:31"/>
+            <LastModified _date="736852" _time="8737" date="07/06/2018" time="02:25:37"/>
           </Header>
           <ItemIsn val="10"/>
           <Resource>
@@ -525,7 +525,7 @@
               <Access val="W"/>
               <Share val="W"/>
               <Open val="N"/>
-              <Cache val="N"/>
+              <Cache val="Y"/>
               <IdentifyRowModifications val="84"/>
             </DB>
             <Columns>
@@ -821,7 +821,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="Y"/>
-              <LastModified _date="736839" _time="5371" date="25/05/2018" time="01:29:31"/>
+              <LastModified _date="736852" _time="8737" date="07/06/2018" time="02:25:37"/>
             </Header>
             <ItemIsn val="3"/>
             <Resource>
@@ -1162,9 +1162,9 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="736839" _time="5371" date="25/05/2018" time="01:29:31"/>
+                <LastModified _date="736852" _time="8737" date="07/06/2018" time="02:25:37"/>
               </Header>
-              <ItemIsn val="11"/>
+              <ItemIsn val="12"/>
               <Resource>
                 <DB id="1">
                   <DataObject comp="4" obj="17"/>
@@ -1187,7 +1187,7 @@
                   </Column>
                   <Column id="2" name="pi.LocaTion">
                     <PropertyList model="FIELD">
-                      <Model attr_obj="FIELD_UNICODE" comp="4" id="1" obj="1"/>
+                      <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                       <DbColumnName id="178"/>
                       <Type id="179"/>
                       <UserType id="180"/>
@@ -1286,9 +1286,6 @@
                         <Column val="1"/>
                         <Type val="V"/>
                         <IsParameter val="Y"/>
-                        <INT_RCMP_INFO>
-                          <v>3</v>
-                        </INT_RCMP_INFO>
                         <DIFF_UPDATE val="T"/>
                         <Condition val="Y"/>
                         <Modifier val="S"/>
@@ -1301,7 +1298,7 @@
                         <Type val="V"/>
                         <IsParameter val="Y"/>
                         <DIFF_UPDATE val="T"/>
-                        <PartOfDataview val="N"/>
+                        <PartOfDataview val="Y"/>
                         <Condition val="Y"/>
                         <Modifier val="S"/>
                         <Direction val="C"/>
@@ -1332,11 +1329,10 @@
                       </LNK>
                     </LogicLine>
                     <LogicLine>
-                      <Select FieldID="2" FlowIsn="5" id="2">
+                      <Select FieldID="12" FlowIsn="54" id="12">
                         <Column val="1"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
-                        <Locate MAX="2" MIN="2"/>
                         <DIFF_UPDATE val="T"/>
                         <Condition val="N"/>
                         <Modifier val="S"/>
@@ -1344,7 +1340,7 @@
                       </Select>
                     </LogicLine>
                     <LogicLine>
-                      <Select FieldID="3" FlowIsn="6" id="3">
+                      <Select FieldID="2" FlowIsn="5" id="2">
                         <Column val="5"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
@@ -1355,7 +1351,7 @@
                       </Select>
                     </LogicLine>
                     <LogicLine>
-                      <Select FieldID="4" FlowIsn="7" id="4">
+                      <Select FieldID="3" FlowIsn="6" id="3">
                         <Column val="2"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
@@ -1366,7 +1362,7 @@
                       </Select>
                     </LogicLine>
                     <LogicLine>
-                      <Select FieldID="5" FlowIsn="8" id="5">
+                      <Select FieldID="4" FlowIsn="7" id="4">
                         <Column val="3"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
@@ -1377,7 +1373,7 @@
                       </Select>
                     </LogicLine>
                     <LogicLine>
-                      <Select FieldID="6" FlowIsn="9" id="6">
+                      <Select FieldID="5" FlowIsn="8" id="5">
                         <Column val="4"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
@@ -1420,7 +1416,7 @@
                     </LogicLine>
                     <LogicLine>
                       <Update FlowIsn="18">
-                        <FieldID val="5"/>
+                        <FieldID val="4"/>
                         <WithValue val="4"/>
                         <Incremental val="N"/>
                         <ForcedUpdate val="Y"/>
@@ -1431,7 +1427,7 @@
                     </LogicLine>
                     <LogicLine>
                       <Update FlowIsn="19">
-                        <FieldID val="6"/>
+                        <FieldID val="5"/>
                         <WithValue val="5"/>
                         <Incremental val="N"/>
                         <ForcedUpdate val="Y"/>
@@ -1455,10 +1451,6 @@
                 </FormEntry>
               </TaskForms>
               <Expressions>
-                <Expression id="2">
-                  <ExpSyntax val="{0,8}"/>
-                  <ExpAttribute val="N"/>
-                </Expression>
                 <Expression id="3">
                   <ExpSyntax val="{0,11}"/>
                   <ExpAttribute val="B"/>
@@ -1491,7 +1483,7 @@
                 <External val="N"/>
                 <FormType val="N"/>
                 <DotNetObjectExists val="N"/>
-                <LastModified _date="736839" _time="5381" date="25/05/2018" time="01:29:41"/>
+                <LastModified _date="736852" _time="8751" date="07/06/2018" time="02:25:51"/>
               </Header>
               <ItemIsn val="12"/>
               <Resource>
@@ -1516,7 +1508,7 @@
                   </Column>
                   <Column id="2" name="pi.LocaTion">
                     <PropertyList model="FIELD">
-                      <Model attr_obj="FIELD_UNICODE" comp="4" id="1" obj="1"/>
+                      <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                       <DbColumnName id="178"/>
                       <Type id="179"/>
                       <UserType id="180"/>
@@ -1609,10 +1601,6 @@
                         <Column val="1"/>
                         <Type val="V"/>
                         <IsParameter val="Y"/>
-                        <INT_RCMP_INFO>
-                          <v>3</v>
-                          <v>5</v>
-                        </INT_RCMP_INFO>
                         <DIFF_UPDATE val="T"/>
                         <Condition val="Y"/>
                         <Modifier val="S"/>
@@ -1625,7 +1613,7 @@
                         <Type val="V"/>
                         <IsParameter val="Y"/>
                         <DIFF_UPDATE val="T"/>
-                        <PartOfDataview val="N"/>
+                        <PartOfDataview val="Y"/>
                         <Condition val="Y"/>
                         <Modifier val="S"/>
                         <Direction val="C"/>
@@ -1638,7 +1626,7 @@
                       </Remark>
                     </LogicLine>
                     <LogicLine>
-                      <LNK Direction="A" EVL_CND="R" FlowIsn="3" Key="1" Mode="A" SortType="4" VIEW="3" VIEWS="5">
+                      <LNK Direction="A" EVL_CND="R" FlowIsn="3" Mode="A" SortType="4" VIEW="3" VIEWS="5">
                         <DB comp="4" obj="17"/>
                         <Expanded val="1"/>
                         <Condition val="Y"/>
@@ -1646,11 +1634,9 @@
                     </LogicLine>
                     <LogicLine>
                       <Select FieldID="2" FlowIsn="5" id="2">
-                        <ASS val="7"/>
                         <Column val="1"/>
                         <Type val="R"/>
                         <IsParameter val="N"/>
-                        <Locate MAX="2" MIN="2"/>
                         <DIFF_UPDATE val="T"/>
                         <Condition val="N"/>
                         <Modifier val="S"/>
@@ -1765,10 +1751,6 @@
                 </FormEntry>
               </TaskForms>
               <Expressions>
-                <Expression id="2">
-                  <ExpSyntax val="{0,8}"/>
-                  <ExpAttribute val="N"/>
-                </Expression>
                 <Expression id="4">
                   <ExpSyntax val="{0,9}"/>
                   <ExpAttribute val="U"/>
@@ -1776,10 +1758,6 @@
                 <Expression id="5">
                   <ExpSyntax val="'Y'"/>
                   <ExpAttribute val="A"/>
-                </Expression>
-                <Expression id="7">
-                  <ExpSyntax val="{0,8}"/>
-                  <ExpAttribute val="N"/>
                 </Expression>
               </Expressions>
             </Task>

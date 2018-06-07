@@ -8,3 +8,8 @@
 -----------------------------------
 
 -----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (07/06/18 02:27:57)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+-----------------------------------

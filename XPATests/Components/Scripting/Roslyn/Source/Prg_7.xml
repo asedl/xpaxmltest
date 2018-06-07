@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736839" _time="7122" date="25/05/2018" time="01:58:42"/>
+          <LastModified _date="736851" _time="11734" date="06/06/2018" time="03:15:34"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -245,6 +245,7 @@
               <EventType val="U"/>
               <PublicObject comp="-1" obj="2"/>
             </Event>
+            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <CallTask FlowIsn="49">
@@ -259,6 +260,9 @@
                     <Argument>
                       <Variable val="7"/>
                       <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Skip val="Y"/>
                     </Argument>
                   </Arguments>
                   <Wait val="Y"/>

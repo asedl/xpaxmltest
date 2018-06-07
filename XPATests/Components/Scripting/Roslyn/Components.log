@@ -31,3 +31,8 @@ Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATes
 Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
 Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : RIADemo .
 -----------------------------------
+
+Errors and Warnings while Loading Component : C:\magic\samples\xpaxmltest\XPATests\Components\DatabaseComp\DatabaseComp.eci (06/06/18 05:12:45)
+===============================================================================================================================================
+Environment entry already exists in Magic.ini section : MAGIC_DATABASES Name : XPATest .
+-----------------------------------

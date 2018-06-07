@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736850" _time="8414" date="05/06/2018" time="02:20:14"/>
+          <LastModified _date="736850" _time="22847" date="05/06/2018" time="06:20:47"/>
         </Header>
         <ItemIsn val="23"/>
         <Resource>
@@ -529,6 +529,12 @@
                 </Update>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="241">
+                  <Type val="2"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Update FlowIsn="98">
                   <FieldID val="11"/>
                   <WithValue val="17"/>
@@ -590,6 +596,17 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="242">
+                  <FieldID val="17"/>
+                  <WithValue val="31"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="106">
@@ -713,6 +730,10 @@
           <Expression id="30">
             <ExpSyntax val="{32768,10}"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="31">
+            <ExpSyntax val="Trim(Translate('%WorkingDir%')) &amp; AppName() &amp; '.ini'"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="CheckDBAccess" FORCE_EXIT="N" id="1">

@@ -32,14 +32,14 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736839" _time="7114" date="25/05/2018" time="01:58:34"/>
+          <LastModified _date="736851" _time="11689" date="06/06/2018" time="03:14:49"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="1" name="pi.Pathname">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_UNICODE" comp="4" id="1" obj="1"/>
+                <Model attr_obj="FIELD_UNICODE" comp="-1" id="1" obj="1"/>
                 <DbColumnName id="178"/>
                 <Type id="179"/>
                 <UserType id="180"/>
@@ -112,9 +112,6 @@
             <Direction val="V"/>
           </BOX>
         </Information>
-        <INT_CMP_LIST_INFO>
-          <v>4</v>
-        </INT_CMP_LIST_INFO>
         <TaskLogic>
           <LogicUnit id="1" propagate="78">
             <Level val="R"/>
@@ -141,7 +138,7 @@
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <DIFF_UPDATE val="T"/>
-                  <PartOfDataview val="N"/>
+                  <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
