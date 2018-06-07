@@ -1,6 +1,6 @@
-# "dependency hell" causes by Magic components
+# "dependency hell" caused by Magic components
 
-"Dependency hell" is a term many programmers might still be very familiar with and with today's development tools, frameworks and package management systems it became a lot better - when you compare it, with what you did have to fight with when you did C/C++ programming on MS Windows - lets say 20 years ago. With Magic itself (diregarding any external stuff you add like Java/.NET components) you should not run into much of these issues but there is and therefore this page.  
+"Dependency hell" is a term many programmers might still be very familiar with and with today's development tools, frameworks and package management systems it became a lot better - when you compare it, with what you did have to fight with when you did C/C++ programming on MS Windows - lets say 20 years ago. With Magic itself (disregarding any external stuff you add like Java/.NET components) you should not run into much of these issues but there is and therefore this document.  
 
 # XPA Components
 
@@ -24,7 +24,7 @@ __A "checker" program can find out that this table is broken, all indication wha
 - 
 Only good news is: XpaTPomo (xpa-project-scan) already has some faetures which help to detect and fix some of the issues with components and it is planned to add functionality which fixes such a broken component automatically - if its possible because Magic did leave some trace of the references it deleted in a project file. Second best (or at least helpful to some extend) would be to compare the component with an old version from git history - in case you do realize broken component references late and do not want to revert to an old version because you did change already a lot, ...  . That should be however not the case because these checks from xpa-project-scan run automatically and frequently on your sources - empowered by Jenkins. SonarLint for XPA ... at the end.
 
-_MSE btw. never confirmed that bug and I suffered a lot from it in a v9 application which basically has only ONE component. Now this bug seems back - unless I did something wrong but I dont think so._
+_MSE btw. never confirmed that bug and I suffered a lot from it in a v9 application which basically had only ONE component. Now this bug seems back - unless I did something wrong but I dont think so._
 
 I _think_ the issue could be that (after moving the components) I did go thru all .edps of the components, fixed the references to XPA components in CRR and created a new .ecf + new .eci because I had the project open anyways. Maybe this is when Xpa looses the reference which it cannot restore then later ?
 
