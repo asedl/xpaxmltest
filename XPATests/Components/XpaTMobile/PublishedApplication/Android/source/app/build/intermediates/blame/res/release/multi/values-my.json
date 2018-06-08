@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\magic\\samples\\xpaxmltest\\XPATests\\Components\\XpaTMobile\\PublishedApplication\\Android\\source\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-my\\values-my.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 251,
+                    "endOffset": 352
+                },
+                "from": {
+                    "file": "C:\\Users\\Andreas\\.android\\build-cache\\cba1d0eb79ee38d7aa77aefecd9947f5cbdb919a\\output\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 251,
+                        "endOffset": 590
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.magicsoftware.controls.TableControlUnlimitedItems xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MyList1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical" >
+
+    <com.magicsoftware.controls.TableHeaderLayout
+        android:id="@+id/headersection"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="#FF808CB3" >
+    </com.magicsoftware.controls.TableHeaderLayout>
+
+    <com.magicsoftware.controls.MgSwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="0dip"
+        android:layout_height="0dip" >
+
+        <com.magicsoftware.controls.MgListView
+            android:id="@+id/lstItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:smoothScrollbar="false" >
+        </com.magicsoftware.controls.MgListView>
+        
+    </com.magicsoftware.controls.MgSwipeRefreshLayout>
+
+</com.magicsoftware.controls.TableControlUnlimitedItems>
