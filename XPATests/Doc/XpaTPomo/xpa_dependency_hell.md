@@ -20,8 +20,8 @@ Now (completely broken) Roslyn.ecf only has a few programs. Still I decided to r
 Here is the look into the source view. On the left side, latest version from repository, on the right side the broken version from local file system:  
 ![](broken_comp_table_srcxmldiff.png)  
 
-__A "checker" program can find out that this table is broken, all indication what the original table could have been are gone however, Magic removed the refences to the component table COMPLETELY from this program, no way for a program to "heal" this - besides comparing with an old version - which is not guaranteed to work.__
-- 
+A "checker" program can find out that this table is broken, all indication what the original table could have been are gone however, Magic removed the refences to the component table COMPLETELY from this program, no way for a program to "heal" this - besides comparing with an old version - which is not guaranteed to work.
+ 
 Only good news is: XpaTPomo (xpa-project-scan) already has some faetures which help to detect and fix some of the issues with components and it is planned to add functionality which fixes such a broken component automatically - if its possible because Magic did leave some trace of the references it deleted in a project file. Second best (or at least helpful to some extend) would be to compare the component with an old version from git history - in case you do realize broken component references late and do not want to revert to an old version because you did change already a lot, ...  . That should be however not the case because these checks from xpa-project-scan run automatically and frequently on your sources - empowered by Jenkins. SonarLint for XPA ... at the end.
 
 _MSE btw. never confirmed that bug and I suffered a lot from it in a v9 application which basically had only ONE component. Now this bug seems back - unless I did something wrong but I dont think so._
