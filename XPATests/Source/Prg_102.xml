@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="OUTIL003_CheckConfiguration" ISN_2="1" LastIsn="14" id="102">
+        <Header Description="OUTIL003_CheckConfiguration" ISN_2="1" LastIsn="13" id="102">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736850" _time="22847" date="05/06/2018" time="06:20:47"/>
+          <LastModified _date="736852" _time="13373" date="07/06/2018" time="03:42:53"/>
         </Header>
         <ItemIsn val="23"/>
         <Resource>
@@ -396,7 +396,6 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Remark FlowIsn="131">
@@ -743,7 +742,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="Config OK" ISN_2="13" LastIsn="14" id="102">
+          <Header Description="Config OK" ISN_2="13" LastIsn="13" id="102">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1163,7 +1162,7 @@
           </EVNT>
         </Task>
         <Task MainProgram="N">
-          <Header Description="MissingSettings" ISN_2="4" LastIsn="14" id="102">
+          <Header Description="MissingSettings" ISN_2="4" LastIsn="13" id="102">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1176,7 +1175,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736849" _time="76855" date="04/06/2018" time="21:20:55"/>
+            <LastModified _date="736852" _time="13373" date="07/06/2018" time="03:42:53"/>
           </Header>
           <ItemIsn val="11"/>
           <Resource>
@@ -1968,7 +1967,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="8">
-              <ExpSyntax val="'@' &amp; Trim({1,17})"/>
+              <ExpSyntax val="'\@&quot;&quot;' &amp; Trim({1,17}) &amp; '&quot;&quot;'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="10">
@@ -2009,7 +2008,7 @@
             </Event>
           </EVNT>
           <Task MainProgram="N">
-            <Header Description="CreateShortcutScript" ISN_2="8" LastIsn="14" id="102">
+            <Header Description="CreateShortcutScript" ISN_2="8" LastIsn="13" id="102">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2031,7 +2030,7 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="736850" _time="8414" date="05/06/2018" time="02:20:14"/>
+              <LastModified _date="736852" _time="11711" date="07/06/2018" time="03:15:11"/>
             </Header>
             <ItemIsn val="9"/>
             <Resource>
@@ -2401,7 +2400,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Create @INI" ISN_2="5" LastIsn="14" id="102">
+          <Header Description="Create @INI" ISN_2="5" LastIsn="13" id="102">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>

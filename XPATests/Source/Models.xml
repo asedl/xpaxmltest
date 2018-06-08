@@ -4,7 +4,7 @@
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="39"/>
+    <LastIsn val="40"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -301,6 +301,14 @@
       <Object id="39" name="BBBB">
         <PropertyList model="FORM_GUI0_FRAMESET">
           <_Comment id="218"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="Button">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <Width id="23" val="20"/>
+          <Height id="24" val="100"/>
+          <DefaultImageFile id="88"/>
+          <ButtonStyle id="96" val="1"/>
         </PropertyList>
       </Object>
     </Models>

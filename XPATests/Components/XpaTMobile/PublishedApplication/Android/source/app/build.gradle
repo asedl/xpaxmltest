@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "28.0.0"
+    compileSdkVersion 28
+    buildToolsVersion '28.0.0'
 
     copy {
         from '../execution.properties'
@@ -11,8 +11,8 @@ android {
 
     defaultConfig {
         applicationId "com.magicsoftware.magicdev"
-        minSdkVersion 15
-        targetSdkVersion 27
+        minSdkVersion 28
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -38,14 +38,20 @@ android {
         exclude 'META-INF/LICENSE'
     }
 
-	sourceSets {
+    sourceSets {
         main {
             jniLibs.srcDirs = ['libs']
         }
-	}
-    
+    }
+
     lintOptions {
-          abortOnError false
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
     }
 }
 
@@ -56,12 +62,7 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:27.1.1'
-    compile 'com.google.firebase:firebase-messaging:9.6.0'
-    compile(name:'libMgxpaRC', ext:'aar')
-    compile(name:'android-crop', ext:'aar')
-	compile 'net.zetetic:android-database-sqlcipher:3.5.4@aar'
+    implementation 'com.android.support:support-v4:28.0.0-alpha3'
 }
 
 apply plugin: 'com.google.gms.google-services'
