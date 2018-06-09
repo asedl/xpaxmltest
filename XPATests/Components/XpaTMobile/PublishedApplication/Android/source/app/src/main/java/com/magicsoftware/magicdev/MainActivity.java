@@ -1,12 +1,12 @@
 package com.magicsoftware.magicdev;
 
-import com.magicsoftware.core.startact;
-
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.accounts.Account;
-import android.accounts.AccountManager;
+
+import com.magicsoftware.core.startact;
 
 public class MainActivity extends startact {
 	
