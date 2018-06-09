@@ -24,8 +24,10 @@ What actually failed was the build. The sources for the build were however succe
 
 _*How Magic Xpa then actually builds the project is not 100% clear and there is no logfiles in PublishedApplications but it probably will execute powershell and run the powershell script build.ps1 - which then in turn uses gradle to build the project*_
 
-That raises already two issue, you need to things working for that:
-1. Powershell (needs to be in path and that was not the case for me)
-2. Gradle (I do have this in the Path and installation is different from Android SDK which has it integrated in the platform SDK)
+That raises already two issues in my environment:
+1. I did not have powershell in the PATH
+2. I have a stand-alone Gradle installation
+
+Execution of "powershell" you need to get work before being able to deploy RIA to Android, Magic Xpa needs it for the build. Check [here](powershell.md) for some information and the internet for more.  
 
 _Note: XpaDemo project has functionality / demo program which allows you to specify required components. If you add "gradle.exe" and "powershell.exe" there it will show you some information about the installation and (if it's "known" modules/components) maybe even additional information. Check the demo doc for details:  [OUTIL002_Components](/XPATests/Doc/Samples/XpaTUtils/OUTIL002_Components.md). Also [OUTIL001_About](/XPATests/Doc/Samples/XpaTUtils/OUTIL001_About.md) which has some more information regarding the Java installation on your machine_
