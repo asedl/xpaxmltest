@@ -36,11 +36,23 @@ Adding powershell to the PATH fixed my first issue with the build. It did start 
 
 ![Screen2 Xpa build command](psbuild_commandwindow.PNG)
 
-Basically build was successful though. In C:\magic\Magic XPA 3.3\PublishedApplications\Android I had afterwards XpaTMobile.apk, an Android package. It is a simple zipfile so we can extract it and look what it contains. 
+Basically build was successful, just with the last steps (renaming the APK, moving it to final location and removing the temporary build folder) there seem to be some issues. When the gradle build triggered from powershell build.ps1 script was finished it left me with a app-release.apk in app\builds\outputs\apk directory:
+![app-release.apk](app-release.apk.png) 
+
+I had to terminate the running build script by typing CTRL-C in the command window. The script ends then, the command prompt closes and control returns to Magic XPA Studio - the Rich Client (RIA) Builder. It will tell that the build failed but we have the APK, can rename it and deploy it - or open .apk or the gradle project in Android Studio. 
+
+
+
 
 ***
 # See also
---- | ---
-[Powershell](powershell.md) | Prerequisites and installation/configuration of Windows Powershell which is used for the build  | 
+
+| Doc | Description |
+| -------------------- | ----------------- |
+[Powershell](powershell.md) | Prerequisites and installation/configuration of Windows Powershell which is used for the build  |
 [Gradle](gradle.md) | Gradle build tools (used in Xpa RIA / RC deployment) |
 [Emulator](emulator.md) | Running your XPA RC / RIA application (programs) in an Android emulator |
+[Java](java_installation.md) | Required Java (JDK) installation for RIA Deployment and Android SDK |
+[adb](adb.md) | Android Debug Bridge (adb.exe) |
+ 
+ 
