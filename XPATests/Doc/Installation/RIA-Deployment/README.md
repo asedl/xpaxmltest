@@ -31,3 +31,16 @@ That raises already two issues in my environment:
 Execution of "powershell" you need to get work before being able to deploy RIA to Android, Magic Xpa needs it for the build. Check [here](powershell.md) for some information and the internet for more.  
 
 _Note: XpaDemo project has functionality / demo program which allows you to specify required components. If you add "gradle.exe" and "powershell.exe" there it will show you some information about the installation and (if it's "known" modules/components) maybe even additional information. Check the demo doc for details:  [OUTIL002_Components](/XPATests/Doc/Samples/XpaTUtils/OUTIL002_Components.md). Also [OUTIL001_About](/XPATests/Doc/Samples/XpaTUtils/OUTIL001_About.md) which has some more information regarding the Java installation on your machine_
+
+Adding powershell to the PATH fixed my first issue with the build. It did start now and it created a subdirectory TEMP_BUILD_FOLDER in PublishedApplications (first screen below). Logfiles I did still not find any and the build was against a Android Platform SDK 25, while 27 was selected in RIA Builder. Gradle build did start did however hang and freeze Magic at the end (second screen below).  
+
+![Screen2 Xpa build command](psbuild_commandwindow.PNG)
+
+Basically build was successful though. In C:\magic\Magic XPA 3.3\PublishedApplications\Android I had afterwards XpaTMobile.apk, an Android package. It is a simple zipfile so we can extract it and look what it contains. 
+
+***
+# See also
+--- | ---
+[Powershell](powershell.md) | Prerequisites and installation/configuration of Windows Powershell which is used for the build  | 
+[Gradle](gradle.md) | Gradle build tools (used in Xpa RIA / RC deployment) |
+[Emulator](emulator.md) | Running your XPA RC / RIA application (programs) in an Android emulator |

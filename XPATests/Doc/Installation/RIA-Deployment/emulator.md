@@ -1,0 +1,3 @@
+# Android Emulator(s)
+If you don't have an Android phone or a cloud based solution which allows you to run your APK, you can choose to install and use an Android emulator. MSE seems to be a bit focused on Genymotion Desktop edition, which is nice - just not available as a free dwonload. If you are happy with what ships with Android SDK - that you can use too. This document does only focus on what is deployed with Android SDK. Be sure to check following helpfile from Magic Xpa too, which is about execution of Magic RC / RIA on Android and which has that hard link to Genymotion: [Execution on Android (Magic xpa 2.x)](http://kb.magicsoftware.com/articles/bl_Reference/Execution-on-Android-xpa) 
+
